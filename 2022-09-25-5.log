@@ -1,0 +1,822 @@
+[19:56:51] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.14.9
+[19:56:51] [ForkJoinPool-1-worker-2/WARN]: Mod wurst uses the version v7.27.3-MC1.19.2 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[19:56:51] [main/INFO]: Loading 55 mods:
+	- baritone 1.5.3-621-gaddd1fc7
+	- fabric-api 0.61.0+1.19.2
+	- fabric-api-base 0.4.11+e62f51a390 via fabric-api
+	- fabric-api-lookup-api-v1 1.6.9+9ff28f4090 via fabric-api
+	- fabric-biome-api-v1 9.0.17+aeb40ebe90 via fabric-api
+	- fabric-blockrenderlayer-v1 1.1.20+aeb40ebe90 via fabric-api
+	- fabric-client-tags-api-v1 1.0.1+b35fea8390 via fabric-api
+	- fabric-command-api-v1 1.2.11+f71b366f90 via fabric-api
+	- fabric-command-api-v2 2.1.7+0c17ea9690 via fabric-api
+	- fabric-commands-v0 0.2.28+df3654b390 via fabric-api
+	- fabric-containers-v0 0.1.34+df3654b390 via fabric-api
+	- fabric-content-registries-v0 3.3.0+624e468e90 via fabric-api
+	- fabric-convention-tags-v1 1.1.1+7cd20a1490 via fabric-api
+	- fabric-crash-report-info-v1 0.2.5+aeb40ebe90 via fabric-api
+	- fabric-data-generation-api-v1 5.1.9+a680b9b490 via fabric-api
+	- fabric-dimensions-v1 2.1.31+0dd10df690 via fabric-api
+	- fabric-entity-events-v1 1.4.18+9ff28f4090 via fabric-api
+	- fabric-events-interaction-v0 0.4.28+aeb40ebe90 via fabric-api
+	- fabric-events-lifecycle-v0 0.2.28+df3654b390 via fabric-api
+	- fabric-game-rule-api-v1 1.0.21+aeb40ebe90 via fabric-api
+	- fabric-item-api-v1 1.5.7+35a03c4390 via fabric-api
+	- fabric-item-groups-v0 0.3.29+4e8ca3fd90 via fabric-api
+	- fabric-key-binding-api-v1 1.0.20+aeb40ebe90 via fabric-api
+	- fabric-keybindings-v0 0.2.18+df3654b390 via fabric-api
+	- fabric-lifecycle-events-v1 2.1.2+aeb40ebe90 via fabric-api
+	- fabric-loot-api-v2 1.1.3+83a8659290 via fabric-api
+	- fabric-loot-tables-v1 1.1.6+9e7660c690 via fabric-api
+	- fabric-message-api-v1 5.0.3+176380a290 via fabric-api
+	- fabric-mining-level-api-v1 2.1.14+33fbc73890 via fabric-api
+	- fabric-models-v0 0.3.17+aeb40ebe90 via fabric-api
+	- fabric-networking-api-v1 1.2.4+5eb68ef290 via fabric-api
+	- fabric-networking-v0 0.3.21+df3654b390 via fabric-api
+	- fabric-object-builder-api-v1 4.0.11+aeb40ebe90 via fabric-api
+	- fabric-particles-v1 1.0.10+aeb40ebe90 via fabric-api
+	- fabric-registry-sync-v0 0.9.25+726b652090 via fabric-api
+	- fabric-renderer-api-v1 1.0.10+aeb40ebe90 via fabric-api
+	- fabric-renderer-indigo 0.6.12+aeb40ebe90 via fabric-api
+	- fabric-renderer-registries-v1 3.2.20+df3654b390 via fabric-api
+	- fabric-rendering-data-attachment-v1 0.3.14+aeb40ebe90 via fabric-api
+	- fabric-rendering-fluids-v1 3.0.7+aeb40ebe90 via fabric-api
+	- fabric-rendering-v0 1.1.22+df3654b390 via fabric-api
+	- fabric-rendering-v1 1.10.16+aeb40ebe90 via fabric-api
+	- fabric-resource-conditions-api-v1 2.0.11+e62f51a390 via fabric-api
+	- fabric-resource-loader-v0 0.6.1+aeb40ebe90 via fabric-api
+	- fabric-screen-api-v1 1.0.26+f05effaf90 via fabric-api
+	- fabric-screen-handler-api-v1 1.3.0+1cc24b1b90 via fabric-api
+	- fabric-textures-v0 1.0.20+aeb40ebe90 via fabric-api
+	- fabric-transfer-api-v1 2.1.0+8f88597390 via fabric-api
+	- fabric-transitive-access-wideners-v1 1.3.0+42d99c3290 via fabric-api
+	- fabricloader 0.14.9
+	- java 17
+	- minecraft 1.19.2
+	- wurst v7.27.3-MC1.19.2
+	- xaerominimap 22.14.1
+	- xaeroworldmap 1.27.0
+[19:56:51] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[19:56:51] [main/INFO]: Compatibility level set to JAVA_17
+[19:56:52] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/occlusion/BlockOcclusionCache (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/occlusion/BlockOcclusionCache)
+[19:56:53] [main/WARN]: Configuration conflict: there is more than one oshi.properties file on the classpath
+[19:56:53] [main/WARN]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath
+[19:56:57] [main/INFO]: Building optimized datafixer
+[19:57:05] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:57:06] [Render thread/INFO]: Setting user: AceMicrowave
+[19:57:07] [Render thread/INFO]: [STDOUT]: Starting Wurst Client...
+[19:57:10] [Render thread/INFO]: [Indigo] Registering Indigo renderer!
+[19:57:10] [Render thread/INFO]: Loading Xaero's Minimap - Stage 1/2
+[19:57:11] [Render thread/INFO]: Loading Xaero's World Map - Stage 1/2
+[19:57:12] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[19:57:18] [Render thread/WARN]: ERROR : Couldn't load Narrator library
+java.lang.UnsatisfiedLinkError: Unable to load library 'fliteWrapper':
+libfliteWrapper.so: cannot open shared object file: No such file or directory
+libfliteWrapper.so: cannot open shared object file: No such file or directory
+Native library (linux-x86-64/libfliteWrapper.so) not found in resource path (/home/gavinboor/.local/share/multimc/bin/jars/NewLaunch.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/logging/1.0.0/logging-1.0.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar:/home/gavinboor/.local/share/multimc/libraries/com/github/oshi/oshi-core/5.8.5/oshi-core-5.8.5.jar:/home/gavinboor/.local/share/multimc/libraries/net/java/dev/jna/jna/5.10.0/jna-5.10.0.jar:/home/gavinboor/.local/share/multimc/libraries/net/java/dev/jna/jna-platform/5.10.0/jna-platform-5.10.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-slf4j18-impl/2.16.0/log4j-slf4j18-impl-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/ibm/icu/icu4j/70.1/icu4j-70.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/javabridge/1.2.24/javabridge-1.2.24.jar:/home/gavinboor/.local/share/multimc/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-common/4.1.77.Final/netty-common-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-buffer/4.1.77.Final/netty-buffer-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-codec/4.1.77.Final/netty-codec-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-handler/4.1.77.Final/netty-handler-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-resolver/4.1.77.Final/netty-resolver-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport/4.1.77.Final/netty-transport-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-native-unix-common/4.1.77.Final/netty-transport-native-unix-common-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-classes-epoll/4.1.77.Final/netty-transport-classes-epoll-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-native-epoll/4.1.77.Final/netty-transport-native-epoll-4.1.77.Final-linux-x86_64.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/gavinboor/.local/share/multimc/libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/gavinboor/.local/share/multimc/libraries/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/datafixerupper/5.0.28/datafixerupper-5.0.28.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/authlib/3.11.49/authlib-3.11.49.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/gavinboor/.local/share/multimc/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar:/home/gavinboor/.local/share/multimc/libraries/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-api/2.16.0/log4j-api-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-core/2.16.0/log4j-core-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/text2speech/1.13.9/text2speech-1.13.9.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/intermediary/1.19.2/intermediary-1.19.2.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/tiny-mappings-parser/0.3.0+build.17/tiny-mappings-parser-0.3.0+build.17.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/tiny-remapper/0.8.2/tiny-remapper-0.8.2.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm/9.3/asm-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-util/9.3/asm-util-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/fabric-loader/0.14.9/fabric-loader-0.14.9.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/minecraft/1.19.2/minecraft-1.19.2-client.jar)
+	at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:301) ~[jna-5.10.0.jar:?]
+	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:?]
+	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:?]
+	at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.13.9.jar:?]
+	at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.13.9.jar:?]
+	at net.minecraft.class_333.<init>(class_333.java:19) [client-intermediary.jar:?]
+	at net.minecraft.class_310.<init>(class_310.java:637) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.method_44604(Main.java:205) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.9.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+	Suppressed: java.lang.UnsatisfiedLinkError: libfliteWrapper.so: cannot open shared object file: No such file or directory
+		at com.sun.jna.Native.open(Native Method) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:191) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:?]
+		at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.13.9.jar:?]
+		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.13.9.jar:?]
+		at net.minecraft.class_333.<init>(class_333.java:19) [client-intermediary.jar:?]
+		at net.minecraft.class_310.<init>(class_310.java:637) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.method_44604(Main.java:205) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+		at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.9.jar:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+		at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+		at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+		at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+	Suppressed: java.lang.UnsatisfiedLinkError: libfliteWrapper.so: cannot open shared object file: No such file or directory
+		at com.sun.jna.Native.open(Native Method) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:204) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:?]
+		at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.13.9.jar:?]
+		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.13.9.jar:?]
+		at net.minecraft.class_333.<init>(class_333.java:19) [client-intermediary.jar:?]
+		at net.minecraft.class_310.<init>(class_310.java:637) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.method_44604(Main.java:205) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+		at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.9.jar:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+		at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+		at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+		at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+	Suppressed: java.io.IOException: Native library (linux-x86-64/libfliteWrapper.so) not found in resource path (/home/gavinboor/.local/share/multimc/bin/jars/NewLaunch.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/logging/1.0.0/logging-1.0.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar:/home/gavinboor/.local/share/multimc/libraries/com/github/oshi/oshi-core/5.8.5/oshi-core-5.8.5.jar:/home/gavinboor/.local/share/multimc/libraries/net/java/dev/jna/jna/5.10.0/jna-5.10.0.jar:/home/gavinboor/.local/share/multimc/libraries/net/java/dev/jna/jna-platform/5.10.0/jna-platform-5.10.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-slf4j18-impl/2.16.0/log4j-slf4j18-impl-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/ibm/icu/icu4j/70.1/icu4j-70.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/javabridge/1.2.24/javabridge-1.2.24.jar:/home/gavinboor/.local/share/multimc/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-common/4.1.77.Final/netty-common-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-buffer/4.1.77.Final/netty-buffer-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-codec/4.1.77.Final/netty-codec-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-handler/4.1.77.Final/netty-handler-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-resolver/4.1.77.Final/netty-resolver-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport/4.1.77.Final/netty-transport-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-native-unix-common/4.1.77.Final/netty-transport-native-unix-common-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-classes-epoll/4.1.77.Final/netty-transport-classes-epoll-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-native-epoll/4.1.77.Final/netty-transport-native-epoll-4.1.77.Final-linux-x86_64.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/gavinboor/.local/share/multimc/libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/gavinboor/.local/share/multimc/libraries/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/datafixerupper/5.0.28/datafixerupper-5.0.28.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/authlib/3.11.49/authlib-3.11.49.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/gavinboor/.local/share/multimc/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar:/home/gavinboor/.local/share/multimc/libraries/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-api/2.16.0/log4j-api-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-core/2.16.0/log4j-core-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/text2speech/1.13.9/text2speech-1.13.9.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/intermediary/1.19.2/intermediary-1.19.2.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/tiny-mappings-parser/0.3.0+build.17/tiny-mappings-parser-0.3.0+build.17.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/tiny-remapper/0.8.2/tiny-remapper-0.8.2.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm/9.3/asm-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-util/9.3/asm-util-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/fabric-loader/0.14.9/fabric-loader-0.14.9.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/minecraft/1.19.2/minecraft-1.19.2-client.jar)
+		at com.sun.jna.Native.extractFromResourcePath(Native.java:1145) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:275) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:?]
+		at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.13.9.jar:?]
+		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.13.9.jar:?]
+		at net.minecraft.class_333.<init>(class_333.java:19) [client-intermediary.jar:?]
+		at net.minecraft.class_310.<init>(class_310.java:637) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.method_44604(Main.java:205) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+		at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.9.jar:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+		at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+		at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+		at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[19:57:18] [Render thread/INFO]: Reloading ResourceManager: Default, Fabric Mods (Fabric API, Fabric API Base, Fabric API Lookup API (v1), Fabric Biome API (v1), Fabric BlockRenderLayer Registration (v1), Fabric Client Tags, Fabric Command API (v1), Fabric Command API (v2), Fabric Commands (v0), Fabric Containers (v0), Fabric Content Registries (v0), Fabric Convention Tags, Fabric Crash Report Info (v1), Fabric Data Generation API (v1), Fabric Dimensions API (v1), Fabric Entity Events (v1), Fabric Events Interaction (v0), Fabric Events Lifecycle (v0), Fabric Game Rule API (v1), Fabric Item API (v1), Fabric Item Groups (v0), Fabric Key Binding API (v1), Fabric Key Bindings (v0), Fabric Lifecycle Events (v1), Fabric Loot API (v2), Fabric Loot Tables (v1), Fabric Message API (v1), Fabric Mining Level API (v1), Fabric Models (v0), Fabric Networking API (v1), Fabric Networking (v0), Fabric Object Builder API (v1), Fabric Particles (v1), Fabric Registry Sync (v0), Fabric Renderer API (v1), Fabric Renderer - Indigo, Fabric Renderer Registries (v1), Fabric Rendering Data Attachment (v1), Fabric Rendering Fluids (v1), Fabric Rendering (v0), Fabric Rendering (v1), Fabric Resource Conditions API (v1), Fabric Resource Loader (v0), Fabric Screen API (v1), Fabric Screen Handler API (v1), Fabric Textures (v0), Fabric Transfer API (v1), Fabric Transitive Access Wideners (v1), Fabric Loader, Wurst Client, Xaero's Minimap, Xaero's World Map)
+[19:57:19] [Render thread/INFO]: Loading Xaero's Minimap - Stage 2/2
+[19:57:20] [Render thread/INFO]: Xaero's Minimap: World Map found!
+[19:57:20] [Render thread/INFO]: No Optifine!
+[19:57:21] [Render thread/INFO]: Loading Xaero's World Map - Stage 2/2
+[19:57:21] [Render thread/INFO]: New world map region cache hash code: 687554333
+[19:57:21] [Render thread/INFO]: Xaero's WorldMap Mod: Xaero's minimap found!
+[19:57:21] [Render thread/INFO]: No Optifine!
+[19:57:21] [Render thread/INFO]: No Vivecraft!
+[19:57:25] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[19:57:25] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[19:57:25] [Render thread/INFO]: OpenAL initialized on device VirtIO SoundCard
+[19:57:25] [Render thread/INFO]: Sound engine started
+[19:57:26] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/blocks.png-atlas
+[19:57:26] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/signs.png-atlas
+[19:57:26] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[19:57:26] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[19:57:26] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/chest.png-atlas
+[19:57:26] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
+[19:57:26] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[19:57:29] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[19:57:30] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[19:57:30] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[19:57:30] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[19:57:30] [Render thread/INFO]: Successfully reloaded the minimap shaders!
+[19:57:30] [Render thread/INFO]: Successfully reloaded the world map shaders!
+[19:57:45] [Render thread/INFO]: [STDERR]: com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:155)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.<init>(YggdrasilUserApiService.java:55)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createUserApiService(YggdrasilAuthenticationService.java:161)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at net.minecraft.class_310.wurst_createUserApiService(class_310.java:6647)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at net.minecraft.class_310.setSession(class_310.java:6637)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at net.wurstclient.altmanager.LoginManager.changeCrackedName(LoginManager.java:89)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at net.wurstclient.altmanager.CrackedAlt.login(CrackedAlt.java:50)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at net.wurstclient.altmanager.AltManager.login(AltManager.java:80)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at net.wurstclient.altmanager.screens.AltManagerScreen.pressLogin(AltManagerScreen.java:213)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at net.wurstclient.altmanager.screens.AltManagerScreen.lambda$init$1(AltManagerScreen.java:116)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at net.minecraft.class_4185.method_25306(class_4185.java:43)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at net.minecraft.class_4264.method_25348(class_4264.java:16)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at net.minecraft.class_339.method_25402(class_339.java:120)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at net.minecraft.class_4069.method_25402(class_4069.java:27)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at net.wurstclient.altmanager.screens.AltManagerScreen.method_25402(AltManagerScreen.java:155)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at net.minecraft.class_312.method_1611(class_312.java:94)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at net.minecraft.class_437.method_25412(class_437.java:489)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at net.minecraft.class_312.method_1601(class_312.java:94)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at net.minecraft.class_312.method_22686(class_312.java:165)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.execute(class_1255.java:103)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at net.minecraft.class_312.method_22684(class_312.java:165)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at org.lwjgl.system.JNI.invokeV(Native Method)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:222)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at net.minecraft.class_310.method_1523(class_310.java:1208)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at net.minecraft.class_310.method_1514(class_310.java:768)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at net.minecraft.client.main.Main.method_44604(Main.java:244)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at net.minecraft.client.main.Main.main(Main.java:51)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at org.multimc.EntryPoint.listen(EntryPoint.java:143)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at org.multimc.EntryPoint.main(EntryPoint.java:34)
+[19:57:45] [Render thread/INFO]: [STDERR]: Caused by: MinecraftClientHttpException[type=HTTP_ERROR, status=401, response=null]
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:85)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129)
+[19:57:45] [Render thread/INFO]: [STDERR]: 	... 39 more
+[19:57:45] [Worker-Main-21/ERROR]: Failed to retrieve profile key pair
+java.io.IOException: Could not retrieve profile key pair
+	at net.minecraft.class_7434.method_43605(class_7434.java:130) ~[client-intermediary.jar:?]
+	at net.minecraft.class_7434.method_44291(class_7434.java:69) ~[client-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[19:57:53] [Worker-Bootstrap-7/INFO]: 4283 Datafixer optimizations took 55796 milliseconds
+[19:57:53] [Render thread/INFO]: Connecting to 172.240.250.116, 25702
+[19:57:53] [Worker-Main-21/ERROR]: Failed to retrieve profile key pair
+java.io.IOException: Could not retrieve profile key pair
+	at net.minecraft.class_7434.method_43605(class_7434.java:130) ~[client-intermediary.jar:?]
+	at net.minecraft.class_7434.method_44291(class_7434.java:69) ~[client-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[19:58:50] [Render thread/INFO]: [STDOUT]: Logging in with Microsoft...
+[19:58:50] [Render thread/INFO]: [STDOUT]: Getting login cookie...
+[19:58:50] [Render thread/INFO]: [STDOUT]: Downloading login page...
+[19:58:50] [Render thread/INFO]: [STDOUT]: Getting PPFT and urlPost...
+[19:58:50] [Render thread/INFO]: [STDOUT]: Getting authorization code...
+[19:58:50] [Render thread/INFO]: [STDOUT]: Getting Microsoft access token...
+[19:58:51] [Render thread/INFO]: [STDOUT]: Getting X-Box Live token...
+[19:58:51] [Render thread/INFO]: [STDOUT]: Getting XSTS token...
+[19:58:51] [Render thread/INFO]: [STDOUT]: Getting Minecraft access token...
+[19:58:51] [Render thread/INFO]: [STDOUT]: Getting UUID and name...
+[19:58:51] [Render thread/INFO]: [STDOUT]: Login successful after 1651.15337 ms
+[19:58:57] [Render thread/INFO]: Connecting to 172.240.250.116, 25702
+[19:58:59] [Render thread/INFO]: New minimap session initialized!
+[19:58:59] [Render thread/INFO]: New world map session initialized!
+[19:58:59] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384
+[19:58:59] [Render thread/INFO]: [STDOUT]: Cached world directory: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[19:58:59] [Render thread/INFO]: [STDOUT]: Would save waypoints to /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/waypoints
+[19:58:59] [Render thread/INFO]: [STDOUT]: Telemetry sending attempt blocked.
+[19:59:00] [Render thread/INFO]: Loaded 408 advancements
+[19:59:00] [pool-2-thread-1/INFO]: [STDOUT]: Loading region 0,-4 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[19:59:00] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 168ms
+[19:59:00] [Render thread/INFO]: Reloading entity icon resources...
+[19:59:00] [Render thread/INFO]: Done!
+[19:59:00] [pool-2-thread-1/INFO]: [STDOUT]: Loading region 0,-3 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[19:59:00] [Render thread/INFO]: [STDOUT]: Brightness started at 0.5
+[19:59:00] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 167ms
+[19:59:01] [WurstUpdater/INFO]: [STDOUT]: [Updater] Current version: 7.27.3
+[19:59:01] [WurstUpdater/INFO]: [STDOUT]: [Updater] Latest version: 7.27.3
+[19:59:29] [pool-2-thread-2/INFO]: [STDOUT]: Saving region 0,-3 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[19:59:29] [ForkJoinPool.commonPool-worker-10/INFO]: [STDOUT]: Saving region 0,-4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[19:59:29] [ForkJoinPool.commonPool-worker-10/INFO]: [STDOUT]: Saved region successfully
+[19:59:29] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[19:59:29] [pool-2-thread-2/INFO]: [STDOUT]: World save took 274ms
+[20:00:20] [pool-2-thread-1/INFO]: [STDOUT]: Loading region 1,-4 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[20:00:20] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 5ms
+[20:00:20] [pool-2-thread-1/INFO]: [STDOUT]: Loading region 1,-3 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[20:00:20] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 7ms
+[20:02:47] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:02:48] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:02:49] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:02:49] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:02:50] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:05:13] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:05:14] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:05:14] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:05:14] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:05:14] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:05:14] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:05:14] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:05:14] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:05:14] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:05:14] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:05:14] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:05:14] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:05:15] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:05:15] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:09:29] [pool-2-thread-2/INFO]: [STDOUT]: Saving region 1,-4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[20:09:29] [ForkJoinPool.commonPool-worker-13/INFO]: [STDOUT]: Saving region 0,-3 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[20:09:29] [ForkJoinPool.commonPool-worker-12/INFO]: [STDOUT]: Saving region 0,-4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[20:09:29] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saving region 1,-3 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[20:09:29] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[20:09:29] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saved region successfully
+[20:09:30] [ForkJoinPool.commonPool-worker-12/INFO]: [STDOUT]: Saved region successfully
+[20:09:30] [ForkJoinPool.commonPool-worker-13/INFO]: [STDOUT]: Saved region successfully
+[20:09:30] [pool-2-thread-2/INFO]: [STDOUT]: World save took 246ms
+[20:11:23] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:24] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:27] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:27] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:27] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:27] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:27] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:27] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:27] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:27] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:27] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:27] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:27] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:27] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:27] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:27] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:27] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:27] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:28] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:28] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:28] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:28] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:28] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:28] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:28] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:28] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:28] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:28] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:28] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:28] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:28] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:28] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:28] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:28] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:28] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:28] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:28] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:28] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:29] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:29] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:29] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:29] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:29] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:29] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:29] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:29] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:29] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:29] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:29] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:29] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:29] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:29] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:29] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:29] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:29] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:29] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:29] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:29] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:29] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:29] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:29] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:29] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:29] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:29] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:29] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:29] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:29] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:30] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:30] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:30] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:30] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:30] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:30] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:30] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:30] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:11:31] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:12:14] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:12:15] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:12:17] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:12:18] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:12:19] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:12:19] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:12:19] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:12:19] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:12:19] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:12:19] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:12:19] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:12:20] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:12:20] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:12:20] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:12:20] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:12:20] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:12:20] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:12:20] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:12:20] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:12:20] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:12:20] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:12:20] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:12:20] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:12:20] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:12:21] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:12:21] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[20:15:37] [Render thread/WARN]: Duplicate entity UUID dda9633c-ad5a-4be7-b2a9-deb60f8b04bd: FakePlayerEntity['AceMicrowave'/2140, l='ClientLevel', x=287.55, y=-15.00, z=-1489.37]
+[20:19:30] [pool-2-thread-2/INFO]: [STDOUT]: Saving region 1,-4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[20:19:30] [ForkJoinPool.commonPool-worker-17/INFO]: [STDOUT]: Saving region 0,-3 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[20:19:30] [ForkJoinPool.commonPool-worker-16/INFO]: [STDOUT]: Saving region 0,-4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[20:19:30] [ForkJoinPool.commonPool-worker-18/INFO]: [STDOUT]: Saving region 1,-3 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[20:19:30] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[20:19:30] [ForkJoinPool.commonPool-worker-18/INFO]: [STDOUT]: Saved region successfully
+[20:19:30] [ForkJoinPool.commonPool-worker-16/INFO]: [STDOUT]: Saved region successfully
+[20:19:30] [ForkJoinPool.commonPool-worker-17/INFO]: [STDOUT]: Saved region successfully
+[20:19:30] [pool-2-thread-2/INFO]: [STDOUT]: World save took 248ms
+[20:22:36] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
+[20:26:14] [Render thread/INFO]: Loaded 408 advancements
+[20:29:30] [pool-2-thread-2/INFO]: [STDOUT]: Saving region 1,-4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[20:29:30] [ForkJoinPool.commonPool-worker-20/INFO]: [STDOUT]: Saving region 0,-3 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[20:29:30] [ForkJoinPool.commonPool-worker-19/INFO]: [STDOUT]: Saving region 0,-4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[20:29:30] [ForkJoinPool.commonPool-worker-21/INFO]: [STDOUT]: Saving region 1,-3 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[20:29:30] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[20:29:30] [ForkJoinPool.commonPool-worker-21/INFO]: [STDOUT]: Saved region successfully
+[20:29:30] [ForkJoinPool.commonPool-worker-19/INFO]: [STDOUT]: Saved region successfully
+[20:29:30] [ForkJoinPool.commonPool-worker-20/INFO]: [STDOUT]: Saved region successfully
+[20:29:30] [pool-2-thread-2/INFO]: [STDOUT]: World save took 223ms
+[20:36:49] [Render thread/INFO]: Minimap session finalized.
+[20:36:49] [Render thread/INFO]: Finalizing world map session...
+[20:36:50] [Thread-1/INFO]: World map force-cleaned!
+[20:36:50] [Render thread/INFO]: World map session finalized.
+[20:36:50] [Render thread/INFO]: [STDOUT]: Telemetry sending attempt blocked.
+[20:36:50] [Render thread/INFO]: [STDOUT]: Disconnected: translation{key='multiplayer.disconnect.flying', args=[]}[style={}]
+[20:36:50] [Render thread/INFO]: Connecting to 172.240.250.116, 25702
+[20:36:51] [Render thread/INFO]: New minimap session initialized!
+[20:36:51] [Render thread/INFO]: New world map session initialized!
+[20:36:51] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384
+[20:36:51] [pool-2-thread-3/INFO]: [STDOUT]: Started saving the world in a new thread
+[20:36:51] [pool-2-thread-3/INFO]: [STDOUT]: Saving region 1,-4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[20:36:51] [ForkJoinPool.commonPool-worker-23/INFO]: [STDOUT]: Saving region 0,-3 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[20:36:51] [Render thread/INFO]: [STDOUT]: Telemetry sending attempt blocked.
+[20:36:51] [ForkJoinPool.commonPool-worker-22/INFO]: [STDOUT]: Saving region 0,-4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[20:36:51] [ForkJoinPool.commonPool-worker-24/INFO]: [STDOUT]: Saving region 1,-3 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[20:36:51] [pool-2-thread-3/INFO]: [STDOUT]: Saved region successfully
+[20:36:51] [ForkJoinPool.commonPool-worker-24/INFO]: [STDOUT]: Saved region successfully
+[20:36:51] [ForkJoinPool.commonPool-worker-22/INFO]: [STDOUT]: Saved region successfully
+[20:36:51] [ForkJoinPool.commonPool-worker-23/INFO]: [STDOUT]: Saved region successfully
+[20:36:51] [pool-2-thread-3/INFO]: [STDOUT]: World save took 317ms
+[20:36:52] [Render thread/INFO]: Loaded 408 advancements
+[20:36:52] [pool-2-thread-1/INFO]: [STDOUT]: Loading region 0,-3 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[20:36:53] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 380ms
+[20:36:53] [pool-2-thread-1/INFO]: [STDOUT]: Loading region 0,-4 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[20:36:53] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 259ms
+[20:36:54] [pool-2-thread-1/INFO]: [STDOUT]: Loading region 1,-4 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[20:36:54] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 6ms
+[20:36:54] [pool-2-thread-1/INFO]: [STDOUT]: Loading region 1,-3 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[20:36:54] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 7ms
+[20:39:30] [pool-2-thread-2/INFO]: [STDOUT]: Saving region 1,-4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[20:39:30] [ForkJoinPool.commonPool-worker-25/INFO]: [STDOUT]: Saving region 0,-3 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[20:39:30] [ForkJoinPool.commonPool-worker-26/INFO]: [STDOUT]: Saving region 1,-3 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[20:39:30] [ForkJoinPool.commonPool-worker-24/INFO]: [STDOUT]: Saving region 0,-4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[20:39:30] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[20:39:30] [ForkJoinPool.commonPool-worker-26/INFO]: [STDOUT]: Saved region successfully
+[20:39:30] [ForkJoinPool.commonPool-worker-24/INFO]: [STDOUT]: Saved region successfully
+[20:39:30] [ForkJoinPool.commonPool-worker-25/INFO]: [STDOUT]: Saved region successfully
+[20:39:30] [pool-2-thread-2/INFO]: [STDOUT]: World save took 253ms
+[20:49:30] [pool-2-thread-2/INFO]: [STDOUT]: Saving region 1,-4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[20:49:30] [ForkJoinPool.commonPool-worker-27/INFO]: [STDOUT]: Saving region 0,-4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[20:49:30] [ForkJoinPool.commonPool-worker-28/INFO]: [STDOUT]: Saving region 0,-3 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[20:49:30] [ForkJoinPool.commonPool-worker-29/INFO]: [STDOUT]: Saving region 1,-3 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[20:49:30] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[20:49:30] [ForkJoinPool.commonPool-worker-29/INFO]: [STDOUT]: Saved region successfully
+[20:49:31] [ForkJoinPool.commonPool-worker-27/INFO]: [STDOUT]: Saved region successfully
+[20:49:31] [ForkJoinPool.commonPool-worker-28/INFO]: [STDOUT]: Saved region successfully
+[20:49:31] [pool-2-thread-2/INFO]: [STDOUT]: World save took 395ms
+[20:59:31] [pool-2-thread-2/INFO]: [STDOUT]: Saving region 1,-4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[20:59:31] [ForkJoinPool.commonPool-worker-30/INFO]: [STDOUT]: Saving region 0,-4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[20:59:31] [ForkJoinPool.commonPool-worker-31/INFO]: [STDOUT]: Saving region 1,-3 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[20:59:31] [ForkJoinPool.commonPool-worker-32/INFO]: [STDOUT]: Saving region 0,-3 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[20:59:31] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[20:59:31] [ForkJoinPool.commonPool-worker-31/INFO]: [STDOUT]: Saved region successfully
+[20:59:31] [ForkJoinPool.commonPool-worker-30/INFO]: [STDOUT]: Saved region successfully
+[20:59:31] [ForkJoinPool.commonPool-worker-32/INFO]: [STDOUT]: Saved region successfully
+[20:59:31] [pool-2-thread-2/INFO]: [STDOUT]: World save took 291ms
+[21:09:28] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:09:28] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:09:29] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:09:30] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:09:30] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:09:31] [pool-2-thread-2/INFO]: [STDOUT]: Saving region 1,-4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[21:09:31] [ForkJoinPool.commonPool-worker-34/INFO]: [STDOUT]: Saving region 0,-3 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[21:09:31] [ForkJoinPool.commonPool-worker-33/INFO]: [STDOUT]: Saving region 0,-4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[21:09:31] [ForkJoinPool.commonPool-worker-35/INFO]: [STDOUT]: Saving region 1,-3 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[21:09:31] [ForkJoinPool.commonPool-worker-35/INFO]: [STDOUT]: Saved region successfully
+[21:09:31] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[21:09:31] [ForkJoinPool.commonPool-worker-33/INFO]: [STDOUT]: Saved region successfully
+[21:09:31] [ForkJoinPool.commonPool-worker-34/INFO]: [STDOUT]: Saved region successfully
+[21:09:31] [pool-2-thread-2/INFO]: [STDOUT]: World save took 258ms
+[21:09:33] [Render thread/WARN]: Duplicate entity UUID dda9633c-ad5a-4be7-b2a9-deb60f8b04bd: FakePlayerEntity['AceMicrowave'/11003, l='ClientLevel', x=287.41, y=-15.00, z=-1490.05]
+[21:15:11] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:15:12] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:15:15] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:15:15] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:15:17] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:19:31] [ForkJoinPool.commonPool-worker-34/INFO]: [STDOUT]: Saving region 0,-4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[21:19:32] [ForkJoinPool.commonPool-worker-34/INFO]: [STDOUT]: Saved region successfully
+[21:19:32] [pool-2-thread-2/INFO]: [STDOUT]: World save took 213ms
+[21:19:56] [Render thread/INFO]: [System] [CHAT] Cat drowned
+[21:22:45] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:22:52] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:22:52] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:22:53] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:23:06] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:23:07] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:29:32] [ForkJoinPool.commonPool-worker-34/INFO]: [STDOUT]: Saving region 0,-4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[21:29:32] [ForkJoinPool.commonPool-worker-34/INFO]: [STDOUT]: Saved region successfully
+[21:29:32] [pool-2-thread-2/INFO]: [STDOUT]: World save took 321ms
+[21:34:32] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:34:43] [Render thread/INFO]: Loaded 409 advancements
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:03] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:03] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:03] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:03] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:03] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:03] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:03] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:03] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:03] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:03] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:03] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:03] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:03] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:03] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:04] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:04] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:04] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:04] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:04] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:04] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:48] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:49] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:49] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:49] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:49] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:49] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:49] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:49] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:49] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:49] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:49] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:49] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:49] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:49] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:49] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:49] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:49] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:49] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:52] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:52] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:52] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:52] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:52] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:52] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:52] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:52] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:52] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:52] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:52] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:53] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:56] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:57] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:57] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:58] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:58] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:58] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:35:59] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:00] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:00] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:00] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:00] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:00] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:00] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:00] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:01] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:01] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:01] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:01] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:01] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:01] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:01] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:01] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:01] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:01] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:02] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:03] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:03] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:03] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:03] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:03] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:03] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:03] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:03] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:03] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:03] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:03] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:04] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:36:25] [Render thread/INFO]: [System] [CHAT] [Baritone] > farm sugar_cane
+[21:36:25] [Render thread/INFO]: [System] [CHAT] [Baritone] Error at argument #1: Expected Integer
+[21:39:32] [pool-2-thread-2/INFO]: [STDOUT]: Saving region 1,-4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[21:39:32] [ForkJoinPool.commonPool-worker-37/INFO]: [STDOUT]: Saving region 0,-3 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[21:39:32] [ForkJoinPool.commonPool-worker-36/INFO]: [STDOUT]: Saving region 0,-4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[21:39:32] [ForkJoinPool.commonPool-worker-38/INFO]: [STDOUT]: Saving region 1,-3 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[21:39:32] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[21:39:32] [ForkJoinPool.commonPool-worker-38/INFO]: [STDOUT]: Saved region successfully
+[21:39:32] [ForkJoinPool.commonPool-worker-36/INFO]: [STDOUT]: Saved region successfully
+[21:39:32] [ForkJoinPool.commonPool-worker-37/INFO]: [STDOUT]: Saved region successfully
+[21:39:32] [pool-2-thread-2/INFO]: [STDOUT]: World save took 544ms
+[21:40:36] [Render thread/INFO]: Loaded 411 advancements
+[21:41:36] [Render thread/INFO]: [System] [CHAT] [Baritone] > mine prismarine
+[21:41:36] [Render thread/INFO]: Reloading ResourceManager: Default
+[21:41:37] [Render thread/INFO]: [System] [CHAT] [Baritone] Mining [BlockOptionalMeta{block=Block{minecraft:prismarine}}]
+[21:41:37] [Render thread/INFO]: [System] [CHAT] [Baritone] Unable to mine when allowBreak is false!
+[21:41:46] [Render thread/INFO]: [System] [CHAT] [Baritone] > allowbreak true
+[21:41:46] [Render thread/INFO]: [System] [CHAT] [Baritone] Successfully set allowBreak to true
+[21:41:46] [Render thread/INFO]: [System] [CHAT] [Baritone] Old value: false
+[21:41:50] [Render thread/INFO]: [System] [CHAT] [Baritone] > mine prismarine
+[21:41:50] [Render thread/INFO]: [System] [CHAT] [Baritone] Mining [BlockOptionalMeta{block=Block{minecraft:prismarine}}]
+[21:41:50] [Render thread/INFO]: [STDOUT]: Loading region -1,-4 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[21:41:50] [Render thread/INFO]: [STDOUT]: Loaded region successfully in 106ms
+[21:41:50] [Render thread/INFO]: [STDOUT]: Loading region -1,-3 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/172.240.250.116:25702/minecraft/overworld_384/cache
+[21:41:50] [Render thread/INFO]: [STDOUT]: Loaded region successfully in 227ms
+[21:41:51] [pool-2-thread-4/INFO]: [STDOUT]: 181632 movements considered
+[21:41:51] [pool-2-thread-4/INFO]: [STDOUT]: Open set size: 1638
+[21:41:51] [pool-2-thread-4/INFO]: [STDOUT]: PathNode map size: 9888
+[21:41:51] [pool-2-thread-4/INFO]: [STDOUT]: 16188 nodes per second
+[21:41:51] [pool-2-thread-4/INFO]: [STDOUT]: Path goes for 99.1463564635635 blocks
+[21:42:07] [pool-2-thread-7/INFO]: [STDOUT]: 2340096 movements considered
+[21:42:07] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 16629
+[21:42:07] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 122446
+[21:42:07] [pool-2-thread-7/INFO]: [STDOUT]: 26578 nodes per second
+[21:42:07] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 5.916079783099616 blocks
+[21:42:11] [pool-2-thread-7/INFO]: [STDOUT]: 2920192 movements considered
+[21:42:11] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 20626
+[21:42:11] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 152713
+[21:42:11] [pool-2-thread-7/INFO]: [STDOUT]: 33175 nodes per second
+[21:42:11] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 60.728905802755904 blocks
+[21:42:22] [pool-2-thread-4/INFO]: [STDOUT]: 2516096 movements considered
+[21:42:22] [pool-2-thread-4/INFO]: [STDOUT]: Open set size: 20361
+[21:42:22] [pool-2-thread-4/INFO]: [STDOUT]: PathNode map size: 134080
+[21:42:22] [pool-2-thread-4/INFO]: [STDOUT]: 28584 nodes per second
+[21:42:22] [pool-2-thread-4/INFO]: [STDOUT]: Path goes for 155.45095689637938 blocks
+[21:42:27] [Render thread/INFO]: [System] [CHAT] [Baritone] > stop
+[21:42:27] [Render thread/INFO]: [System] [CHAT] [Baritone] ok canceled
+[21:42:51] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:42:53] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:42:53] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:42:53] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:42:53] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:42:53] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:42:54] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:42:54] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[21:44:29] [Render thread/INFO]: Minimap session finalized.
+[21:44:29] [Render thread/INFO]: Finalizing world map session...
+[21:44:30] [Thread-1/INFO]: World map force-cleaned!
+[21:44:30] [Render thread/INFO]: World map session finalized.
+[21:44:30] [Render thread/INFO]: [STDOUT]: Telemetry sending attempt blocked.
+[21:44:30] [Render thread/INFO]: [STDOUT]: Disconnected: translation{key='disconnect.timeout', args=[]}
+[21:44:31] [Render thread/INFO]: Connecting to 172.240.250.116, 25702
+[21:44:41] [Worker-Main-29/ERROR]: Failed to retrieve profile key pair
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to POST https://api.minecraftservices.com/player/certificates
+	at com.mojang.authlib.minecraft.client.MinecraftClient.postInternal(MinecraftClient.java:112) ~[authlib-3.11.49.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.post(MinecraftClient.java:54) ~[authlib-3.11.49.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.getKeyPair(YggdrasilUserApiService.java:73) ~[authlib-3.11.49.jar:?]
+	at net.minecraft.class_7434.method_43605(class_7434.java:121) ~[client-intermediary.jar:?]
+	at net.minecraft.class_7434.method_44291(class_7434.java:69) ~[client-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+Caused by: java.net.UnknownHostException: api.minecraftservices.com
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.net.Socket.connect(Socket.java:633) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:532) ~[?:?]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:637) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1287) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1430) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1401) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:220) ~[?:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.postInternal(MinecraftClient.java:109) ~[authlib-3.11.49.jar:?]
+	... 11 more
+[21:44:56] [Render thread/INFO]: Stopping!

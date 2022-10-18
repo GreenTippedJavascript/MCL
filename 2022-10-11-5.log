@@ -1,0 +1,1834 @@
+[18:14:17] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.14.9
+[18:14:17] [ForkJoinPool-1-worker-2/WARN]: Mod wurst uses the version v7.27.3-MC1.19.2 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[18:14:17] [ForkJoinPool-1-worker-7/WARN]: Mod wurst uses the version v7.28-MC1.19.2 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[18:14:18] [main/INFO]: Loading 55 mods:
+	- baritone 1.5.3-621-gaddd1fc7
+	- fabric-api 0.61.0+1.19.2
+	- fabric-api-base 0.4.11+e62f51a390 via fabric-api
+	- fabric-api-lookup-api-v1 1.6.9+9ff28f4090 via fabric-api
+	- fabric-biome-api-v1 9.0.17+aeb40ebe90 via fabric-api
+	- fabric-blockrenderlayer-v1 1.1.20+aeb40ebe90 via fabric-api
+	- fabric-client-tags-api-v1 1.0.1+b35fea8390 via fabric-api
+	- fabric-command-api-v1 1.2.11+f71b366f90 via fabric-api
+	- fabric-command-api-v2 2.1.7+0c17ea9690 via fabric-api
+	- fabric-commands-v0 0.2.28+df3654b390 via fabric-api
+	- fabric-containers-v0 0.1.34+df3654b390 via fabric-api
+	- fabric-content-registries-v0 3.3.0+624e468e90 via fabric-api
+	- fabric-convention-tags-v1 1.1.1+7cd20a1490 via fabric-api
+	- fabric-crash-report-info-v1 0.2.5+aeb40ebe90 via fabric-api
+	- fabric-data-generation-api-v1 5.1.9+a680b9b490 via fabric-api
+	- fabric-dimensions-v1 2.1.31+0dd10df690 via fabric-api
+	- fabric-entity-events-v1 1.4.18+9ff28f4090 via fabric-api
+	- fabric-events-interaction-v0 0.4.28+aeb40ebe90 via fabric-api
+	- fabric-events-lifecycle-v0 0.2.28+df3654b390 via fabric-api
+	- fabric-game-rule-api-v1 1.0.21+aeb40ebe90 via fabric-api
+	- fabric-item-api-v1 1.5.7+35a03c4390 via fabric-api
+	- fabric-item-groups-v0 0.3.29+4e8ca3fd90 via fabric-api
+	- fabric-key-binding-api-v1 1.0.20+aeb40ebe90 via fabric-api
+	- fabric-keybindings-v0 0.2.18+df3654b390 via fabric-api
+	- fabric-lifecycle-events-v1 2.1.2+aeb40ebe90 via fabric-api
+	- fabric-loot-api-v2 1.1.3+83a8659290 via fabric-api
+	- fabric-loot-tables-v1 1.1.6+9e7660c690 via fabric-api
+	- fabric-message-api-v1 5.0.3+176380a290 via fabric-api
+	- fabric-mining-level-api-v1 2.1.14+33fbc73890 via fabric-api
+	- fabric-models-v0 0.3.17+aeb40ebe90 via fabric-api
+	- fabric-networking-api-v1 1.2.4+5eb68ef290 via fabric-api
+	- fabric-networking-v0 0.3.21+df3654b390 via fabric-api
+	- fabric-object-builder-api-v1 4.0.11+aeb40ebe90 via fabric-api
+	- fabric-particles-v1 1.0.10+aeb40ebe90 via fabric-api
+	- fabric-registry-sync-v0 0.9.25+726b652090 via fabric-api
+	- fabric-renderer-api-v1 1.0.10+aeb40ebe90 via fabric-api
+	- fabric-renderer-indigo 0.6.12+aeb40ebe90 via fabric-api
+	- fabric-renderer-registries-v1 3.2.20+df3654b390 via fabric-api
+	- fabric-rendering-data-attachment-v1 0.3.14+aeb40ebe90 via fabric-api
+	- fabric-rendering-fluids-v1 3.0.7+aeb40ebe90 via fabric-api
+	- fabric-rendering-v0 1.1.22+df3654b390 via fabric-api
+	- fabric-rendering-v1 1.10.16+aeb40ebe90 via fabric-api
+	- fabric-resource-conditions-api-v1 2.0.11+e62f51a390 via fabric-api
+	- fabric-resource-loader-v0 0.6.1+aeb40ebe90 via fabric-api
+	- fabric-screen-api-v1 1.0.26+f05effaf90 via fabric-api
+	- fabric-screen-handler-api-v1 1.3.0+1cc24b1b90 via fabric-api
+	- fabric-textures-v0 1.0.20+aeb40ebe90 via fabric-api
+	- fabric-transfer-api-v1 2.1.0+8f88597390 via fabric-api
+	- fabric-transitive-access-wideners-v1 1.3.0+42d99c3290 via fabric-api
+	- fabricloader 0.14.9
+	- java 17
+	- minecraft 1.19.2
+	- wurst v7.28-MC1.19.2
+	- xaerominimap 22.15.1
+	- xaeroworldmap 1.28.0
+[18:14:18] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[18:14:18] [main/INFO]: Compatibility level set to JAVA_17
+[18:14:18] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/occlusion/BlockOcclusionCache (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/occlusion/BlockOcclusionCache)
+[18:14:19] [main/WARN]: Configuration conflict: there is more than one oshi.properties file on the classpath
+[18:14:20] [main/WARN]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath
+[18:14:22] [main/INFO]: Building optimized datafixer
+[18:14:27] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:14:28] [Render thread/INFO]: Setting user: CodeOverload
+[18:14:29] [Render thread/INFO]: [STDOUT]: Starting Wurst Client...
+[18:14:30] [Render thread/INFO]: [Indigo] Registering Indigo renderer!
+[18:14:31] [Render thread/INFO]: Loading Xaero's Minimap - Stage 1/2
+[18:14:32] [Render thread/INFO]: Loading Xaero's World Map - Stage 1/2
+[18:14:33] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[18:14:38] [Render thread/WARN]: ERROR : Couldn't load Narrator library
+java.lang.UnsatisfiedLinkError: Unable to load library 'fliteWrapper':
+libfliteWrapper.so: cannot open shared object file: No such file or directory
+libfliteWrapper.so: cannot open shared object file: No such file or directory
+Native library (linux-x86-64/libfliteWrapper.so) not found in resource path (/home/gavinboor/.local/share/multimc/bin/jars/NewLaunch.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/logging/1.0.0/logging-1.0.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar:/home/gavinboor/.local/share/multimc/libraries/com/github/oshi/oshi-core/5.8.5/oshi-core-5.8.5.jar:/home/gavinboor/.local/share/multimc/libraries/net/java/dev/jna/jna/5.10.0/jna-5.10.0.jar:/home/gavinboor/.local/share/multimc/libraries/net/java/dev/jna/jna-platform/5.10.0/jna-platform-5.10.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-slf4j18-impl/2.16.0/log4j-slf4j18-impl-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/ibm/icu/icu4j/70.1/icu4j-70.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/javabridge/1.2.24/javabridge-1.2.24.jar:/home/gavinboor/.local/share/multimc/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-common/4.1.77.Final/netty-common-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-buffer/4.1.77.Final/netty-buffer-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-codec/4.1.77.Final/netty-codec-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-handler/4.1.77.Final/netty-handler-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-resolver/4.1.77.Final/netty-resolver-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport/4.1.77.Final/netty-transport-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-native-unix-common/4.1.77.Final/netty-transport-native-unix-common-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-classes-epoll/4.1.77.Final/netty-transport-classes-epoll-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-native-epoll/4.1.77.Final/netty-transport-native-epoll-4.1.77.Final-linux-x86_64.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/gavinboor/.local/share/multimc/libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/gavinboor/.local/share/multimc/libraries/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/datafixerupper/5.0.28/datafixerupper-5.0.28.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/authlib/3.11.49/authlib-3.11.49.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/gavinboor/.local/share/multimc/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar:/home/gavinboor/.local/share/multimc/libraries/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-api/2.16.0/log4j-api-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-core/2.16.0/log4j-core-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/text2speech/1.13.9/text2speech-1.13.9.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/intermediary/1.19.2/intermediary-1.19.2.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/tiny-mappings-parser/0.3.0+build.17/tiny-mappings-parser-0.3.0+build.17.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/tiny-remapper/0.8.2/tiny-remapper-0.8.2.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm/9.3/asm-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-util/9.3/asm-util-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/fabric-loader/0.14.9/fabric-loader-0.14.9.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/minecraft/1.19.2/minecraft-1.19.2-client.jar)
+	at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:301) ~[jna-5.10.0.jar:?]
+	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:?]
+	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:?]
+	at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.13.9.jar:?]
+	at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.13.9.jar:?]
+	at net.minecraft.class_333.<init>(class_333.java:19) [client-intermediary.jar:?]
+	at net.minecraft.class_310.<init>(class_310.java:637) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.method_44604(Main.java:205) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.9.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+	Suppressed: java.lang.UnsatisfiedLinkError: libfliteWrapper.so: cannot open shared object file: No such file or directory
+		at com.sun.jna.Native.open(Native Method) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:191) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:?]
+		at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.13.9.jar:?]
+		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.13.9.jar:?]
+		at net.minecraft.class_333.<init>(class_333.java:19) [client-intermediary.jar:?]
+		at net.minecraft.class_310.<init>(class_310.java:637) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.method_44604(Main.java:205) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+		at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.9.jar:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+		at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+		at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+		at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+	Suppressed: java.lang.UnsatisfiedLinkError: libfliteWrapper.so: cannot open shared object file: No such file or directory
+		at com.sun.jna.Native.open(Native Method) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:204) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:?]
+		at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.13.9.jar:?]
+		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.13.9.jar:?]
+		at net.minecraft.class_333.<init>(class_333.java:19) [client-intermediary.jar:?]
+		at net.minecraft.class_310.<init>(class_310.java:637) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.method_44604(Main.java:205) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+		at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.9.jar:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+		at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+		at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+		at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+	Suppressed: java.io.IOException: Native library (linux-x86-64/libfliteWrapper.so) not found in resource path (/home/gavinboor/.local/share/multimc/bin/jars/NewLaunch.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/logging/1.0.0/logging-1.0.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar:/home/gavinboor/.local/share/multimc/libraries/com/github/oshi/oshi-core/5.8.5/oshi-core-5.8.5.jar:/home/gavinboor/.local/share/multimc/libraries/net/java/dev/jna/jna/5.10.0/jna-5.10.0.jar:/home/gavinboor/.local/share/multimc/libraries/net/java/dev/jna/jna-platform/5.10.0/jna-platform-5.10.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-slf4j18-impl/2.16.0/log4j-slf4j18-impl-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/ibm/icu/icu4j/70.1/icu4j-70.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/javabridge/1.2.24/javabridge-1.2.24.jar:/home/gavinboor/.local/share/multimc/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-common/4.1.77.Final/netty-common-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-buffer/4.1.77.Final/netty-buffer-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-codec/4.1.77.Final/netty-codec-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-handler/4.1.77.Final/netty-handler-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-resolver/4.1.77.Final/netty-resolver-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport/4.1.77.Final/netty-transport-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-native-unix-common/4.1.77.Final/netty-transport-native-unix-common-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-classes-epoll/4.1.77.Final/netty-transport-classes-epoll-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-native-epoll/4.1.77.Final/netty-transport-native-epoll-4.1.77.Final-linux-x86_64.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/gavinboor/.local/share/multimc/libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/gavinboor/.local/share/multimc/libraries/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/datafixerupper/5.0.28/datafixerupper-5.0.28.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/authlib/3.11.49/authlib-3.11.49.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/gavinboor/.local/share/multimc/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar:/home/gavinboor/.local/share/multimc/libraries/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-api/2.16.0/log4j-api-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-core/2.16.0/log4j-core-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/text2speech/1.13.9/text2speech-1.13.9.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/intermediary/1.19.2/intermediary-1.19.2.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/tiny-mappings-parser/0.3.0+build.17/tiny-mappings-parser-0.3.0+build.17.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/tiny-remapper/0.8.2/tiny-remapper-0.8.2.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm/9.3/asm-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-util/9.3/asm-util-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/fabric-loader/0.14.9/fabric-loader-0.14.9.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/minecraft/1.19.2/minecraft-1.19.2-client.jar)
+		at com.sun.jna.Native.extractFromResourcePath(Native.java:1145) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:275) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:?]
+		at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.13.9.jar:?]
+		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.13.9.jar:?]
+		at net.minecraft.class_333.<init>(class_333.java:19) [client-intermediary.jar:?]
+		at net.minecraft.class_310.<init>(class_310.java:637) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.method_44604(Main.java:205) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+		at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.9.jar:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+		at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+		at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+		at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[18:14:38] [Render thread/INFO]: Reloading ResourceManager: Default, Fabric Mods (Fabric API, Fabric API Base, Fabric API Lookup API (v1), Fabric Biome API (v1), Fabric BlockRenderLayer Registration (v1), Fabric Client Tags, Fabric Command API (v1), Fabric Command API (v2), Fabric Commands (v0), Fabric Containers (v0), Fabric Content Registries (v0), Fabric Convention Tags, Fabric Crash Report Info (v1), Fabric Data Generation API (v1), Fabric Dimensions API (v1), Fabric Entity Events (v1), Fabric Events Interaction (v0), Fabric Events Lifecycle (v0), Fabric Game Rule API (v1), Fabric Item API (v1), Fabric Item Groups (v0), Fabric Key Binding API (v1), Fabric Key Bindings (v0), Fabric Lifecycle Events (v1), Fabric Loot API (v2), Fabric Loot Tables (v1), Fabric Message API (v1), Fabric Mining Level API (v1), Fabric Models (v0), Fabric Networking API (v1), Fabric Networking (v0), Fabric Object Builder API (v1), Fabric Particles (v1), Fabric Registry Sync (v0), Fabric Renderer API (v1), Fabric Renderer - Indigo, Fabric Renderer Registries (v1), Fabric Rendering Data Attachment (v1), Fabric Rendering Fluids (v1), Fabric Rendering (v0), Fabric Rendering (v1), Fabric Resource Conditions API (v1), Fabric Resource Loader (v0), Fabric Screen API (v1), Fabric Screen Handler API (v1), Fabric Textures (v0), Fabric Transfer API (v1), Fabric Transitive Access Wideners (v1), Fabric Loader, Wurst Client, Xaero's Minimap, Xaero's World Map)
+[18:14:39] [Render thread/INFO]: Loading Xaero's Minimap - Stage 2/2
+[18:14:40] [Render thread/INFO]: Xaero's Minimap: World Map found!
+[18:14:40] [Render thread/INFO]: No Optifine!
+[18:14:40] [Render thread/INFO]: Xaero's Minimap: No Vivecraft!
+[18:14:40] [Render thread/INFO]: Loading Xaero's World Map - Stage 2/2
+[18:14:40] [Render thread/INFO]: New world map region cache hash code: 687554333
+[18:14:40] [Render thread/INFO]: Xaero's WorldMap Mod: Xaero's minimap found!
+[18:14:40] [Render thread/INFO]: No Optifine!
+[18:14:40] [Render thread/INFO]: Xaero's World Map: No Vivecraft!
+[18:14:44] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[18:14:44] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[18:14:44] [Render thread/INFO]: OpenAL initialized on device VirtIO SoundCard
+[18:14:44] [Render thread/INFO]: Sound engine started
+[18:14:45] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/blocks.png-atlas
+[18:14:45] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/signs.png-atlas
+[18:14:45] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[18:14:45] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[18:14:45] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/chest.png-atlas
+[18:14:45] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
+[18:14:45] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[18:14:47] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[18:14:48] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[18:14:48] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[18:14:48] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[18:14:48] [Render thread/INFO]: Successfully reloaded the minimap shaders!
+[18:14:48] [Render thread/INFO]: Successfully reloaded the world map shaders!
+[18:14:54] [Render thread/INFO]: Connecting to play.survivewith.us, 25565
+[18:15:00] [Render thread/INFO]: New minimap session initialized!
+[18:15:00] [Render thread/INFO]: New world map session initialized!
+[18:15:01] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384
+[18:15:01] [Render thread/INFO]: [STDOUT]: Cached world directory: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:15:01] [Render thread/INFO]: [STDOUT]: Would save waypoints to /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/waypoints
+[18:15:01] [Render thread/INFO]: [STDOUT]: Telemetry sending attempt blocked.
+[18:15:01] [Render thread/INFO]: [STDOUT]: Telemetry sending attempt blocked.
+[18:15:02] [Render thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: minecraft:ancient_city_replaceable, minecraft:mangrove_logs_can_grow_through, minecraft:mangrove_roots_can_grow_through, minecraft:nether_carver_replaceables, minecraft:overworld_carver_replaceables
+[18:15:04] [Worker-Bootstrap-3/INFO]: 4283 Datafixer optimizations took 41602 milliseconds
+[18:15:04] [Render thread/INFO]: [System] [CHAT] 
+[18:15:04] [Render thread/INFO]: [System] [CHAT] 
+[18:15:04] [Render thread/INFO]: [System] [CHAT] Welcome back to SurviveWithUs YELLOW, CodeOverload!
+[18:15:04] [Render thread/INFO]: [System] [CHAT] 
+[18:15:04] [Render thread/INFO]: [System] [CHAT] §bYou're currently receiving an §6§lXP§b or §6§lMoney Boost!§b Click §bhere §bto §bview §byour §6§l/boosts!
+[18:15:04] [Render thread/INFO]: [System] [CHAT] 
+[18:15:04] [Render thread/INFO]: Loaded 848 advancements
+[18:15:04] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -17,-18 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:15:04] [Render thread/INFO]: [System] [CHAT] [☠] Silent> wb.
+[18:15:04] [Render thread/INFO]: [System] [CHAT] [AstroNot] SpaceMoose> wb!
+[18:15:04] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 176ms
+[18:15:04] [Render thread/INFO]: Reloading entity icon resources...
+[18:15:04] [Render thread/INFO]: Done!
+[18:15:04] [Render thread/INFO]: [STDOUT]: Brightness started at 0.5
+[18:15:05] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -18,-18 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:15:05] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 118ms
+[18:15:05] [WurstUpdater/INFO]: [STDOUT]: [Updater] Current version: 7.28
+[18:15:05] [WurstUpdater/INFO]: [STDOUT]: [Updater] Latest version: 7.28
+[18:15:06] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -17,-17 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:15:06] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 193ms
+[18:15:06] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> ty
+[18:15:07] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -18,-17 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:15:07] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 280ms
+[18:15:12] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -3,14 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:15:12] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 314ms
+[18:15:16] [Render thread/INFO]: [System] [CHAT] You have $1,004,327,217 and $45,442,328 in your shop.
+[18:15:19] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> silent
+[18:15:25] [Render thread/INFO]: [System] [CHAT] [☠] Silent> Overload.
+[18:15:26] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> how much bank you make
+[18:15:27] [Render thread/INFO]: [System] [CHAT] Remember to /vote to get your next /rank and unlock epic rewards!
+[18:15:31] [ForkJoinPool.commonPool-worker-6/INFO]: [STDOUT]: Saving region -18,-18 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:15:31] [pool-2-thread-2/INFO]: [STDOUT]: Saving region -18,-17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:15:31] [ForkJoinPool.commonPool-worker-1/INFO]: [STDOUT]: Saving region -17,-17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:15:31] [ForkJoinPool.commonPool-worker-3/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:15:31] [ForkJoinPool.commonPool-worker-8/INFO]: [STDOUT]: Saving region -17,-18 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:15:31] [Render thread/INFO]: [System] [CHAT] You can now fly by double-jumping!
+[18:15:31] [ForkJoinPool.commonPool-worker-6/INFO]: [STDOUT]: Saved region successfully
+[18:15:32] [ForkJoinPool.commonPool-worker-8/INFO]: [STDOUT]: Saved region successfully
+[18:15:32] [ForkJoinPool.commonPool-worker-1/INFO]: [STDOUT]: Saved region successfully
+[18:15:32] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[18:15:32] [ForkJoinPool.commonPool-worker-3/INFO]: [STDOUT]: Saved region successfully
+[18:15:32] [pool-2-thread-2/INFO]: [STDOUT]: World save took 776ms
+[18:15:36] [Render thread/INFO]: [System] [CHAT] [☠] Silent> Lots.
+[18:15:44] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> 500m?
+[18:15:48] [Render thread/INFO]: [System] [CHAT] [☠] Silent> Yes.
+[18:15:51] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> poggers
+[18:16:15] [Render thread/INFO]: [System] [CHAT] [☠] Silent> Would you be interested in purchasing a bucket of powdered snow for $100m?
+[18:16:32] [Render thread/INFO]: [System] [CHAT] [Explorer] GamerBoy15436> y
+[18:17:36] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> me?
+[18:17:39] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> heyuck no
+[18:17:41] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i got one
+[18:17:44] [Render thread/INFO]: [System] [CHAT] [☠] Silent> Bro wdym.
+[18:17:47] [Render thread/INFO]: [System] [CHAT] [☠] Silent> 100m is a bargain.
+[18:18:03] [Render thread/INFO]: [System] [CHAT] [Explorer] GamerBoy15436> any1 heer good at building?
+[18:18:12] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> heyuck no [x2]
+[18:18:13] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Nope
+[18:18:15] [Render thread/INFO]: [System] [CHAT] [AstroNot] SpaceMoose> i would say im decent
+[18:18:18] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> and heyuck no again
+[18:18:26] [Render thread/INFO]: [System] [CHAT] [Explorer] GamerBoy15436> spacemoose?
+[18:18:30] [Render thread/INFO]: [System] [CHAT] [AstroNot] SpaceMoose> yes?
+[18:18:32] [Render thread/INFO]: [System] [CHAT] [Explorer] GamerBoy15436> im making a new base
+[18:18:34] [Render thread/INFO]: [System] [CHAT] [Explorer] GamerBoy15436> and
+[18:18:39] [Render thread/INFO]: [System] [CHAT] [Explorer] GamerBoy15436> lava/fire theme
+[18:18:46] [Render thread/INFO]: [System] [CHAT] [Explorer] GamerBoy15436> can u help me build it?
+[18:18:48] [Render thread/INFO]: [System] [CHAT] You will transfer to the Rainbow Realm momentarily...
+[18:18:48] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384
+[18:18:48] [pool-2-thread-3/INFO]: [STDOUT]: Started saving the world in a new thread
+[18:18:48] [pool-2-thread-3/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:18:48] [Render thread/INFO]: [STDOUT]: Telemetry sending attempt blocked.
+[18:18:48] [Render thread/INFO]: [STDOUT]: Telemetry sending attempt blocked.
+[18:18:48] [Render thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: minecraft:ancient_city_replaceable, minecraft:mangrove_logs_can_grow_through, minecraft:mangrove_roots_can_grow_through, minecraft:nether_carver_replaceables, minecraft:overworld_carver_replaceables
+[18:18:48] [pool-2-thread-3/INFO]: [STDOUT]: Saved region successfully
+[18:18:48] [pool-2-thread-3/INFO]: [STDOUT]: World save took 202ms
+[18:18:48] [Render thread/INFO]: Loaded 429 advancements
+[18:18:48] [Render thread/INFO]: [System] [CHAT]  [x5]
+[18:18:48] [Render thread/INFO]: [System] [CHAT]  [x6]
+[18:18:48] [Render thread/INFO]: [System] [CHAT] Welcome back to SurviveWithUs Rainbow, CodeOverload!
+[18:18:48] [Render thread/INFO]: [System] [CHAT]  [x7]
+[18:18:48] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -8,-9 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:18:48] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 30ms
+[18:18:53] [Render thread/INFO]: [System] [CHAT] Furbie12 accomplished something: [Golden dreams]
+[18:18:58] [Render thread/INFO]: [System] [CHAT] [Explorer] Tober7s> wb.
+[18:19:08] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> ty [x2]
+[18:19:18] [Render thread/INFO]: [System] [CHAT] Remember to /vote to get your next /rank and unlock epic rewards! [x2]
+[18:19:23] [Render thread/INFO]: [System] [CHAT] Your homes: H, skeles, v, z
+[18:19:23] [Render thread/INFO]: [System] [CHAT] You've used 4 out of 53 homes.
+[18:19:30] [Render thread/INFO]: [System] [CHAT] You can now fly by double-jumping! [x2]
+[18:19:33] [Render thread/INFO]: [System] [CHAT] You have entered homiesexual's land!
+[18:19:33] [Render thread/INFO]: [System] [CHAT] You can't do that here!
+[18:19:37] [Render thread/INFO]: [System] [CHAT] [Explorer] Tober7s> Does anyone need totems?
+[18:19:55] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> id like some items lol
+[18:20:07] [Render thread/INFO]: [System] [CHAT] [Admin] [FoE] Furbie> same
+[18:20:13] [Render thread/INFO]: [System] [CHAT] [Admin] [FoE] Furbie> we both dont get that tho
+[18:20:17] [Render thread/INFO]: [System] [CHAT] [Member] HorrorGameNoob> Yeah I got nothing just joined.
+[18:20:21] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> vote
+[18:20:23] [Render thread/INFO]: [System] [CHAT] §9Tober7s§e would like to teleport to you: §aAccept §c Deny
+[18:20:27] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -7,-7 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:20:27] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 23ms
+[18:20:28] [Render thread/INFO]: [System] [CHAT] You have left homiesexual's land!
+[18:20:30] [Render thread/INFO]: [System] [CHAT] [Explorer] ezsimpz> Yo horror wya.
+[18:20:39] [Render thread/INFO]: [System] [CHAT] Bellatrix has voted for the server on all 7 sites and has unlocked their BONUS in /vote, you can too by /vote'ing!
+[18:21:20] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> one sec
+[18:21:26] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -7,-8 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:21:27] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 49ms
+[18:21:29] [Render thread/INFO]: [System] [CHAT] You can now fly by double-jumping! [x3]
+[18:21:36] [Render thread/INFO]: [System] [CHAT] [+] gogurtman47
+[18:21:54] [Render thread/INFO]: [System] [CHAT] [Member] HorrorGameNoob> 3975 63 3888.
+[18:22:06] [Render thread/INFO]: [System] [CHAT] You can't attack other players here!
+[18:22:07] [Render thread/INFO]: [System] [CHAT] You can't attack other players here! [x2]
+[18:22:08] [Render thread/INFO]: [System] [CHAT] You can't attack other players here! [x3]
+[18:22:13] [Render thread/INFO]: [System] [CHAT] You can't attack other players here! [x4]
+[18:22:15] [Render thread/INFO]: [System] [CHAT] You can't attack other players here! [x5]
+[18:22:19] [Render thread/INFO]: [System] [CHAT] [Explorer] Tober7s> Lost all of my neth.
+[18:22:24] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> tsk tsk tsk
+[18:22:28] [Render thread/INFO]: [System] [CHAT] [Explorer] ezsimpz> How?
+[18:22:34] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> Heisenberg.
+[18:22:44] [Render thread/INFO]: [System] [CHAT] [Explorer] ezsimpz> Horror go to spawn.
+[18:22:45] [Render thread/INFO]: [System] [CHAT] [Explorer] Tober7s> I am young I do not know the claims.
+[18:22:50] [Render thread/INFO]: [System] [CHAT] [Member] HorrorGameNoob> Ok.
+[18:22:50] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> big L
+[18:22:57] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> how young is young
+[18:23:00] [Render thread/INFO]: [System] [CHAT] [Explorer] Tober7s> 10.
+[18:23:08] [Render thread/INFO]: [System] [CHAT] [Admin] [FoE] Furbie> anything below 18
+[18:23:19] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> age is only a timer
+[18:23:25] [Render thread/INFO]: [System] [CHAT] [Member] HorrorGameNoob> Wow thanks!
+[18:23:28] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> from the moment you were born
+[18:23:30] [Render thread/INFO]: [System] [CHAT] [Explorer] ezsimpz> Np ig.
+[18:23:39] [Render thread/INFO]: [System] [CHAT] [Explorer] ezsimpz> There alittle damaged.
+[18:23:45] [Render thread/INFO]: [System] [CHAT] [Member] HorrorGameNoob> Its fine.
+[18:24:01] [Render thread/INFO]: [System] [CHAT] [Explorer] Tober7s> Does anyone want to team.
+[18:24:04] [Render thread/INFO]: [System] [CHAT] [-] DynamicMovez
+[18:24:07] [Render thread/INFO]: [System] [CHAT] [Explorer] Tober7s> ?
+[18:24:07] [Render thread/INFO]: [System] [CHAT] [Member] HorrorGameNoob> Ty.
+[18:24:11] [Render thread/INFO]: [System] [CHAT] [Explorer] ezsimpz> Np.
+[18:24:29] [Render thread/INFO]: [System] [CHAT] [Baritone] > mine iron ore
+[18:24:29] [Render thread/INFO]: [System] [CHAT] [Baritone] Error at argument #2: Expected w
+[18:24:29] [Render thread/INFO]: [System] [CHAT] HorrorGameNoob accomplished something: [Bury me with diamonds]
+[18:24:34] [Render thread/INFO]: [System] [CHAT] [Baritone] > mine iron_ore
+[18:24:34] [Render thread/INFO]: Reloading ResourceManager: Default
+[18:24:34] [Render thread/INFO]: [System] [CHAT] [Baritone] Mining [BlockOptionalMeta{block=Block{minecraft:iron_ore}}]
+[18:24:34] [Render thread/INFO]: [System] [CHAT] [Explorer] ezsimpz> What do I need to make rockets?
+[18:24:42] [Render thread/INFO]: [System] [CHAT] [Farmer] gogurtman47> paper and gunpowder
+[18:24:50] [Render thread/INFO]: [System] [CHAT] [Explorer] ezsimpz> Ty.
+[18:25:09] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> L
+[18:25:29] [Render thread/INFO]: [System] [CHAT] [Forager] ThorGamer_YT> You can buy them in the store too.
+[18:25:32] [pool-2-thread-2/INFO]: [STDOUT]: Saving region -7,-7 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:25:32] [ForkJoinPool.commonPool-worker-2/INFO]: [STDOUT]: Saving region -8,-9 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:25:32] [ForkJoinPool.commonPool-worker-7/INFO]: [STDOUT]: Saving region -7,-8 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:25:32] [ForkJoinPool.commonPool-worker-11/INFO]: [STDOUT]: Saving region 0,1 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:25:32] [ForkJoinPool.commonPool-worker-9/INFO]: [STDOUT]: Saving region 0,0 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:25:32] [ForkJoinPool.commonPool-worker-11/INFO]: [STDOUT]: Saved region successfully
+[18:25:32] [ForkJoinPool.commonPool-worker-7/INFO]: [STDOUT]: Saved region successfully
+[18:25:32] [ForkJoinPool.commonPool-worker-9/INFO]: [STDOUT]: Saved region successfully
+[18:25:32] [ForkJoinPool.commonPool-worker-2/INFO]: [STDOUT]: Saved region successfully
+[18:25:32] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[18:25:32] [pool-2-thread-2/INFO]: [STDOUT]: World save took 45ms
+[18:25:32] [Render thread/INFO]: [System] [CHAT] extended_HD is no longer AFK!
+[18:25:36] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> wb
+[18:25:40] [Render thread/INFO]: [System] [CHAT] [Forager] ThorGamer_YT> They are pretty cheap.
+[18:26:08] [Render thread/INFO]: [System] [CHAT] [Baritone] > stop
+[18:26:08] [Render thread/INFO]: [System] [CHAT] [Baritone] ok canceled
+[18:26:32] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[18:26:32] [Render thread/INFO]: [System] [CHAT] You have received 1 DailyKey keys!
+[18:26:44] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -8,7 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:26:44] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 10ms
+[18:26:44] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -8,6 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:26:44] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 5ms
+[18:26:44] [pool-2-thread-1/INFO]: [STDERR]: java.lang.ArrayIndexOutOfBoundsException: Index 24 out of bounds for length 24
+[18:26:44] [pool-2-thread-1/INFO]: [STDERR]: 	at baritone.jc.a(Unknown Source)
+[18:26:44] [pool-2-thread-1/INFO]: [STDERR]: 	at baritone.ef.a(Unknown Source)
+[18:26:44] [pool-2-thread-1/INFO]: [STDERR]: 	at baritone.ee$a.run(Unknown Source)
+[18:26:44] [pool-2-thread-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[18:26:44] [pool-2-thread-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[18:26:44] [pool-2-thread-1/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[18:26:48] [Render thread/INFO]: [System] [CHAT] [+] AbuTitus
+[18:26:51] [pool-2-thread-3/INFO]: [STDOUT]: Started saving the world in a new thread
+[18:26:51] [pool-2-thread-3/INFO]: [STDOUT]: Saving region -7,-7 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:26:51] [ForkJoinPool.commonPool-worker-2/INFO]: [STDOUT]: Saving region -8,7 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:26:51] [ForkJoinPool.commonPool-worker-9/INFO]: [STDOUT]: Saving region -8,6 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:26:51] [ForkJoinPool.commonPool-worker-13/INFO]: [STDOUT]: Saving region -7,-8 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:26:51] [ForkJoinPool.commonPool-worker-9/INFO]: [STDOUT]: Saved region successfully
+[18:26:51] [ForkJoinPool.commonPool-worker-13/INFO]: [STDOUT]: Saved region successfully
+[18:26:51] [ForkJoinPool.commonPool-worker-2/INFO]: [STDOUT]: Saved region successfully
+[18:26:51] [pool-2-thread-3/INFO]: [STDOUT]: Saved region successfully
+[18:26:51] [pool-2-thread-3/INFO]: [STDOUT]: World save took 24ms
+[18:26:51] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256
+[18:26:51] [Render thread/INFO]: [STDOUT]: Cached world directory: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[18:26:51] [Render thread/INFO]: [STDOUT]: Would save waypoints to /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/waypoints
+[18:26:51] [pool-2-thread-3/INFO]: [STDOUT]: Loading region 0,0 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[18:26:51] [pool-2-thread-3/INFO]: [STDOUT]: Loaded region successfully in 55ms
+[18:26:51] [pool-2-thread-3/INFO]: [STDOUT]: Loading region 0,-1 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[18:26:51] [pool-2-thread-3/INFO]: [STDOUT]: Loaded region successfully in 57ms
+[18:26:56] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> furbies scare me
+[18:26:58] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> O-O
+[18:27:05] [Render thread/INFO]: [System] [CHAT] [FoE] Moon> she is very scary
+[18:27:07] [Render thread/INFO]: [System] [CHAT] [FoE] _YV_> u scare me bro
+[18:27:15] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> oh waht the
+[18:27:16] [Render thread/INFO]: [System] [CHAT] [Admin] [FoE] Furbie> boo
+[18:27:18] [Render thread/INFO]: [System] [CHAT] [Explorer] Tober7s> Teams?
+[18:27:21] [ForkJoinPool.commonPool-worker-2/INFO]: [STDOUT]: Saving region 0,0 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[18:27:21] [pool-2-thread-4/INFO]: [STDOUT]: Saving region 0,-1 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[18:27:21] [Render thread/INFO]: [System] [CHAT] [Explorer] Tober7s> Anyone?
+[18:27:21] [ForkJoinPool.commonPool-worker-2/INFO]: [STDOUT]: Saved region successfully
+[18:27:21] [pool-2-thread-4/INFO]: [STDOUT]: Saved region successfully
+[18:27:21] [pool-2-thread-4/INFO]: [STDOUT]: World save took 47ms
+[18:27:26] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> yeah that actually scared me
+[18:27:52] [Render thread/INFO]: [System] [CHAT] HorrorGameNoob accomplished something: [Age o' stone]
+[18:28:18] [Render thread/INFO]: [System] [CHAT] [+] CookiezCookiez
+[18:28:27] [Render thread/INFO]: [System] [CHAT] You'll be able to fly again in: 24 seconds!
+[18:28:28] [Render thread/INFO]: [System] [CHAT] CodeOverload fell out of the world :(
+[18:28:28] [Render thread/INFO]: [System] [CHAT] [Baritone] Death position saved.
+[18:28:29] [Render thread/INFO]: [System] [CHAT] [+] [Sr.Mod] alexa
+[18:28:30] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384
+[18:28:30] [pool-2-thread-5/INFO]: [STDOUT]: Started saving the world in a new thread
+[18:28:30] [pool-2-thread-5/INFO]: [STDOUT]: Saving region 0,-1 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[18:28:30] [ForkJoinPool.commonPool-worker-2/INFO]: [STDOUT]: Saving region 0,0 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[18:28:30] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -7,-7 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:28:30] [ForkJoinPool.commonPool-worker-2/INFO]: [STDOUT]: Saved region successfully
+[18:28:30] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 23ms
+[18:28:30] [pool-2-thread-5/INFO]: [STDOUT]: Saved region successfully
+[18:28:30] [pool-2-thread-5/INFO]: [STDOUT]: World save took 42ms
+[18:28:30] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -7,-8 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:28:30] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 11ms
+[18:28:32] [Render thread/INFO]: [System] [CHAT] [FoE] _YV_> wb
+[18:28:33] [Render thread/INFO]: [System] [CHAT] [Admin] [FoE] Furbie> wb
+[18:28:35] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i just got killed
+[18:28:39] [Render thread/INFO]: [System] [CHAT] [Sr.Mod] [FoE] alexa> tyty
+[18:28:39] [Render thread/INFO]: [System] [CHAT] [+] [MVP] bellaxrose
+[18:28:40] [Render thread/INFO]: [System] [CHAT] [FoE] Moon> who is alexa?
+[18:28:40] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> wait
+[18:28:42] [Render thread/INFO]: [System] [CHAT] [Explorer] Tober7s> Big l.
+[18:28:43] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> alexa??
+[18:28:45] [Render thread/INFO]: [System] [CHAT] [Sr.Mod] [FoE] alexa> ./ban
+[18:28:56] [Render thread/INFO]: [System] [CHAT] [Sr.Mod] [FoE] alexa> whats up code lol
+[18:29:00] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> Alexa give me a piña colada.
+[18:29:10] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> alexa is kinda scary too
+[18:29:14] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> mostly chill
+[18:29:17] [Render thread/INFO]: [System] [CHAT] You can now fly by double-jumping! [x4]
+[18:29:18] [Render thread/INFO]: [System] [CHAT] CookiezCookiez has gone AFK!
+[18:29:21] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> I fear death.
+[18:29:27] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i dont
+[18:29:28] [Render thread/INFO]: [System] [CHAT] extended_HD has gone AFK!
+[18:29:29] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> why would you
+[18:29:37] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> Because you die.
+[18:29:37] [pool-2-thread-1/INFO]: [STDERR]: java.lang.ArrayIndexOutOfBoundsException
+[18:29:39] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256
+[18:29:39] [pool-2-thread-6/INFO]: [STDOUT]: Started saving the world in a new thread
+[18:29:39] [pool-2-thread-6/INFO]: [STDOUT]: Saving region -8,7 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:29:39] [ForkJoinPool.commonPool-worker-2/INFO]: [STDOUT]: Saving region -8,6 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:29:39] [ForkJoinPool.commonPool-worker-10/INFO]: [STDOUT]: Saving region -7,-8 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:29:39] [ForkJoinPool.commonPool-worker-9/INFO]: [STDOUT]: Saving region -6,-7 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:29:39] [ForkJoinPool.commonPool-worker-13/INFO]: [STDOUT]: Saving region -6,-8 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:29:39] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saving region -7,-7 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:29:39] [ForkJoinPool.commonPool-worker-13/INFO]: [STDOUT]: Saved region successfully
+[18:29:39] [ForkJoinPool.commonPool-worker-9/INFO]: [STDOUT]: Saved region successfully
+[18:29:39] [ForkJoinPool.commonPool-worker-2/INFO]: [STDOUT]: Saved region successfully
+[18:29:39] [ForkJoinPool.commonPool-worker-10/INFO]: [STDOUT]: Saved region successfully
+[18:29:39] [pool-2-thread-6/INFO]: [STDOUT]: Saved region successfully
+[18:29:39] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saved region successfully
+[18:29:39] [pool-2-thread-6/INFO]: [STDOUT]: World save took 37ms
+[18:29:48] [Render thread/INFO]: [System] [CHAT] [-] [Sr.Mod] alexa
+[18:29:49] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> ig death or irl
+[18:29:55] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> Irl bro.
+[18:30:01] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task! [x2]
+[18:30:01] [Render thread/INFO]: [System] [CHAT] You have received 3 DailyKey keys!
+[18:30:04] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> nah
+[18:30:06] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> its not scary
+[18:30:11] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> Oh cool.
+[18:30:14] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> especially if its during sleep
+[18:30:20] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> Just destroyed my phobia.
+[18:30:23] [pool-2-thread-6/INFO]: [STDOUT]: Started saving the world in a new thread
+[18:30:23] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384
+[18:30:23] [pool-2-thread-6/INFO]: [STDOUT]: Saving region 0,-1 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[18:30:23] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saving region 0,0 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[18:30:23] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saved region successfully
+[18:30:23] [pool-2-thread-6/INFO]: [STDOUT]: Saved region successfully
+[18:30:23] [pool-2-thread-6/INFO]: [STDOUT]: World save took 36ms
+[18:30:23] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -6,9 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:30:23] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 76ms
+[18:30:23] [Render thread/INFO]: [System] [CHAT] [Explorer] Tober7s> Anyone got gold?
+[18:30:26] [Render thread/INFO]: [System] [CHAT] [+] Kaylynn342_
+[18:30:28] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> ikr
+[18:30:30] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> btw
+[18:30:34] [Render thread/INFO]: [System] [CHAT] [-] [MVP] bellaxrose
+[18:30:44] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> booty o's ftw
+[18:30:47] [Render thread/INFO]: [System] [CHAT] [-] ezsimpz
+[18:30:56] [Render thread/INFO]: [System] [CHAT] You have received: $10.00
+[18:30:57] [Render thread/INFO]: [System] [CHAT] You have received: $10.00 [x2]
+[18:30:58] [Render thread/INFO]: [System] [CHAT] You have received: $10.00 [x3]
+[18:30:59] [Render thread/INFO]: [System] [CHAT] You have received: $10.00 [x4]
+[18:31:02] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> ttbh
+[18:31:05] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> *tbh
+[18:31:15] [Render thread/INFO]: [System] [CHAT] Want to support the server, get /crate keys and your next /rank? Don't forget to /vote!
+[18:31:31] [Render thread/INFO]: [System] [CHAT] [-] Kaylynn342_
+[18:31:36] [Render thread/INFO]: [System] [CHAT] [Explorer] Tober7s> I had a maruders sheild and it got stolen.
+[18:31:38] [Render thread/INFO]: [System] [CHAT] You have received: $10.00 [x5]
+[18:31:39] [Render thread/INFO]: [System] [CHAT] You have received: $10.00 [x6]
+[18:31:41] [Render thread/INFO]: [System] [CHAT] You have received: $10.00 [x7]
+[18:31:42] [Render thread/INFO]: [System] [CHAT] You have received: $10.00 [x8]
+[18:31:44] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> Bummer.
+[18:31:45] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> such an L
+[18:31:46] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> shield*
+[18:31:54] [Render thread/INFO]: [System] [CHAT] You have received: $10.00 [x9]
+[18:31:56] [Render thread/INFO]: [System] [CHAT] You have received: $10.00 [x10]
+[18:31:59] [Render thread/INFO]: [System] [CHAT] You have received: $10.00 [x11]
+[18:32:01] [Render thread/INFO]: [System] [CHAT] You have received: $10.00 [x12]
+[18:32:01] [Render thread/INFO]: [System] [CHAT] You have received: $10.00 [x13]
+[18:32:04] [Render thread/INFO]: [System] [CHAT] You have received: $10.00 [x14]
+[18:32:06] [Render thread/INFO]: [System] [CHAT] You have received: $10.00 [x15]
+[18:32:08] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> omg the game tattletale
+[18:32:08] [Render thread/INFO]: [System] [CHAT] You have received: $10.00 [x16]
+[18:32:08] [Render thread/INFO]: [System] [CHAT] [-] AbuTitus
+[18:32:08] [Render thread/INFO]: [System] [CHAT] You have received: $10.00 [x17]
+[18:32:19] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> main antaganist was a furbie
+[18:32:24] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> that game was scary
+[18:32:25] [Render thread/INFO]: [System] [CHAT] You have received: $10.00 [x18]
+[18:32:26] [Render thread/INFO]: [System] [CHAT] [Admin] [FoE] Furbie> ?
+[18:32:26] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> Yes I use proper grammar on discord.
+[18:32:27] [Render thread/INFO]: [System] [CHAT] You have received: $10.00 [x19]
+[18:32:27] [Render thread/INFO]: [System] [CHAT] You have received: $10.00 [x20]
+[18:32:29] [Render thread/INFO]: [System] [CHAT] You have received: $10.00 [x21]
+[18:32:36] [Render thread/INFO]: [System] [CHAT] [+] [Darkness] Inferno
+[18:32:38] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> look up tattletale
+[18:32:47] [Render thread/INFO]: [System] [CHAT] Bellatrix is no longer AFK!
+[18:32:54] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> tattletail
+[18:33:02] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> Noone likes a tattletale.
+[18:33:08] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> no the game
+[18:33:10] [Render thread/INFO]: [System] [CHAT] You have received: $10.00 [x22]
+[18:33:11] [Render thread/INFO]: [System] [CHAT] You have received: $10.00 [x23]
+[18:33:12] [Render thread/INFO]: [System] [CHAT] You have received: $10.00 [x24]
+[18:33:13] [Render thread/INFO]: [System] [CHAT] You've just activated 1 hours of Double Money!
+[18:33:13] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task! [x3]
+[18:33:13] [Render thread/INFO]: [System] [CHAT] You have received: $20.00
+[18:33:14] [Render thread/INFO]: [System] [CHAT] [-] [Darkness] Inferno
+[18:33:15] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> A.
+[18:33:16] [Render thread/INFO]: [System] [CHAT] §cThis is a potentially §4dangerous§c command. Click here to §aconfirm.
+[18:33:18] [Render thread/INFO]: [System] [CHAT] You will be teleported to a random location momentarily....
+[18:33:37] [Render thread/INFO]: [System] [CHAT] [Baritone] > mine emerald_ore
+[18:33:37] [Render thread/INFO]: [System] [CHAT] [Baritone] Mining [BlockOptionalMeta{block=Block{minecraft:emerald_ore}}]
+[18:33:37] [pool-2-thread-7/INFO]: [STDOUT]: 611072 movements considered
+[18:33:37] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 6621
+[18:33:37] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 34396
+[18:33:37] [pool-2-thread-7/INFO]: [STDOUT]: 55441 nodes per second
+[18:33:37] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 48.0 blocks
+[18:33:48] [pool-2-thread-7/INFO]: [STDOUT]: 1019392 movements considered
+[18:33:48] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 9421
+[18:33:48] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 55757
+[18:33:48] [pool-2-thread-7/INFO]: [STDOUT]: 92672 nodes per second
+[18:33:48] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 19.0 blocks
+[18:33:49] [pool-2-thread-8/INFO]: [STDOUT]: 1130921 movements considered
+[18:33:49] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 12222
+[18:33:49] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 63632
+[18:33:49] [pool-2-thread-8/INFO]: [STDOUT]: 99825 nodes per second
+[18:33:49] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:33:49] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:33:49] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:33:49] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 63.953107821277925 blocks
+[18:34:06] [pool-2-thread-7/INFO]: [STDOUT]: 273964 movements considered
+[18:34:06] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 4191
+[18:34:06] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 16655
+[18:34:06] [pool-2-thread-7/INFO]: [STDOUT]: 114348 nodes per second
+[18:34:06] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 27.622454633866266 blocks
+[18:34:08] [Render thread/INFO]: [System] [CHAT] [Explorer] Tober7s> Oh.
+[18:34:12] [pool-2-thread-8/INFO]: [STDOUT]: 198825 movements considered
+[18:34:12] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 3704
+[18:34:12] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 12746
+[18:34:12] [pool-2-thread-8/INFO]: [STDOUT]: 125583 nodes per second
+[18:34:12] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:34:12] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:34:12] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:34:12] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 24.839484696748443 blocks
+[18:34:25] [pool-2-thread-8/INFO]: [STDOUT]: 748185 movements considered
+[18:34:25] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 9025
+[18:34:25] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 43042
+[18:34:25] [pool-2-thread-8/INFO]: [STDOUT]: 103395 nodes per second
+[18:34:25] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:34:25] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:34:25] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:34:25] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 41.48493702538308 blocks
+[18:34:26] [Render thread/INFO]: [System] [CHAT] [Explorer] Tober7s> Oops.
+[18:34:31] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> my poor villager
+[18:34:34] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> Have you ever wondered that everyone knows the sun because its near but ther are stars way brighter than it?
+[18:34:41] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> I dont.
+[18:34:43] [Render thread/INFO]: [System] [CHAT] [+] [Exodus] Zap
+[18:34:54] [Render thread/INFO]: [System] [CHAT] [FoE] Moon> omg is that the owner of exodus??? :O
+[18:34:55] [pool-2-thread-8/INFO]: [STDOUT]: 1009413 movements considered
+[18:34:55] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 10138
+[18:34:55] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 56027
+[18:34:55] [pool-2-thread-8/INFO]: [STDOUT]: 87241 nodes per second
+[18:34:55] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:34:55] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:34:55] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:34:55] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 38.0 blocks
+[18:35:00] [Render thread/INFO]: [System] [CHAT] [FoE] Moon> such a big fan!
+[18:35:01] [Render thread/INFO]: [System] [CHAT] [Exodus] Zap> OMG WHERE
+[18:35:02] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> jesus?
+[18:35:08] [pool-2-thread-7/INFO]: [STDOUT]: 2960182 movements considered
+[18:35:08] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 21386
+[18:35:08] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 155951
+[18:35:08] [pool-2-thread-7/INFO]: [STDOUT]: 91666 nodes per second
+[18:35:08] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:35:08] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:35:08] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:35:08] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 26.0 blocks
+[18:35:13] [pool-2-thread-8/INFO]: [STDOUT]: 425244 movements considered
+[18:35:13] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 6583
+[18:35:13] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 25917
+[18:35:13] [pool-2-thread-8/INFO]: [STDOUT]: 110480 nodes per second
+[18:35:13] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:35:13] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:35:13] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:35:13] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 29.8496231131986 blocks
+[18:35:23] [pool-2-thread-7/INFO]: [STDOUT]: 2300291 movements considered
+[18:35:23] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 17083
+[18:35:23] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 121647
+[18:35:23] [pool-2-thread-7/INFO]: [STDOUT]: 103326 nodes per second
+[18:35:23] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:35:23] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:35:23] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:35:23] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 49.64876634922564 blocks
+[18:35:31] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> he owned the bible
+[18:35:32] [pool-2-thread-2/INFO]: [STDOUT]: Saving region -6,9 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:35:32] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saving region -9,-2 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:35:32] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saved region successfully
+[18:35:32] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[18:35:32] [pool-2-thread-2/INFO]: [STDOUT]: World save took 71ms
+[18:35:36] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i have a signed copy
+[18:35:39] [pool-2-thread-8/INFO]: [STDOUT]: 1199616 movements considered
+[18:35:39] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 10833
+[18:35:39] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 65361
+[18:35:39] [pool-2-thread-8/INFO]: [STDOUT]: 109056 nodes per second
+[18:35:39] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 8.54400374531753 blocks
+[18:35:40] [pool-2-thread-8/INFO]: [STDOUT]: 1185536 movements considered
+[18:35:40] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 10726
+[18:35:40] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 64614
+[18:35:40] [pool-2-thread-8/INFO]: [STDOUT]: 107776 nodes per second
+[18:35:40] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 10.0 blocks
+[18:35:40] [pool-2-thread-8/INFO]: [STDOUT]: 1877745 movements considered
+[18:35:40] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 14361
+[18:35:40] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 99723
+[18:35:40] [pool-2-thread-8/INFO]: [STDOUT]: 101742 nodes per second
+[18:35:40] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:35:40] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:35:40] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:35:40] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 47.4236228055175 blocks
+[18:35:43] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> Jojo's pretty weird crusade.
+[18:35:47] [Render thread/INFO]: [System] [CHAT] CookiezCookiez is no longer AFK!
+[18:35:54] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> you cannot be talking
+[18:35:54] [Render thread/INFO]: [System] [CHAT] [Explorer] Tober7s> Who is dolphine.
+[18:35:57] [pool-2-thread-8/INFO]: [STDOUT]: 787955 movements considered
+[18:35:57] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 7474
+[18:35:57] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 43298
+[18:35:57] [pool-2-thread-8/INFO]: [STDOUT]: 117071 nodes per second
+[18:35:57] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:35:57] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:35:57] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:35:57] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 23.194827009486403 blocks
+[18:35:57] [Render thread/INFO]: [System] [CHAT] [Exodus] Zap> i like lucky charms more tho
+[18:36:00] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> you like fruit loops
+[18:36:05] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> I dont. [x2]
+[18:36:08] [pool-2-thread-8/INFO]: [STDOUT]: 619638 movements considered
+[18:36:08] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 7937
+[18:36:08] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 36108
+[18:36:08] [pool-2-thread-8/INFO]: [STDOUT]: 118365 nodes per second
+[18:36:08] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:36:08] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:36:08] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:36:08] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 37.013511046643494 blocks
+[18:36:08] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> which its literally froot loops first
+[18:36:13] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> second
+[18:36:19] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> booty o's are way better
+[18:36:19] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> I havent tasted them.
+[18:36:22] [pool-2-thread-8/INFO]: [STDOUT]: 203297 movements considered
+[18:36:22] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 3239
+[18:36:22] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 12484
+[18:36:22] [pool-2-thread-8/INFO]: [STDOUT]: 105079 nodes per second
+[18:36:22] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:36:22] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:36:22] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:36:22] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 22.02271554554524 blocks
+[18:36:26] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> Ok.
+[18:36:29] [pool-2-thread-8/INFO]: [STDOUT]: 196028 movements considered
+[18:36:29] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 3503
+[18:36:29] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 12420
+[18:36:29] [pool-2-thread-8/INFO]: [STDOUT]: 103686 nodes per second
+[18:36:29] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:36:29] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:36:29] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:36:29] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 23.345235059857504 blocks
+[18:36:37] [pool-2-thread-7/INFO]: [STDOUT]: 690469 movements considered
+[18:36:37] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 8280
+[18:36:37] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 39671
+[18:36:37] [pool-2-thread-7/INFO]: [STDOUT]: 99338 nodes per second
+[18:36:37] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:36:37] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:36:37] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:36:37] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 35.73513677041127 blocks
+[18:36:43] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> I dislike froot loops is my new name.
+[18:36:51] [pool-2-thread-7/INFO]: [STDOUT]: 464228 movements considered
+[18:36:51] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 7308
+[18:36:51] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 28414
+[18:36:51] [pool-2-thread-7/INFO]: [STDOUT]: 103970 nodes per second
+[18:36:51] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:36:51] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:36:51] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:36:51] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 25.787593916455254 blocks
+[18:36:59] [pool-2-thread-8/INFO]: [STDOUT]: 540464 movements considered
+[18:36:59] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 7474
+[18:36:59] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 32049
+[18:36:59] [pool-2-thread-8/INFO]: [STDOUT]: 96751 nodes per second
+[18:36:59] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:36:59] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:36:59] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:36:59] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 40.32369030731191 blocks
+[18:37:10] [pool-2-thread-7/INFO]: [STDOUT]: 250436 movements considered
+[18:37:10] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 4725
+[18:37:10] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 16116
+[18:37:10] [pool-2-thread-7/INFO]: [STDOUT]: 126577 nodes per second
+[18:37:10] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:37:10] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:37:10] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:37:10] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 34.52535300326414 blocks
+[18:37:19] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> good.
+[18:37:21] [pool-2-thread-7/INFO]: [STDOUT]: 267254 movements considered
+[18:37:21] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 4467
+[18:37:21] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 16622
+[18:37:21] [pool-2-thread-7/INFO]: [STDOUT]: 119166 nodes per second
+[18:37:21] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 8.0 blocks
+[18:37:21] [pool-2-thread-4/INFO]: [STDOUT]: World save took 0ms
+[18:37:21] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> This is like going trhu an emo phase again.
+[18:37:23] [pool-2-thread-7/INFO]: [STDOUT]: 185876 movements considered
+[18:37:23] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 3537
+[18:37:23] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 11993
+[18:37:23] [pool-2-thread-7/INFO]: [STDOUT]: 119098 nodes per second
+[18:37:23] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:37:23] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:37:23] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:37:23] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 25.96150997149434 blocks
+[18:37:24] [Render thread/INFO]: [System] [CHAT] [+] [Legend] Crutchie
+[18:37:28] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> again?t
+[18:37:30] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> WB
+[18:37:34] [pool-2-thread-7/INFO]: [STDOUT]: 3852043 movements considered
+[18:37:34] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 19528
+[18:37:34] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 194635
+[18:37:34] [pool-2-thread-7/INFO]: [STDOUT]: 89890 nodes per second
+[18:37:34] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:37:34] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:37:34] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:37:34] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 32.0 blocks
+[18:37:35] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> Who hasnt?
+[18:37:35] [Render thread/INFO]: [System] [CHAT] [Farmer] gogurtman47> hello
+[18:37:44] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> Every 9 yo has.
+[18:37:47] [pool-2-thread-8/INFO]: [STDOUT]: 729800 movements considered
+[18:37:47] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 7943
+[18:37:47] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 41122
+[18:37:47] [pool-2-thread-8/INFO]: [STDOUT]: 98454 nodes per second
+[18:37:47] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:37:47] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:37:47] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:37:47] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 33.0 blocks
+[18:38:01] [Render thread/INFO]: [System] [CHAT] You can't do that here!
+[18:38:01] [pool-2-thread-8/INFO]: [STDOUT]: 889693 movements considered
+[18:38:01] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 8935
+[18:38:01] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 49384
+[18:38:01] [pool-2-thread-8/INFO]: [STDOUT]: 80097 nodes per second
+[18:38:01] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:38:01] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:38:01] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:38:01] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 16.0 blocks
+[18:38:07] [pool-2-thread-8/INFO]: [STDOUT]: 889856 movements considered
+[18:38:07] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 8496
+[18:38:07] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 48944
+[18:38:07] [pool-2-thread-8/INFO]: [STDOUT]: 80896 nodes per second
+[18:38:07] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:38:07] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:38:07] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:38:07] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:38:12] [pool-2-thread-8/INFO]: [STDOUT]: 984192 movements considered
+[18:38:12] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 9090
+[18:38:12] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 53826
+[18:38:12] [pool-2-thread-8/INFO]: [STDOUT]: 89472 nodes per second
+[18:38:12] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:38:12] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:38:12] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:38:12] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:38:13] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x2]
+[18:38:19] [pool-2-thread-7/INFO]: [STDOUT]: 967296 movements considered
+[18:38:19] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 8990
+[18:38:19] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 52958
+[18:38:19] [pool-2-thread-7/INFO]: [STDOUT]: 87936 nodes per second
+[18:38:19] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:38:19] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:38:19] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:38:19] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:38:25] [pool-2-thread-8/INFO]: [STDOUT]: 1026432 movements considered
+[18:38:25] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 9337
+[18:38:25] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 55993
+[18:38:25] [pool-2-thread-8/INFO]: [STDOUT]: 93312 nodes per second
+[18:38:25] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:38:25] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:38:25] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:38:25] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:38:25] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x3]
+[18:38:27] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> Do you think I should study architecture?
+[18:38:30] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> no
+[18:38:31] [pool-2-thread-8/INFO]: [STDOUT]: 1041920 movements considered
+[18:38:31] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 9419
+[18:38:31] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 56779
+[18:38:31] [pool-2-thread-8/INFO]: [STDOUT]: 94720 nodes per second
+[18:38:31] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:38:31] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:38:31] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:38:31] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:38:35] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> Ok. [x2]
+[18:38:37] [pool-2-thread-8/INFO]: [STDOUT]: 1046144 movements considered
+[18:38:37] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 9461
+[18:38:37] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 57013
+[18:38:37] [pool-2-thread-8/INFO]: [STDOUT]: 95104 nodes per second
+[18:38:37] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:38:37] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:38:37] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:38:37] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:38:37] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x4]
+[18:38:43] [pool-2-thread-8/INFO]: [STDOUT]: 971520 movements considered
+[18:38:43] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 9024
+[18:38:43] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 53184
+[18:38:43] [pool-2-thread-8/INFO]: [STDOUT]: 88143 nodes per second
+[18:38:43] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:38:43] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:38:43] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:38:43] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:38:49] [pool-2-thread-7/INFO]: [STDOUT]: 1030656 movements considered
+[18:38:49] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 9378
+[18:38:49] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 56226
+[18:38:49] [pool-2-thread-7/INFO]: [STDOUT]: 93696 nodes per second
+[18:38:49] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:38:49] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:38:49] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:38:49] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:38:49] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x5]
+[18:38:55] [pool-2-thread-8/INFO]: [STDOUT]: 1056000 movements considered
+[18:38:55] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 9508
+[18:38:55] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 57508
+[18:38:55] [pool-2-thread-8/INFO]: [STDOUT]: 96000 nodes per second
+[18:38:55] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:38:55] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:38:55] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:38:55] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:39:01] [pool-2-thread-8/INFO]: [STDOUT]: 1070080 movements considered
+[18:39:01] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 9594
+[18:39:01] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 58234
+[18:39:01] [pool-2-thread-8/INFO]: [STDOUT]: 97280 nodes per second
+[18:39:01] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:39:01] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:39:01] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:39:01] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:39:01] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x6]
+[18:39:07] [pool-2-thread-8/INFO]: [STDOUT]: 1022208 movements considered
+[18:39:07] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 9332
+[18:39:07] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 55796
+[18:39:07] [pool-2-thread-8/INFO]: [STDOUT]: 92928 nodes per second
+[18:39:07] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:39:07] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:39:07] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:39:07] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:39:13] [pool-2-thread-8/INFO]: [STDOUT]: 1056000 movements considered
+[18:39:13] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 9507
+[18:39:13] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 57507
+[18:39:13] [pool-2-thread-8/INFO]: [STDOUT]: 96000 nodes per second
+[18:39:13] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:39:13] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:39:13] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:39:13] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:39:13] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x7]
+[18:39:19] [pool-2-thread-7/INFO]: [STDOUT]: 1020800 movements considered
+[18:39:19] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 9321
+[18:39:19] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 55721
+[18:39:19] [pool-2-thread-7/INFO]: [STDOUT]: 92614 nodes per second
+[18:39:19] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:39:19] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:39:19] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:39:19] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:39:25] [pool-2-thread-8/INFO]: [STDOUT]: 1015168 movements considered
+[18:39:25] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 9300
+[18:39:25] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 55444
+[18:39:25] [pool-2-thread-8/INFO]: [STDOUT]: 92288 nodes per second
+[18:39:25] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:39:25] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:39:25] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:39:25] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:39:25] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x8]
+[18:39:31] [pool-2-thread-7/INFO]: [STDOUT]: 1025024 movements considered
+[18:39:31] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 9348
+[18:39:31] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 55940
+[18:39:31] [pool-2-thread-7/INFO]: [STDOUT]: 93184 nodes per second
+[18:39:31] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:39:31] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:39:31] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:39:31] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:39:37] [pool-2-thread-7/INFO]: [STDOUT]: 970112 movements considered
+[18:39:37] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 9014
+[18:39:37] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 53110
+[18:39:37] [pool-2-thread-7/INFO]: [STDOUT]: 88192 nodes per second
+[18:39:37] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:39:37] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:39:37] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:39:37] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:39:37] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x9]
+[18:39:43] [pool-2-thread-7/INFO]: [STDOUT]: 967296 movements considered
+[18:39:43] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 9008
+[18:39:43] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 52976
+[18:39:43] [pool-2-thread-7/INFO]: [STDOUT]: 87936 nodes per second
+[18:39:43] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:39:43] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:39:43] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:39:43] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:39:49] [pool-2-thread-7/INFO]: [STDOUT]: 967296 movements considered
+[18:39:49] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 9008
+[18:39:49] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 52976
+[18:39:49] [pool-2-thread-7/INFO]: [STDOUT]: 87760 nodes per second
+[18:39:49] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:39:49] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:39:49] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:39:49] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:39:49] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x10]
+[18:39:55] [pool-2-thread-7/INFO]: [STDOUT]: 535040 movements considered
+[18:39:55] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 6234
+[18:39:55] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 30554
+[18:39:55] [pool-2-thread-7/INFO]: [STDOUT]: 48542 nodes per second
+[18:39:55] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:39:55] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:39:55] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:39:55] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:40:01] [pool-2-thread-7/INFO]: [STDOUT]: 782848 movements considered
+[18:40:01] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 7824
+[18:40:01] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 43408
+[18:40:01] [pool-2-thread-7/INFO]: [STDOUT]: 71025 nodes per second
+[18:40:01] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:40:01] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:40:01] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:40:01] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:40:01] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x11]
+[18:40:03] [Render thread/INFO]: [System] [CHAT] Your friend EMD_789 has joined YELLOW Realm!
+[18:40:07] [pool-2-thread-7/INFO]: [STDOUT]: 1050368 movements considered
+[18:40:07] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 9474
+[18:40:07] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 57218
+[18:40:07] [pool-2-thread-7/INFO]: [STDOUT]: 95488 nodes per second
+[18:40:07] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:40:07] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:40:07] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:40:07] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:40:13] [pool-2-thread-8/INFO]: [STDOUT]: 874368 movements considered
+[18:40:13] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 8404
+[18:40:13] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 48148
+[18:40:13] [pool-2-thread-8/INFO]: [STDOUT]: 79488 nodes per second
+[18:40:13] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:40:13] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:40:13] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:40:13] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:40:13] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x12]
+[18:40:19] [pool-2-thread-7/INFO]: [STDOUT]: 1010944 movements considered
+[18:40:19] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 9254
+[18:40:19] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 55206
+[18:40:19] [pool-2-thread-7/INFO]: [STDOUT]: 91904 nodes per second
+[18:40:19] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:40:19] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:40:19] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:40:19] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:40:25] [pool-2-thread-7/INFO]: [STDOUT]: 1029248 movements considered
+[18:40:25] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 9373
+[18:40:25] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 56157
+[18:40:25] [pool-2-thread-7/INFO]: [STDOUT]: 93568 nodes per second
+[18:40:25] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:40:25] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:40:25] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:40:25] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:40:25] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x13]
+[18:40:31] [pool-2-thread-7/INFO]: [STDOUT]: 957440 movements considered
+[18:40:31] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 8953
+[18:40:31] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 52473
+[18:40:31] [pool-2-thread-7/INFO]: [STDOUT]: 86866 nodes per second
+[18:40:31] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:40:31] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:40:31] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:40:31] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:40:37] [pool-2-thread-7/INFO]: [STDOUT]: 1008128 movements considered
+[18:40:37] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 9230
+[18:40:37] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 55054
+[18:40:37] [pool-2-thread-7/INFO]: [STDOUT]: 91648 nodes per second
+[18:40:37] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:40:37] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:40:37] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:40:37] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:40:38] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x14]
+[18:40:44] [pool-2-thread-8/INFO]: [STDOUT]: 827904 movements considered
+[18:40:44] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 8141
+[18:40:44] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 45773
+[18:40:44] [pool-2-thread-8/INFO]: [STDOUT]: 75264 nodes per second
+[18:40:44] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:40:44] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:40:44] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:40:44] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:40:50] [pool-2-thread-7/INFO]: [STDOUT]: 1001088 movements considered
+[18:40:50] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 9182
+[18:40:50] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 54686
+[18:40:50] [pool-2-thread-7/INFO]: [STDOUT]: 91008 nodes per second
+[18:40:50] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:40:50] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:40:50] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:40:50] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:40:50] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x15]
+[18:40:56] [pool-2-thread-8/INFO]: [STDOUT]: 671616 movements considered
+[18:40:56] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 7091
+[18:40:56] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 37619
+[18:40:56] [pool-2-thread-8/INFO]: [STDOUT]: 60934 nodes per second
+[18:40:56] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:40:56] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:40:56] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:40:56] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:41:02] [pool-2-thread-7/INFO]: [STDOUT]: 906752 movements considered
+[18:41:02] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 8603
+[18:41:02] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 49819
+[18:41:02] [pool-2-thread-7/INFO]: [STDOUT]: 82432 nodes per second
+[18:41:02] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:41:02] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:41:02] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:41:02] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:41:02] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x16]
+[18:41:07] [pool-2-thread-7/INFO]: [STDOUT]: 901120 movements considered
+[18:41:07] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 8593
+[18:41:07] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 49553
+[18:41:07] [pool-2-thread-7/INFO]: [STDOUT]: 81756 nodes per second
+[18:41:07] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:41:07] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:41:07] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:41:07] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:41:11] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> does anyone have 4 pieces of cobblestone?
+[18:41:13] [pool-2-thread-7/INFO]: [STDOUT]: 1057408 movements considered
+[18:41:13] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 9519
+[18:41:13] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 57583
+[18:41:13] [pool-2-thread-7/INFO]: [STDOUT]: 96128 nodes per second
+[18:41:13] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:41:13] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:41:13] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:41:13] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:41:14] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x17]
+[18:41:19] [pool-2-thread-7/INFO]: [STDOUT]: 1063040 movements considered
+[18:41:19] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 9547
+[18:41:19] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 57867
+[18:41:19] [pool-2-thread-7/INFO]: [STDOUT]: 96640 nodes per second
+[18:41:19] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:41:19] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:41:19] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:41:19] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:41:23] [Render thread/INFO]: [System] [CHAT] [Forager] ThorGamer_YT> I have one piece.
+[18:41:25] [pool-2-thread-7/INFO]: [STDOUT]: 851840 movements considered
+[18:41:25] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 8229
+[18:41:25] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 46949
+[18:41:25] [pool-2-thread-7/INFO]: [STDOUT]: 77440 nodes per second
+[18:41:25] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:41:25] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:41:25] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:41:25] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:41:26] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x18]
+[18:41:31] [pool-2-thread-7/INFO]: [STDOUT]: 698368 movements considered
+[18:41:31] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 7271
+[18:41:31] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 39015
+[18:41:31] [pool-2-thread-7/INFO]: [STDOUT]: 63488 nodes per second
+[18:41:31] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:41:31] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:41:31] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:41:31] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:41:34] [Render thread/INFO]: [System] [CHAT] [Explorer] Tober7s> Was about to die.
+[18:41:37] [pool-2-thread-7/INFO]: [STDOUT]: 696960 movements considered
+[18:41:37] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 7266
+[18:41:37] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 38946
+[18:41:37] [pool-2-thread-7/INFO]: [STDOUT]: 63233 nodes per second
+[18:41:37] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:41:37] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:41:37] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:41:37] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:41:38] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x19]
+[18:41:39] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> Ok. [x3]
+[18:41:43] [pool-2-thread-7/INFO]: [STDOUT]: 844800 movements considered
+[18:41:43] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 8208
+[18:41:43] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 46608
+[18:41:43] [pool-2-thread-7/INFO]: [STDOUT]: 76800 nodes per second
+[18:41:43] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:41:43] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:41:43] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:41:43] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:41:49] [pool-2-thread-8/INFO]: [STDOUT]: 834944 movements considered
+[18:41:49] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 8180
+[18:41:49] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 46132
+[18:41:49] [pool-2-thread-8/INFO]: [STDOUT]: 75904 nodes per second
+[18:41:49] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:41:49] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:41:49] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:41:49] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:41:49] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x20]
+[18:41:53] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> nvm i need 3 cobblestone and 3 sticks
+[18:41:55] [pool-2-thread-7/INFO]: [STDOUT]: 846208 movements considered
+[18:41:55] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 8210
+[18:41:55] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 46674
+[18:41:55] [pool-2-thread-7/INFO]: [STDOUT]: 76928 nodes per second
+[18:41:55] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:41:55] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:41:55] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:41:55] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:42:01] [pool-2-thread-7/INFO]: [STDOUT]: 847616 movements considered
+[18:42:01] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 8241
+[18:42:01] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 46769
+[18:42:01] [pool-2-thread-7/INFO]: [STDOUT]: 77056 nodes per second
+[18:42:01] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:42:01] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:42:01] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:42:01] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:42:01] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x21]
+[18:42:07] [pool-2-thread-7/INFO]: [STDOUT]: 913792 movements considered
+[18:42:07] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 8665
+[18:42:07] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 50201
+[18:42:07] [pool-2-thread-7/INFO]: [STDOUT]: 83072 nodes per second
+[18:42:07] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:42:07] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:42:07] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:42:07] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:42:13] [pool-2-thread-8/INFO]: [STDOUT]: 860288 movements considered
+[18:42:13] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 8310
+[18:42:13] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 47414
+[18:42:13] [pool-2-thread-8/INFO]: [STDOUT]: 78208 nodes per second
+[18:42:13] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:42:13] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:42:13] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:42:13] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:42:13] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x22]
+[18:42:15] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> I have glass.
+[18:42:19] [pool-2-thread-7/INFO]: [STDOUT]: 1061632 movements considered
+[18:42:19] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 9549
+[18:42:19] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 57805
+[18:42:19] [pool-2-thread-7/INFO]: [STDOUT]: 96512 nodes per second
+[18:42:19] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:42:19] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:42:19] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:42:19] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:42:25] [pool-2-thread-8/INFO]: [STDOUT]: 968704 movements considered
+[18:42:25] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 9010
+[18:42:25] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 53042
+[18:42:25] [pool-2-thread-8/INFO]: [STDOUT]: 88064 nodes per second
+[18:42:25] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:42:25] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:42:25] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:42:25] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:42:25] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x23]
+[18:42:26] [Render thread/INFO]: [System] [CHAT] [Explorer] Tober7s> Here.
+[18:42:31] [pool-2-thread-8/INFO]: [STDOUT]: 1003904 movements considered
+[18:42:31] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 9197
+[18:42:31] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 54829
+[18:42:31] [pool-2-thread-8/INFO]: [STDOUT]: 91264 nodes per second
+[18:42:31] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:42:31] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:42:31] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:42:31] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:42:36] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> tysm
+[18:42:37] [pool-2-thread-8/INFO]: [STDOUT]: 549120 movements considered
+[18:42:37] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 6299
+[18:42:37] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 31259
+[18:42:37] [pool-2-thread-8/INFO]: [STDOUT]: 49820 nodes per second
+[18:42:37] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:42:37] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:42:37] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:42:37] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:42:38] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x24]
+[18:42:43] [pool-2-thread-8/INFO]: [STDOUT]: 661760 movements considered
+[18:42:43] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 7045
+[18:42:43] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 37125
+[18:42:43] [pool-2-thread-8/INFO]: [STDOUT]: 60039 nodes per second
+[18:42:43] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:42:43] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:42:43] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:42:43] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:42:49] [pool-2-thread-8/INFO]: [STDOUT]: 954624 movements considered
+[18:42:49] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 8933
+[18:42:49] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 52325
+[18:42:49] [pool-2-thread-8/INFO]: [STDOUT]: 86784 nodes per second
+[18:42:49] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:42:49] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:42:49] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:42:49] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:42:50] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x25]
+[18:42:56] [pool-2-thread-7/INFO]: [STDOUT]: 998272 movements considered
+[18:42:56] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 9165
+[18:42:56] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 54541
+[18:42:56] [pool-2-thread-7/INFO]: [STDOUT]: 90752 nodes per second
+[18:42:56] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:42:56] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:42:56] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:42:56] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:42:57] [Render thread/INFO]: [System] [CHAT] ILikeFruitLoops accomplished something: [We need to sink our ship]
+[18:43:02] [pool-2-thread-8/INFO]: [STDOUT]: 795520 movements considered
+[18:43:02] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 7888
+[18:43:02] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 44048
+[18:43:02] [pool-2-thread-8/INFO]: [STDOUT]: 72175 nodes per second
+[18:43:02] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:43:02] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:43:02] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:43:02] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:43:02] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x26]
+[18:43:08] [pool-2-thread-8/INFO]: [STDOUT]: 1089792 movements considered
+[18:43:08] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 9740
+[18:43:08] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 59276
+[18:43:08] [pool-2-thread-8/INFO]: [STDOUT]: 99072 nodes per second
+[18:43:08] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:43:08] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:43:08] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:43:08] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:43:14] [pool-2-thread-8/INFO]: [STDOUT]: 996864 movements considered
+[18:43:14] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 9160
+[18:43:14] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 54472
+[18:43:14] [pool-2-thread-8/INFO]: [STDOUT]: 90624 nodes per second
+[18:43:14] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:43:14] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:43:14] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:43:14] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:43:14] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x27]
+[18:43:18] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> ezic stands as a proud nation
+[18:43:20] [pool-2-thread-8/INFO]: [STDOUT]: 761728 movements considered
+[18:43:20] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 7699
+[18:43:20] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 42323
+[18:43:20] [pool-2-thread-8/INFO]: [STDOUT]: 69248 nodes per second
+[18:43:20] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:43:20] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:43:20] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:43:20] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:43:26] [pool-2-thread-7/INFO]: [STDOUT]: 1053184 movements considered
+[18:43:26] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 9513
+[18:43:26] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 57385
+[18:43:26] [pool-2-thread-7/INFO]: [STDOUT]: 95744 nodes per second
+[18:43:26] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:43:26] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:43:26] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:43:26] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:43:26] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x28]
+[18:43:32] [pool-2-thread-8/INFO]: [STDOUT]: 1039104 movements considered
+[18:43:32] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 9429
+[18:43:32] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 56661
+[18:43:32] [pool-2-thread-8/INFO]: [STDOUT]: 94464 nodes per second
+[18:43:32] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:43:32] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:43:32] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:43:32] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:43:35] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> our walls will never fall!
+[18:43:38] [pool-2-thread-8/INFO]: [STDOUT]: 1046144 movements considered
+[18:43:38] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 9454
+[18:43:38] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 57006
+[18:43:38] [pool-2-thread-8/INFO]: [STDOUT]: 95104 nodes per second
+[18:43:38] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:43:38] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:43:38] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:43:38] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:43:38] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x29]
+[18:43:44] [pool-2-thread-8/INFO]: [STDOUT]: 1043328 movements considered
+[18:43:44] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 9456
+[18:43:44] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 56880
+[18:43:44] [pool-2-thread-8/INFO]: [STDOUT]: 94848 nodes per second
+[18:43:44] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:43:44] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:43:44] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:43:44] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:43:50] [pool-2-thread-8/INFO]: [STDOUT]: 818048 movements considered
+[18:43:50] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 8068
+[18:43:50] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 45252
+[18:43:50] [pool-2-thread-8/INFO]: [STDOUT]: 74368 nodes per second
+[18:43:50] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:43:50] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:43:50] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:43:50] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:43:50] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x30]
+[18:43:56] [pool-2-thread-7/INFO]: [STDOUT]: 934912 movements considered
+[18:43:56] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 8784
+[18:43:56] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 51280
+[18:43:56] [pool-2-thread-7/INFO]: [STDOUT]: 84992 nodes per second
+[18:43:56] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:43:56] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:43:56] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:43:56] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:43:57] [Render thread/INFO]: [System] [CHAT] HorrorGameNoob accomplished something: [Shiny diamonds!]
+[18:44:02] [pool-2-thread-8/INFO]: [STDOUT]: 1032064 movements considered
+[18:44:02] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 9394
+[18:44:02] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 56306
+[18:44:02] [pool-2-thread-8/INFO]: [STDOUT]: 93824 nodes per second
+[18:44:02] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:44:02] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:44:02] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:44:02] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:44:02] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x31]
+[18:44:03] [Render thread/INFO]: [System] [CHAT] [Explorer] CookiezCookiez> Abcdefghijklmnopqrstuvwxyz.
+[18:44:07] [Render thread/INFO]: [System] [CHAT] [Admin] [FoE] Furbie> no
+[18:44:08] [pool-2-thread-8/INFO]: [STDOUT]: 1063040 movements considered
+[18:44:08] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 9556
+[18:44:08] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 57876
+[18:44:08] [pool-2-thread-8/INFO]: [STDOUT]: 96640 nodes per second
+[18:44:08] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:44:08] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:44:08] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:44:08] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:44:14] [pool-2-thread-8/INFO]: [STDOUT]: 978560 movements considered
+[18:44:14] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 9067
+[18:44:14] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 53547
+[18:44:14] [pool-2-thread-8/INFO]: [STDOUT]: 88960 nodes per second
+[18:44:14] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:44:14] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:44:14] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:44:14] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:44:14] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x32]
+[18:44:20] [pool-2-thread-8/INFO]: [STDOUT]: 932096 movements considered
+[18:44:20] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 8759
+[18:44:20] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 51127
+[18:44:20] [pool-2-thread-8/INFO]: [STDOUT]: 84063 nodes per second
+[18:44:20] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:44:20] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:44:20] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:44:20] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:44:25] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> furbie
+[18:44:25] [Render thread/INFO]: [System] [CHAT] [Forager] ThorGamer_YT> Yes.
+[18:44:26] [pool-2-thread-8/INFO]: [STDOUT]: 1032064 movements considered
+[18:44:26] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 9403
+[18:44:26] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 56315
+[18:44:26] [pool-2-thread-8/INFO]: [STDOUT]: 93824 nodes per second
+[18:44:26] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:44:26] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:44:26] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:44:26] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:44:26] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x33]
+[18:44:32] [pool-2-thread-7/INFO]: [STDOUT]: 1051776 movements considered
+[18:44:32] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 9479
+[18:44:32] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 57287
+[18:44:32] [pool-2-thread-7/INFO]: [STDOUT]: 95616 nodes per second
+[18:44:32] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:44:32] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:44:32] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:44:32] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:44:38] [pool-2-thread-8/INFO]: [STDOUT]: 1040512 movements considered
+[18:44:38] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 9440
+[18:44:38] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 56736
+[18:44:38] [pool-2-thread-8/INFO]: [STDOUT]: 94592 nodes per second
+[18:44:38] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:44:38] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:44:38] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:44:38] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:44:38] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x34]
+[18:44:43] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> what is your opinion on ezic
+[18:44:44] [pool-2-thread-7/INFO]: [STDOUT]: 1010944 movements considered
+[18:44:44] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 9268
+[18:44:44] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 55220
+[18:44:44] [pool-2-thread-7/INFO]: [STDOUT]: 91904 nodes per second
+[18:44:44] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:44:44] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:44:44] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:44:44] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:44:50] [pool-2-thread-7/INFO]: [STDOUT]: 788480 movements considered
+[18:44:50] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 7855
+[18:44:50] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 43695
+[18:44:50] [pool-2-thread-7/INFO]: [STDOUT]: 71680 nodes per second
+[18:44:50] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:44:50] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:44:50] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:44:50] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:44:50] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x35]
+[18:44:56] [pool-2-thread-7/INFO]: [STDOUT]: 913792 movements considered
+[18:44:56] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 8639
+[18:44:56] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 50175
+[18:44:56] [pool-2-thread-7/INFO]: [STDOUT]: 83072 nodes per second
+[18:44:56] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:44:56] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:44:56] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:44:56] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:44:59] [Render thread/INFO]: [System] [CHAT] [Admin] [FoE] Furbie> ezic?
+[18:45:02] [pool-2-thread-7/INFO]: [STDOUT]: 894080 movements considered
+[18:45:02] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 8543
+[18:45:02] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 49183
+[18:45:02] [pool-2-thread-7/INFO]: [STDOUT]: 81117 nodes per second
+[18:45:02] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:45:02] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:45:02] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:45:02] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:45:02] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x36]
+[18:45:05] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> Your mom.
+[18:45:08] [pool-2-thread-7/INFO]: [STDOUT]: 1063040 movements considered
+[18:45:08] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 9532
+[18:45:08] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 57852
+[18:45:08] [pool-2-thread-7/INFO]: [STDOUT]: 96640 nodes per second
+[18:45:08] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:45:08] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:45:08] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:45:08] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:45:08] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> yes
+[18:45:09] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> ezic
+[18:45:13] [pool-2-thread-7/INFO]: [STDOUT]: 947584 movements considered
+[18:45:13] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 8889
+[18:45:13] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 51961
+[18:45:13] [pool-2-thread-7/INFO]: [STDOUT]: 86144 nodes per second
+[18:45:13] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:45:13] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:45:13] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:45:13] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:45:14] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x37]
+[18:45:20] [pool-2-thread-8/INFO]: [STDOUT]: 885632 movements considered
+[18:45:20] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 8485
+[18:45:20] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 48741
+[18:45:20] [pool-2-thread-8/INFO]: [STDOUT]: 80512 nodes per second
+[18:45:20] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:45:20] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:45:20] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:45:20] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:45:24] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> ezic [x2]
+[18:45:26] [pool-2-thread-7/INFO]: [STDOUT]: 913792 movements considered
+[18:45:26] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 8658
+[18:45:26] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 50194
+[18:45:26] [pool-2-thread-7/INFO]: [STDOUT]: 83072 nodes per second
+[18:45:26] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:45:26] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:45:26] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:45:26] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:45:26] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x38]
+[18:45:32] [pool-2-thread-8/INFO]: [STDOUT]: 912384 movements considered
+[18:45:32] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 8660
+[18:45:32] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 50132
+[18:45:32] [pool-2-thread-8/INFO]: [STDOUT]: 82944 nodes per second
+[18:45:32] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:45:32] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:45:32] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:45:32] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:45:32] [pool-2-thread-2/INFO]: [STDOUT]: Saving region -9,-2 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:45:32] [ForkJoinPool.commonPool-worker-16/INFO]: [STDOUT]: Saving region -9,-3 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[18:45:32] [ForkJoinPool.commonPool-worker-16/INFO]: [STDOUT]: Saved region successfully
+[18:45:32] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[18:45:32] [pool-2-thread-2/INFO]: [STDOUT]: World save took 72ms
+[18:45:35] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> our walls are strong
+[18:45:38] [pool-2-thread-7/INFO]: [STDOUT]: 963072 movements considered
+[18:45:38] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 8984
+[18:45:38] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 52760
+[18:45:38] [pool-2-thread-7/INFO]: [STDOUT]: 87552 nodes per second
+[18:45:38] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:45:38] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:45:38] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:45:38] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:45:38] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x39]
+[18:45:44] [pool-2-thread-8/INFO]: [STDOUT]: 884224 movements considered
+[18:45:44] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 8482
+[18:45:44] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 48674
+[18:45:44] [pool-2-thread-8/INFO]: [STDOUT]: 80384 nodes per second
+[18:45:44] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:45:44] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:45:44] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:45:44] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:45:50] [pool-2-thread-8/INFO]: [STDOUT]: 1039104 movements considered
+[18:45:50] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 9427
+[18:45:50] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 56659
+[18:45:50] [pool-2-thread-8/INFO]: [STDOUT]: 94464 nodes per second
+[18:45:50] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:45:50] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:45:50] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:45:50] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:45:50] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x40]
+[18:45:56] [pool-2-thread-8/INFO]: [STDOUT]: 1030656 movements considered
+[18:45:56] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 9380
+[18:45:56] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 56228
+[18:45:56] [pool-2-thread-8/INFO]: [STDOUT]: 93696 nodes per second
+[18:45:56] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:45:56] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:45:56] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:45:56] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:46:02] [pool-2-thread-8/INFO]: [STDOUT]: 913792 movements considered
+[18:46:02] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 8665
+[18:46:02] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 50201
+[18:46:02] [pool-2-thread-8/INFO]: [STDOUT]: 83072 nodes per second
+[18:46:02] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:46:02] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:46:02] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:46:02] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:46:02] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x41]
+[18:46:03] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> we are a small nation
+[18:46:08] [pool-2-thread-7/INFO]: [STDOUT]: 1019392 movements considered
+[18:46:08] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 9318
+[18:46:08] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 55654
+[18:46:08] [pool-2-thread-7/INFO]: [STDOUT]: 92672 nodes per second
+[18:46:08] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:46:08] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:46:08] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:46:08] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:46:12] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> Turkish capital.
+[18:46:14] [pool-2-thread-8/INFO]: [STDOUT]: 834944 movements considered
+[18:46:14] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 8180
+[18:46:14] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 46132
+[18:46:14] [pool-2-thread-8/INFO]: [STDOUT]: 75904 nodes per second
+[18:46:14] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:46:14] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:46:14] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:46:14] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:46:14] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x42]
+[18:46:15] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> I mean.
+[18:46:19] [Render thread/INFO]: [System] [CHAT] [+] [Custom+] _DaPope
+[18:46:19] [Render thread/INFO]: [System] [CHAT] [-] [FoE] Moon
+[18:46:20] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> Constatinopla.
+[18:46:20] [pool-2-thread-8/INFO]: [STDOUT]: 656128 movements considered
+[18:46:20] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 7012
+[18:46:20] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 36836
+[18:46:20] [pool-2-thread-8/INFO]: [STDOUT]: 59528 nodes per second
+[18:46:20] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:46:20] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:46:20] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:46:20] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:46:21] [Render thread/INFO]: [System] [CHAT] [-] gogurtman47
+[18:46:26] [pool-2-thread-8/INFO]: [STDOUT]: 733568 movements considered
+[18:46:26] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 7472
+[18:46:26] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 40816
+[18:46:26] [pool-2-thread-8/INFO]: [STDOUT]: 66688 nodes per second
+[18:46:26] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:46:26] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:46:26] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:46:26] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:46:26] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x43]
+[18:46:27] [Render thread/INFO]: [System] [CHAT] [-] [FoE] _YV_
+[18:46:27] [Render thread/INFO]: [System] [CHAT] [-] [LeBron] _DaPope
+[18:46:32] [pool-2-thread-8/INFO]: [STDOUT]: 954624 movements considered
+[18:46:32] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 8924
+[18:46:32] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 52316
+[18:46:32] [pool-2-thread-8/INFO]: [STDOUT]: 86784 nodes per second
+[18:46:32] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:46:32] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:46:32] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:46:32] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:46:35] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> Sorry I'm dumb.
+[18:46:38] [pool-2-thread-7/INFO]: [STDOUT]: 1041920 movements considered
+[18:46:38] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 9447
+[18:46:38] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 56807
+[18:46:38] [pool-2-thread-7/INFO]: [STDOUT]: 94720 nodes per second
+[18:46:38] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:46:38] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:46:38] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:46:38] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:46:38] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x44]
+[18:46:44] [pool-2-thread-8/INFO]: [STDOUT]: 996864 movements considered
+[18:46:44] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 9185
+[18:46:44] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 54497
+[18:46:44] [pool-2-thread-8/INFO]: [STDOUT]: 90624 nodes per second
+[18:46:44] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:46:44] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:46:44] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:46:44] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:46:46] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> Nah bro.
+[18:46:50] [pool-2-thread-8/INFO]: [STDOUT]: 1032064 movements considered
+[18:46:50] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 9397
+[18:46:50] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 56309
+[18:46:50] [pool-2-thread-8/INFO]: [STDOUT]: 93824 nodes per second
+[18:46:50] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:46:50] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:46:50] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:46:50] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:46:50] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x45]
+[18:46:56] [pool-2-thread-8/INFO]: [STDOUT]: 982784 movements considered
+[18:46:56] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 9071
+[18:46:56] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 53743
+[18:46:56] [pool-2-thread-8/INFO]: [STDOUT]: 89344 nodes per second
+[18:46:56] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:46:56] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:46:56] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:46:56] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:46:57] [Render thread/INFO]: [System] [CHAT] [Forager] ThorGamer_YT> Hello dumb I'm thorgamer.
+[18:47:02] [pool-2-thread-8/INFO]: [STDOUT]: 1029248 movements considered
+[18:47:02] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 9373
+[18:47:02] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 56157
+[18:47:02] [pool-2-thread-8/INFO]: [STDOUT]: 93568 nodes per second
+[18:47:02] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:47:02] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:47:02] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:47:02] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:47:02] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x46]
+[18:47:02] [Render thread/INFO]: [System] [CHAT] [+] [FoE] _YV_
+[18:47:07] [Render thread/INFO]: [System] [CHAT] [Explorer] Tober7s> Does anyone got coal?
+[18:47:08] [pool-2-thread-8/INFO]: [STDOUT]: 888448 movements considered
+[18:47:08] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 8520
+[18:47:08] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 48904
+[18:47:08] [pool-2-thread-8/INFO]: [STDOUT]: 80446 nodes per second
+[18:47:08] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:47:08] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:47:08] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:47:08] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:47:13] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> Doing important buisness man buisness.
+[18:47:14] [pool-2-thread-8/INFO]: [STDOUT]: 894080 movements considered
+[18:47:14] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 8551
+[18:47:14] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 49191
+[18:47:14] [pool-2-thread-8/INFO]: [STDOUT]: 81280 nodes per second
+[18:47:14] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:47:14] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:47:14] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:47:14] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:47:14] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x47]
+[18:47:20] [pool-2-thread-8/INFO]: [STDOUT]: 1056000 movements considered
+[18:47:20] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 9513
+[18:47:20] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 57513
+[18:47:20] [pool-2-thread-8/INFO]: [STDOUT]: 96000 nodes per second
+[18:47:20] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:47:20] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:47:20] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:47:20] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:47:21] [pool-2-thread-4/INFO]: [STDOUT]: World save took 0ms
+[18:47:26] [pool-2-thread-8/INFO]: [STDOUT]: 1033472 movements considered
+[18:47:26] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 9400
+[18:47:26] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 56376
+[18:47:26] [pool-2-thread-8/INFO]: [STDOUT]: 93952 nodes per second
+[18:47:26] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:47:26] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:47:26] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:47:26] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:47:26] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x48]
+[18:47:26] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> I have coal blocks so no.
+[18:47:32] [pool-2-thread-7/INFO]: [STDOUT]: 1047552 movements considered
+[18:47:32] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 9464
+[18:47:32] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 57080
+[18:47:32] [pool-2-thread-7/INFO]: [STDOUT]: 95232 nodes per second
+[18:47:32] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:47:32] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:47:32] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:47:32] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:47:38] [pool-2-thread-8/INFO]: [STDOUT]: 992640 movements considered
+[18:47:38] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 9133
+[18:47:38] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 54253
+[18:47:38] [pool-2-thread-8/INFO]: [STDOUT]: 90240 nodes per second
+[18:47:38] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:47:38] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:47:38] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:47:38] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:47:38] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x49]
+[18:47:44] [pool-2-thread-7/INFO]: [STDOUT]: 989824 movements considered
+[18:47:44] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 9118
+[18:47:44] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 54110
+[18:47:44] [pool-2-thread-7/INFO]: [STDOUT]: 89984 nodes per second
+[18:47:44] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:47:44] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:47:44] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:47:44] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:47:50] [pool-2-thread-7/INFO]: [STDOUT]: 1060224 movements considered
+[18:47:50] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 9536
+[18:47:50] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 57728
+[18:47:50] [pool-2-thread-7/INFO]: [STDOUT]: 96384 nodes per second
+[18:47:50] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:47:50] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:47:50] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:47:50] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:47:50] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x50]
+[18:47:56] [pool-2-thread-7/INFO]: [STDOUT]: 1003904 movements considered
+[18:47:56] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 9197
+[18:47:56] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 54829
+[18:47:56] [pool-2-thread-7/INFO]: [STDOUT]: 91264 nodes per second
+[18:47:56] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:47:56] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:47:56] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:47:56] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:48:02] [pool-2-thread-7/INFO]: [STDOUT]: 1056000 movements considered
+[18:48:02] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 9523
+[18:48:02] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 57523
+[18:48:02] [pool-2-thread-7/INFO]: [STDOUT]: 96000 nodes per second
+[18:48:02] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:48:02] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:48:02] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:48:02] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:48:02] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x51]
+[18:48:08] [pool-2-thread-7/INFO]: [STDOUT]: 1041920 movements considered
+[18:48:08] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 9446
+[18:48:08] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 56806
+[18:48:08] [pool-2-thread-7/INFO]: [STDOUT]: 94720 nodes per second
+[18:48:08] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:48:08] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:48:08] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:48:08] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:48:14] [pool-2-thread-8/INFO]: [STDOUT]: 1057408 movements considered
+[18:48:14] [pool-2-thread-8/INFO]: [STDOUT]: Open set size: 9512
+[18:48:14] [pool-2-thread-8/INFO]: [STDOUT]: PathNode map size: 57576
+[18:48:14] [pool-2-thread-8/INFO]: [STDOUT]: 96128 nodes per second
+[18:48:14] [pool-2-thread-8/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:48:14] [pool-2-thread-8/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:48:14] [pool-2-thread-8/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:48:14] [pool-2-thread-8/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:48:14] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x52]
+[18:48:20] [pool-2-thread-7/INFO]: [STDOUT]: 1016576 movements considered
+[18:48:20] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 9290
+[18:48:20] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 55498
+[18:48:20] [pool-2-thread-7/INFO]: [STDOUT]: 92416 nodes per second
+[18:48:20] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:48:20] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:48:20] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:48:20] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:48:23] [Render thread/INFO]: [System] [CHAT] [-] [FoE] _YV_ [x2]
+[18:48:26] [pool-2-thread-7/INFO]: [STDOUT]: 1029248 movements considered
+[18:48:26] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 9374
+[18:48:26] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 56158
+[18:48:26] [pool-2-thread-7/INFO]: [STDOUT]: 93568 nodes per second
+[18:48:26] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:48:26] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:48:26] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:48:26] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:48:26] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x53]
+[18:48:32] [pool-2-thread-7/INFO]: [STDOUT]: 1161600 movements considered
+[18:48:32] [pool-2-thread-7/INFO]: [STDOUT]: Open set size: 10134
+[18:48:32] [pool-2-thread-7/INFO]: [STDOUT]: PathNode map size: 62934
+[18:48:32] [pool-2-thread-7/INFO]: [STDOUT]: 105600 nodes per second
+[18:48:32] [pool-2-thread-7/INFO]: [STDOUT]: Warning: cost coefficient is greater than three! Probably means that
+[18:48:32] [pool-2-thread-7/INFO]: [STDOUT]: the path I found is pretty terrible (like sneak-bridging for dozens of blocks)
+[18:48:32] [pool-2-thread-7/INFO]: [STDOUT]: But I'm going to do it anyway, because yolo
+[18:48:32] [pool-2-thread-7/INFO]: [STDOUT]: Path goes for 31.0 blocks
+[18:48:35] [Render thread/INFO]: [System] [CHAT] [Baritone] > stop
+[18:48:35] [Render thread/INFO]: [System] [CHAT] [Baritone] ok canceled
+[18:48:55] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> what is foe
+[18:48:56] [Render thread/INFO]: [System] [CHAT] [+] gogurtman47
+[18:49:25] [Render thread/INFO]: [System] [CHAT] Bellatrix has gone AFK!
+[18:50:14] [Render thread/INFO]: [System] [CHAT] Crutchie has just opened a Daily Crate and won a Tropical Fish Spawn Egg!
+[18:52:43] [Render thread/INFO]: [System] [CHAT] [Legend] Crutchie> does putting torches on a passive mob spawner stop mobs from spawning?
+[18:52:49] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> no [x2]
+[18:52:58] [Render thread/INFO]: [System] [CHAT] [Legend] Crutchie> didnt think so, ty
+[18:53:12] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> Guys have you ever had gay thoughts?
+[18:53:20] [Render thread/INFO]: [System] [CHAT] [Legend] Crutchie> i mean im trans and gay so
+[18:53:21] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> if you place a torch on a hostile mob spawner then the mobs will not spawn
+[18:53:30] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> Me too bro.
+[18:53:35] [Render thread/INFO]: [System] [CHAT] [Legend] Crutchie> nice.
+[18:53:52] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> But...
+[18:53:58] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> Have you ever had gay thoughts?
+[18:54:00] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> this is due to the fact that some mobs only spawn depending on the light level
+[18:54:05] [Render thread/INFO]: [System] [CHAT] [Legend] Crutchie> absolutely.
+[18:54:11] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> Okay.
+[18:54:14] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> also
+[18:54:15] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> no [x3]
+[18:54:20] [Render thread/INFO]: [System] [CHAT] [Legend] Crutchie> dont tell my boyfriend.
+[18:54:24] [Render thread/INFO]: [System] [CHAT] [Legend] Crutchie> he doesn't know we're gay.
+[18:54:25] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> Ok. [x4]
+[18:54:30] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> This is a secret.
+[18:54:34] [Render thread/INFO]: [System] [CHAT] [Legend] Crutchie> correct.
+[18:54:54] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> He's in the first stage of grief.
+[18:55:10] [Render thread/INFO]: [System] [CHAT] [Legend] Crutchie> its only a matter of time before he reaches the second
+[18:55:25] [Render thread/INFO]: [System] [CHAT] [+] funnow
+[18:55:25] [Render thread/INFO]: [System] [CHAT] Welcome to SurviveWithUs Rainbow, funnow!
+[18:55:25] [Render thread/INFO]: [System] [CHAT] funnow accomplished something: [Isn't it Davy Jones]
+[18:55:29] [Render thread/INFO]: [System] [CHAT] [Explorer] Tober7s> Welcome.
+[18:55:32] [pool-2-thread-2/INFO]: [STDOUT]: World save took 4ms
+[18:55:33] [Render thread/INFO]: [System] [CHAT] [Legend] Crutchie> Welcome!
+[18:55:44] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> Who?
+[18:55:45] [Render thread/INFO]: [System] [CHAT] [Member] funnow> <3.
+[18:55:54] [Render thread/INFO]: [System] [CHAT] [Member] funnow> So this is 1.18 ?
+[18:55:59] [Render thread/INFO]: [System] [CHAT] [Legend] Crutchie> yup
+[18:56:05] [Render thread/INFO]: [System] [CHAT] [Member] funnow> Hmmm.
+[18:56:23] [Render thread/INFO]: [System] [CHAT] [Member] funnow> Have they said when 1.19 will be released? :).
+[18:56:30] [Render thread/INFO]: [System] [CHAT] [+] DracoSlayerZach
+[18:56:43] [Render thread/INFO]: [System] [CHAT] [Legend] Crutchie> not that i know of? they could've though
+[18:56:50] [Render thread/INFO]: [System] [CHAT] [Forager] DracoSlayerZach> IM BACK FINNALLY
+[18:56:57] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> Funnow are you chill?
+[18:57:08] [Render thread/INFO]: [System] [CHAT] [Member] funnow> Like a nice person? :).
+[18:57:10] [Render thread/INFO]: [System] [CHAT] [Member] funnow> Yes.
+[18:57:13] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> Yeah.
+[18:57:14] [Render thread/INFO]: [System] [CHAT] [Forager] DracoSlayerZach> Hey the ships looking nice
+[18:57:16] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> Cool.
+[18:57:21] [pool-2-thread-4/INFO]: [STDOUT]: World save took 0ms
+[18:57:58] [Render thread/INFO]: [System] [CHAT] [Legend] Crutchie> i just got jumpscared by my horse
+[18:58:03] [Render thread/INFO]: [System] [CHAT] [Explorer] Tober7s> Lol.
+[18:58:12] [Render thread/INFO]: [System] [CHAT] [Forager] DracoSlayerZach> any of my old freinds still on here?
+[18:58:16] [Render thread/INFO]: [System] [CHAT] [Member] funnow> Has the owner said when the update will happen? :).
+[18:58:17] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> I just got jumpscared by myself.
+[18:58:29] [Render thread/INFO]: [System] [CHAT] [Legend] Crutchie> they could be! just might not be on rn! :) any names, DracoSlayerZach?
+[18:58:43] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> damn the mirror done u dirty if you jumpscared yourself
+[18:58:46] [Render thread/INFO]: [System] [CHAT] [Forager] DracoSlayerZach> nah dont remember any names
+[18:59:02] [Render thread/INFO]: [System] [CHAT] Your friend EMD_789 has joined YELLOW Realm!
+[18:59:06] [Render thread/INFO]: [System] [CHAT] [Member] funnow> These are really nice spawn areas :).
+[18:59:37] [Render thread/INFO]: [System] [CHAT] [-] funnow
+[19:00:04] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> They werent chill enough.
+[19:00:15] [Render thread/INFO]: [System] [CHAT] [-] Tober7s
+[19:00:19] [Render thread/INFO]: [System] [CHAT] [Legend] Crutchie> damn </3
+[19:00:21] [Render thread/INFO]: [System] [CHAT] [Forager] DracoSlayerZach> hey Kirito on?
+[19:00:26] [Render thread/INFO]: [System] [CHAT] [-] [Exodus] Zap
+[19:01:14] [Render thread/INFO]: [System] [CHAT] Wither Skelington has spawned! Type /boss to battle him!
+[19:01:15] [Render thread/INFO]: [System] [CHAT] Want to support the server, get /crate keys and your next /rank? Don't forget to /vote!
+[19:01:24] [Render thread/INFO]: [System] [CHAT] [Forager] DracoSlayerZach> wait does it tell you when your in a new claim
+[19:01:40] [Render thread/INFO]: [System] [CHAT] [Legend] Crutchie> not unless they have a welcome message
+[19:01:50] [Render thread/INFO]: [System] [CHAT] [Forager] DracoSlayerZach> oh
+[19:01:51] [Render thread/INFO]: [System] [CHAT] [Legend] Crutchie> anyone wanna do the boss?
+[19:02:02] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> the boss is a waste of time
+[19:02:05] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> the keys are useless
+[19:02:15] [Render thread/INFO]: [System] [CHAT] [Legend] Crutchie> eh its still fun
+[19:02:17] [Render thread/INFO]: [System] [CHAT] [Forager] DracoSlayerZach> best sword i got is maurader in netherite
+[19:02:30] [Render thread/INFO]: [System] [CHAT] TheInfiltrator has voted for the server on all 7 sites and has unlocked their BONUS in /vote, you can too by /vote'ing!
+[19:02:43] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> finally
+[19:02:48] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> this one site wouldn't let me vote
+[19:03:16] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> another raid?
+[19:03:25] [Render thread/INFO]: [System] [CHAT] [Legend] Crutchie> oo want some help?
+[19:03:26] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> brace yourselves!
+[19:03:30] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> sure
+[19:03:36] [Render thread/INFO]: [System] [CHAT] ILikeFruitLoops was victorious in a sea battle: [Ship dislocator]
+[19:03:44] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> closing the gates
+[19:03:58] [Render thread/INFO]: [System] [CHAT] [Farmer] gogurtman47> you doing a raid??
+[19:04:06] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> we're being raided
+[19:04:09] [Render thread/INFO]: [System] [CHAT] [Legend] Crutchie> escapee villagers there they go
+[19:04:13] [Render thread/INFO]: [System] [CHAT] [Farmer] gogurtman47> cool can i help??
+[19:04:15] [Render thread/INFO]: [System] [CHAT] [Forager] DracoSlayerZach> my gosh
+[19:04:15] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> sure [x2]
+[19:04:19] [Render thread/INFO]: [System] [CHAT] [Forager] ThorGamer_YT> Need help?
+[19:04:23] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> yes
+[19:04:29] [Render thread/INFO]: [System] [CHAT] [Farmer] gogurtman47> raid warp??
+[19:04:30] [Render thread/INFO]: [System] [CHAT] CodeOverload has gone AFK!
+[19:04:35] [Render thread/INFO]: [System] [CHAT] [Forager] DracoSlayerZach> i just withdrawed 177020 from shop
+[19:04:36] [Render thread/INFO]: [System] [CHAT] [+] LuccTheDummo
+[19:04:42] [Render thread/INFO]: [System] [CHAT] [Legend] Crutchie> uh oh
+[19:04:44] [Render thread/INFO]: [System] [CHAT] [Legend] Crutchie> hes stuck again
+[19:04:47] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> the gates of ezic are currently closed to prevent any more deaths
+[19:05:05] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> the pain never ends
+[19:05:08] [Render thread/INFO]: [System] [CHAT] You've all voted for the server a total of 100 times today, here's some bonus keys!
+[19:05:08] [Render thread/INFO]: [System] [CHAT] You have received 1 SurvivorKey keys!
+[19:05:08] [Render thread/INFO]: [System] [CHAT] You have received 1 MobSpawnerPack keys!
+[19:05:08] [Render thread/INFO]: [System] [CHAT] You have received 2 DailyKey keys!
+[19:05:14] [Render thread/INFO]: [System] [CHAT] [Legend] Crutchie> how did you kill it last time?
+[19:05:19] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> we used the wand
+[19:05:19] [Render thread/INFO]: [System] [CHAT] [Forager] ThorGamer_YT> I cant hit it.
+[19:05:24] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> the halloween wand thingy
+[19:05:30] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> Infiltrator can you tp me back to my bro?
+[19:05:31] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> and we shot it from out of the claim
+[19:05:32] [pool-2-thread-2/INFO]: [STDOUT]: World save took 1ms
+[19:05:39] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> I think hes with you.
+[19:05:51] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> we need that explosive want
+[19:05:52] [Render thread/INFO]: [System] [CHAT] [Forager] ThorGamer_YT> Isnt that your claim?
+[19:05:52] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> wand
+[19:05:56] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> no its not my claim
+[19:06:07] [Render thread/INFO]: [System] [CHAT] [Forager] ThorGamer_YT> Thats why.
+[19:06:20] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> a random person made a claim and left it there
+[19:06:36] [Render thread/INFO]: [System] [CHAT] [Forager] ThorGamer_YT> Get inside I think it is running from us.
+[19:06:41] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> it isn't
+[19:06:48] [Render thread/INFO]: [System] [CHAT] [Apprentice] TheInfiltrator> its locked onto the villagers
+[19:07:05] [Render thread/INFO]: [System] [CHAT] [Explorer] ILikeFruitLoops> Kinda gay bro ngl.

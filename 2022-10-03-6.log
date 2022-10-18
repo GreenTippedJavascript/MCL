@@ -1,0 +1,867 @@
+[20:17:49] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.14.9
+[20:17:49] [ForkJoinPool-1-worker-2/WARN]: Mod wurst uses the version v7.27.3-MC1.19.2 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[20:17:49] [main/INFO]: Loading 55 mods:
+	- baritone 1.5.3-621-gaddd1fc7
+	- fabric-api 0.61.0+1.19.2
+	- fabric-api-base 0.4.11+e62f51a390 via fabric-api
+	- fabric-api-lookup-api-v1 1.6.9+9ff28f4090 via fabric-api
+	- fabric-biome-api-v1 9.0.17+aeb40ebe90 via fabric-api
+	- fabric-blockrenderlayer-v1 1.1.20+aeb40ebe90 via fabric-api
+	- fabric-client-tags-api-v1 1.0.1+b35fea8390 via fabric-api
+	- fabric-command-api-v1 1.2.11+f71b366f90 via fabric-api
+	- fabric-command-api-v2 2.1.7+0c17ea9690 via fabric-api
+	- fabric-commands-v0 0.2.28+df3654b390 via fabric-api
+	- fabric-containers-v0 0.1.34+df3654b390 via fabric-api
+	- fabric-content-registries-v0 3.3.0+624e468e90 via fabric-api
+	- fabric-convention-tags-v1 1.1.1+7cd20a1490 via fabric-api
+	- fabric-crash-report-info-v1 0.2.5+aeb40ebe90 via fabric-api
+	- fabric-data-generation-api-v1 5.1.9+a680b9b490 via fabric-api
+	- fabric-dimensions-v1 2.1.31+0dd10df690 via fabric-api
+	- fabric-entity-events-v1 1.4.18+9ff28f4090 via fabric-api
+	- fabric-events-interaction-v0 0.4.28+aeb40ebe90 via fabric-api
+	- fabric-events-lifecycle-v0 0.2.28+df3654b390 via fabric-api
+	- fabric-game-rule-api-v1 1.0.21+aeb40ebe90 via fabric-api
+	- fabric-item-api-v1 1.5.7+35a03c4390 via fabric-api
+	- fabric-item-groups-v0 0.3.29+4e8ca3fd90 via fabric-api
+	- fabric-key-binding-api-v1 1.0.20+aeb40ebe90 via fabric-api
+	- fabric-keybindings-v0 0.2.18+df3654b390 via fabric-api
+	- fabric-lifecycle-events-v1 2.1.2+aeb40ebe90 via fabric-api
+	- fabric-loot-api-v2 1.1.3+83a8659290 via fabric-api
+	- fabric-loot-tables-v1 1.1.6+9e7660c690 via fabric-api
+	- fabric-message-api-v1 5.0.3+176380a290 via fabric-api
+	- fabric-mining-level-api-v1 2.1.14+33fbc73890 via fabric-api
+	- fabric-models-v0 0.3.17+aeb40ebe90 via fabric-api
+	- fabric-networking-api-v1 1.2.4+5eb68ef290 via fabric-api
+	- fabric-networking-v0 0.3.21+df3654b390 via fabric-api
+	- fabric-object-builder-api-v1 4.0.11+aeb40ebe90 via fabric-api
+	- fabric-particles-v1 1.0.10+aeb40ebe90 via fabric-api
+	- fabric-registry-sync-v0 0.9.25+726b652090 via fabric-api
+	- fabric-renderer-api-v1 1.0.10+aeb40ebe90 via fabric-api
+	- fabric-renderer-indigo 0.6.12+aeb40ebe90 via fabric-api
+	- fabric-renderer-registries-v1 3.2.20+df3654b390 via fabric-api
+	- fabric-rendering-data-attachment-v1 0.3.14+aeb40ebe90 via fabric-api
+	- fabric-rendering-fluids-v1 3.0.7+aeb40ebe90 via fabric-api
+	- fabric-rendering-v0 1.1.22+df3654b390 via fabric-api
+	- fabric-rendering-v1 1.10.16+aeb40ebe90 via fabric-api
+	- fabric-resource-conditions-api-v1 2.0.11+e62f51a390 via fabric-api
+	- fabric-resource-loader-v0 0.6.1+aeb40ebe90 via fabric-api
+	- fabric-screen-api-v1 1.0.26+f05effaf90 via fabric-api
+	- fabric-screen-handler-api-v1 1.3.0+1cc24b1b90 via fabric-api
+	- fabric-textures-v0 1.0.20+aeb40ebe90 via fabric-api
+	- fabric-transfer-api-v1 2.1.0+8f88597390 via fabric-api
+	- fabric-transitive-access-wideners-v1 1.3.0+42d99c3290 via fabric-api
+	- fabricloader 0.14.9
+	- java 17
+	- minecraft 1.19.2
+	- wurst v7.27.3-MC1.19.2
+	- xaerominimap 22.15.1
+	- xaeroworldmap 1.28.0
+[20:17:49] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[20:17:50] [main/INFO]: Compatibility level set to JAVA_17
+[20:17:50] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/occlusion/BlockOcclusionCache (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/occlusion/BlockOcclusionCache)
+[20:17:51] [main/WARN]: Configuration conflict: there is more than one oshi.properties file on the classpath
+[20:17:51] [main/WARN]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath
+[20:17:54] [main/INFO]: Building optimized datafixer
+[20:17:58] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:18:00] [Render thread/INFO]: Setting user: CodeOverload
+[20:18:01] [Render thread/INFO]: [STDOUT]: Starting Wurst Client...
+[20:18:03] [Render thread/INFO]: [Indigo] Registering Indigo renderer!
+[20:18:03] [Render thread/INFO]: Loading Xaero's Minimap - Stage 1/2
+[20:18:05] [Render thread/INFO]: Loading Xaero's World Map - Stage 1/2
+[20:18:07] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[20:18:10] [Render thread/WARN]: ERROR : Couldn't load Narrator library
+java.lang.UnsatisfiedLinkError: Unable to load library 'fliteWrapper':
+libfliteWrapper.so: cannot open shared object file: No such file or directory
+libfliteWrapper.so: cannot open shared object file: No such file or directory
+Native library (linux-x86-64/libfliteWrapper.so) not found in resource path (/home/gavinboor/.local/share/multimc/bin/jars/NewLaunch.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/logging/1.0.0/logging-1.0.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar:/home/gavinboor/.local/share/multimc/libraries/com/github/oshi/oshi-core/5.8.5/oshi-core-5.8.5.jar:/home/gavinboor/.local/share/multimc/libraries/net/java/dev/jna/jna/5.10.0/jna-5.10.0.jar:/home/gavinboor/.local/share/multimc/libraries/net/java/dev/jna/jna-platform/5.10.0/jna-platform-5.10.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-slf4j18-impl/2.16.0/log4j-slf4j18-impl-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/ibm/icu/icu4j/70.1/icu4j-70.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/javabridge/1.2.24/javabridge-1.2.24.jar:/home/gavinboor/.local/share/multimc/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-common/4.1.77.Final/netty-common-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-buffer/4.1.77.Final/netty-buffer-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-codec/4.1.77.Final/netty-codec-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-handler/4.1.77.Final/netty-handler-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-resolver/4.1.77.Final/netty-resolver-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport/4.1.77.Final/netty-transport-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-native-unix-common/4.1.77.Final/netty-transport-native-unix-common-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-classes-epoll/4.1.77.Final/netty-transport-classes-epoll-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-native-epoll/4.1.77.Final/netty-transport-native-epoll-4.1.77.Final-linux-x86_64.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/gavinboor/.local/share/multimc/libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/gavinboor/.local/share/multimc/libraries/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/datafixerupper/5.0.28/datafixerupper-5.0.28.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/authlib/3.11.49/authlib-3.11.49.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/gavinboor/.local/share/multimc/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar:/home/gavinboor/.local/share/multimc/libraries/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-api/2.16.0/log4j-api-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-core/2.16.0/log4j-core-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/text2speech/1.13.9/text2speech-1.13.9.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/intermediary/1.19.2/intermediary-1.19.2.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/tiny-mappings-parser/0.3.0+build.17/tiny-mappings-parser-0.3.0+build.17.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/tiny-remapper/0.8.2/tiny-remapper-0.8.2.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm/9.3/asm-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-util/9.3/asm-util-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/fabric-loader/0.14.9/fabric-loader-0.14.9.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/minecraft/1.19.2/minecraft-1.19.2-client.jar)
+	at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:301) ~[jna-5.10.0.jar:?]
+	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:?]
+	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:?]
+	at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.13.9.jar:?]
+	at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.13.9.jar:?]
+	at net.minecraft.class_333.<init>(class_333.java:19) [client-intermediary.jar:?]
+	at net.minecraft.class_310.<init>(class_310.java:637) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.method_44604(Main.java:205) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.9.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+	Suppressed: java.lang.UnsatisfiedLinkError: libfliteWrapper.so: cannot open shared object file: No such file or directory
+		at com.sun.jna.Native.open(Native Method) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:191) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:?]
+		at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.13.9.jar:?]
+		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.13.9.jar:?]
+		at net.minecraft.class_333.<init>(class_333.java:19) [client-intermediary.jar:?]
+		at net.minecraft.class_310.<init>(class_310.java:637) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.method_44604(Main.java:205) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+		at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.9.jar:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+		at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+		at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+		at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+	Suppressed: java.lang.UnsatisfiedLinkError: libfliteWrapper.so: cannot open shared object file: No such file or directory
+		at com.sun.jna.Native.open(Native Method) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:204) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:?]
+		at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.13.9.jar:?]
+		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.13.9.jar:?]
+		at net.minecraft.class_333.<init>(class_333.java:19) [client-intermediary.jar:?]
+		at net.minecraft.class_310.<init>(class_310.java:637) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.method_44604(Main.java:205) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+		at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.9.jar:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+		at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+		at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+		at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+	Suppressed: java.io.IOException: Native library (linux-x86-64/libfliteWrapper.so) not found in resource path (/home/gavinboor/.local/share/multimc/bin/jars/NewLaunch.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/logging/1.0.0/logging-1.0.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar:/home/gavinboor/.local/share/multimc/libraries/com/github/oshi/oshi-core/5.8.5/oshi-core-5.8.5.jar:/home/gavinboor/.local/share/multimc/libraries/net/java/dev/jna/jna/5.10.0/jna-5.10.0.jar:/home/gavinboor/.local/share/multimc/libraries/net/java/dev/jna/jna-platform/5.10.0/jna-platform-5.10.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-slf4j18-impl/2.16.0/log4j-slf4j18-impl-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/ibm/icu/icu4j/70.1/icu4j-70.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/javabridge/1.2.24/javabridge-1.2.24.jar:/home/gavinboor/.local/share/multimc/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-common/4.1.77.Final/netty-common-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-buffer/4.1.77.Final/netty-buffer-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-codec/4.1.77.Final/netty-codec-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-handler/4.1.77.Final/netty-handler-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-resolver/4.1.77.Final/netty-resolver-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport/4.1.77.Final/netty-transport-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-native-unix-common/4.1.77.Final/netty-transport-native-unix-common-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-classes-epoll/4.1.77.Final/netty-transport-classes-epoll-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-native-epoll/4.1.77.Final/netty-transport-native-epoll-4.1.77.Final-linux-x86_64.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/gavinboor/.local/share/multimc/libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/gavinboor/.local/share/multimc/libraries/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/datafixerupper/5.0.28/datafixerupper-5.0.28.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/authlib/3.11.49/authlib-3.11.49.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/gavinboor/.local/share/multimc/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar:/home/gavinboor/.local/share/multimc/libraries/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-api/2.16.0/log4j-api-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-core/2.16.0/log4j-core-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/text2speech/1.13.9/text2speech-1.13.9.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/intermediary/1.19.2/intermediary-1.19.2.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/tiny-mappings-parser/0.3.0+build.17/tiny-mappings-parser-0.3.0+build.17.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/tiny-remapper/0.8.2/tiny-remapper-0.8.2.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm/9.3/asm-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-util/9.3/asm-util-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/fabric-loader/0.14.9/fabric-loader-0.14.9.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/minecraft/1.19.2/minecraft-1.19.2-client.jar)
+		at com.sun.jna.Native.extractFromResourcePath(Native.java:1145) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:275) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:?]
+		at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.13.9.jar:?]
+		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.13.9.jar:?]
+		at net.minecraft.class_333.<init>(class_333.java:19) [client-intermediary.jar:?]
+		at net.minecraft.class_310.<init>(class_310.java:637) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.method_44604(Main.java:205) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+		at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.9.jar:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+		at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+		at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+		at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[20:18:11] [Render thread/INFO]: Reloading ResourceManager: Default, Fabric Mods (Fabric API, Fabric API Base, Fabric API Lookup API (v1), Fabric Biome API (v1), Fabric BlockRenderLayer Registration (v1), Fabric Client Tags, Fabric Command API (v1), Fabric Command API (v2), Fabric Commands (v0), Fabric Containers (v0), Fabric Content Registries (v0), Fabric Convention Tags, Fabric Crash Report Info (v1), Fabric Data Generation API (v1), Fabric Dimensions API (v1), Fabric Entity Events (v1), Fabric Events Interaction (v0), Fabric Events Lifecycle (v0), Fabric Game Rule API (v1), Fabric Item API (v1), Fabric Item Groups (v0), Fabric Key Binding API (v1), Fabric Key Bindings (v0), Fabric Lifecycle Events (v1), Fabric Loot API (v2), Fabric Loot Tables (v1), Fabric Message API (v1), Fabric Mining Level API (v1), Fabric Models (v0), Fabric Networking API (v1), Fabric Networking (v0), Fabric Object Builder API (v1), Fabric Particles (v1), Fabric Registry Sync (v0), Fabric Renderer API (v1), Fabric Renderer - Indigo, Fabric Renderer Registries (v1), Fabric Rendering Data Attachment (v1), Fabric Rendering Fluids (v1), Fabric Rendering (v0), Fabric Rendering (v1), Fabric Resource Conditions API (v1), Fabric Resource Loader (v0), Fabric Screen API (v1), Fabric Screen Handler API (v1), Fabric Textures (v0), Fabric Transfer API (v1), Fabric Transitive Access Wideners (v1), Fabric Loader, Wurst Client, Xaero's Minimap, Xaero's World Map)
+[20:18:12] [Render thread/INFO]: Loading Xaero's Minimap - Stage 2/2
+[20:18:13] [Render thread/INFO]: Xaero's Minimap: World Map found!
+[20:18:13] [Render thread/INFO]: No Optifine!
+[20:18:13] [Render thread/INFO]: Xaero's Minimap: No Vivecraft!
+[20:18:14] [Render thread/INFO]: Loading Xaero's World Map - Stage 2/2
+[20:18:14] [Render thread/INFO]: New world map region cache hash code: 687554333
+[20:18:14] [Render thread/INFO]: Xaero's WorldMap Mod: Xaero's minimap found!
+[20:18:14] [Render thread/INFO]: No Optifine!
+[20:18:14] [Render thread/INFO]: Xaero's World Map: No Vivecraft!
+[20:18:17] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[20:18:17] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[20:18:17] [Render thread/INFO]: OpenAL initialized on device VirtIO SoundCard
+[20:18:17] [Render thread/INFO]: Sound engine started
+[20:18:18] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/blocks.png-atlas
+[20:18:18] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/signs.png-atlas
+[20:18:18] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[20:18:18] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[20:18:18] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/chest.png-atlas
+[20:18:18] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
+[20:18:18] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[20:18:20] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[20:18:20] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[20:18:20] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[20:18:20] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[20:18:20] [Render thread/INFO]: Successfully reloaded the minimap shaders!
+[20:18:20] [Render thread/INFO]: Successfully reloaded the world map shaders!
+[20:18:29] [Render thread/INFO]: Connecting to play.survivewith.us, 25565
+[20:18:33] [Render thread/INFO]: New minimap session initialized!
+[20:18:34] [Render thread/INFO]: New world map session initialized!
+[20:18:34] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384
+[20:18:34] [Render thread/INFO]: [STDOUT]: Cached world directory: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:18:34] [Render thread/INFO]: [STDOUT]: Would save waypoints to /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/waypoints
+[20:18:35] [Render thread/INFO]: [STDOUT]: Telemetry sending attempt blocked.
+[20:18:35] [Render thread/INFO]: [STDOUT]: Telemetry sending attempt blocked.
+[20:18:35] [Render thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: minecraft:ancient_city_replaceable, minecraft:mangrove_logs_can_grow_through, minecraft:mangrove_roots_can_grow_through, minecraft:nether_carver_replaceables, minecraft:overworld_carver_replaceables
+[20:18:38] [Render thread/INFO]: [System] [CHAT] 
+[20:18:38] [Render thread/INFO]: [System] [CHAT] 
+[20:18:38] [Render thread/INFO]: [System] [CHAT] Welcome back to SurviveWithUs YELLOW, CodeOverload!
+[20:18:38] [Render thread/INFO]: [System] [CHAT] 
+[20:18:38] [Render thread/INFO]: [System] [CHAT] §bYou're currently receiving an §6§lXP§b or §6§lMoney Boost!§b Click §bhere §bto §bview §byour §6§l/boosts!
+[20:18:38] [Render thread/INFO]: [System] [CHAT] 
+[20:18:39] [Render thread/INFO]: Loaded 848 advancements
+[20:18:39] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -3,14 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:18:39] [Render thread/INFO]: [System] [CHAT] [MVP] LegoLover2018> wb
+[20:18:39] [Worker-Bootstrap-7/INFO]: 4283 Datafixer optimizations took 45354 milliseconds
+[20:18:39] [Render thread/INFO]: Reloading entity icon resources...
+[20:18:39] [Render thread/INFO]: Done!
+[20:18:39] [Render thread/INFO]: [STDOUT]: Brightness started at 0.5
+[20:18:39] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 462ms
+[20:18:39] [Render thread/INFO]: [System] [CHAT] [MVP] Nani> wb.
+[20:18:40] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -4,14 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:18:41] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 84ms
+[20:18:41] [WurstUpdater/INFO]: [STDOUT]: [Updater] Current version: 7.27.3
+[20:18:41] [WurstUpdater/INFO]: [STDOUT]: [Updater] Latest version: 7.28
+[20:18:41] [Render thread/INFO]: [System] [CHAT] §c[§6Wurst§c]§r Wurst 7.28 is now available. Click §nhere§r to download the update.
+[20:18:45] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> ty
+[20:18:53] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> bruh
+[20:18:58] [Render thread/INFO]: [System] [CHAT] [MVP] LegoLover2018> wut
+[20:18:59] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> whole lobby is pretty much afk
+[20:19:00] [Render thread/INFO]: [System] [CHAT] Remember to /vote to get your next /rank and unlock epic rewards!
+[20:19:02] [Render thread/INFO]: [System] [CHAT] [MVP] LegoLover2018> ikr
+[20:19:04] [pool-2-thread-2/INFO]: [STDOUT]: Saving region -4,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:19:04] [ForkJoinPool.commonPool-worker-10/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:19:04] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[20:19:05] [ForkJoinPool.commonPool-worker-10/INFO]: [STDOUT]: Saved region successfully
+[20:19:05] [pool-2-thread-2/INFO]: [STDOUT]: World save took 284ms
+[20:19:18] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Hi.
+[20:19:47] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Hi.
+[20:19:59] [Render thread/INFO]: [System] [CHAT] [+] [Custom+] BooTwoBoo
+[20:20:05] [Render thread/INFO]: [System] [CHAT] [Custom+] BooTwoBoo> It helps a little bit.
+[20:20:06] [Render thread/INFO]: [System] [CHAT] [-] its_EzKi
+[20:20:24] [Render thread/INFO]: [System] [CHAT] [-] [MVP] LegoLover2018
+[20:21:27] [Render thread/INFO]: [System] [CHAT] You can now fly by double-jumping!
+[20:23:31] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Yeah.
+[20:24:17] [Render thread/INFO]: [System] [CHAT] [+] calpryce1
+[20:24:23] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Your house.
+[20:24:30] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[20:24:39] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[20:24:49] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[20:24:56] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[20:24:57] [Render thread/INFO]: [System] [CHAT] [-] calpryce1
+[20:25:04] [Render thread/INFO]: [System] [CHAT] [+] [Mod] Nenjee
+[20:25:07] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> WB.
+[20:25:10] [Render thread/INFO]: [System] [CHAT] [-] [Mod] Nenjee
+[20:25:28] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Here.
+[20:25:42] [Render thread/INFO]: [System] [CHAT] [+] Aye_Dream
+[20:25:44] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> wb.
+[20:25:46] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> WB
+[20:25:47] [Render thread/INFO]: [System] [CHAT] [MVP] Nani> wb.
+[20:26:04] [Render thread/INFO]: [System] [CHAT] §9Aye_Dream§e wants to make it daytime, click here if you do too!
+[20:26:04] [Render thread/INFO]: [System] [CHAT] Voting ends in 60 seconds!
+[20:26:55] [Render thread/INFO]: [System] [CHAT] Nani has gone AFK!
+[20:27:04] [Render thread/INFO]: [System] [CHAT] Daytime voting has ended! 3 players voted. Not enough! You can try to /voteday again in 10 minutes.
+[20:27:25] [Render thread/INFO]: [System] [CHAT] [+] Aye_Nightmare
+[20:27:29] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> wb.
+[20:28:07] [Render thread/INFO]: [System] [CHAT] MistDragon023 is no longer AFK!
+[20:28:10] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> wb.
+[20:28:41] [Render thread/INFO]: [System] [CHAT] thewitherking1 has made the advancement [Monster Hunter]
+[20:29:05] [pool-2-thread-2/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:29:05] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[20:29:05] [pool-2-thread-2/INFO]: [STDOUT]: World save took 217ms
+[20:29:29] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[20:29:31] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[20:29:51] [Render thread/INFO]: Minimap session finalized.
+[20:29:51] [Render thread/INFO]: Finalizing world map session...
+[20:29:52] [Thread-1/INFO]: World map force-cleaned!
+[20:29:52] [Render thread/INFO]: World map session finalized.
+[20:32:34] [Render thread/INFO]: Connecting to play.survivewith.us, 25565
+[20:32:35] [Render thread/INFO]: New minimap session initialized!
+[20:32:35] [Render thread/INFO]: New world map session initialized!
+[20:32:35] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384
+[20:32:35] [pool-2-thread-3/INFO]: [STDOUT]: Started saving the world in a new thread
+[20:32:35] [pool-2-thread-3/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:32:35] [Render thread/INFO]: [STDOUT]: Telemetry sending attempt blocked.
+[20:32:35] [Render thread/INFO]: [STDOUT]: Telemetry sending attempt blocked.
+[20:32:35] [Render thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: minecraft:ancient_city_replaceable, minecraft:mangrove_logs_can_grow_through, minecraft:mangrove_roots_can_grow_through, minecraft:nether_carver_replaceables, minecraft:overworld_carver_replaceables
+[20:32:35] [pool-2-thread-3/INFO]: [STDOUT]: Saved region successfully
+[20:32:35] [pool-2-thread-3/INFO]: [STDOUT]: World save took 240ms
+[20:32:35] [Render thread/INFO]: [System] [CHAT] 
+[20:32:35] [Render thread/INFO]: [System] [CHAT] 
+[20:32:35] [Render thread/INFO]: [System] [CHAT] Welcome back to SurviveWithUs YELLOW, CodeOverload!
+[20:32:35] [Render thread/INFO]: [System] [CHAT] 
+[20:32:35] [Render thread/INFO]: [System] [CHAT] §bYou're currently receiving an §6§lXP§b or §6§lMoney Boost!§b Click §bhere §bto §bview §byour §6§l/boosts!
+[20:32:35] [Render thread/INFO]: [System] [CHAT] 
+[20:32:35] [Render thread/INFO]: Loaded 848 advancements
+[20:32:35] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -3,14 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:32:36] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 281ms
+[20:32:43] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> wb.
+[20:32:55] [Render thread/INFO]: [System] [CHAT] [+] [❤LessOf] Toaster
+[20:32:58] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> WB.
+[20:32:59] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> wb
+[20:33:05] [Render thread/INFO]: [System] [CHAT] Remember to /vote to get your next /rank and unlock epic rewards!
+[20:33:53] [Render thread/INFO]: [System] [CHAT] [-] [❤LessOf] Toaster
+[20:33:58] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[20:34:04] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[20:34:06] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[20:34:06] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[20:34:08] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[20:34:08] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[20:34:11] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[20:34:13] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[20:34:16] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[20:34:18] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[20:34:25] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[20:34:31] [Render thread/INFO]: [System] [CHAT] CodeOverload has just opened a Daily Crate and won a Spawner!
+[20:34:50] [Render thread/INFO]: [System] [CHAT] [-] [Custom+] BooTwoBoo
+[20:39:05] [pool-2-thread-2/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:39:05] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[20:39:05] [pool-2-thread-2/INFO]: [STDOUT]: World save took 228ms
+[20:40:01] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Ok one sec.
+[20:41:11] [Render thread/INFO]: [System] [CHAT] [+] [❤LessOf] Toaster
+[20:41:14] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> WB!
+[20:41:17] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> ty
+[20:41:19] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Yw.
+[20:41:35] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> aw ezki already left
+[20:41:38] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> poof
+[20:41:40] [Render thread/INFO]: [System] [CHAT] [-] [❤LessOf] Toaster
+[20:42:06] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Be right back.
+[20:42:08] [Render thread/INFO]: [System] [CHAT] [-] [MVP] Foxyfinds
+[20:43:17] [Render thread/INFO]: [System] [CHAT] [-] MistDragon023
+[20:43:45] [Render thread/INFO]: [System] [CHAT] Welcome to SurviveWithUs YELLOW, cypressgamerzTV!
+[20:43:45] [Render thread/INFO]: [System] [CHAT] cypressgamerzTV has made the advancement [Isn't It Iron Pick]
+[20:43:45] [Render thread/INFO]: [System] [CHAT] [+] cypressgamerzTV
+[20:44:12] [Render thread/INFO]: [System] [CHAT] [+] [MVP] Foxyfinds
+[20:44:20] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Im back.
+[20:44:20] [Render thread/INFO]: [System] [CHAT] [Member] cypressgamerzTV> Hello.
+[20:44:23] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Hi.
+[20:44:36] [Render thread/INFO]: [System] [CHAT] [Member] cypressgamerzTV> Hows your day been.
+[20:45:12] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Ok.
+[20:45:32] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Here this is all I have.
+[20:45:47] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> :).
+[20:46:18] [Render thread/INFO]: [System] [CHAT] [-] cypressgamerzTV
+[20:47:23] [Render thread/INFO]: [System] [CHAT] [-] [MVP] Nani
+[20:49:05] [pool-2-thread-2/INFO]: [STDOUT]: World save took 0ms
+[20:49:39] [Render thread/INFO]: [System] [CHAT] Welcome to SurviveWithUs YELLOW, TKDninjaboy!
+[20:49:39] [Render thread/INFO]: [System] [CHAT] TKDninjaboy has made the advancement [Isn't It Iron Pick]
+[20:49:39] [Render thread/INFO]: [System] [CHAT] [+] TKDninjaboy
+[20:49:43] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> wb.
+[20:52:15] [Render thread/INFO]: [System] [CHAT] TKDninjaboy has voted for the server and made progress towards the [Explorer] rank and has received a /crate key, you can vote too with /vote!
+[20:52:26] [Render thread/INFO]: [System] [CHAT] CodeOverload has just opened a Daily Crate and won a Spawner!
+[20:52:30] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[20:52:30] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Hi.
+[20:52:38] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[20:52:42] [Render thread/INFO]: [System] [CHAT] Make sure you have an empty inventory slot first!
+[20:53:01] [Render thread/INFO]: [System] [CHAT] [+] [MVP] Tsunami
+[20:53:10] [Render thread/INFO]: [System] [CHAT] [-] [MVP] Tsunami
+[20:53:29] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Got to go bye.
+[20:54:01] [Render thread/INFO]: [System] [CHAT] TKDninjaboy has just achieved the [Explorer] /rank! You can rankup too by  /vote'ing!
+[20:54:14] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> I made you little house wither.
+[20:54:19] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> I have to go bye.
+[20:54:22] [Render thread/INFO]: [System] [CHAT] [-] [MVP] Foxyfinds
+[20:55:30] [Render thread/INFO]: [System] [CHAT] TKDninjaboy has voted for the server on all 7 sites and has unlocked their BONUS in /vote, you can too by /vote'ing!
+[20:57:11] [Render thread/INFO]: [System] [CHAT] TKDninjaboy has just opened a Vote Crate and won Survivor's Leggings!
+[20:57:11] [Render thread/INFO]: [System] [CHAT] TKDninjaboy has made the advancement [Cover Me with Diamonds]
+[20:57:52] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[20:57:58] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[20:58:01] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[20:58:10] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[20:58:11] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[20:58:17] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[20:58:21] [Render thread/INFO]: [System] [CHAT] Make sure you have an empty inventory slot first!
+[20:58:36] [Render thread/INFO]: [System] [CHAT] TKDninjaboy has made the advancement [Suit Up]
+[20:59:05] [pool-2-thread-2/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:59:05] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[20:59:05] [pool-2-thread-2/INFO]: [STDOUT]: World save took 198ms
+[20:59:31] [Render thread/INFO]: [System] [CHAT] [-] thewitherking1
+[21:00:06] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:00:13] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:00:14] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:00:15] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:00:17] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:00:18] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:00:23] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:00:26] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:00:26] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:00:29] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:00:29] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:00:29] [Render thread/INFO]: [System] [CHAT] CodeOverload has just opened a Daily Crate and won a Spawner!
+[21:00:30] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:00:31] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:00:34] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:00:35] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:00:37] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:00:41] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:00:41] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:01:21] [Render thread/INFO]: [System] [CHAT] Want to support the server, get /crate keys and your next /rank? Don't forget to /vote!
+[21:01:49] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:01:55] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:01:56] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:01:58] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:02:00] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:02:00] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:02:01] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:02:01] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:02:04] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:02:04] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:02:13] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:02:14] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:02:14] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:02:22] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:02:28] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:02:30] [Render thread/INFO]: [System] [CHAT] Make sure you have an empty inventory slot first!
+[21:02:42] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> anyone want free loot
+[21:02:46] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> Me.
+[21:03:08] [Render thread/INFO]: [System] [CHAT] You have asked TKDninjaboy if they can teleport to you.
+[21:03:09] [Render thread/INFO]: [System] [CHAT] TKDninjaboy has made the advancement [We Need to Go Deeper]
+[21:03:19] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> accept
+[21:03:35] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> Give in spawn.
+[21:03:40] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> I dont trust u.
+[21:03:43] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> you gotta come here
+[21:03:46] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> theres no pvp
+[21:03:49] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> Tp to me.
+[21:03:51] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> bruh just trust me
+[21:03:56] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> Ok.
+[21:03:58] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> ask anyone here
+[21:03:58] [Render thread/INFO]: [System] [CHAT] §9Aye_Dream§e wants to make it daytime, click here if you do too!
+[21:03:58] [Render thread/INFO]: [System] [CHAT] Voting ends in 60 seconds!
+[21:04:05] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> Let me put stuff in e chest.
+[21:04:05] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> im trustworthy
+[21:04:13] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> keep inventory is on anyways..
+[21:04:41] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:04:44] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:04:46] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:04:46] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> Is anyone else not afk?
+[21:04:49] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:04:56] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:04:58] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:04:58] [Render thread/INFO]: [System] [CHAT] Daytime voting has ended! 2 players voted. Not enough! You can try to /voteday again in 10 minutes.
+[21:05:01] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:05:04] [Render thread/INFO]: [System] [CHAT] You've just activated one hour of Double Money!
+[21:05:07] [Render thread/INFO]: [System] [CHAT] Make sure you have an empty inventory slot first!
+[21:05:10] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> lol they sleepy
+[21:05:30] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> Ok.
+[21:05:52] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> Ill tp as long as you dont kill me.
+[21:05:56] [Render thread/INFO]: [System] [CHAT] You have asked TKDninjaboy if they can teleport to you.
+[21:06:06] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> look
+[21:06:10] [Render thread/INFO]: [System] [CHAT] You can't attack other players here!
+[21:06:10] [Render thread/INFO]: [System] [CHAT] You can't attack other players here!
+[21:06:15] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> so um
+[21:06:16] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> Yes.
+[21:06:20] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> these chests
+[21:06:32] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> I see chests.
+[21:06:33] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> dont go beyond elytra
+[21:06:41] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> just take whatevers in them
+[21:06:44] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> Ok.
+[21:06:45] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> if you want it
+[21:06:54] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> there
+[21:06:55] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> It says I cant do that.
+[21:07:01] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> Now it works.
+[21:07:25] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> That stuff is op o my god.
+[21:07:31] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> its trash tbh
+[21:07:44] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> my gear is op
+[21:07:55] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> Netherite?
+[21:07:58] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> Omg.
+[21:08:00] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> if you want it
+[21:08:02] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> its bad tho
+[21:08:04] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> Wait my caps go away.
+[21:08:11] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> in /settings
+[21:08:17] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> turn off sentece format
+[21:08:18] [Render thread/INFO]: [System] [CHAT] [+] [Legend] Crazy☠RabbiT
+[21:08:20] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> WB
+[21:08:24] [Render thread/INFO]: [System] [CHAT] [Legend] Crazy☠RabbiT> I joined using ChatCraft from my Android device! Download it for free!
+[21:08:25] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> rabbit
+[21:08:30] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> ok it works now
+[21:08:33] [Render thread/INFO]: [System] [CHAT] [Legend] Crazy☠RabbiT> ty
+[21:08:35] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> this guy thinks survivor gear is op
+[21:08:39] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> xd
+[21:08:50] [Render thread/INFO]: [System] [CHAT] [Legend] Crazy☠RabbiT> XD
+[21:08:54] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> its not survivor
+[21:08:58] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> go to warp pvp tkd
+[21:09:03] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> Its Maurders
+[21:09:03] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> and just try to kill me
+[21:09:05] [pool-2-thread-2/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:09:06] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[21:09:06] [pool-2-thread-2/INFO]: [STDOUT]: World save took 208ms
+[21:09:06] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i wont even fight
+[21:09:18] [Render thread/INFO]: [System] [CHAT] TKDninjaboy has made the advancement [Diamonds!]
+[21:09:21] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> im basically at half strength
+[21:09:26] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> rn
+[21:09:30] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> ok
+[21:09:32] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> do /warp pvp
+[21:09:34] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -13,-5 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:09:34] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 74ms
+[21:10:03] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> one sec
+[21:10:06] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> kk
+[21:10:11] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> ok
+[21:10:46] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> im still at full
+[21:10:48] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> what hp are u at
+[21:10:51] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> omg
+[21:10:53] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i almost died then i equipped my loot
+[21:10:56] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> ur op
+[21:11:03] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> watch my funneh bow
+[21:11:13] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> bai
+[21:11:13] [Render thread/INFO]: [System] [CHAT] You can't do that here!
+[21:11:22] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> im still at full hp
+[21:11:28] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> but you go whee
+[21:11:32] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> yes
+[21:11:45] [Render thread/INFO]: [System] [CHAT] You can't do that here!
+[21:11:56] [Render thread/INFO]: [System] [CHAT] [+] [MVP] Tsunami
+[21:12:22] [Render thread/INFO]: [System] [CHAT] You can't do that here!
+[21:12:54] [Render thread/INFO]: [System] [CHAT] TKDninjaboy was slain by Tsunami_Blade :(
+[21:12:58] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> gg
+[21:13:01] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> gg
+[21:13:04] [Render thread/INFO]: [System] [CHAT] [MVP] Tsunami> gg
+[21:13:06] [Render thread/INFO]: [System] [CHAT] [+] [Custom+] Apollo
+[21:13:09] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> wb
+[21:13:09] [Render thread/INFO]: [System] [CHAT] [MVP] Tsunami> WB
+[21:13:11] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> tsunami
+[21:13:14] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> whats ur loot
+[21:13:14] [Render thread/INFO]: [System] [CHAT] [MVP] Tsunami> hi
+[21:13:15] [Render thread/INFO]: [System] [CHAT] [✞ツ✞] Apollo> tsu
+[21:13:18] [Render thread/INFO]: [System] [CHAT] [MVP] Tsunami> kit mvp
+[21:13:21] [Render thread/INFO]: [System] [CHAT] [MVP] Tsunami> yeah
+[21:13:22] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> oh
+[21:13:24] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> oof
+[21:13:26] [Render thread/INFO]: [System] [CHAT] [✞ツ✞] Apollo> why do you keep leaving'
+[21:14:02] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> can i go back to pro chest
+[21:14:13] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> one sec
+[21:14:15] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> if u want
+[21:14:15] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> kk
+[21:14:19] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> ok
+[21:14:23] [Render thread/INFO]: [System] [CHAT] [MVP] Tsunami> vause i can
+[21:14:29] [Render thread/INFO]: [System] [CHAT] [-] [MVP] Tsunami
+[21:14:34] [Render thread/INFO]: [System] [CHAT] [-] [✞ツ✞] Apollo
+[21:14:38] [Render thread/INFO]: [System] [CHAT] You have asked TKDninjaboy if they can teleport to you.
+[21:14:58] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> use this
+[21:14:59] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> i will make pro
+[21:15:03] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> gamer
+[21:15:10] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> kill me with it
+[21:15:15] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> with what
+[21:15:21] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> the sword
+[21:15:23] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> what i gave you
+[21:15:30] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> ok
+[21:15:35] [Render thread/INFO]: [System] [CHAT] CodeOverload was slain by TKDninjaboy using [aaToastYeeteraa] :(
+[21:15:35] [Render thread/INFO]: [System] [CHAT] [Baritone] Death position saved.
+[21:15:39] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -17,-18 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:15:39] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 90ms
+[21:15:42] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> i did it
+[21:15:50] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> see chat?w
+[21:15:56] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> i got 10 bucks
+[21:16:00] [Render thread/INFO]: [System] [CHAT] You can now fly by double-jumping!
+[21:16:04] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> lol
+[21:16:14] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i meant with the weapon
+[21:16:16] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> its name
+[21:16:18] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> its funneh
+[21:16:22] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> yeah
+[21:16:31] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> yus
+[21:16:35] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> lemme see
+[21:17:18] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> ok
+[21:17:22] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> use that
+[21:17:24] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> its better
+[21:17:43] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> pro helmet
+[21:17:52] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> and chestplate
+[21:17:58] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> yes
+[21:17:58] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> vry pro
+[21:18:03] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> best armour
+[21:18:07] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> is angry armour
+[21:18:14] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> best sword is angry sword
+[21:18:16] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> very anger armor
+[21:18:29] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> it makes you almost invincible
+[21:18:37] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> whats in the shulkers
+[21:18:44] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> items i need to sort
+[21:18:51] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> i can sort them
+[21:18:56] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> nah its fine
+[21:18:58] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> k
+[21:19:01] [Render thread/INFO]: [System] [CHAT] INKY is no longer AFK!
+[21:19:04] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> WB
+[21:19:06] [pool-2-thread-2/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:19:06] [ForkJoinPool.commonPool-worker-15/INFO]: [STDOUT]: Saving region -17,-18 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:19:06] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saving region -13,-5 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:19:06] [ForkJoinPool.commonPool-worker-15/INFO]: [STDOUT]: Saved region successfully
+[21:19:06] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saved region successfully
+[21:19:06] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[21:19:06] [pool-2-thread-2/INFO]: [STDOUT]: World save took 195ms
+[21:19:06] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> ty
+[21:19:12] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> inky im trustworthy right?
+[21:19:19] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> this guy was scared to tp to me :(
+[21:19:33] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> yes cause i get tp killed way too much
+[21:19:38] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i offered him free loot
+[21:19:39] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> um
+[21:19:55] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> i get tp killed so much i have trust issues
+[21:19:59] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> sounds... fishy
+[21:20:05] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> bruh what
+[21:20:14] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i was giving away my loot from survivors crate
+[21:20:16] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> i play too much lifesteal ok?
+[21:20:21] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> because its trash
+[21:20:30] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> but i figured some ppl might want it
+[21:20:53] [Render thread/INFO]: [System] [CHAT] You have access to the following kits: CUSTOMPLUS, JOURNEYMAN
+[21:20:58] [Render thread/INFO]: [System] [CHAT] You have received 1 MasterKey keys!
+[21:20:58] [Render thread/INFO]: [System] [CHAT] You have received 1 SurvivorKey keys!
+[21:20:58] [Render thread/INFO]: [System] [CHAT] You have received 1 MobSpawnerPack keys!
+[21:21:05] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> take these
+[21:21:08] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> whats in the elytra chest?
+[21:21:09] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> for when those break
+[21:21:10] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> I got asada
+[21:21:24] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> wow
+[21:21:29] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> guess what
+[21:21:33] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> THATS VERY OP
+[21:21:39] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> theres elytras in the elytra chest
+[21:21:56] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> inky
+[21:21:59] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> what is asada
+[21:22:01] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> yeah thats what i thought lols
+[21:22:05] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> it sounds like smt sere makes for dindin
+[21:22:29] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> egg
+[21:22:35] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Steak
+[21:22:39] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> my pet chicken
+[21:22:42] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> steak?
+[21:22:43] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> i picked up egg
+[21:22:51] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> yeah chicken had accident
+[21:23:03] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Like Asada Tocos
+[21:23:07] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> and was tryna move my axe to another slot so i could hold egg
+[21:23:13] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> oh
+[21:23:30] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> but the axe was a little sus
+[21:23:49] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> this shulker is pretty valueabl
+[21:24:01] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> thats a lot of elytra
+[21:24:04] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> has an unbreakable pick with silk touch
+[21:24:10] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> WAIT WHAT
+[21:24:18] [Render thread/INFO]: [System] [CHAT] [+] [MVP] Pixel
+[21:24:22] [Render thread/INFO]: [System] [CHAT] Crazy☠RabbiT has gone AFK!
+[21:24:28] [Render thread/INFO]: [System] [CHAT] [-] [MVP] Pixel
+[21:24:29] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> there
+[21:24:35] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> place it
+[21:24:40] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> thats not just pretty valuable
+[21:25:05] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> WHAT IN THE WORLD
+[21:25:12] [Render thread/INFO]: [System] [CHAT] [-] [Legend] Crazy☠RabbiT
+[21:25:13] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> thats the exact one i use
+[21:25:17] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> best pick for tasks
+[21:25:27] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> that is such a good pick
+[21:25:35] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> swu has op loot if you couldnt tell
+[21:25:49] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> yeah i could tell for sure
+[21:26:10] [Render thread/INFO]: [System] [CHAT] TKDninjaboy has made the advancement [Into Fire]
+[21:26:17] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> what in the world
+[21:26:21] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> right click at me
+[21:26:38] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> it no work?
+[21:26:44] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> yea
+[21:26:45] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> like a right click?
+[21:26:49] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> yeah
+[21:26:56] [Render thread/INFO]: [System] [CHAT] You have trusted TKDninjaboy to this claim!
+[21:26:58] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> now try
+[21:27:10] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> wow
+[21:27:15] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i have anti-kb
+[21:27:22] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> so it doesn't knock me back
+[21:27:43] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> how much damage?
+[21:27:46] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> none rn
+[21:27:50] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> my gear is op xd
+[21:28:02] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> you'd have to have the best gear to make any diff rn
+[21:28:05] [Render thread/INFO]: [System] [CHAT] [+] [Legend] Crazy☠RabbiT
+[21:28:06] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> ill unequip some
+[21:28:12] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> k
+[21:28:17] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> ok there
+[21:28:19] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> no regen
+[21:28:22] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> no resistence
+[21:28:30] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> im not sure how much dmg that does anyway
+[21:28:40] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> not a lot i dont think
+[21:28:47] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> yeah
+[21:29:06] [pool-2-thread-2/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:29:06] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[21:29:06] [pool-2-thread-2/INFO]: [STDOUT]: World save took 194ms
+[21:29:15] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> boom
+[21:29:29] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> knockback so much
+[21:29:31] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> yep
+[21:29:34] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> not the most tho
+[21:29:37] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> the most is 50
+[21:29:41] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> even i dont have it
+[21:30:27] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> inky
+[21:30:31] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> big knockback
+[21:30:37] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> you selling that thingy?
+[21:30:42] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> the kb 50
+[21:30:43] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> what?
+[21:30:48] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> brb
+[21:30:52] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> inky has one i believe
+[21:31:21] [Render thread/INFO]: [System] [CHAT] Want to support the server, get /crate keys and your next /rank? Don't forget to /vote!
+[21:31:29] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> me back
+[21:31:32] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> ok
+[21:31:35] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> i might gtg soon tho
+[21:31:38] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> ill take my stick back now
+[21:31:43] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> ok
+[21:31:54] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> the wand you can have if you want
+[21:31:58] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> ok
+[21:32:04] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> its not that rare
+[21:32:10] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> just dont use it in spawn
+[21:32:13] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i think its bannable
+[21:32:13] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> ok
+[21:32:26] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> ima go make myself a base
+[21:32:29] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> ok
+[21:32:32] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> k
+[21:32:36] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> use /refer CodeOverload
+[21:32:39] [Render thread/INFO]: [System] [CHAT] Welcome to SurviveWithUs YELLOW, nancychxi!
+[21:32:39] [Render thread/INFO]: [System] [CHAT] [+] nancychxi
+[21:32:39] [Render thread/INFO]: [System] [CHAT] nancychxi has made the advancement [Isn't It Iron Pick]
+[21:32:40] [Render thread/INFO]: [System] [CHAT] [Legend] Crazy☠RabbiT> buying wither skele egg for 3m each
+[21:32:40] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> if you havent yet
+[21:33:03] [Render thread/INFO]: [System] [CHAT] Thanks for inviting TKDninjaboy to the server!
+[21:33:03] [Render thread/INFO]: [System] [CHAT] You have received: $450000.00
+[21:33:03] [Render thread/INFO]: [System] [CHAT] You have received 1 SurvivorKey keys!
+[21:33:10] [Render thread/INFO]: [System] [CHAT] You don't have enough keys to use this option!
+[21:33:10] [Render thread/INFO]: [System] [CHAT] You don't have enough keys to use this option!
+[21:33:13] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> :D
+[21:33:14] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> k
+[21:33:18] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i dont have any sadly
+[21:33:25] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> any what?
+[21:33:33] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> wither eggs
+[21:33:34] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> but
+[21:33:39] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> you can use my farm if you want
+[21:33:44] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -17,-18 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:33:44] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 56ms
+[21:33:44] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -18,-18 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:33:44] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 65ms
+[21:33:48] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> i have a spawner and ok
+[21:33:53] [Render thread/INFO]: [System] [CHAT] [Legend] Crazy☠RabbiT> its alr, thanks anyway
+[21:33:57] [Render thread/INFO]: [System] [CHAT] §9§a§lCodeOverload§e would like you to teleport to them: §aAccept §c Deny
+[21:33:57] [Render thread/INFO]: [System] [CHAT] You have asked CodeOverload if they can teleport to you.
+[21:34:05] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> are u outside
+[21:34:06] [Render thread/INFO]: [System] [CHAT] You have asked Crazy☠RabbiT if they can teleport to you.
+[21:34:13] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i went to my old base
+[21:34:17] [Render thread/INFO]: [System] [CHAT] Aye_Dream has reached the goal [Hired Help]
+[21:34:20] [Render thread/INFO]: [System] [CHAT] You can now fly by double-jumping!
+[21:34:21] [Render thread/INFO]: [System] [CHAT] [Legend] Crazy☠RabbiT> nc place
+[21:34:25] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> u mean those epic statues?
+[21:34:31] [Render thread/INFO]: [System] [CHAT] You have asked Crazy☠RabbiT if they can teleport to you.
+[21:34:39] [Render thread/INFO]: [System] [CHAT] [Legend] Crazy☠RabbiT> do u have a spare angry piece u selling?
+[21:34:45] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> sadly no
+[21:34:51] [Render thread/INFO]: [System] [CHAT] You have asked Crazy☠RabbiT if they can teleport to you.
+[21:34:54] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> which base?
+[21:34:55] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> oh you can fly
+[21:35:00] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> my old base
+[21:35:01] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> the 1 with statues?
+[21:35:02] [Render thread/INFO]: [System] [CHAT] [Legend] Crazy☠RabbiT> ye
+[21:35:06] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> statues?
+[21:35:11] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i dont think so
+[21:35:12] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> ye
+[21:35:13] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> oh
+[21:35:18] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> you mean near my house?
+[21:35:21] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> ye
+[21:35:21] [Render thread/INFO]: [System] [CHAT] [Legend] Crazy☠RabbiT> that's a lotta of spawners
+[21:35:23] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> those aren't mine
+[21:35:26] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> yes yes it is
+[21:35:29] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> theres even more
+[21:35:41] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> can i go to statue base
+[21:35:43] [Render thread/INFO]: [System] [CHAT] You have asked Crazy☠RabbiT if they can teleport to you.
+[21:35:59] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> thats the rest
+[21:36:00] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> in one hour I'll be on chatcraft for 24 hours
+[21:36:00] [Render thread/INFO]: [System] [CHAT] HADES is no longer AFK!
+[21:36:06] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> straight
+[21:36:07] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> wb
+[21:36:09] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> ur not
+[21:36:11] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> ty
+[21:36:14] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> I qm
+[21:36:15] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> am
+[21:36:18] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> cap
+[21:36:24] [Render thread/INFO]: [System] [CHAT] §9TKDninjaboy§e would like to teleport to you: §aAccept §c Deny
+[21:36:32] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> not
+[21:36:58] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> freddy fazbear pizza
+[21:37:01] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> no
+[21:37:03] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> fr
+[21:37:05] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> thats just black and white
+[21:37:05] [Render thread/INFO]: [System] [CHAT] [-] nancychxi
+[21:37:10] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> this has red
+[21:37:15] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> ye
+[21:37:30] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -17,-17 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:37:30] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 151ms
+[21:37:30] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -18,-17 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:37:30] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 48ms
+[21:37:33] [Render thread/WARN]: Received passengers for unknown entity
+[21:37:36] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> oh
+[21:37:41] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> but i did build some statues
+[21:37:56] [Render thread/INFO]: [System] [CHAT] You have asked TKDninjaboy if they can teleport to you.
+[21:38:08] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> wow
+[21:38:09] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i did one of inky, sere, and toasty
+[21:38:31] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> do u have mob farm?
+[21:38:38] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> wat kind
+[21:38:41] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i have a few
+[21:38:48] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> wither skele is my main
+[21:38:48] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> idk whatever kind
+[21:38:56] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> can i use
+[21:39:04] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> sure
+[21:39:06] [pool-2-thread-2/INFO]: [STDOUT]: Saving region -7,-28 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:39:06] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saving region -18,-18 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:39:06] [ForkJoinPool.commonPool-worker-15/INFO]: [STDOUT]: Saving region -17,-18 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:39:06] [ForkJoinPool.commonPool-worker-17/INFO]: [STDOUT]: Saving region -18,-17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:39:06] [ForkJoinPool.commonPool-worker-16/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:39:06] [ForkJoinPool.commonPool-worker-18/INFO]: [STDOUT]: Saving region -17,-17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:39:06] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[21:39:06] [ForkJoinPool.commonPool-worker-17/INFO]: [STDOUT]: Saved region successfully
+[21:39:06] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saved region successfully
+[21:39:06] [ForkJoinPool.commonPool-worker-15/INFO]: [STDOUT]: Saved region successfully
+[21:39:06] [ForkJoinPool.commonPool-worker-18/INFO]: [STDOUT]: Saved region successfully
+[21:39:06] [ForkJoinPool.commonPool-worker-16/INFO]: [STDOUT]: Saved region successfully
+[21:39:06] [pool-2-thread-2/INFO]: [STDOUT]: World save took 210ms
+[21:39:07] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -17,-18 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:39:07] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 59ms
+[21:39:07] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -18,-18 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:39:07] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 64ms
+[21:39:12] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> use for xp or sum
+[21:39:13] [Render thread/INFO]: [System] [CHAT] §9TKDninjaboy§e would like to teleport to you: §aAccept §c Deny
+[21:39:19] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> xp
+[21:39:25] [Render thread/INFO]: [System] [CHAT] TKDninjaboy has made the advancement [Monster Hunter]
+[21:40:56] [Render thread/INFO]: [System] [CHAT] You've all voted for the server a total of 100 times today, here's some bonus keys!
+[21:40:56] [Render thread/INFO]: [System] [CHAT] You have received 1 SurvivorKey keys!
+[21:40:56] [Render thread/INFO]: [System] [CHAT] You have received 1 MobSpawnerPack keys!
+[21:40:56] [Render thread/INFO]: [System] [CHAT] You have received 2 DailyKey keys!
+[21:41:18] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> um
+[21:41:20] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> here
+[21:41:24] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> ok
+[21:41:26] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> give these back when ur done
+[21:41:32] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> k
+[21:41:52] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> pick em up
+[21:42:01] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> way more xp
+[21:42:03] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> kk
+[21:42:51] [Render thread/INFO]: [System] [CHAT] [+] nancychxi
+[21:42:51] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> you getting more?
+[21:42:53] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> WB
+[21:42:58] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> yes for sure
+[21:43:07] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> imma be afk for a few mins
+[21:43:15] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> im at 130 levels
+[21:43:15] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> if you get done just drop the books to me
+[21:44:08] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> how to check my balance
+[21:44:14] [Render thread/INFO]: [System] [CHAT] [Legend] Crazy☠RabbiT> DO /bal
+[21:44:26] [Render thread/INFO]: [System] [CHAT] nancychxi has voted for the server and made progress towards the [Explorer] rank and has received a /crate key, you can vote too with /vote!
+[21:45:05] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> ok thx
+[21:45:18] [Render thread/WARN]: Received passengers for unknown entity
+[21:45:19] [Render thread/WARN]: Received passengers for unknown entity
+[21:45:21] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> what smp is this what color
+[21:45:21] [Render thread/WARN]: Received passengers for unknown entity
+[21:45:27] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> hm?
+[21:45:31] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> swu?
+[21:45:36] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> which color smp
+[21:45:37] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -17,-17 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:45:37] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 112ms
+[21:45:37] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -18,-17 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:45:37] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 31ms
+[21:45:41] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> um
+[21:45:43] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> wdym
+[21:45:44] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> idk
+[21:45:46] [Render thread/WARN]: Received passengers for unknown entity
+[21:46:00] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> what portal do u jump into when u play this
+[21:46:04] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> OH
+[21:46:04] [Render thread/INFO]: [System] [CHAT] [Legend] Crazy☠RabbiT> yellow
+[21:46:06] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> yellow
+[21:46:07] [Render thread/INFO]: [System] [CHAT] nancychxi has just achieved the [Explorer] /rank! You can rankup too by  /vote'ing!
+[21:46:08] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> ok
+[21:46:11] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> cause i gtg
+[21:46:20] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> you join where you left
+[21:46:21] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> soo
+[21:46:31] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> i gtg
+[21:46:34] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> bai
+[21:46:37] [Render thread/WARN]: Received passengers for unknown entity
+[21:46:39] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> bye
+[21:46:40] [Render thread/WARN]: Received passengers for unknown entity
+[21:46:50] [Render thread/INFO]: [System] [CHAT] [-] TKDninjaboy
+[21:46:52] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i gtg too lol
+[21:46:57] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> bai gaydes
+[21:47:00] [Render thread/INFO]: [System] [CHAT] [Legend] Crazy☠RabbiT> cya
+[21:47:04] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> xd
+[21:47:08] [Render thread/WARN]: Received passengers for unknown entity
+[21:47:11] [Render thread/WARN]: Received passengers for unknown entity
+[21:47:11] [Render thread/WARN]: Received passengers for unknown entity
+[21:47:13] [Render thread/WARN]: Received passengers for unknown entity
+[21:47:23] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> poof
+[21:47:24] [Render thread/INFO]: Minimap session finalized.
+[21:47:24] [Render thread/INFO]: Finalizing world map session...
+[21:47:24] [Thread-1/INFO]: World map force-cleaned!
+[21:47:24] [Render thread/INFO]: World map session finalized.
+[21:47:27] [Render thread/INFO]: Stopping!

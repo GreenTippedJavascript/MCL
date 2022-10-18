@@ -1,0 +1,865 @@
+[13:19:29] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.14.9
+[13:19:29] [ForkJoinPool-1-worker-7/WARN]: Mod wurst uses the version v7.28-MC1.19.2 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[13:19:29] [ForkJoinPool-1-worker-2/WARN]: Mod wurst uses the version v7.27.3-MC1.19.2 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[13:19:30] [main/INFO]: Loading 55 mods:
+	- baritone 1.5.3-621-gaddd1fc7
+	- fabric-api 0.61.0+1.19.2
+	- fabric-api-base 0.4.11+e62f51a390 via fabric-api
+	- fabric-api-lookup-api-v1 1.6.9+9ff28f4090 via fabric-api
+	- fabric-biome-api-v1 9.0.17+aeb40ebe90 via fabric-api
+	- fabric-blockrenderlayer-v1 1.1.20+aeb40ebe90 via fabric-api
+	- fabric-client-tags-api-v1 1.0.1+b35fea8390 via fabric-api
+	- fabric-command-api-v1 1.2.11+f71b366f90 via fabric-api
+	- fabric-command-api-v2 2.1.7+0c17ea9690 via fabric-api
+	- fabric-commands-v0 0.2.28+df3654b390 via fabric-api
+	- fabric-containers-v0 0.1.34+df3654b390 via fabric-api
+	- fabric-content-registries-v0 3.3.0+624e468e90 via fabric-api
+	- fabric-convention-tags-v1 1.1.1+7cd20a1490 via fabric-api
+	- fabric-crash-report-info-v1 0.2.5+aeb40ebe90 via fabric-api
+	- fabric-data-generation-api-v1 5.1.9+a680b9b490 via fabric-api
+	- fabric-dimensions-v1 2.1.31+0dd10df690 via fabric-api
+	- fabric-entity-events-v1 1.4.18+9ff28f4090 via fabric-api
+	- fabric-events-interaction-v0 0.4.28+aeb40ebe90 via fabric-api
+	- fabric-events-lifecycle-v0 0.2.28+df3654b390 via fabric-api
+	- fabric-game-rule-api-v1 1.0.21+aeb40ebe90 via fabric-api
+	- fabric-item-api-v1 1.5.7+35a03c4390 via fabric-api
+	- fabric-item-groups-v0 0.3.29+4e8ca3fd90 via fabric-api
+	- fabric-key-binding-api-v1 1.0.20+aeb40ebe90 via fabric-api
+	- fabric-keybindings-v0 0.2.18+df3654b390 via fabric-api
+	- fabric-lifecycle-events-v1 2.1.2+aeb40ebe90 via fabric-api
+	- fabric-loot-api-v2 1.1.3+83a8659290 via fabric-api
+	- fabric-loot-tables-v1 1.1.6+9e7660c690 via fabric-api
+	- fabric-message-api-v1 5.0.3+176380a290 via fabric-api
+	- fabric-mining-level-api-v1 2.1.14+33fbc73890 via fabric-api
+	- fabric-models-v0 0.3.17+aeb40ebe90 via fabric-api
+	- fabric-networking-api-v1 1.2.4+5eb68ef290 via fabric-api
+	- fabric-networking-v0 0.3.21+df3654b390 via fabric-api
+	- fabric-object-builder-api-v1 4.0.11+aeb40ebe90 via fabric-api
+	- fabric-particles-v1 1.0.10+aeb40ebe90 via fabric-api
+	- fabric-registry-sync-v0 0.9.25+726b652090 via fabric-api
+	- fabric-renderer-api-v1 1.0.10+aeb40ebe90 via fabric-api
+	- fabric-renderer-indigo 0.6.12+aeb40ebe90 via fabric-api
+	- fabric-renderer-registries-v1 3.2.20+df3654b390 via fabric-api
+	- fabric-rendering-data-attachment-v1 0.3.14+aeb40ebe90 via fabric-api
+	- fabric-rendering-fluids-v1 3.0.7+aeb40ebe90 via fabric-api
+	- fabric-rendering-v0 1.1.22+df3654b390 via fabric-api
+	- fabric-rendering-v1 1.10.16+aeb40ebe90 via fabric-api
+	- fabric-resource-conditions-api-v1 2.0.11+e62f51a390 via fabric-api
+	- fabric-resource-loader-v0 0.6.1+aeb40ebe90 via fabric-api
+	- fabric-screen-api-v1 1.0.26+f05effaf90 via fabric-api
+	- fabric-screen-handler-api-v1 1.3.0+1cc24b1b90 via fabric-api
+	- fabric-textures-v0 1.0.20+aeb40ebe90 via fabric-api
+	- fabric-transfer-api-v1 2.1.0+8f88597390 via fabric-api
+	- fabric-transitive-access-wideners-v1 1.3.0+42d99c3290 via fabric-api
+	- fabricloader 0.14.9
+	- java 17
+	- minecraft 1.19.2
+	- wurst v7.28-MC1.19.2
+	- xaerominimap 22.15.1
+	- xaeroworldmap 1.28.0
+[13:19:30] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[13:19:30] [main/INFO]: Compatibility level set to JAVA_17
+[13:19:31] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/occlusion/BlockOcclusionCache (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/occlusion/BlockOcclusionCache)
+[13:19:32] [main/WARN]: Configuration conflict: there is more than one oshi.properties file on the classpath
+[13:19:32] [main/WARN]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath
+[13:19:35] [main/INFO]: Building optimized datafixer
+[13:19:41] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:19:43] [Render thread/INFO]: Setting user: CodeOverload
+[13:19:43] [Render thread/INFO]: [STDOUT]: Starting Wurst Client...
+[13:19:45] [Render thread/INFO]: [Indigo] Registering Indigo renderer!
+[13:19:46] [Render thread/INFO]: Loading Xaero's Minimap - Stage 1/2
+[13:19:47] [Render thread/INFO]: Loading Xaero's World Map - Stage 1/2
+[13:19:49] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[13:19:52] [Render thread/WARN]: ERROR : Couldn't load Narrator library
+java.lang.UnsatisfiedLinkError: Unable to load library 'fliteWrapper':
+libfliteWrapper.so: cannot open shared object file: No such file or directory
+libfliteWrapper.so: cannot open shared object file: No such file or directory
+Native library (linux-x86-64/libfliteWrapper.so) not found in resource path (/home/gavinboor/.local/share/multimc/bin/jars/NewLaunch.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/logging/1.0.0/logging-1.0.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar:/home/gavinboor/.local/share/multimc/libraries/com/github/oshi/oshi-core/5.8.5/oshi-core-5.8.5.jar:/home/gavinboor/.local/share/multimc/libraries/net/java/dev/jna/jna/5.10.0/jna-5.10.0.jar:/home/gavinboor/.local/share/multimc/libraries/net/java/dev/jna/jna-platform/5.10.0/jna-platform-5.10.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-slf4j18-impl/2.16.0/log4j-slf4j18-impl-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/ibm/icu/icu4j/70.1/icu4j-70.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/javabridge/1.2.24/javabridge-1.2.24.jar:/home/gavinboor/.local/share/multimc/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-common/4.1.77.Final/netty-common-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-buffer/4.1.77.Final/netty-buffer-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-codec/4.1.77.Final/netty-codec-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-handler/4.1.77.Final/netty-handler-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-resolver/4.1.77.Final/netty-resolver-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport/4.1.77.Final/netty-transport-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-native-unix-common/4.1.77.Final/netty-transport-native-unix-common-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-classes-epoll/4.1.77.Final/netty-transport-classes-epoll-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-native-epoll/4.1.77.Final/netty-transport-native-epoll-4.1.77.Final-linux-x86_64.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/gavinboor/.local/share/multimc/libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/gavinboor/.local/share/multimc/libraries/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/datafixerupper/5.0.28/datafixerupper-5.0.28.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/authlib/3.11.49/authlib-3.11.49.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/gavinboor/.local/share/multimc/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar:/home/gavinboor/.local/share/multimc/libraries/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-api/2.16.0/log4j-api-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-core/2.16.0/log4j-core-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/text2speech/1.13.9/text2speech-1.13.9.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/intermediary/1.19.2/intermediary-1.19.2.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/tiny-mappings-parser/0.3.0+build.17/tiny-mappings-parser-0.3.0+build.17.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/tiny-remapper/0.8.2/tiny-remapper-0.8.2.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm/9.3/asm-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-util/9.3/asm-util-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/fabric-loader/0.14.9/fabric-loader-0.14.9.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/minecraft/1.19.2/minecraft-1.19.2-client.jar)
+	at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:301) ~[jna-5.10.0.jar:?]
+	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:?]
+	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:?]
+	at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.13.9.jar:?]
+	at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.13.9.jar:?]
+	at net.minecraft.class_333.<init>(class_333.java:19) [client-intermediary.jar:?]
+	at net.minecraft.class_310.<init>(class_310.java:637) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.method_44604(Main.java:205) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.9.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+	Suppressed: java.lang.UnsatisfiedLinkError: libfliteWrapper.so: cannot open shared object file: No such file or directory
+		at com.sun.jna.Native.open(Native Method) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:191) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:?]
+		at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.13.9.jar:?]
+		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.13.9.jar:?]
+		at net.minecraft.class_333.<init>(class_333.java:19) [client-intermediary.jar:?]
+		at net.minecraft.class_310.<init>(class_310.java:637) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.method_44604(Main.java:205) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+		at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.9.jar:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+		at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+		at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+		at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+	Suppressed: java.lang.UnsatisfiedLinkError: libfliteWrapper.so: cannot open shared object file: No such file or directory
+		at com.sun.jna.Native.open(Native Method) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:204) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:?]
+		at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.13.9.jar:?]
+		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.13.9.jar:?]
+		at net.minecraft.class_333.<init>(class_333.java:19) [client-intermediary.jar:?]
+		at net.minecraft.class_310.<init>(class_310.java:637) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.method_44604(Main.java:205) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+		at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.9.jar:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+		at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+		at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+		at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+	Suppressed: java.io.IOException: Native library (linux-x86-64/libfliteWrapper.so) not found in resource path (/home/gavinboor/.local/share/multimc/bin/jars/NewLaunch.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/logging/1.0.0/logging-1.0.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar:/home/gavinboor/.local/share/multimc/libraries/com/github/oshi/oshi-core/5.8.5/oshi-core-5.8.5.jar:/home/gavinboor/.local/share/multimc/libraries/net/java/dev/jna/jna/5.10.0/jna-5.10.0.jar:/home/gavinboor/.local/share/multimc/libraries/net/java/dev/jna/jna-platform/5.10.0/jna-platform-5.10.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-slf4j18-impl/2.16.0/log4j-slf4j18-impl-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/ibm/icu/icu4j/70.1/icu4j-70.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/javabridge/1.2.24/javabridge-1.2.24.jar:/home/gavinboor/.local/share/multimc/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-common/4.1.77.Final/netty-common-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-buffer/4.1.77.Final/netty-buffer-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-codec/4.1.77.Final/netty-codec-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-handler/4.1.77.Final/netty-handler-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-resolver/4.1.77.Final/netty-resolver-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport/4.1.77.Final/netty-transport-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-native-unix-common/4.1.77.Final/netty-transport-native-unix-common-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-classes-epoll/4.1.77.Final/netty-transport-classes-epoll-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-native-epoll/4.1.77.Final/netty-transport-native-epoll-4.1.77.Final-linux-x86_64.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/gavinboor/.local/share/multimc/libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/gavinboor/.local/share/multimc/libraries/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/datafixerupper/5.0.28/datafixerupper-5.0.28.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/authlib/3.11.49/authlib-3.11.49.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/gavinboor/.local/share/multimc/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar:/home/gavinboor/.local/share/multimc/libraries/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-api/2.16.0/log4j-api-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-core/2.16.0/log4j-core-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/text2speech/1.13.9/text2speech-1.13.9.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/intermediary/1.19.2/intermediary-1.19.2.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/tiny-mappings-parser/0.3.0+build.17/tiny-mappings-parser-0.3.0+build.17.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/tiny-remapper/0.8.2/tiny-remapper-0.8.2.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm/9.3/asm-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-util/9.3/asm-util-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/fabric-loader/0.14.9/fabric-loader-0.14.9.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/minecraft/1.19.2/minecraft-1.19.2-client.jar)
+		at com.sun.jna.Native.extractFromResourcePath(Native.java:1145) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:275) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:?]
+		at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.13.9.jar:?]
+		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.13.9.jar:?]
+		at net.minecraft.class_333.<init>(class_333.java:19) [client-intermediary.jar:?]
+		at net.minecraft.class_310.<init>(class_310.java:637) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.method_44604(Main.java:205) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+		at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.9.jar:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+		at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+		at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+		at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[13:19:52] [Render thread/INFO]: Reloading ResourceManager: Default, Fabric Mods (Fabric API, Fabric API Base, Fabric API Lookup API (v1), Fabric Biome API (v1), Fabric BlockRenderLayer Registration (v1), Fabric Client Tags, Fabric Command API (v1), Fabric Command API (v2), Fabric Commands (v0), Fabric Containers (v0), Fabric Content Registries (v0), Fabric Convention Tags, Fabric Crash Report Info (v1), Fabric Data Generation API (v1), Fabric Dimensions API (v1), Fabric Entity Events (v1), Fabric Events Interaction (v0), Fabric Events Lifecycle (v0), Fabric Game Rule API (v1), Fabric Item API (v1), Fabric Item Groups (v0), Fabric Key Binding API (v1), Fabric Key Bindings (v0), Fabric Lifecycle Events (v1), Fabric Loot API (v2), Fabric Loot Tables (v1), Fabric Message API (v1), Fabric Mining Level API (v1), Fabric Models (v0), Fabric Networking API (v1), Fabric Networking (v0), Fabric Object Builder API (v1), Fabric Particles (v1), Fabric Registry Sync (v0), Fabric Renderer API (v1), Fabric Renderer - Indigo, Fabric Renderer Registries (v1), Fabric Rendering Data Attachment (v1), Fabric Rendering Fluids (v1), Fabric Rendering (v0), Fabric Rendering (v1), Fabric Resource Conditions API (v1), Fabric Resource Loader (v0), Fabric Screen API (v1), Fabric Screen Handler API (v1), Fabric Textures (v0), Fabric Transfer API (v1), Fabric Transitive Access Wideners (v1), Fabric Loader, Wurst Client, Xaero's Minimap, Xaero's World Map)
+[13:19:54] [Render thread/INFO]: Loading Xaero's Minimap - Stage 2/2
+[13:19:55] [Render thread/INFO]: Xaero's Minimap: World Map found!
+[13:19:55] [Render thread/INFO]: No Optifine!
+[13:19:55] [Render thread/INFO]: Xaero's Minimap: No Vivecraft!
+[13:19:55] [Render thread/INFO]: Loading Xaero's World Map - Stage 2/2
+[13:19:55] [Render thread/INFO]: New world map region cache hash code: 687554333
+[13:19:55] [Render thread/INFO]: Xaero's WorldMap Mod: Xaero's minimap found!
+[13:19:55] [Render thread/INFO]: No Optifine!
+[13:19:55] [Render thread/INFO]: Xaero's World Map: No Vivecraft!
+[13:19:58] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[13:19:58] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[13:19:58] [Render thread/INFO]: OpenAL initialized on device VirtIO SoundCard
+[13:19:58] [Render thread/INFO]: Sound engine started
+[13:19:59] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/blocks.png-atlas
+[13:19:59] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/signs.png-atlas
+[13:19:59] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[13:19:59] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[13:19:59] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/chest.png-atlas
+[13:19:59] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
+[13:19:59] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[13:20:02] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[13:20:02] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[13:20:02] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[13:20:02] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[13:20:02] [Render thread/INFO]: Successfully reloaded the minimap shaders!
+[13:20:02] [Render thread/INFO]: Successfully reloaded the world map shaders!
+[13:20:22] [Render thread/INFO]: Connecting to play.survivewith.us, 25565
+[13:20:24] [Worker-Bootstrap-6/INFO]: 4283 Datafixer optimizations took 48933 milliseconds
+[13:20:27] [Render thread/INFO]: New minimap session initialized!
+[13:20:27] [Render thread/INFO]: New world map session initialized!
+[13:20:27] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384
+[13:20:27] [Render thread/INFO]: [STDOUT]: Cached world directory: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:20:27] [Render thread/INFO]: [STDOUT]: Would save waypoints to /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/waypoints
+[13:20:27] [Render thread/INFO]: [STDOUT]: Telemetry sending attempt blocked.
+[13:20:27] [Render thread/INFO]: [STDOUT]: Telemetry sending attempt blocked.
+[13:20:28] [Render thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: minecraft:ancient_city_replaceable, minecraft:mangrove_logs_can_grow_through, minecraft:mangrove_roots_can_grow_through, minecraft:nether_carver_replaceables, minecraft:overworld_carver_replaceables
+[13:20:28] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -3,14 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:20:28] [Render thread/INFO]: Reloading entity icon resources...
+[13:20:29] [Render thread/INFO]: Done!
+[13:20:29] [Render thread/INFO]: [STDOUT]: Brightness started at 0.5
+[13:20:29] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 396ms
+[13:20:30] [WurstUpdater/INFO]: [STDOUT]: [Updater] Current version: 7.28
+[13:20:30] [WurstUpdater/INFO]: [STDOUT]: [Updater] Latest version: 7.28
+[13:20:32] [Render thread/INFO]: Minimap session finalized.
+[13:20:32] [Render thread/INFO]: Finalizing world map session...
+[13:20:32] [Thread-1/INFO]: World map force-cleaned!
+[13:20:32] [Render thread/INFO]: World map session finalized.
+[13:20:42] [Render thread/INFO]: Connecting to play.survivewith.us, 25565
+[13:20:42] [LanServerDetector #2/ERROR]: Caught previously unhandled exception :
+java.lang.AssertionError: java.net.BindException: Cannot assign requested address
+	at sun.nio.ch.DatagramChannelImpl.drop(DatagramChannelImpl.java:1592) ~[?:?]
+	at sun.nio.ch.MembershipKeyImpl.drop(MembershipKeyImpl.java:147) ~[?:?]
+	at sun.nio.ch.DatagramSocketAdaptor.leaveGroup(DatagramSocketAdaptor.java:553) ~[?:?]
+	at sun.nio.ch.DatagramSocketAdaptor.leaveGroup(DatagramSocketAdaptor.java:493) ~[?:?]
+	at java.net.MulticastSocket.leaveGroup(MulticastSocket.java:353) ~[?:?]
+	at net.minecraft.class_1134$class_1135.run(class_1134.java:103) ~[client-intermediary.jar:?]
+Caused by: java.net.BindException: Cannot assign requested address
+	at sun.nio.ch.Net.joinOrDrop4(Native Method) ~[?:?]
+	at sun.nio.ch.Net.drop4(Net.java:707) ~[?:?]
+	at sun.nio.ch.DatagramChannelImpl.drop(DatagramChannelImpl.java:1587) ~[?:?]
+	... 5 more
+[13:20:42] [Render thread/INFO]: New minimap session initialized!
+[13:20:42] [Render thread/INFO]: New world map session initialized!
+[13:20:42] [pool-2-thread-3/INFO]: [STDOUT]: Started saving the world in a new thread
+[13:20:42] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384
+[13:20:42] [Render thread/INFO]: [STDOUT]: Telemetry sending attempt blocked.
+[13:20:42] [Render thread/INFO]: [STDOUT]: Telemetry sending attempt blocked.
+[13:20:42] [pool-2-thread-3/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:20:43] [Render thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: minecraft:ancient_city_replaceable, minecraft:mangrove_logs_can_grow_through, minecraft:mangrove_roots_can_grow_through, minecraft:nether_carver_replaceables, minecraft:overworld_carver_replaceables
+[13:20:43] [pool-2-thread-3/INFO]: [STDOUT]: Saved region successfully
+[13:20:43] [pool-2-thread-3/INFO]: [STDOUT]: World save took 239ms
+[13:20:43] [Render thread/INFO]: Loaded 848 advancements
+[13:20:43] [Render thread/INFO]: [System] [CHAT] 
+[13:20:43] [Render thread/INFO]: [System] [CHAT]  [x2]
+[13:20:43] [Render thread/INFO]: [System] [CHAT] Welcome back to SurviveWithUs YELLOW, CodeOverload!
+[13:20:43] [Render thread/INFO]: [System] [CHAT]  [x3]
+[13:20:43] [Render thread/INFO]: [System] [CHAT] §bYou're currently receiving an §6§lXP§b or §6§lMoney Boost!§b Click §bhere §bto §bview §byour §6§l/boosts!
+[13:20:43] [Render thread/INFO]: [System] [CHAT]  [x4]
+[13:20:43] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -3,14 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:20:43] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 376ms
+[13:20:52] [Render thread/INFO]: [System] [CHAT] [❤LilBitof] Serephin> he has it memorized
+[13:20:57] [pool-2-thread-2/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:20:57] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[13:20:57] [pool-2-thread-2/INFO]: [STDOUT]: World save took 260ms
+[13:20:58] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> xD
+[13:21:06] [Render thread/INFO]: [System] [CHAT] [❤LilBitof] Serephin> its stupid ez
+[13:21:06] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> i have mine memorized
+[13:21:12] [Render thread/INFO]: [System] [CHAT] Remember to /vote to get your next /rank and unlock epic rewards!
+[13:21:26] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> my parents #s are exactly the samr except for 2 numbers
+[13:21:27] [Render thread/INFO]: [System] [CHAT] CodeOverload has just opened a Survivor's Crate and won Marauder's Chestplate!
+[13:21:27] [Render thread/INFO]: [System] [CHAT] You have received: $1080000.00
+[13:21:28] [Render thread/INFO]: [System] [CHAT] You have received: $1080000.00 [x2]
+[13:21:29] [Render thread/INFO]: [System] [CHAT] You have received: $1080000.00 [x3]
+[13:21:29] [Render thread/INFO]: [System] [CHAT] You have received: $1080000.00 [x4]
+[13:21:30] [Render thread/INFO]: [System] [CHAT] Make sure you have an empty inventory slot first!
+[13:21:37] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> ima fr have to memorize cicilys
+[13:21:39] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> xD [x2]
+[13:21:52] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> spam survivors crates
+[13:21:55] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> hers is complex
+[13:21:57] [Render thread/INFO]: [System] [CHAT] You have received: $1080000.00 [x5]
+[13:21:58] [Render thread/INFO]: [System] [CHAT] You have received: $1080000.00 [x6]
+[13:21:58] [Render thread/INFO]: [System] [CHAT] You have received: $1080000.00 [x7]
+[13:21:59] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Out numbers are the same except the last number. It is how most family plans work
+[13:22:00] [Render thread/INFO]: [System] [CHAT] You have received: $1080000.00 [x8]
+[13:22:01] [Render thread/INFO]: [System] [CHAT] Make sure you have an empty inventory slot first! [x2]
+[13:22:05] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> yea
+[13:22:15] [Render thread/INFO]: [System] [CHAT] [❤LilBitof] Serephin> ours are like that but the last digit is different
+[13:22:32] [Render thread/INFO]: [System] [CHAT] Happy Columbus Day! We're currently having a  35% OFF Donor Store Sale, today only! Legacy Crate Keys are still in stock! Type /donate to view the store!
+[13:22:36] [Render thread/INFO]: [System] [CHAT] CodeOverload has just opened a Survivor's Crate and won Master's Shovel!
+[13:22:37] [Render thread/INFO]: [System] [CHAT] You have received: $1080000.00 [x9]
+[13:22:37] [Render thread/INFO]: [System] [CHAT] You have received: $1080000.00 [x10]
+[13:22:38] [Render thread/INFO]: [System] [CHAT] You have received: $1080000.00 [x11]
+[13:22:38] [Render thread/INFO]: [System] [CHAT] You have received: $1080000.00 [x12]
+[13:22:39] [Render thread/INFO]: [System] [CHAT] You have received: $1080000.00 [x13]
+[13:22:39] [Render thread/INFO]: [System] [CHAT] You have received: $1080000.00 [x14]
+[13:22:50] [Render thread/INFO]: [System] [CHAT] You have received: $1080000.00 [x15]
+[13:22:51] [Render thread/INFO]: [System] [CHAT] You have received: $1080000.00 [x16]
+[13:22:51] [Render thread/INFO]: [System] [CHAT] You have received: $1080000.00 [x17]
+[13:22:52] [Render thread/INFO]: [System] [CHAT] You have received: $1080000.00 [x18]
+[13:22:53] [Render thread/INFO]: [System] [CHAT] You have received: $1080000.00 [x19]
+[13:23:06] [Render thread/INFO]: [System] [CHAT] You have received: $1080000.00 [x20]
+[13:23:08] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> i can only memorize things that i see on a daily basis
+[13:23:18] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> like my school lunch number
+[13:23:22] [Render thread/INFO]: [System] [CHAT] You have received: $1080000.00 [x21]
+[13:23:23] [Render thread/INFO]: [System] [CHAT] You don't have enough keys to use this option!
+[13:23:39] [Render thread/INFO]: [System] [CHAT] [❤LilBitof] Serephin> i still remember mine
+[13:23:45] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> ;0
+[13:25:33] [Render thread/INFO]: [System] [CHAT] Happy Columbus Day! We're currently having a  35% OFF Donor Store Sale, today only! Legacy Crate Keys are still in stock! Type /donate to view the store! [x2]
+[13:26:05] [Render thread/WARN]: Received passengers for unknown entity
+[13:26:05] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -17,-18 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:26:05] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 102ms
+[13:26:05] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -18,-18 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:26:06] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 116ms
+[13:26:14] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[13:26:14] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00
+[13:26:14] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x2]
+[13:26:14] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x3]
+[13:26:14] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x4]
+[13:26:14] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x5]
+[13:26:14] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x6]
+[13:26:14] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x7]
+[13:26:14] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x8]
+[13:26:14] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x9]
+[13:26:14] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x10]
+[13:26:14] [Render thread/INFO]: [System] [CHAT] You have received: $2160000.00
+[13:26:15] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> if ur name has blue you get a cookie 🍪
+[13:26:16] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x11]
+[13:26:16] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x12]
+[13:26:25] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> and hades
+[13:26:27] [Render thread/INFO]: [System] [CHAT] [+] _Freshbaja_
+[13:26:28] [Render thread/INFO]: [System] [CHAT] [❤LilBitof] Serephin> o.o
+[13:26:31] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> cause he pog fr
+[13:26:33] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> wb
+[13:26:45] [pool-2-thread-1/INFO]: [STDOUT]: Loading region 0,16 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:26:45] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 219ms
+[13:26:47] [Render thread/INFO]: [System] [CHAT] You can now fly by double-jumping!
+[13:26:50] [Render thread/INFO]: [System] [CHAT] [❤LilBitof] Serephin> *awaits cookie*
+[13:27:04] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x13]
+[13:27:05] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x14]
+[13:27:06] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x15]
+[13:27:06] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x16]
+[13:27:08] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x17]
+[13:27:09] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x18]
+[13:27:10] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x19]
+[13:27:10] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x20]
+[13:27:11] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x21]
+[13:27:13] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x22]
+[13:27:13] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x23]
+[13:27:13] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x24]
+[13:27:14] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x25]
+[13:27:15] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x26]
+[13:27:15] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x27]
+[13:27:16] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> /give Serephin cookie 64
+[13:27:16] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x28]
+[13:27:17] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x29]
+[13:27:18] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x30]
+[13:27:18] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x31]
+[13:27:19] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x32]
+[13:27:19] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x33]
+[13:27:19] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x34]
+[13:27:22] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x35]
+[13:27:22] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x36]
+[13:27:24] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x37]
+[13:27:24] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x38]
+[13:27:24] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x39]
+[13:27:25] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x40]
+[13:27:26] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x41]
+[13:27:26] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x42]
+[13:27:27] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x43]
+[13:27:28] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x44]
+[13:27:28] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> no
+[13:27:29] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x45]
+[13:27:32] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> yes
+[13:27:38] [Render thread/INFO]: [System] [CHAT] [❤LilBitof] Serephin> :O
+[13:27:39] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x46]
+[13:27:40] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x47]
+[13:27:40] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x48]
+[13:27:40] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x49]
+[13:27:41] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x50]
+[13:27:42] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x51]
+[13:27:42] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x52]
+[13:27:43] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x53]
+[13:27:44] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x54]
+[13:27:44] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x55]
+[13:27:44] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x56]
+[13:27:45] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x57]
+[13:27:45] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x58]
+[13:27:46] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x59]
+[13:27:47] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x60]
+[13:27:48] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x61]
+[13:27:49] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task! [x2]
+[13:27:49] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x62]
+[13:27:49] [Render thread/INFO]: [System] [CHAT] You have received 4 DailyKey keys!
+[13:27:51] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x63]
+[13:27:53] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x64]
+[13:28:07] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x65]
+[13:28:08] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x66]
+[13:28:09] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x67]
+[13:28:13] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x68]
+[13:28:18] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x69]
+[13:28:23] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x70]
+[13:28:23] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x71]
+[13:28:26] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x72]
+[13:28:29] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x73]
+[13:28:33] [Render thread/INFO]: [System] [CHAT] Happy Columbus Day! We're currently having a  35% OFF Donor Store Sale, today only! Legacy Crate Keys are still in stock! Type /donate to view the store! [x3]
+[13:28:33] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x74]
+[13:28:35] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x75]
+[13:28:36] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x76]
+[13:28:38] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x77]
+[13:28:41] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x78]
+[13:28:44] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x79]
+[13:28:45] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x80]
+[13:28:47] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x81]
+[13:28:54] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x82]
+[13:28:55] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x83]
+[13:28:59] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x84]
+[13:29:00] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x85]
+[13:29:00] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x86]
+[13:29:06] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x87]
+[13:29:07] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x88]
+[13:29:08] [Render thread/INFO]: [System] [CHAT] You've just activated 2 hours of Double XP!
+[13:29:08] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task! [x3]
+[13:29:08] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x89]
+[13:29:14] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x90]
+[13:29:16] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x91]
+[13:29:21] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x92]
+[13:29:22] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x93]
+[13:29:25] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x94]
+[13:29:32] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x95]
+[13:29:35] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x96]
+[13:29:37] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x97]
+[13:29:39] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x98]
+[13:29:47] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x99]
+[13:29:48] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x100]
+[13:29:50] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x101]
+[13:29:53] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x102]
+[13:29:56] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x103]
+[13:29:58] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x104]
+[13:30:00] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x105]
+[13:30:01] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x106]
+[13:30:02] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x107]
+[13:30:10] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x108]
+[13:30:11] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x109]
+[13:30:12] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x110]
+[13:30:18] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x111]
+[13:30:20] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x112]
+[13:30:21] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x113]
+[13:30:23] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x114]
+[13:30:27] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x115]
+[13:30:27] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x116]
+[13:30:29] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x117]
+[13:30:34] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x118]
+[13:30:35] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x119]
+[13:30:57] [pool-2-thread-2/INFO]: [STDOUT]: Saving region -18,-18 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:30:57] [ForkJoinPool.commonPool-worker-17/INFO]: [STDOUT]: Saving region -17,-18 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:30:57] [ForkJoinPool.commonPool-worker-13/INFO]: [STDOUT]: Saving region 0,16 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:30:57] [ForkJoinPool.commonPool-worker-6/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:30:58] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[13:30:58] [ForkJoinPool.commonPool-worker-17/INFO]: [STDOUT]: Saved region successfully
+[13:30:58] [ForkJoinPool.commonPool-worker-13/INFO]: [STDOUT]: Saved region successfully
+[13:30:58] [ForkJoinPool.commonPool-worker-6/INFO]: [STDOUT]: Saved region successfully
+[13:30:58] [pool-2-thread-2/INFO]: [STDOUT]: World save took 245ms
+[13:31:00] [Render thread/INFO]: [System] [CHAT] §cThis is a potentially §4dangerous§c command. Click here to §aconfirm.
+[13:31:02] [Render thread/INFO]: [System] [CHAT] You will be teleported to a random location momentarily....
+[13:31:02] [pool-2-thread-4/INFO]: [STDOUT]: Started saving the world in a new thread
+[13:31:02] [pool-2-thread-4/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:31:02] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/resourceworld_384
+[13:31:02] [Render thread/INFO]: [STDOUT]: Cached world directory: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/resourceworld_384/cache
+[13:31:02] [Render thread/INFO]: [STDOUT]: Would save waypoints to /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/resourceworld_384/waypoints
+[13:31:02] [pool-2-thread-3/INFO]: [STDOUT]: Loading region -1,0 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/resourceworld_384/cache
+[13:31:03] [pool-2-thread-4/INFO]: [STDOUT]: Saved region successfully
+[13:31:03] [pool-2-thread-4/INFO]: [STDOUT]: World save took 251ms
+[13:31:03] [pool-2-thread-3/INFO]: [STDOUT]: Loaded region successfully in 225ms
+[13:31:19] [Render thread/INFO]: [System] [CHAT] Want to support the server, get /crate keys and your next /rank? Don't forget to /vote!
+[13:31:21] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> idk where i am but on thr chatcraft mini map it shows a sus mapart
+[13:31:32] [pool-2-thread-5/INFO]: [STDOUT]: Saving region -1,0 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/resourceworld_384/cache
+[13:31:33] [Render thread/INFO]: [System] [CHAT] Happy Columbus Day! We're currently having a  35% OFF Donor Store Sale, today only! Legacy Crate Keys are still in stock! Type /donate to view the store! [x4]
+[13:31:33] [pool-2-thread-5/INFO]: [STDOUT]: Saved region successfully
+[13:31:33] [pool-2-thread-5/INFO]: [STDOUT]: World save took 293ms
+[13:31:46] [Render thread/INFO]: [System] [CHAT] [-] PlsListenToMe
+[13:31:49] [Render thread/INFO]: [System] [CHAT] [+] PlsListenToMe
+[13:31:50] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> I have not seen you standing about
+[13:32:06] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> i might be in the wood housr
+[13:32:12] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task! [x4]
+[13:32:12] [Render thread/INFO]: [System] [CHAT] You have received: $2160000.00 [x2]
+[13:32:19] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384
+[13:32:19] [pool-2-thread-6/INFO]: [STDOUT]: Started saving the world in a new thread
+[13:32:19] [pool-2-thread-6/INFO]: [STDOUT]: World save took 0ms
+[13:32:30] [pool-2-thread-1/INFO]: [STDOUT]: Loading region 0,16 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:32:30] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 144ms
+[13:32:45] [Render thread/INFO]: [System] [CHAT] [-] PlsListenToMe [x2]
+[13:33:00] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x120]
+[13:33:00] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x121]
+[13:33:01] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x122]
+[13:33:07] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x123]
+[13:33:09] [Render thread/INFO]: [System] [CHAT] [+] Byblast3r
+[13:33:09] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x124]
+[13:33:10] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x125]
+[13:33:12] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> wb [x2]
+[13:33:14] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x126]
+[13:33:14] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x127]
+[13:33:15] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x128]
+[13:33:19] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x129]
+[13:33:20] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x130]
+[13:33:21] [Render thread/INFO]: [System] [CHAT] 2nd_Manuel has gone AFK!
+[13:33:21] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x131]
+[13:33:25] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x132]
+[13:33:28] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x133]
+[13:33:34] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x134]
+[13:33:36] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x135]
+[13:33:37] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x136]
+[13:33:43] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x137]
+[13:33:46] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x138]
+[13:33:47] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x139]
+[13:33:51] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x140]
+[13:33:52] [Render thread/INFO]: [System] [CHAT] [-] Byblast3r
+[13:33:54] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x141]
+[13:33:55] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x142]
+[13:33:55] [Render thread/INFO]: [System] [CHAT] [+] Byblast3r [x2]
+[13:33:56] [Render thread/INFO]: [System] [CHAT] [-] Byblast3r [x2]
+[13:33:58] [Render thread/INFO]: [System] [CHAT] HADES has gone AFK!
+[13:34:01] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x143]
+[13:34:03] [Render thread/INFO]: [System] [CHAT] You've just activated 2 hours of Double XP! [x2]
+[13:34:03] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task! [x5]
+[13:34:03] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x144]
+[13:34:04] [Render thread/INFO]: [System] [CHAT] [+] Byblast3r [x3]
+[13:34:33] [Render thread/INFO]: [System] [CHAT] Happy Columbus Day! We're currently having a  35% OFF Donor Store Sale, today only! Legacy Crate Keys are still in stock! Type /donate to view the store! [x5]
+[13:35:48] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> 🍪
+[13:35:51] [Render thread/INFO]: [System] [CHAT] [+] PlsListenToMe [x2]
+[13:35:57] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> wb [x3]
+[13:36:18] [Render thread/INFO]: [System] [CHAT] [-] Byblast3r [x3]
+[13:36:24] [Render thread/INFO]: [System] [CHAT] [+] Byblast3r [x4]
+[13:36:28] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> wb [x4]
+[13:36:52] [Render thread/INFO]: [System] [CHAT] [-] PlsListenToMe [x3]
+[13:37:23] [Render thread/INFO]: [System] [CHAT] [+] PlsListenToMe [x3]
+[13:37:26] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> WB
+[13:37:29] [Render thread/INFO]: [System] [CHAT] You can now fly by double-jumping! [x2]
+[13:37:33] [Render thread/INFO]: [System] [CHAT] Happy Columbus Day! We're currently having a  35% OFF Donor Store Sale, today only! Legacy Crate Keys are still in stock! Type /donate to view the store! [x6]
+[13:37:38] [Render thread/INFO]: [System] [CHAT] [+] [Mod] Nenjee
+[13:37:40] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x145]
+[13:37:40] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x146]
+[13:37:41] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> WB
+[13:37:41] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x147]
+[13:37:42] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x148]
+[13:37:44] [Render thread/INFO]: [System] [CHAT] [☠Crazy❦rabbiT☠] UsadaPekora> WB
+[13:37:49] [Render thread/INFO]: [System] [CHAT] [-] PlsListenToMe [x4]
+[13:37:51] [Render thread/INFO]: [System] [CHAT] [Mod] [REDSTONER] Nenjee> ty
+[13:37:54] [Render thread/INFO]: [System] [CHAT] You can't do that here!
+[13:37:55] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> wb [x5]
+[13:38:11] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x149]
+[13:38:13] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x150]
+[13:38:14] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x151]
+[13:38:14] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x152]
+[13:38:14] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x153]
+[13:39:15] [Render thread/INFO]: [System] [CHAT] Unbent is no longer AFK!
+[13:39:20] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> WB [x2]
+[13:39:26] [Render thread/INFO]: [System] [CHAT] HADES is no longer AFK!
+[13:39:26] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> Ty.
+[13:39:29] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> Wb.
+[13:39:29] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> wb [x6]
+[13:39:31] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> ty
+[13:39:33] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> w
+[13:39:36] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> fr
+[13:39:45] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> Fr.
+[13:39:46] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> made 10m so far
+[13:39:50] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> W
+[13:40:15] [Render thread/INFO]: [System] [CHAT] [-] [❤LessOf] Toaster
+[13:40:33] [Render thread/INFO]: [System] [CHAT] Happy Columbus Day! We're currently having a  35% OFF Donor Store Sale, today only! Legacy Crate Keys are still in stock! Type /donate to view the store! [x7]
+[13:40:39] [Render thread/INFO]: [System] [CHAT] [-] Byblast3r [x4]
+[13:40:58] [pool-2-thread-2/INFO]: [STDOUT]: Saving region 0,16 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:40:58] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:40:58] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[13:40:58] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saved region successfully
+[13:40:58] [pool-2-thread-2/INFO]: [STDOUT]: World save took 199ms
+[13:41:00] [Render thread/INFO]: [System] [CHAT] [+] Byblast3r [x5]
+[13:41:00] [Render thread/INFO]: [System] [CHAT] [-] Byblast3r [x5]
+[13:41:02] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -3,14 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:41:02] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 202ms
+[13:41:19] [Render thread/INFO]: [System] [CHAT] [-] [Mod] Nenjee
+[13:41:33] [pool-2-thread-5/INFO]: [STDOUT]: World save took 0ms
+[13:43:03] [Render thread/INFO]: [System] [CHAT] [+] [❤LessOf] Toaster
+[13:43:05] [Render thread/INFO]: [System] [CHAT] [+] Byblast3r [x6]
+[13:43:06] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> WB
+[13:43:07] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> wb
+[13:43:08] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> wb
+[13:43:15] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> Wb. [x2]
+[13:43:15] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> ty
+[13:43:33] [Render thread/INFO]: [System] [CHAT] Happy Columbus Day! We're currently having a  35% OFF Donor Store Sale, today only! Legacy Crate Keys are still in stock! Type /donate to view the store! [x8]
+[13:43:45] [Render thread/INFO]: [System] [CHAT] FraughtGoose314 accomplished something: [Best crewmates forever]
+[13:44:40] [Render thread/INFO]: [System] [CHAT] 2nd_Manuel is no longer AFK!
+[13:44:43] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> wb.
+[13:45:01] [Render thread/INFO]: [System] [CHAT] [Explorer] 2nd_Manuel> ty
+[13:46:33] [Render thread/INFO]: [System] [CHAT] Happy Columbus Day! We're currently having a  35% OFF Donor Store Sale, today only! Legacy Crate Keys are still in stock! Type /donate to view the store! [x9]
+[13:46:34] [Render thread/INFO]: [System] [CHAT] [-] Byblast3r [x6]
+[13:46:40] [Render thread/INFO]: [System] [CHAT] [+] Byblast3r [x7]
+[13:46:42] [Render thread/INFO]: [System] [CHAT] [+] PlsListenToMe [x4]
+[13:46:48] [Render thread/INFO]: [System] [CHAT] [-] Byblast3r [x7]
+[13:46:48] [Render thread/INFO]: [System] [CHAT] [+] Byblast3r [x8]
+[13:46:50] [Render thread/INFO]: [System] [CHAT] [-] Byblast3r [x8]
+[13:46:53] [Render thread/INFO]: [System] [CHAT] [+] Byblast3r [x9]
+[13:46:56] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x154]
+[13:46:56] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x155]
+[13:46:58] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x156]
+[13:46:58] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x157]
+[13:46:58] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x158]
+[13:46:59] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x159]
+[13:46:59] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x160]
+[13:47:00] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x161]
+[13:47:00] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x162]
+[13:47:02] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x163]
+[13:47:03] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x164]
+[13:47:03] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x165]
+[13:47:04] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x166]
+[13:47:04] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x167]
+[13:47:05] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x168]
+[13:47:05] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x169]
+[13:47:06] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x170]
+[13:47:07] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x171]
+[13:47:07] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x172]
+[13:47:08] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x173]
+[13:47:10] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x174]
+[13:47:10] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x175]
+[13:47:11] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x176]
+[13:47:12] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x177]
+[13:47:15] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x178]
+[13:47:15] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x179]
+[13:47:16] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x180]
+[13:47:20] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x181]
+[13:47:20] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x182]
+[13:47:21] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x183]
+[13:47:21] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x184]
+[13:47:22] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x185]
+[13:47:23] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x186]
+[13:47:23] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x187]
+[13:47:26] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x188]
+[13:47:27] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x189]
+[13:47:27] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x190]
+[13:47:28] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x191]
+[13:47:29] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x192]
+[13:47:31] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task! [x6]
+[13:47:31] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x193]
+[13:47:31] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x194]
+[13:47:31] [Render thread/INFO]: [System] [CHAT] You have received 4 DailyKey keys! [x2]
+[13:47:32] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x195]
+[13:47:33] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x196]
+[13:47:34] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x197]
+[13:47:34] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x198]
+[13:47:34] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x199]
+[13:47:35] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x200]
+[13:47:36] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x201]
+[13:47:36] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x202]
+[13:47:37] [Render thread/INFO]: [System] [CHAT] [-] Byblast3r [x9]
+[13:47:37] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x203]
+[13:47:38] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x204]
+[13:47:38] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x205]
+[13:47:39] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x206]
+[13:47:39] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x207]
+[13:47:40] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x208]
+[13:47:40] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x209]
+[13:47:44] [Render thread/INFO]: [System] [CHAT] 2nd_Manuel has gone AFK! [x2]
+[13:49:33] [Render thread/INFO]: [System] [CHAT] Happy Columbus Day! We're currently having a  35% OFF Donor Store Sale, today only! Legacy Crate Keys are still in stock! Type /donate to view the store! [x10]
+[13:49:43] [Render thread/INFO]: [System] [CHAT] [-] PlsListenToMe [x5]
+[13:50:17] [Render thread/INFO]: [System] [CHAT] [+] thewitherking1
+[13:50:20] [Render thread/INFO]: [System] [CHAT] [☠Crazy❦rabbiT☠] UsadaPekora> wb
+[13:50:31] [Render thread/INFO]: [System] [CHAT] [+] PlsListenToMe [x5]
+[13:50:58] [pool-2-thread-2/INFO]: [STDOUT]: Saving region 0,16 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:50:58] [ForkJoinPool.commonPool-worker-22/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:50:58] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[13:50:58] [ForkJoinPool.commonPool-worker-22/INFO]: [STDOUT]: Saved region successfully
+[13:50:58] [pool-2-thread-2/INFO]: [STDOUT]: World save took 195ms
+[13:51:19] [Render thread/INFO]: [System] [CHAT] [-] PlsListenToMe [x6]
+[13:51:33] [pool-2-thread-5/INFO]: [STDOUT]: World save took 0ms
+[13:52:33] [Render thread/INFO]: [System] [CHAT] Happy Columbus Day! We're currently having a  35% OFF Donor Store Sale, today only! Legacy Crate Keys are still in stock! Type /donate to view the store! [x11]
+[13:52:53] [Render thread/INFO]: [System] [CHAT] [+] PlsListenToMe [x6]
+[13:52:56] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> wb. [x2]
+[13:53:00] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> Fly.
+[13:53:03] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> Oops.
+[13:53:05] [Render thread/INFO]: [System] [CHAT] AntonToernblad is no longer AFK!
+[13:53:08] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> WB.
+[13:53:15] [Render thread/INFO]: [System] [CHAT] [Member] PlsListenToMe> why cant i get on the server in lunar client
+[13:53:31] [Render thread/INFO]: [System] [CHAT] thewitherking1 has just opened a Boss Crate and won a Spawner!
+[13:55:07] [Render thread/INFO]: [System] [CHAT] [-] thewitherking1
+[13:55:12] [Render thread/INFO]: [System] [CHAT] [-] PlsListenToMe [x7]
+[13:55:33] [Render thread/INFO]: [System] [CHAT] Happy Columbus Day! We're currently having a  35% OFF Donor Store Sale, today only! Legacy Crate Keys are still in stock! Type /donate to view the store! [x12]
+[13:56:03] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x210]
+[13:56:04] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x211]
+[13:56:05] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x212]
+[13:56:07] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x213]
+[13:56:08] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x214]
+[13:56:08] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x215]
+[13:56:09] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x216]
+[13:56:09] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x217]
+[13:56:10] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x218]
+[13:56:11] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x219]
+[13:56:12] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x220]
+[13:56:13] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x221]
+[13:56:14] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x222]
+[13:56:15] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x223]
+[13:56:17] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x224]
+[13:56:18] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x225]
+[13:56:19] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x226]
+[13:56:20] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x227]
+[13:56:22] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x228]
+[13:56:24] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x229]
+[13:56:27] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x230]
+[13:56:28] [Render thread/INFO]: [System] [CHAT] [+] PlsListenToMe [x7]
+[13:56:28] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x231]
+[13:56:29] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x232]
+[13:56:29] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x233]
+[13:56:31] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x234]
+[13:56:31] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x235]
+[13:56:31] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> wb. [x3]
+[13:56:32] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x236]
+[13:56:33] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x237]
+[13:56:33] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x238]
+[13:56:34] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x239]
+[13:56:35] [Render thread/INFO]: [System] [CHAT] 2nd_Manuel is no longer AFK! [x2]
+[13:56:35] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x240]
+[13:56:37] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x241]
+[13:56:38] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x242]
+[13:56:38] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> wb. [x4]
+[13:56:38] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x243]
+[13:56:39] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x244]
+[13:56:40] [Render thread/INFO]: [System] [CHAT] [Explorer] 2nd_Manuel> ty [x2]
+[13:56:41] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x245]
+[13:56:44] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x246]
+[13:56:44] [Render thread/INFO]: [System] [CHAT] [Member] PlsListenToMe> les go i can join on lunar client now
+[13:56:44] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x247]
+[13:56:45] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x248]
+[13:56:46] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x249]
+[13:56:47] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x250]
+[13:56:47] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x251]
+[13:56:49] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x252]
+[13:56:49] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x253]
+[13:56:50] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x254]
+[13:56:52] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x255]
+[13:56:52] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x256]
+[13:57:02] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x257]
+[13:57:04] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x258]
+[13:57:05] [Render thread/INFO]: [System] [CHAT] You've just activated 4 hours of Double XP!
+[13:57:05] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task! [x7]
+[13:57:05] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x259]
+[13:57:08] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -17,-18 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:57:08] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 124ms
+[13:57:08] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -18,-18 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:57:08] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 135ms
+[13:57:09] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x260]
+[13:57:09] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x261]
+[13:57:09] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x262]
+[13:57:09] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x263]
+[13:57:10] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x264]
+[13:57:10] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x265]
+[13:57:10] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x266]
+[13:57:11] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x267]
+[13:57:11] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x268]
+[13:57:13] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task! [x8]
+[13:57:13] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x269]
+[13:57:13] [Render thread/INFO]: [System] [CHAT] You have received: $2160000.00 [x3]
+[13:57:14] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x270]
+[13:57:15] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x271]
+[13:57:16] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -3,14 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:57:16] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 260ms
+[13:58:02] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task! [x9]
+[13:58:02] [Render thread/INFO]: [System] [CHAT] You have received 2 DailyKey keys!
+[13:58:05] [Render thread/INFO]: [System] [CHAT] 2nd_Manuel accomplished something: [Golden dreams]
+[13:58:17] [Render thread/INFO]: [System] [CHAT] _Lunaaa accomplished something: [Golden dreams]
+[13:58:31] [Render thread/INFO]: [System] [CHAT] §9§2U§bn§2b§be§2n§bt§e wants to make it daytime, click here if you do too!
+[13:58:31] [Render thread/INFO]: [System] [CHAT] Voting ends in 60 seconds!
+[13:58:32] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> V.
+[13:58:33] [Render thread/INFO]: [System] [CHAT] Happy Columbus Day! We're currently having a  35% OFF Donor Store Sale, today only! Legacy Crate Keys are still in stock! Type /donate to view the store! [x13]
+[13:58:37] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> i wonder if the 3x boost gets to 4x if it will be 8x
+[13:59:27] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x272]
+[13:59:28] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x273]
+[13:59:28] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x274]
+[13:59:31] [Render thread/INFO]: [System] [CHAT] Daytime voting has ended! 5 players voted. Not enough! You can try to /voteday again in 10 minutes.
+[13:59:33] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x275]
+[13:59:34] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x276]
+[13:59:34] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x277]
+[13:59:37] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x278]
+[13:59:37] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x279]
+[13:59:40] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x280]
+[13:59:41] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x281]
+[13:59:44] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x282]
+[13:59:45] [Render thread/INFO]: [System] [CHAT] Available Commands: 1/17
+[13:59:45] [Render thread/INFO]: [System] [CHAT] Afk: Let other players know you've gone afk.
+[13:59:45] [Render thread/INFO]: [System] [CHAT] Back: Teleport to where you previously were.
+[13:59:45] [Render thread/INFO]: [System] [CHAT] Backpack: Opens your backpack.
+[13:59:45] [Render thread/INFO]: [System] [CHAT] Balance: Find out how much money you have.
+[13:59:45] [Render thread/INFO]: [System] [CHAT] Blacklist: Blacklist a player from doing things in your claim.
+[13:59:46] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x283]
+[13:59:47] [Render thread/INFO]: [System] [CHAT] You have $214,496,427 and $45,442,328 in your shop.
+[13:59:51] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x284]
+[13:59:52] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x285]
+[13:59:54] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x286]
+[13:59:56] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x287]
+[13:59:58] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x288]
+[14:00:01] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x289]
+[14:00:03] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x290]
+[14:00:04] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x291]
+[14:00:08] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x292]
+[14:00:08] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> Hi.
+[14:00:11] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x293]
+[14:00:12] [Render thread/INFO]: [System] [CHAT] [☠Crazy❦rabbiT☠] UsadaPekora> yo
+[14:00:12] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x294]
+[14:00:13] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x295]
+[14:00:18] [Render thread/INFO]: [System] [CHAT] You've just activated 3 hours of Double XP!
+[14:00:18] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task! [x10]
+[14:00:18] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x296]
+[14:00:19] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x297]
+[14:00:21] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x298]
+[14:00:25] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x299]
+[14:00:25] [Render thread/INFO]: [System] [CHAT] [+] thewitherking1 [x2]
+[14:00:25] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x300]
+[14:00:29] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x301]
+[14:00:31] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x302]
+[14:00:34] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x303]
+[14:00:36] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x304]
+[14:00:38] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x305]
+[14:00:42] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x306]
+[14:00:48] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x307]
+[14:00:49] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x308]
+[14:00:50] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x309]
+[14:00:51] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x310]
+[14:00:54] [Render thread/INFO]: [System] [CHAT] [-] thewitherking1 [x2]
+[14:00:54] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x311]
+[14:00:55] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x312]
+[14:00:58] [Render thread/INFO]: [System] [CHAT] [+] thewitherking1 [x3]
+[14:00:58] [pool-2-thread-2/INFO]: [STDOUT]: Saving region -18,-18 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[14:00:58] [ForkJoinPool.commonPool-worker-32/INFO]: [STDOUT]: Saving region 0,16 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[14:00:58] [ForkJoinPool.commonPool-worker-34/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[14:00:58] [ForkJoinPool.commonPool-worker-30/INFO]: [STDOUT]: Saving region -17,-18 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[14:00:58] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[14:00:58] [ForkJoinPool.commonPool-worker-30/INFO]: [STDOUT]: Saved region successfully
+[14:00:58] [ForkJoinPool.commonPool-worker-32/INFO]: [STDOUT]: Saved region successfully
+[14:00:58] [ForkJoinPool.commonPool-worker-34/INFO]: [STDOUT]: Saved region successfully
+[14:00:58] [pool-2-thread-2/INFO]: [STDOUT]: World save took 207ms
+[14:00:59] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x313]
+[14:00:59] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x314]
+[14:01:03] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x315]
+[14:01:05] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x316]
+[14:01:08] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x317]
+[14:01:09] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x318]
+[14:01:11] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x319]
+[14:01:13] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x320]
+[14:01:16] [Render thread/INFO]: [System] [CHAT] You've just activated 3 hours of Double XP! [x2]
+[14:01:16] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task! [x11]
+[14:01:16] [Render thread/INFO]: [System] [CHAT] You have received: $2160.00 [x321]
+[14:01:18] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -3,14 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[14:01:18] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 196ms
+[14:01:19] [Render thread/INFO]: [System] [CHAT] Want to support the server, get /crate keys and your next /rank? Don't forget to /vote! [x2]
+[14:01:20] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> How manydoyou hav to kill?
+[14:01:25] [Render thread/INFO]: [System] [CHAT] [☠Crazy❦rabbiT☠] UsadaPekora> 10
+[14:01:33] [pool-2-thread-5/INFO]: [STDOUT]: World save took 0ms
+[14:01:33] [Render thread/INFO]: [System] [CHAT] Happy Columbus Day! We're currently having a  35% OFF Donor Store Sale, today only! Legacy Crate Keys are still in stock! Type /donate to view the store! [x14]
+[14:01:35] [Render thread/INFO]: [System] [CHAT] [+] [FoE] _YV_
+[14:01:36] [Render thread/INFO]: [System] [CHAT] [-] [FoE] _YV_
+[14:01:38] [Render thread/INFO]: [System] [CHAT] [+] [Custom+] _YV_
+[14:01:46] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> You can have then I have to kill 250.
+[14:01:48] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> Wb. [x3]
+[14:01:48] [Render thread/INFO]: [System] [CHAT] [-] PlsListenToMe [x8]
+[14:02:02] [Render thread/INFO]: [System] [CHAT] [-] [FoE] _YV_ [x2]
+[14:02:07] [Render thread/INFO]: [System] [CHAT] [+] PlsListenToMe [x8]
+[14:02:14] [Render thread/INFO]: [System] [CHAT] [☠Crazy❦rabbiT☠] UsadaPekora> alr thanks
+[14:02:15] [Render thread/INFO]: [System] [CHAT] [Member] PlsListenToMe> disconnected
+[14:02:22] [Render thread/INFO]: [System] [CHAT] [Member] PlsListenToMe> does anyone else keep disconnecting
+[14:02:29] [Render thread/INFO]: [System] [CHAT] [☠Crazy❦rabbiT☠] UsadaPekora> no
+[14:02:34] [Render thread/INFO]: [System] [CHAT] [☠Crazy❦rabbiT☠] UsadaPekora> i use curseforge
+[14:02:38] [Render thread/INFO]: [System] [CHAT] [Member] PlsListenToMe> i use lunar
+[14:03:44] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task! [x12]
+[14:03:44] [Render thread/INFO]: [System] [CHAT] You have received 3 DailyKey keys!
+[14:04:33] [Render thread/INFO]: [System] [CHAT] Happy Columbus Day! We're currently having a  35% OFF Donor Store Sale, today only! Legacy Crate Keys are still in stock! Type /donate to view the store! [x15]
+[14:04:40] [Render thread/INFO]: [System] [CHAT] [-] PlsListenToMe [x9]
+[14:04:44] [Render thread/INFO]: [System] [CHAT] [+] [Custom+] Lady
+[14:04:46] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> wb. [x5]
+[14:04:48] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> WB
+[14:04:51] [Render thread/INFO]: [System] [CHAT] [⁺☁₊◦☾⁺₊] Lady> thanks
+[14:05:05] [Render thread/INFO]: Minimap session finalized.
+[14:05:05] [Render thread/INFO]: Finalizing world map session...
+[14:05:05] [Thread-1/INFO]: World map force-cleaned!
+[14:05:05] [Render thread/INFO]: World map session finalized.
+[14:05:07] [Render thread/INFO]: Stopping!

@@ -1,0 +1,1462 @@
+[20:26:43] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.14.9
+[20:26:43] [ForkJoinPool-1-worker-2/WARN]: Mod wurst uses the version v7.27.3-MC1.19.2 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[20:26:43] [ForkJoinPool-1-worker-7/WARN]: Mod wurst uses the version v7.28-MC1.19.2 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[20:26:43] [main/INFO]: Loading 55 mods:
+	- baritone 1.5.3-621-gaddd1fc7
+	- fabric-api 0.61.0+1.19.2
+	- fabric-api-base 0.4.11+e62f51a390 via fabric-api
+	- fabric-api-lookup-api-v1 1.6.9+9ff28f4090 via fabric-api
+	- fabric-biome-api-v1 9.0.17+aeb40ebe90 via fabric-api
+	- fabric-blockrenderlayer-v1 1.1.20+aeb40ebe90 via fabric-api
+	- fabric-client-tags-api-v1 1.0.1+b35fea8390 via fabric-api
+	- fabric-command-api-v1 1.2.11+f71b366f90 via fabric-api
+	- fabric-command-api-v2 2.1.7+0c17ea9690 via fabric-api
+	- fabric-commands-v0 0.2.28+df3654b390 via fabric-api
+	- fabric-containers-v0 0.1.34+df3654b390 via fabric-api
+	- fabric-content-registries-v0 3.3.0+624e468e90 via fabric-api
+	- fabric-convention-tags-v1 1.1.1+7cd20a1490 via fabric-api
+	- fabric-crash-report-info-v1 0.2.5+aeb40ebe90 via fabric-api
+	- fabric-data-generation-api-v1 5.1.9+a680b9b490 via fabric-api
+	- fabric-dimensions-v1 2.1.31+0dd10df690 via fabric-api
+	- fabric-entity-events-v1 1.4.18+9ff28f4090 via fabric-api
+	- fabric-events-interaction-v0 0.4.28+aeb40ebe90 via fabric-api
+	- fabric-events-lifecycle-v0 0.2.28+df3654b390 via fabric-api
+	- fabric-game-rule-api-v1 1.0.21+aeb40ebe90 via fabric-api
+	- fabric-item-api-v1 1.5.7+35a03c4390 via fabric-api
+	- fabric-item-groups-v0 0.3.29+4e8ca3fd90 via fabric-api
+	- fabric-key-binding-api-v1 1.0.20+aeb40ebe90 via fabric-api
+	- fabric-keybindings-v0 0.2.18+df3654b390 via fabric-api
+	- fabric-lifecycle-events-v1 2.1.2+aeb40ebe90 via fabric-api
+	- fabric-loot-api-v2 1.1.3+83a8659290 via fabric-api
+	- fabric-loot-tables-v1 1.1.6+9e7660c690 via fabric-api
+	- fabric-message-api-v1 5.0.3+176380a290 via fabric-api
+	- fabric-mining-level-api-v1 2.1.14+33fbc73890 via fabric-api
+	- fabric-models-v0 0.3.17+aeb40ebe90 via fabric-api
+	- fabric-networking-api-v1 1.2.4+5eb68ef290 via fabric-api
+	- fabric-networking-v0 0.3.21+df3654b390 via fabric-api
+	- fabric-object-builder-api-v1 4.0.11+aeb40ebe90 via fabric-api
+	- fabric-particles-v1 1.0.10+aeb40ebe90 via fabric-api
+	- fabric-registry-sync-v0 0.9.25+726b652090 via fabric-api
+	- fabric-renderer-api-v1 1.0.10+aeb40ebe90 via fabric-api
+	- fabric-renderer-indigo 0.6.12+aeb40ebe90 via fabric-api
+	- fabric-renderer-registries-v1 3.2.20+df3654b390 via fabric-api
+	- fabric-rendering-data-attachment-v1 0.3.14+aeb40ebe90 via fabric-api
+	- fabric-rendering-fluids-v1 3.0.7+aeb40ebe90 via fabric-api
+	- fabric-rendering-v0 1.1.22+df3654b390 via fabric-api
+	- fabric-rendering-v1 1.10.16+aeb40ebe90 via fabric-api
+	- fabric-resource-conditions-api-v1 2.0.11+e62f51a390 via fabric-api
+	- fabric-resource-loader-v0 0.6.1+aeb40ebe90 via fabric-api
+	- fabric-screen-api-v1 1.0.26+f05effaf90 via fabric-api
+	- fabric-screen-handler-api-v1 1.3.0+1cc24b1b90 via fabric-api
+	- fabric-textures-v0 1.0.20+aeb40ebe90 via fabric-api
+	- fabric-transfer-api-v1 2.1.0+8f88597390 via fabric-api
+	- fabric-transitive-access-wideners-v1 1.3.0+42d99c3290 via fabric-api
+	- fabricloader 0.14.9
+	- java 17
+	- minecraft 1.19.2
+	- wurst v7.28-MC1.19.2
+	- xaerominimap 22.15.1
+	- xaeroworldmap 1.28.0
+[20:26:43] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[20:26:43] [main/INFO]: Compatibility level set to JAVA_17
+[20:26:44] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/occlusion/BlockOcclusionCache (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/occlusion/BlockOcclusionCache)
+[20:26:45] [main/WARN]: Configuration conflict: there is more than one oshi.properties file on the classpath
+[20:26:45] [main/WARN]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath
+[20:26:49] [main/INFO]: Building optimized datafixer
+[20:26:54] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:26:56] [Render thread/INFO]: Setting user: CodeOverload
+[20:26:57] [Render thread/INFO]: [STDOUT]: Starting Wurst Client...
+[20:26:59] [Render thread/INFO]: [Indigo] Registering Indigo renderer!
+[20:26:59] [Render thread/INFO]: Loading Xaero's Minimap - Stage 1/2
+[20:27:00] [Render thread/ERROR]: suppressed exception
+java.lang.RuntimeException: Online mod data expired! Date: Sun Oct 09 16:49:00 CDT 2022
+	at xaero.common.patreon.decrypt.DecryptInputStream.read(DecryptInputStream.java:59) ~[Xaeros_Minimap_22.15.1_Fabric_1.19.1.jar:?]
+	at java.io.InputStream.read(InputStream.java:284) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at xaero.common.patreon.Patreon.checkPatreon(Patreon.java:77) ~[Xaeros_Minimap_22.15.1_Fabric_1.19.1.jar:?]
+	at xaero.minimap.XaeroMinimap.loadClient(XaeroMinimap.java:194) ~[Xaeros_Minimap_22.15.1_Fabric_1.19.1.jar:?]
+	at xaero.minimap.XaeroMinimap.onInitializeClient(XaeroMinimap.java:63) ~[Xaeros_Minimap_22.15.1_Fabric_1.19.1.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:47) [fabric-loader-0.14.9.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke(EntrypointUtils.java:35) [fabric-loader-0.14.9.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:53) [fabric-loader-0.14.9.jar:?]
+	at net.minecraft.class_310.<init>(class_310.java:459) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.method_44604(Main.java:205) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.9.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[20:27:01] [Render thread/INFO]: Loading Xaero's World Map - Stage 1/2
+[20:27:01] [Render thread/ERROR]: suppressed exception
+java.lang.RuntimeException: Online mod data expired! Date: Sun Oct 09 16:49:00 CDT 2022
+	at xaero.map.patreon.decrypt.DecryptInputStream.read(DecryptInputStream.java:59) ~[XaerosWorldMap_1.28.0_Fabric_1.19.1.jar:?]
+	at java.io.InputStream.read(InputStream.java:284) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at xaero.map.misc.Internet.checkModVersion(Internet.java:54) ~[XaerosWorldMap_1.28.0_Fabric_1.19.1.jar:?]
+	at xaero.map.WorldMap.loadClient(WorldMap.java:187) ~[XaerosWorldMap_1.28.0_Fabric_1.19.1.jar:?]
+	at xaero.map.WorldMap.onInitializeClient(WorldMap.java:57) ~[XaerosWorldMap_1.28.0_Fabric_1.19.1.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:47) [fabric-loader-0.14.9.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke(EntrypointUtils.java:35) [fabric-loader-0.14.9.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:53) [fabric-loader-0.14.9.jar:?]
+	at net.minecraft.class_310.<init>(class_310.java:459) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.method_44604(Main.java:205) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.9.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[20:27:02] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[20:27:07] [Render thread/WARN]: ERROR : Couldn't load Narrator library
+java.lang.UnsatisfiedLinkError: Unable to load library 'fliteWrapper':
+libfliteWrapper.so: cannot open shared object file: No such file or directory
+libfliteWrapper.so: cannot open shared object file: No such file or directory
+Native library (linux-x86-64/libfliteWrapper.so) not found in resource path (/home/gavinboor/.local/share/multimc/bin/jars/NewLaunch.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/logging/1.0.0/logging-1.0.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar:/home/gavinboor/.local/share/multimc/libraries/com/github/oshi/oshi-core/5.8.5/oshi-core-5.8.5.jar:/home/gavinboor/.local/share/multimc/libraries/net/java/dev/jna/jna/5.10.0/jna-5.10.0.jar:/home/gavinboor/.local/share/multimc/libraries/net/java/dev/jna/jna-platform/5.10.0/jna-platform-5.10.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-slf4j18-impl/2.16.0/log4j-slf4j18-impl-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/ibm/icu/icu4j/70.1/icu4j-70.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/javabridge/1.2.24/javabridge-1.2.24.jar:/home/gavinboor/.local/share/multimc/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-common/4.1.77.Final/netty-common-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-buffer/4.1.77.Final/netty-buffer-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-codec/4.1.77.Final/netty-codec-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-handler/4.1.77.Final/netty-handler-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-resolver/4.1.77.Final/netty-resolver-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport/4.1.77.Final/netty-transport-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-native-unix-common/4.1.77.Final/netty-transport-native-unix-common-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-classes-epoll/4.1.77.Final/netty-transport-classes-epoll-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-native-epoll/4.1.77.Final/netty-transport-native-epoll-4.1.77.Final-linux-x86_64.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/gavinboor/.local/share/multimc/libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/gavinboor/.local/share/multimc/libraries/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/datafixerupper/5.0.28/datafixerupper-5.0.28.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/authlib/3.11.49/authlib-3.11.49.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/gavinboor/.local/share/multimc/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar:/home/gavinboor/.local/share/multimc/libraries/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-api/2.16.0/log4j-api-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-core/2.16.0/log4j-core-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/text2speech/1.13.9/text2speech-1.13.9.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/intermediary/1.19.2/intermediary-1.19.2.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/tiny-mappings-parser/0.3.0+build.17/tiny-mappings-parser-0.3.0+build.17.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/tiny-remapper/0.8.2/tiny-remapper-0.8.2.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm/9.3/asm-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-util/9.3/asm-util-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/fabric-loader/0.14.9/fabric-loader-0.14.9.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/minecraft/1.19.2/minecraft-1.19.2-client.jar)
+	at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:301) ~[jna-5.10.0.jar:?]
+	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:?]
+	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:?]
+	at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.13.9.jar:?]
+	at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.13.9.jar:?]
+	at net.minecraft.class_333.<init>(class_333.java:19) [client-intermediary.jar:?]
+	at net.minecraft.class_310.<init>(class_310.java:637) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.method_44604(Main.java:205) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.9.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+	Suppressed: java.lang.UnsatisfiedLinkError: libfliteWrapper.so: cannot open shared object file: No such file or directory
+		at com.sun.jna.Native.open(Native Method) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:191) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:?]
+		at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.13.9.jar:?]
+		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.13.9.jar:?]
+		at net.minecraft.class_333.<init>(class_333.java:19) [client-intermediary.jar:?]
+		at net.minecraft.class_310.<init>(class_310.java:637) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.method_44604(Main.java:205) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+		at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.9.jar:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+		at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+		at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+		at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+	Suppressed: java.lang.UnsatisfiedLinkError: libfliteWrapper.so: cannot open shared object file: No such file or directory
+		at com.sun.jna.Native.open(Native Method) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:204) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:?]
+		at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.13.9.jar:?]
+		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.13.9.jar:?]
+		at net.minecraft.class_333.<init>(class_333.java:19) [client-intermediary.jar:?]
+		at net.minecraft.class_310.<init>(class_310.java:637) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.method_44604(Main.java:205) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+		at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.9.jar:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+		at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+		at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+		at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+	Suppressed: java.io.IOException: Native library (linux-x86-64/libfliteWrapper.so) not found in resource path (/home/gavinboor/.local/share/multimc/bin/jars/NewLaunch.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/logging/1.0.0/logging-1.0.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar:/home/gavinboor/.local/share/multimc/libraries/com/github/oshi/oshi-core/5.8.5/oshi-core-5.8.5.jar:/home/gavinboor/.local/share/multimc/libraries/net/java/dev/jna/jna/5.10.0/jna-5.10.0.jar:/home/gavinboor/.local/share/multimc/libraries/net/java/dev/jna/jna-platform/5.10.0/jna-platform-5.10.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-slf4j18-impl/2.16.0/log4j-slf4j18-impl-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/ibm/icu/icu4j/70.1/icu4j-70.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/javabridge/1.2.24/javabridge-1.2.24.jar:/home/gavinboor/.local/share/multimc/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-common/4.1.77.Final/netty-common-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-buffer/4.1.77.Final/netty-buffer-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-codec/4.1.77.Final/netty-codec-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-handler/4.1.77.Final/netty-handler-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-resolver/4.1.77.Final/netty-resolver-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport/4.1.77.Final/netty-transport-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-native-unix-common/4.1.77.Final/netty-transport-native-unix-common-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-classes-epoll/4.1.77.Final/netty-transport-classes-epoll-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-native-epoll/4.1.77.Final/netty-transport-native-epoll-4.1.77.Final-linux-x86_64.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/gavinboor/.local/share/multimc/libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/gavinboor/.local/share/multimc/libraries/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/datafixerupper/5.0.28/datafixerupper-5.0.28.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/authlib/3.11.49/authlib-3.11.49.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/gavinboor/.local/share/multimc/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar:/home/gavinboor/.local/share/multimc/libraries/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-api/2.16.0/log4j-api-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-core/2.16.0/log4j-core-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/text2speech/1.13.9/text2speech-1.13.9.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/intermediary/1.19.2/intermediary-1.19.2.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/tiny-mappings-parser/0.3.0+build.17/tiny-mappings-parser-0.3.0+build.17.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/tiny-remapper/0.8.2/tiny-remapper-0.8.2.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm/9.3/asm-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-util/9.3/asm-util-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/fabric-loader/0.14.9/fabric-loader-0.14.9.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/minecraft/1.19.2/minecraft-1.19.2-client.jar)
+		at com.sun.jna.Native.extractFromResourcePath(Native.java:1145) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:275) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:?]
+		at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.13.9.jar:?]
+		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.13.9.jar:?]
+		at net.minecraft.class_333.<init>(class_333.java:19) [client-intermediary.jar:?]
+		at net.minecraft.class_310.<init>(class_310.java:637) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.method_44604(Main.java:205) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+		at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.9.jar:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+		at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+		at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+		at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[20:27:07] [Render thread/INFO]: Reloading ResourceManager: Default, Fabric Mods (Fabric API, Fabric API Base, Fabric API Lookup API (v1), Fabric Biome API (v1), Fabric BlockRenderLayer Registration (v1), Fabric Client Tags, Fabric Command API (v1), Fabric Command API (v2), Fabric Commands (v0), Fabric Containers (v0), Fabric Content Registries (v0), Fabric Convention Tags, Fabric Crash Report Info (v1), Fabric Data Generation API (v1), Fabric Dimensions API (v1), Fabric Entity Events (v1), Fabric Events Interaction (v0), Fabric Events Lifecycle (v0), Fabric Game Rule API (v1), Fabric Item API (v1), Fabric Item Groups (v0), Fabric Key Binding API (v1), Fabric Key Bindings (v0), Fabric Lifecycle Events (v1), Fabric Loot API (v2), Fabric Loot Tables (v1), Fabric Message API (v1), Fabric Mining Level API (v1), Fabric Models (v0), Fabric Networking API (v1), Fabric Networking (v0), Fabric Object Builder API (v1), Fabric Particles (v1), Fabric Registry Sync (v0), Fabric Renderer API (v1), Fabric Renderer - Indigo, Fabric Renderer Registries (v1), Fabric Rendering Data Attachment (v1), Fabric Rendering Fluids (v1), Fabric Rendering (v0), Fabric Rendering (v1), Fabric Resource Conditions API (v1), Fabric Resource Loader (v0), Fabric Screen API (v1), Fabric Screen Handler API (v1), Fabric Textures (v0), Fabric Transfer API (v1), Fabric Transitive Access Wideners (v1), Fabric Loader, Wurst Client, Xaero's Minimap, Xaero's World Map)
+[20:27:09] [Render thread/INFO]: Loading Xaero's Minimap - Stage 2/2
+[20:27:09] [Render thread/ERROR]: suppressed exception
+java.lang.RuntimeException: Online mod data expired! Date: Sun Oct 09 16:49:00 CDT 2022
+	at xaero.common.patreon.decrypt.DecryptInputStream.read(DecryptInputStream.java:59) ~[Xaeros_Minimap_22.15.1_Fabric_1.19.1.jar:?]
+	at java.io.InputStream.read(InputStream.java:284) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at xaero.common.misc.Internet.checkModVersion(Internet.java:54) [Xaeros_Minimap_22.15.1_Fabric_1.19.1.jar:?]
+	at xaero.minimap.XaeroMinimap.tryLoadLater(XaeroMinimap.java:239) [Xaeros_Minimap_22.15.1_Fabric_1.19.1.jar:?]
+	at net.minecraft.class_310.handler$zni001$onTickStart(class_310.java:6956) [client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1574(class_310.java) [client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1135) [client-intermediary.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:768) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.method_44604(Main.java:244) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.9.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[20:27:09] [Render thread/INFO]: Xaero's Minimap: World Map found!
+[20:27:09] [Render thread/INFO]: No Optifine!
+[20:27:09] [Render thread/INFO]: Xaero's Minimap: No Vivecraft!
+[20:27:09] [Render thread/INFO]: Loading Xaero's World Map - Stage 2/2
+[20:27:09] [Render thread/INFO]: New world map region cache hash code: 687554333
+[20:27:09] [Render thread/INFO]: Xaero's WorldMap Mod: Xaero's minimap found!
+[20:27:09] [Render thread/INFO]: No Optifine!
+[20:27:09] [Render thread/INFO]: Xaero's World Map: No Vivecraft!
+[20:27:13] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[20:27:13] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[20:27:13] [Render thread/INFO]: OpenAL initialized on device VirtIO SoundCard
+[20:27:13] [Render thread/INFO]: Sound engine started
+[20:27:14] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/blocks.png-atlas
+[20:27:14] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/signs.png-atlas
+[20:27:14] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[20:27:14] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[20:27:14] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/chest.png-atlas
+[20:27:14] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
+[20:27:14] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[20:27:17] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[20:27:17] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[20:27:17] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[20:27:17] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[20:27:17] [Render thread/INFO]: Successfully reloaded the minimap shaders!
+[20:27:18] [Render thread/INFO]: Successfully reloaded the world map shaders!
+[20:27:34] [Worker-Bootstrap-6/INFO]: 4283 Datafixer optimizations took 45863 milliseconds
+[20:27:36] [Render thread/INFO]: Connecting to play.survivewith.us, 25565
+[20:27:38] [Render thread/INFO]: New minimap session initialized!
+[20:27:38] [Render thread/INFO]: New world map session initialized!
+[20:27:38] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384
+[20:27:38] [Render thread/INFO]: [STDOUT]: Cached world directory: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:27:38] [Render thread/INFO]: [STDOUT]: Would save waypoints to /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/waypoints
+[20:27:38] [Render thread/INFO]: Reloading entity icon resources...
+[20:27:38] [Render thread/INFO]: Done!
+[20:27:38] [Render thread/INFO]: Minimap session finalized.
+[20:27:38] [Render thread/INFO]: Finalizing world map session...
+[20:27:38] [Thread-1/INFO]: World map force-cleaned!
+[20:27:38] [Render thread/INFO]: World map session finalized.
+[20:27:38] [Render thread/INFO]: [STDOUT]: Telemetry sending attempt blocked.
+[20:27:38] [Render thread/INFO]: [STDOUT]: Disconnected: literal{Something went wrong. Please try re-connecting.}[style={color=red}]
+[20:27:41] [Render thread/INFO]: Connecting to play.survivewith.us, 25565
+[20:27:42] [Render thread/INFO]: New minimap session initialized!
+[20:27:42] [Render thread/INFO]: New world map session initialized!
+[20:27:42] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384
+[20:27:42] [pool-2-thread-3/INFO]: [STDOUT]: Started saving the world in a new thread
+[20:27:42] [pool-2-thread-3/INFO]: [STDOUT]: World save took 3ms
+[20:27:42] [Render thread/INFO]: [STDOUT]: Telemetry sending attempt blocked.
+[20:27:42] [Render thread/INFO]: [STDOUT]: Telemetry sending attempt blocked.
+[20:27:42] [Render thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: minecraft:ancient_city_replaceable, minecraft:mangrove_logs_can_grow_through, minecraft:mangrove_roots_can_grow_through, minecraft:nether_carver_replaceables, minecraft:overworld_carver_replaceables
+[20:27:42] [Render thread/INFO]: [System] [CHAT] 
+[20:27:42] [Render thread/INFO]: [System] [CHAT] 
+[20:27:42] [Render thread/INFO]: [System] [CHAT] Welcome back to SurviveWithUs YELLOW, CodeOverload!
+[20:27:42] [Render thread/INFO]: [System] [CHAT] 
+[20:27:42] [Render thread/INFO]: [System] [CHAT] §bYou're currently receiving an §6§lXP§b or §6§lMoney Boost!§b Click §bhere §bto §bview §byour §6§l/boosts!
+[20:27:42] [Render thread/INFO]: [System] [CHAT] 
+[20:27:42] [pool-2-thread-1/INFO]: [STDOUT]: Loading region 15,17 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:27:42] [Render thread/INFO]: Loaded 848 advancements
+[20:27:43] [Render thread/INFO]: [STDOUT]: Brightness started at 0.5
+[20:27:43] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 75ms
+[20:27:43] [pool-2-thread-1/INFO]: [STDOUT]: Loading region 14,17 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:27:43] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 11ms
+[20:27:44] [WurstUpdater/INFO]: [STDOUT]: [Updater] Current version: 7.28
+[20:27:44] [WurstUpdater/INFO]: [STDOUT]: [Updater] Latest version: 7.28
+[20:27:46] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> ooh
+[20:27:51] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> very pretty
+[20:27:55] [Render thread/INFO]: [System] [CHAT] You can't do that here!
+[20:27:56] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> so u think ill be able to have it connect to these
+[20:28:07] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x2]
+[20:28:08] [ForkJoinPool.commonPool-worker-2/INFO]: [STDOUT]: Saving region 15,17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:28:08] [pool-2-thread-2/INFO]: [STDOUT]: Saving region 14,17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:28:08] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[20:28:08] [ForkJoinPool.commonPool-worker-2/INFO]: [STDOUT]: Saved region successfully
+[20:28:08] [pool-2-thread-2/INFO]: [STDOUT]: World save took 88ms
+[20:28:10] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> um
+[20:28:12] [Render thread/INFO]: [System] [CHAT] Remember to /vote to get your next /rank and unlock epic rewards!
+[20:28:12] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> yea thats technoblade head
+[20:28:14] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> not currently
+[20:28:25] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> we can still make a norm one
+[20:28:26] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> its gotta be one collumn per item type
+[20:28:36] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> oh
+[20:28:38] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store!
+[20:28:41] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> 20$
+[20:28:45] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> for that lap dance xd
+[20:28:48] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> BRUH
+[20:28:48] [Render thread/INFO]: [System] [CHAT] Toaster is no longer AFK!
+[20:28:52] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> ur moving mad bruv
+[20:28:55] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> what is it
+[20:29:02] [Render thread/INFO]: [System] [CHAT] You have received $20 from EMD_789
+[20:29:02] [Render thread/INFO]: [System] [CHAT] You have received: $20.00
+[20:29:12] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> ima get all the mats together
+[20:29:13] [Render thread/INFO]: [System] [CHAT] To>> Toaster: without friends yes i am
+[20:29:19] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> kk
+[20:29:23] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -3,14 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:29:23] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 360ms
+[20:29:24] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -4,14 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:29:24] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 144ms
+[20:29:27] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> gimme the 20 back
+[20:29:28] [Render thread/INFO]: [System] [CHAT] From>> Toaster: theres been worse
+[20:29:30] [Render thread/INFO]: [System] [CHAT] Toaster has gone AFK!
+[20:29:33] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> i gave u the same treatment
+[20:29:35] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> :)
+[20:29:38] [Render thread/INFO]: [System] [CHAT] You have given $10 to EMD_789
+[20:29:42] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> thats 10
+[20:29:42] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> half as good as mine
+[20:29:45] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> ig
+[20:29:46] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> B)
+[20:29:48] [Render thread/INFO]: [System] [CHAT] MagnetMalc13 is no longer AFK!
+[20:29:51] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> lul
+[20:29:59] [Render thread/INFO]: [System] [CHAT] To>> Toaster: LOL
+[20:30:09] [Render thread/INFO]: [System] [CHAT] To>> Toaster: spotify started playing no friends
+[20:30:14] [Render thread/INFO]: [System] [CHAT] §9MagnetMalc13§e would like to teleport to you: §aAccept §c Deny
+[20:30:36] [Render thread/INFO]: [System] [CHAT] To>> Toaster: ;d
+[20:30:37] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> Please accept.
+[20:31:02] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> yung gravy pog
+[20:31:13] [Render thread/INFO]: [System] [CHAT] From>> Toaster: i feel like spotify watches me, it always plays the saddest songs i have when im in a sad mood
+[20:31:19] [Render thread/INFO]: [System] [CHAT] Want to support the server, get /crate keys and your next /rank? Don't forget to /vote!
+[20:31:31] [Render thread/INFO]: [System] [CHAT] To>> Toaster: i believe you now about spotify being psycic
+[20:31:33] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x3]
+[20:31:38] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store! [x2]
+[20:31:53] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> emd the hardest item for me was a cak
+[20:31:55] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> cake
+[20:32:08] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> u have some packed ice i could get for it
+[20:32:09] [Render thread/INFO]: [System] [CHAT] You can now fly by double-jumping!
+[20:32:11] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> i need 3
+[20:32:12] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> ye
+[20:32:14] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> thx
+[20:32:26] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> im at ur sorter
+[20:32:41] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i have "tough frost"
+[20:32:42] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> thx [x2]
+[20:32:48] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i actually kinda like pirate speak
+[20:32:50] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> its funneh
+[20:32:51] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> ima just not touch that
+[20:32:59] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> XD
+[20:33:01] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> also
+[20:33:02] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> thx [x3]
+[20:33:08] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> the video says use pressure plate
+[20:33:11] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> dont use them
+[20:33:11] [Render thread/INFO]: [System] [CHAT] [+] SuS_PlayZYT
+[20:33:15] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> wb
+[20:33:16] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> use glow lichen instead
+[20:33:19] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> ur slow
+[20:33:24] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> who
+[20:33:28] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> asked
+[20:33:31] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> ur mom
+[20:33:34] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> oh [x2]
+[20:33:35] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> uh
+[20:33:37] [Render thread/INFO]: [System] [CHAT] You have trusted MagnetMalc13 to this claim!
+[20:33:37] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> :(
+[20:33:41] [Render thread/INFO]: [System] [CHAT] [Explorer] SuS_PlayZYT> Vote.
+[20:33:45] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> anyways
+[20:33:48] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> i alr did
+[20:33:52] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> samee
+[20:34:02] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> you must leave
+[20:34:05] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> u scare me
+[20:34:09] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> sooooo u said use waht insted for press plate
+[20:34:16] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> glow lichen
+[20:34:25] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> what dat
+[20:34:30] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> glowing vines
+[20:34:37] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> i dont got any
+[20:34:39] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store! [x3]
+[20:34:43] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> u got any?
+[20:34:54] [Render thread/INFO]: [System] [CHAT] You can't attack other players here!
+[20:35:13] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> Stop.
+[20:35:27] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> ur on my land lol
+[20:35:32] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i can get some from shop
+[20:35:54] [Render thread/INFO]: [System] [CHAT] You have asked EMD_789 if they can teleport to you.
+[20:36:09] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> thx [x4]
+[20:36:12] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> love story
+[20:36:21] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> chill chill
+[20:36:28] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> I DEFEND CODE WITH MY LIFE!
+[20:36:34] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> XD [x2]
+[20:36:36] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> EMD_789 watch cap overuse
+[20:36:36] [Render thread/INFO]: [System] [CHAT] Toaster is no longer AFK! [x2]
+[20:36:39] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i hit both of you xd
+[20:36:42] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> sry
+[20:36:44] [Render thread/INFO]: [System] [CHAT] [☠] Silent> WB.
+[20:36:44] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> What did I do!?
+[20:36:52] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> nothing lol
+[20:36:57] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> its just funny
+[20:37:03] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> ima go now
+[20:37:04] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> to hit ppl with kb or punch
+[20:37:05] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> :D
+[20:37:17] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> No its not.
+[20:37:19] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> oh its silent
+[20:37:29] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> hehehehehehhe
+[20:37:35] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> i have all da power
+[20:37:39] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store! [x4]
+[20:37:45] [Render thread/INFO]: [System] [CHAT] You can now fly by double-jumping! [x2]
+[20:37:45] [Render thread/INFO]: [System] [CHAT] [☠] Silent> Wait wait wait.
+[20:37:46] [Render thread/INFO]: [System] [CHAT] [☠] Silent> Time out.
+[20:37:47] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> MY ULTAMATE STICK
+[20:37:53] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> pew
+[20:37:54] [Render thread/INFO]: [System] [CHAT] [☠] Silent> Did you seriously hit me with a sword?
+[20:37:56] [Render thread/INFO]: [System] [CHAT] You'll be able to fly again in: 50 seconds!
+[20:37:59] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> me?
+[20:38:01] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> no
+[20:38:08] [pool-2-thread-2/INFO]: [STDOUT]: Saving region -4,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:38:08] [ForkJoinPool.commonPool-worker-10/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:38:08] [ForkJoinPool.commonPool-worker-9/INFO]: [STDOUT]: Saving region 14,17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:38:08] [ForkJoinPool.commonPool-worker-11/INFO]: [STDOUT]: Saving region 15,17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:38:08] [ForkJoinPool.commonPool-worker-9/INFO]: [STDOUT]: Saved region successfully
+[20:38:08] [ForkJoinPool.commonPool-worker-11/INFO]: [STDOUT]: Saved region successfully
+[20:38:08] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[20:38:08] [ForkJoinPool.commonPool-worker-10/INFO]: [STDOUT]: Saved region successfully
+[20:38:08] [pool-2-thread-2/INFO]: [STDOUT]: World save took 322ms
+[20:38:14] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> oh he ded
+[20:38:26] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> silent is pissed
+[20:38:28] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> lul [x2]
+[20:38:30] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> rtp
+[20:38:32] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> quickly
+[20:38:35] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> before you die
+[20:38:37] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> eyyy
+[20:38:38] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> lol
+[20:38:44] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> u have stick too
+[20:38:46] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> he got away
+[20:38:49] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> mines better tho
+[20:38:50] [Render thread/INFO]: [System] [CHAT] [☠] Silent> Not pissed, just mildly annoyed that they had the audacity to do that.
+[20:38:51] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> oo
+[20:38:54] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> oh
+[20:39:03] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> sry [x2]
+[20:39:10] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> bro fell in the cow pit
+[20:39:20] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> NVM HES god
+[20:39:24] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> ahhh
+[20:39:28] [Render thread/INFO]: [System] [CHAT] You can't attack other players here! [x2]
+[20:39:28] [Render thread/INFO]: [System] [CHAT] You can't attack other players here! [x3]
+[20:39:29] [Render thread/INFO]: [System] [CHAT] You can't attack other players here! [x4]
+[20:39:29] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> ima just watch
+[20:39:36] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> silent you got strength?
+[20:39:38] [Render thread/INFO]: [System] [CHAT] [☠] Silent> Shooting at thin air?
+[20:39:39] [Render thread/INFO]: [System] [CHAT] §9§e§lT§d§lo§b§la§6§ls§e§lt§0§ler§e would like to teleport to you: §aAccept §c Deny
+[20:39:47] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> do i chose i side?
+[20:39:52] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> this is disapointing
+[20:39:58] [Render thread/INFO]: [System] [CHAT] You can't attack other players here! [x5]
+[20:40:03] [Render thread/INFO]: [System] [CHAT] You can't attack other players here! [x6]
+[20:40:04] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> im on codes all day
+[20:40:16] [Render thread/INFO]: [System] [CHAT] You can't attack other players here! [x7]
+[20:40:19] [Render thread/INFO]: [System] [CHAT] You can't attack other players here! [x8]
+[20:40:29] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> bro it says i cant attack other players here
+[20:40:29] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> bro
+[20:40:33] [Render thread/INFO]: [System] [CHAT] You can't attack other players here! [x9]
+[20:40:34] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> why tf u stepping on my mapart
+[20:40:38] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> you dereanged
+[20:40:39] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store! [x5]
+[20:40:40] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> wdym
+[20:40:44] [Render thread/INFO]: [System] [CHAT] You can now fly by double-jumping! [x3]
+[20:40:47] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> oh him
+[20:40:50] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> bruh
+[20:40:52] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> i doesnt allow me to hit
+[20:40:53] [Render thread/INFO]: [System] [CHAT] You have untrusted MagnetMalc13 from this claim!
+[20:40:54] [Render thread/INFO]: [System] [CHAT] Welcome to SurviveWithUs YELLOW, PlsListenToMe!
+[20:40:54] [Render thread/INFO]: [System] [CHAT] PlsListenToMe accomplished something: [Isn't it Davy Jones]
+[20:40:54] [Render thread/INFO]: [System] [CHAT] [+] PlsListenToMe
+[20:40:55] [Render thread/INFO]: [System] [CHAT] [Owner] [☣] Spiro> Welcome :)
+[20:40:58] [Render thread/INFO]: [System] [CHAT] EMD_789 was slain by Silent_Flood using [Master's Shovel] :(
+[20:41:02] [Render thread/INFO]: [System] [CHAT] [☠] Silent> Welcome.
+[20:41:03] [Render thread/INFO]: [System] [CHAT] MagnetMalc13 was slain by ToasterBliss using [Angry Blade] :(
+[20:41:03] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> DUDE
+[20:41:06] [Render thread/INFO]: [System] [CHAT] [☠] Silent> Just enough xp to level up.
+[20:41:09] [Render thread/INFO]: [System] [CHAT] [☠] Silent> Thanks.
+[20:41:15] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> emd its fine
+[20:41:16] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> w silent
+[20:41:22] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> Hell you!
+[20:41:25] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> fuck you
+[20:41:26] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> IKR
+[20:41:29] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> emd calm down
+[20:41:32] [Render thread/INFO]: [System] [CHAT] [☠] Silent> Now that's how you say it magnet.
+[20:41:33] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> its fine
+[20:41:33] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> son of a bitch
+[20:41:36] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> bruh [x2]
+[20:41:38] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> chill
+[20:41:45] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> i couldnt attack
+[20:41:48] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> it wasnt fair
+[20:41:55] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> You cal me that!!?
+[20:41:55] [Render thread/INFO]: [System] [CHAT] [☠] Silent> L skill issue.
+[20:41:57] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> we have plenty of xp
+[20:42:13] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> silent is enjoying this
+[20:42:26] [Render thread/INFO]: [System] [CHAT] EMD_789 was slain by Silent_Flood :(
+[20:42:32] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> it doesnt do anything
+[20:42:33] [Render thread/INFO]: [System] [CHAT] [Member] PlsListenToMe> Im trying to find a place where theres trees with no structures arround it.
+[20:42:46] [Render thread/INFO]: [System] [CHAT] [Member] PlsListenToMe> But buildings are pretty much everywhere.
+[20:42:47] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> I lost me xp the one thing I care about!
+[20:42:48] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> yall moving mad
+[20:42:49] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> valuables equipped
+[20:43:02] [Render thread/INFO]: [System] [CHAT] [☠] Silent> Alright you ruined my combo.
+[20:43:09] [Render thread/INFO]: [System] [CHAT] EMD_789 was slain by Silent_Flood using [Soul Eater] :(
+[20:43:09] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> lol [x2]
+[20:43:15] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> fucking op ass shit
+[20:43:20] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> xd
+[20:43:24] [Render thread/INFO]: [System] [CHAT] §9MagnetMalc13§e would like to teleport to you: §aAccept §c Deny
+[20:43:30] [Render thread/INFO]: [System] [CHAT] [☠] Silent> Cope and seethe.
+[20:43:32] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> how do you not take dmg
+[20:43:38] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> op items
+[20:43:39] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store! [x6]
+[20:43:41] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> like resistence
+[20:43:43] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> regen
+[20:43:46] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> who hit me
+[20:43:46] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> and qbh
+[20:43:47] [Render thread/INFO]: [System] [CHAT] [-] SuS_PlayZYT
+[20:43:49] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> not me
+[20:44:00] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> Stop!!!!??/.
+[20:44:15] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> silent is out for blood
+[20:44:18] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> emd
+[20:44:23] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> lul [x3]
+[20:44:27] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> you want the xp levels back?
+[20:44:30] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> what were you at?
+[20:44:31] [Render thread/INFO]: [System] [CHAT] [Member] PlsListenToMe> Why the heck is there a wither.
+[20:44:46] [Render thread/INFO]: [System] [CHAT] MagnetMalc13 was slain by Silent_Flood using [Soul Eater] :(
+[20:44:54] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> emd if you dont want to die dont attack me
+[20:45:11] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> my attack do nothing
+[20:45:15] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> Silent fu#k you.
+[20:45:22] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> skill issue stop cursing
+[20:45:34] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> emd [x2]
+[20:45:36] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> No.
+[20:45:46] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -17,-18 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:45:46] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 183ms
+[20:45:46] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -18,-18 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:45:46] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> yes
+[20:45:46] [Render thread/INFO]: [System] [CHAT] HADES is no longer AFK!
+[20:45:46] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 162ms
+[20:45:46] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -17,-17 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:45:47] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 276ms
+[20:45:47] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -18,-17 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:45:48] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 395ms
+[20:45:52] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> W hades
+[20:45:59] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> fr
+[20:46:02] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> frfr
+[20:46:07] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> hades is the goat
+[20:46:16] [Render thread/INFO]: [System] [CHAT] You have asked EMD_789 if they can teleport to you.
+[20:46:26] [Render thread/INFO]: [System] [CHAT] [☠] Silent> Why do people still spam click in pvp?
+[20:46:33] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> hold these
+[20:46:35] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> cause they arnt as goat as hades
+[20:46:36] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> stand in here
+[20:46:39] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store! [x7]
+[20:46:44] [Render thread/INFO]: [System] [CHAT] [☠] Silent> It's been like half a decade since that worked and they still do it.
+[20:46:48] [Render thread/INFO]: [System] [CHAT] INKY is no longer AFK!
+[20:46:50] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> do it
+[20:46:51] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> I live
+[20:46:53] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> Silent no kill.
+[20:46:54] [Render thread/INFO]: [System] [CHAT] [☠] Silent> wb.
+[20:46:58] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> ty
+[20:47:00] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> inky :D
+[20:47:03] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Yes?
+[20:47:07] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> hi :D
+[20:47:11] [Render thread/INFO]: [System] [CHAT] [☠] Silent> Magnet that's like asking water to not be wet.
+[20:47:13] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Hi
+[20:47:23] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> ty
+[20:47:31] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> what are you at
+[20:47:41] [Render thread/INFO]: [System] [CHAT] PlsListenToMe accomplished something: [Age o' stone]
+[20:47:45] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> No its not.
+[20:47:55] [Render thread/INFO]: [System] [CHAT] [☠] Silent> Huh.
+[20:47:58] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> huh what
+[20:48:01] [Render thread/INFO]: [System] [CHAT] [☠] Silent> That arrow actually punched right through you.
+[20:48:06] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> hes a ghost
+[20:48:08] [pool-2-thread-2/INFO]: [STDOUT]: Saving region -4,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:48:08] [ForkJoinPool.commonPool-worker-10/INFO]: [STDOUT]: Saving region -17,-17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:48:08] [ForkJoinPool.commonPool-worker-11/INFO]: [STDOUT]: Saving region -17,-18 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:48:08] [ForkJoinPool.commonPool-worker-1/INFO]: [STDOUT]: Saving region -18,-18 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:48:08] [ForkJoinPool.commonPool-worker-9/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:48:08] [ForkJoinPool.commonPool-worker-3/INFO]: [STDOUT]: Saving region -18,-17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:48:08] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[20:48:08] [ForkJoinPool.commonPool-worker-1/INFO]: [STDOUT]: Saved region successfully
+[20:48:08] [ForkJoinPool.commonPool-worker-11/INFO]: [STDOUT]: Saved region successfully
+[20:48:09] [ForkJoinPool.commonPool-worker-10/INFO]: [STDOUT]: Saved region successfully
+[20:48:09] [ForkJoinPool.commonPool-worker-3/INFO]: [STDOUT]: Saved region successfully
+[20:48:09] [ForkJoinPool.commonPool-worker-9/INFO]: [STDOUT]: Saved region successfully
+[20:48:09] [pool-2-thread-2/INFO]: [STDOUT]: World save took 323ms
+[20:48:10] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i knew it
+[20:48:34] [Render thread/INFO]: [System] [CHAT] §9MagnetMalc13§e would like to teleport to you: §aAccept §c Deny [x2]
+[20:48:36] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> thx
+[20:48:38] [Render thread/INFO]: [System] [CHAT] Their request has expired!
+[20:48:39] [Render thread/INFO]: [System] [CHAT] Their request has expired! [x2]
+[20:48:40] [Render thread/INFO]: [System] [CHAT] Their request has expired! [x3]
+[20:48:45] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> ima finish the stuff
+[20:48:47] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> kk
+[20:48:53] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> ill take te books back tho
+[20:48:57] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> oh yea
+[20:48:58] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> These damn squids are like rats
+[20:49:00] [Render thread/INFO]: [System] [CHAT] §9MagnetMalc13§e would like to teleport to you: §aAccept §c Deny [x3]
+[20:49:02] [Render thread/INFO]: [System] [CHAT] §9EMD_789§e would like to teleport to you: §aAccept §c Deny
+[20:49:04] [Render thread/INFO]: [System] [CHAT] Their request has expired! [x4]
+[20:49:27] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> who tf rotated my mapart
+[20:49:31] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> where
+[20:49:32] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -3,14 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:49:33] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 349ms
+[20:49:33] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -4,14 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:49:33] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 104ms
+[20:49:38] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> im about to hunt down magnet fr
+[20:49:39] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store! [x8]
+[20:49:50] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> he is hiding
+[20:49:55] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> you might know the place..
+[20:49:55] [Render thread/INFO]: [System] [CHAT] [-] [☠] Silent
+[20:50:04] [Render thread/INFO]: [System] [CHAT] §9§e§lT§d§lo§b§la§6§ls§e§lt§0§ler§e would like to teleport to you: §aAccept §c Deny
+[20:50:10] [Render thread/INFO]: [System] [CHAT] §9MagnetMalc13§e would like to teleport to you: §aAccept §c Deny [x4]
+[20:50:11] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> oh hes clapped
+[20:50:17] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> toasty
+[20:50:31] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> bros emoting on you
+[20:50:32] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> Im sorry.
+[20:50:41] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> aw its okay
+[20:50:43] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> come over here
+[20:51:09] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> we got a runner
+[20:51:20] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> poor magnet
+[20:51:33] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> bros getting clapped by all the high teirs
+[20:51:35] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> tiers
+[20:51:44] [Render thread/INFO]: [System] [CHAT] To>> MagnetMalc13: rtp
+[20:51:55] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> amrmor?
+[20:52:01] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> lmfao
+[20:52:03] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> bro poofed
+[20:52:09] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> he shouldnt of lasted so long
+[20:52:15] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> we have regen beacons
+[20:52:17] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> :/
+[20:52:21] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> ah
+[20:52:23] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> forgot about that
+[20:52:39] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store! [x9]
+[20:52:44] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> which mapart was the one i always flipped
+[20:52:47] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i forgot
+[20:52:50] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> catboy
+[20:52:52] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> oh yes
+[20:52:55] [Render thread/INFO]: [System] [CHAT] [Member] PlsListenToMe> He forgor :skull:.
+[20:52:56] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i remember now..
+[20:53:02] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> I wont to play minecraft not pvp.
+[20:53:11] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> want*
+[20:53:16] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> Im 9 not 21.
+[20:53:20] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> ?
+[20:53:24] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> most of us aren't 21
+[20:53:28] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Me put block gud
+[20:53:32] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> yea like im 12
+[20:53:33] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> but if ur 9 swu isn't the best place
+[20:53:33] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> W inky
+[20:53:42] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> true
+[20:53:57] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> but its just a number right code?
+[20:54:00] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> yes
+[20:54:23] [Render thread/INFO]: [System] [CHAT] You will now shoot cows!
+[20:54:30] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i escaped
+[20:54:33] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> no
+[20:54:35] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> yes [x2]
+[20:54:36] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> i just stopped
+[20:54:39] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> yo code u got eggs for the cake?
+[20:54:40] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> :O
+[20:54:44] [Render thread/INFO]: [System] [CHAT] [+] [MVP] Conquest
+[20:54:44] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> INKY W FR
+[20:54:44] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> no
+[20:54:47] [Render thread/INFO]: [System] [CHAT] You'll be able to fly again in: 11 seconds!
+[20:54:53] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> what did inky do
+[20:54:58] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> nvm i got it
+[20:54:58] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> he went pog mode
+[20:55:03] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> how so
+[20:55:03] [Render thread/INFO]: [System] [CHAT] Serephin is no longer AFK!
+[20:55:05] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> wb
+[20:55:06] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> sere W
+[20:55:26] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> how meny eggs is it?
+[20:55:29] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> 1
+[20:55:31] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i think
+[20:55:31] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> just 1?
+[20:55:33] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> alr
+[20:55:34] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> I am getting the ground work down
+[20:55:36] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> sere might be judging us again
+[20:55:36] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> 2.
+[20:55:40] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store! [x10]
+[20:55:44] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> she does that a lot
+[20:55:47] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> Not 1 2.
+[20:55:53] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> I am thinking one of the house has to be a tree house
+[20:55:55] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> one of my favorite hobbies is people watching
+[20:56:05] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> hm
+[20:56:07] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> but if they notice me its awkward
+[20:56:13] [Render thread/INFO]: [System] [CHAT] You can now fly by double-jumping!
+[20:56:16] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> She isn't paying attention
+[20:56:19] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> oh
+[20:56:21] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> see
+[20:56:32] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> got the egg
+[20:56:34] [Render thread/INFO]: [System] [CHAT] §9MagnetMalc13§e would like to teleport to you: §aAccept §c Deny [x5]
+[20:56:36] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> pawg
+[20:56:53] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> now for the milk
+[20:56:57] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> mmm
+[20:57:05] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> i guess i dont need a cow for that
+[20:57:09] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> Sorry.
+[20:57:19] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> but im still gonna get a cow for it
+[20:57:24] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i cow jumpscared magnet
+[20:57:25] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> Sorry. [x2]
+[20:57:28] [Render thread/INFO]: [System] [CHAT] You have asked EMD_789 if they can teleport to you.
+[20:57:40] [Render thread/INFO]: [System] [CHAT] You have trusted EMD_789 to this claim!
+[20:57:41] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> No you did not.
+[20:57:43] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> This thing is just a glow squid spawner
+[20:57:44] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> i need perms
+[20:57:49] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> nvm
+[20:57:51] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> thx
+[20:57:57] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> you used to be able to milk a squid
+[20:58:00] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> 0-0
+[20:58:07] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> really!?
+[20:58:09] [pool-2-thread-2/INFO]: [STDOUT]: Saving region -4,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:58:09] [ForkJoinPool.commonPool-worker-8/INFO]: [STDOUT]: Saving region -18,-17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:58:09] [ForkJoinPool.commonPool-worker-4/INFO]: [STDOUT]: Saving region -17,-17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:58:09] [ForkJoinPool.commonPool-worker-5/INFO]: [STDOUT]: Saving region -17,-18 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:58:09] [ForkJoinPool.commonPool-worker-1/INFO]: [STDOUT]: Saving region -18,-18 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:58:09] [ForkJoinPool.commonPool-worker-11/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[20:58:09] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[20:58:09] [ForkJoinPool.commonPool-worker-1/INFO]: [STDOUT]: Saved region successfully
+[20:58:09] [ForkJoinPool.commonPool-worker-5/INFO]: [STDOUT]: Saved region successfully
+[20:58:09] [ForkJoinPool.commonPool-worker-4/INFO]: [STDOUT]: Saved region successfully
+[20:58:09] [ForkJoinPool.commonPool-worker-8/INFO]: [STDOUT]: Saved region successfully
+[20:58:09] [ForkJoinPool.commonPool-worker-11/INFO]: [STDOUT]: Saved region successfully
+[20:58:09] [pool-2-thread-2/INFO]: [STDOUT]: World save took 389ms
+[20:58:10] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> lul
+[20:58:11] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> wonder why it got removed
+[20:58:17] [Render thread/INFO]: [System] [CHAT] You have untrusted EMD_789 from this claim!
+[20:58:32] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> I wonder why!?
+[20:58:40] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store! [x11]
+[20:58:42] [Render thread/INFO]: [System] [CHAT] [-] [MVP] Conquest
+[20:58:42] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> its 3 buckets of milk i only got 2 can i come back?
+[20:58:42] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> toasty did iron farm catch fire again
+[20:58:50] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> maybe
+[20:58:52] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> :3
+[20:59:04] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> soul sand
+[20:59:05] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> ew
+[20:59:07] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> but i used my huge brain to fix it
+[20:59:10] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> code
+[20:59:13] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> can u take me abck
+[20:59:13] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> you used SOUL SAND
+[20:59:15] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> back
+[20:59:16] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> of all things
+[20:59:16] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> mhm
+[20:59:18] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> cuz
+[20:59:20] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> it saddens me
+[20:59:22] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> its the only thing i had in my inv
+[20:59:25] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> i only got 2 milk buckets
+[20:59:26] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> slows me down
+[20:59:29] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> ig i needed 3
+[20:59:31] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> skill issue
+[20:59:33] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> you dont
+[20:59:36] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> only noobs get slowed down
+[20:59:37] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> only need 1 milk
+[20:59:46] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> no i looked at thing
+[20:59:50] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> u need 3
+[20:59:50] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> aint no way
+[20:59:55] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> look at it
+[20:59:57] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> XD
+[21:00:18] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> BRUH
+[21:00:20] [Render thread/INFO]: [System] [CHAT] §9MagnetMalc13§e would like to teleport to you: §aAccept §c Deny [x6]
+[21:00:22] [Render thread/INFO]: [System] [CHAT] [+] [Custom+] Duck
+[21:00:24] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> can u tpa me back
+[21:00:27] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> WB
+[21:00:28] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i thought it was 1 egg and the rest was sugar
+[21:00:32] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> XD [x2]
+[21:00:47] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> sooo can u tpa me or what?
+[21:00:58] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> ok
+[21:01:01] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> thx [x2]
+[21:01:08] [Render thread/INFO]: [System] [CHAT] You have asked EMD_789 if they can teleport to you. [x2]
+[21:01:19] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> dont mind magnet nearing his death
+[21:01:19] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> moo
+[21:01:20] [Render thread/INFO]: [System] [CHAT] Want to support the server, get /crate keys and your next /rank? Don't forget to /vote!
+[21:01:23] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> XD [x3]
+[21:01:28] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> i wont
+[21:01:28] [Render thread/INFO]: [System] [CHAT] HADES has gone AFK!
+[21:01:37] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> i have all the mats tpa me
+[21:01:40] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store! [x12]
+[21:01:42] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> Help.
+[21:01:43] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -3,14 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:01:43] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 334ms
+[21:01:44] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -4,14 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:01:44] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 96ms
+[21:01:48] [Render thread/INFO]: [System] [CHAT] You have asked MagnetMalc13 if they can teleport to you.
+[21:01:51] [Render thread/INFO]: [System] [CHAT] You have asked EMD_789 if they can teleport to you. [x3]
+[21:01:53] [Render thread/INFO]: [System] [CHAT] [❤LilBitof] Serephin> :I *eats inky*
+[21:01:59] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> wow
+[21:02:00] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> code [x2]
+[21:02:04] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> there went inky
+[21:02:05] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> ayo
+[21:02:07] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> it didnt let me get milk
+[21:02:07] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> rip inky
+[21:02:11] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> i didnt have perms
+[21:02:14] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> ...
+[21:02:14] [Render thread/INFO]: [System] [CHAT] You will now shoot cows!
+[21:02:19] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> It happens
+[21:02:19] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> ty
+[21:02:32] [Render thread/INFO]: [System] [CHAT] You have asked EMD_789 if you can teleport to them.
+[21:02:38] [pool-2-thread-1/INFO]: [STDOUT]: Loading region 15,17 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:02:38] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 80ms
+[21:02:38] [pool-2-thread-1/INFO]: [STDOUT]: Loading region 14,17 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:02:38] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 55ms
+[21:02:44] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> its all in here
+[21:02:44] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> Code do /trust and I will give 1m.
+[21:02:56] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> not to my base
+[21:02:57] [Render thread/INFO]: [System] [CHAT] [-] [KingOfDucks] Duck
+[21:03:00] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> its worth way more
+[21:03:01] [Render thread/INFO]: [System] [CHAT] You can't do that here!
+[21:03:12] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> ur trusted now
+[21:03:13] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> am i building this inside?
+[21:03:20] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> no
+[21:03:25] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> How much.
+[21:03:26] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> follow me
+[21:03:32] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> more than you can pay
+[21:03:35] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> thats for dam sure
+[21:03:53] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> here.
+[21:03:54] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> Forthe house.
+[21:03:55] [Render thread/INFO]: [System] [CHAT] You've all voted for the server a total of 100 times today, here's some bonus keys!
+[21:03:55] [Render thread/INFO]: [System] [CHAT] You have received 1 SurvivorKey keys!
+[21:03:55] [Render thread/INFO]: [System] [CHAT] You have received 1 MobSpawnerPack keys!
+[21:03:55] [Render thread/INFO]: [System] [CHAT] You have received 2 DailyKey keys!
+[21:03:59] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> u sure?
+[21:04:02] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> yep
+[21:04:05] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> snow may or may not impact water
+[21:04:06] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> idk for sure
+[21:04:10] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> oh
+[21:04:12] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> wait
+[21:04:17] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i also need building blocks
+[21:04:28] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> here
+[21:04:32] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> kk
+[21:04:35] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> 3x money event announced tonight
+[21:04:37] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> W
+[21:04:39] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> wait
+[21:04:40] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store! [x13]
+[21:04:41] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> fr?
+[21:04:42] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> O.o
+[21:04:46] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> look at discord announcements
+[21:04:51] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i cant
+[21:04:55] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> i heard building blocks
+[21:04:59] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i dont have discord servers
+[21:05:04] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> brb
+[21:05:10] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> Hello Survivors! As the weekend draws to a close, we thought you'd like a little something extra to celebrate Columbus Day!We are extending ALL weekend boosts through to the end of Monday! On top of that...3X MONEY BOOST EVENT!Starting at Midnight there wi
+[21:05:17] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> I dont ether.
+[21:05:23] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> bruh
+[21:05:26] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i have school 2mr..
+[21:05:28] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> Starting at Midnight there will be a 3x money boost for 30 minutes. ANY donation extends the timer by 5 minutes. If the timer reaches 0, the event is over. If the timer hits 10 Hours, the boost will turn to 4X (please don't actually do this). If the event
+[21:05:34] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> building blocks are in the box
+[21:05:51] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> if the event timer reasches 10 hours then the boost goes to 4x
+[21:05:59] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> oh
+[21:06:06] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> bb are in ther
+[21:06:14] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i also need some kelp
+[21:06:14] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> building blocks
+[21:06:17] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> alr
+[21:06:20] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> brb [x2]
+[21:06:52] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> good thing ocean nearby
+[21:07:33] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> I am sure it wont. And if it di just wow
+[21:07:40] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store! [x14]
+[21:08:00] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> ... Am I going have to pu building aside and become a trillionare
+[21:08:08] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> psst
+[21:08:09] [pool-2-thread-2/INFO]: [STDOUT]: Saving region 14,17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:08:09] [ForkJoinPool.commonPool-worker-8/INFO]: [STDOUT]: Saving region -18,-18 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:08:09] [ForkJoinPool.commonPool-worker-5/INFO]: [STDOUT]: Saving region -4,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:08:09] [ForkJoinPool.commonPool-worker-4/INFO]: [STDOUT]: Saving region -17,-18 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:08:09] [ForkJoinPool.commonPool-worker-7/INFO]: [STDOUT]: Saving region -17,-17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:08:09] [ForkJoinPool.commonPool-worker-6/INFO]: [STDOUT]: Saving region 15,17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:08:09] [ForkJoinPool.commonPool-worker-12/INFO]: [STDOUT]: Saving region -18,-17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:08:09] [ForkJoinPool.commonPool-worker-1/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:08:09] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[21:08:09] [ForkJoinPool.commonPool-worker-6/INFO]: [STDOUT]: Saved region successfully
+[21:08:09] [ForkJoinPool.commonPool-worker-5/INFO]: [STDOUT]: Saved region successfully
+[21:08:09] [ForkJoinPool.commonPool-worker-8/INFO]: [STDOUT]: Saved region successfully
+[21:08:09] [ForkJoinPool.commonPool-worker-4/INFO]: [STDOUT]: Saved region successfully
+[21:08:09] [ForkJoinPool.commonPool-worker-7/INFO]: [STDOUT]: Saved region successfully
+[21:08:09] [ForkJoinPool.commonPool-worker-12/INFO]: [STDOUT]: Saved region successfully
+[21:08:09] [ForkJoinPool.commonPool-worker-1/INFO]: [STDOUT]: Saved region successfully
+[21:08:09] [pool-2-thread-2/INFO]: [STDOUT]: World save took 418ms
+[21:08:11] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> code [x3]
+[21:08:15] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> here [x2]
+[21:08:24] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> code?
+[21:08:36] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> Code ware is the shop.
+[21:08:36] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> code [x4]
+[21:08:42] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> there
+[21:08:47] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> ok [x2]
+[21:08:50] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> for the chests
+[21:09:55] [Render thread/INFO]: [System] [CHAT] §9MagnetMalc13§e would like to teleport to you: §aAccept §c Deny
+[21:10:04] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> can magnet be here
+[21:10:07] [Render thread/INFO]: [System] [CHAT] [❤LilBitof] Serephin> Toast
+[21:10:14] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> sure
+[21:10:19] [Render thread/INFO]: [System] [CHAT] [Member] PlsListenToMe> I really wish I had a sponge.
+[21:10:33] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> these trees must die
+[21:10:36] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> emd
+[21:10:40] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store! [x15]
+[21:10:57] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> use ur timber
+[21:11:09] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> use what now?
+[21:11:13] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> timber
+[21:11:18] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i gave you one didnt i
+[21:11:19] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> OHHH
+[21:11:23] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> yea
+[21:11:31] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> i always carry it on me
+[21:11:41] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> this one survived
+[21:12:10] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> whats up sere
+[21:12:11] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> i was afk
+[21:12:19] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> oops
+[21:12:26] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i broke 1 glass
+[21:12:38] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> ill get another
+[21:13:09] [Render thread/INFO]: [System] [CHAT] You can't attack other players here!
+[21:13:09] [Render thread/INFO]: [System] [CHAT] You can't attack other players here! [x2]
+[21:13:09] [Render thread/INFO]: [System] [CHAT] You can't attack other players here! [x3]
+[21:13:10] [Render thread/INFO]: [System] [CHAT] You can't attack other players here! [x4]
+[21:13:12] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> scooch
+[21:13:20] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> here [x3]
+[21:13:25] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> thx
+[21:13:29] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> np
+[21:13:40] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store! [x16]
+[21:13:48] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> What are you doing?
+[21:14:47] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> Emd?
+[21:14:50] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> yea [x2]
+[21:15:01] [Render thread/INFO]: [System] [CHAT] [Member] PlsListenToMe> Does anyone have a sponge I can use.
+[21:15:07] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> nah
+[21:15:08] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> Nvm.
+[21:15:10] [Render thread/INFO]: [System] [CHAT] [Member] PlsListenToMe> :(.
+[21:15:16] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> Sorry.
+[21:15:16] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> but theres guardians at warp pvp
+[21:15:17] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i think
+[21:15:19] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> mk
+[21:15:26] [Render thread/INFO]: [System] [CHAT] [Member] PlsListenToMe> Why do I have a period at the and of my sentences.
+[21:15:29] [Render thread/INFO]: [System] [CHAT] [Member] PlsListenToMe> >:(.
+[21:15:32] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> in /settings
+[21:15:36] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> go to /setting
+[21:15:37] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> turn of chat formating
+[21:15:37] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> sentence formatting
+[21:15:44] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> chat formatting*
+[21:15:44] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> ^
+[21:15:45] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> and turn off chat formatting
+[21:15:48] [Render thread/INFO]: [System] [CHAT] [Member] PlsListenToMe> much better
+[21:15:50] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> i already said that emd
+[21:16:03] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> Can I help.
+[21:16:04] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> i gtg ill be on tommorow
+[21:16:09] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> cya
+[21:16:16] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> ok [x3]
+[21:16:17] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> Bye.
+[21:16:20] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> cya [x2]
+[21:16:26] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> so pls just finish
+[21:16:30] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> magnet emd doesn't trust you yet
+[21:16:34] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> and dont take meh stuff
+[21:16:40] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store! [x17]
+[21:16:40] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> codes gonna loot you
+[21:16:44] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> 100%
+[21:16:47] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> thx code
+[21:16:52] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> no im not
+[21:16:53] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> cya tommorow
+[21:16:55] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> yes u are fr
+[21:16:56] [Render thread/INFO]: [System] [CHAT] [Member] PlsListenToMe> are ppl able to break ur builds if u claim it
+[21:17:01] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> nope
+[21:17:06] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> if u claim it they cant do anything
+[21:17:06] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Terraforming is a bit boring . But it is looking a bit like rolling jills
+[21:17:06] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> not unless you trust them
+[21:17:10] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> unless u give the /trust
+[21:17:10] [Render thread/INFO]: [System] [CHAT] [Member] PlsListenToMe> ok because i built a glass house under water
+[21:17:14] [Render thread/INFO]: [System] [CHAT] [Explorer] EMD_789> anyways bye
+[21:17:15] [Render thread/INFO]: [System] [CHAT] [-] EMD_789
+[21:17:18] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> I wont to help code.
+[21:17:22] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> cant
+[21:17:24] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> inky, its looking pretty decent
+[21:17:25] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> not my claim
+[21:17:38] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> oh
+[21:17:39] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> There is a mineshaft
+[21:17:47] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> cave spider spawner
+[21:17:52] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Mhm
+[21:18:09] [pool-2-thread-2/INFO]: [STDOUT]: Saving region 14,17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:18:09] [ForkJoinPool.commonPool-worker-12/INFO]: [STDOUT]: Saving region 15,17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:18:10] [ForkJoinPool.commonPool-worker-12/INFO]: [STDOUT]: Saved region successfully
+[21:18:10] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[21:18:10] [pool-2-thread-2/INFO]: [STDOUT]: World save took 73ms
+[21:18:32] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> like all projects
+[21:18:35] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> Creper oh man.
+[21:18:36] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> imma have to improvise
+[21:18:45] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> its aw man
+[21:18:47] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> not oh man
+[21:18:53] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> Sorry. [x2]
+[21:19:04] [Render thread/INFO]: [System] [CHAT] [+] _koneo_
+[21:19:19] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> I tab out and come back to toast looking at me way to much
+[21:19:24] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> LOL
+[21:19:28] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> im shooting at the spider behind you
+[21:19:40] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store! [x18]
+[21:20:09] [Render thread/INFO]: [System] [CHAT] [-] _koneo_
+[21:20:15] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> xD
+[21:20:17] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> ill stop now
+[21:20:18] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> Code you need anything.
+[21:20:23] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> ?
+[21:20:25] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> prob not
+[21:20:46] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> Okdoky.
+[21:22:40] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store! [x19]
+[21:24:20] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Well this is what I am working on Toast. Any preferance for your personal space
+[21:24:46] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> hm
+[21:25:10] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> not really
+[21:25:31] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> as long as theres chests im good lmfao
+[21:25:40] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store! [x20]
+[21:25:40] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> xD
+[21:25:53] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> should fr build me a chest house
+[21:26:00] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> How do you vote on topg.
+[21:26:30] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Is that the one with a blue bar on top and a login bit?
+[21:26:46] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> If so it says vote in the blue bar on the right
+[21:26:52] [Render thread/INFO]: [System] [CHAT] Serephin has gone AFK!
+[21:27:09] [Render thread/INFO]: [System] [CHAT] Welcome to SurviveWithUs YELLOW, Underdog1980!
+[21:27:09] [Render thread/INFO]: [System] [CHAT] Underdog1980 accomplished something: [Isn't it Davy Jones]
+[21:27:09] [Render thread/INFO]: [System] [CHAT] [+] Underdog1980
+[21:27:13] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> welccome
+[21:27:53] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> welcome
+[21:27:55] [Render thread/INFO]: [System] [CHAT] [Member] PlsListenToMe> if i die will i still have my items
+[21:27:58] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> yes
+[21:28:01] [Render thread/INFO]: [System] [CHAT] [Member] PlsListenToMe> ok
+[21:28:10] [pool-2-thread-2/INFO]: [STDOUT]: Saving region 14,17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:28:10] [ForkJoinPool.commonPool-worker-12/INFO]: [STDOUT]: Saving region 15,17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:28:10] [ForkJoinPool.commonPool-worker-12/INFO]: [STDOUT]: Saved region successfully
+[21:28:10] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[21:28:10] [pool-2-thread-2/INFO]: [STDOUT]: World save took 65ms
+[21:28:11] [Render thread/INFO]: [System] [CHAT] [Member] PlsListenToMe> because i usally never pvp if i lose my items
+[21:28:16] [Render thread/INFO]: [System] [CHAT] [+] [☠] Silent
+[21:28:17] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> every realm in /hub has keep inventory, EXCEPT purple
+[21:28:25] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> ^ [x2]
+[21:28:26] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> if u die in purple you loose ur things
+[21:28:36] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> wb silencio
+[21:28:40] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store! [x21]
+[21:28:43] [Render thread/INFO]: [System] [CHAT] [☠] Silent> Gracias.
+[21:28:48] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> :3
+[21:29:00] [Render thread/INFO]: [System] [CHAT] [Member] PlsListenToMe> ima drown myself in front of my house to make sure im not in purple realm
+[21:29:05] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> you arnt
+[21:29:09] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> press tab
+[21:29:09] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> In yellow
+[21:29:17] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> youll see yellow at the top of ur screen
+[21:29:22] [Render thread/INFO]: [System] [CHAT] [Member] PlsListenToMe> ok im not in purple
+[21:29:24] [Render thread/INFO]: [System] [CHAT] [Member] PlsListenToMe> uhh
+[21:29:25] [Render thread/INFO]: [System] [CHAT] [Member] PlsListenToMe> okey
+[21:29:55] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Also if you vote you get keys for crates. A store key if you do all 7 sites
+[21:30:09] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Not to mention it iwill unlock /tpa
+[21:30:16] [Render thread/INFO]: [System] [CHAT] [Member] PlsListenToMe> ok where can i fight guardians
+[21:30:19] [Render thread/INFO]: [System] [CHAT] [Member] PlsListenToMe> in pvp
+[21:30:22] [Render thread/INFO]: [System] [CHAT] [Member] PlsListenToMe> warp
+[21:30:43] [Render thread/INFO]: [System] [CHAT] MagnetMalc13 has voted for the server on all 7 sites and has unlocked their BONUS in /vote, you can too by /vote'ing!
+[21:30:48] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> gg
+[21:31:20] [Render thread/INFO]: [System] [CHAT] Want to support the server, get /crate keys and your next /rank? Don't forget to /vote!
+[21:31:29] [Render thread/INFO]: [System] [CHAT] INKY has voted for the server and made progress towards the [Adventurer] rank and has received a /crate key, you can vote too with /vote!
+[21:31:30] [Render thread/INFO]: [System] [CHAT] [☠] Silent> Anyone want to fight at warp pvp?
+[21:31:33] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> inkster is there anything i can help you with
+[21:31:40] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store! [x22]
+[21:31:42] [Render thread/INFO]: [System] [CHAT] Underdog1980 reached the X mark on the map: [Th' sea horizon be th' limit]
+[21:31:59] [Render thread/INFO]: [System] [CHAT] INKY has voted for the server on all 7 sites and has unlocked their BONUS in /vote, you can too by /vote'ing!
+[21:32:00] [Render thread/INFO]: [System] [CHAT] PlsListenToMe accomplished something: [Scurvy dog slaughter]
+[21:32:04] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> gg [x2]
+[21:32:05] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> are legacy keys in the dono shop every weekend?
+[21:32:14] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Not every
+[21:32:20] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> halloween prob?
+[21:32:24] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> yeah
+[21:32:36] [Render thread/INFO]: [System] [CHAT] INKY has just opened a Legacy Crate and won Four-Leaf Clover!
+[21:32:41] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> strngth or regen
+[21:32:43] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> inky
+[21:32:43] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> which one
+[21:32:46] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> if its haste
+[21:32:48] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Regen
+[21:32:49] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i will buy it
+[21:32:50] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> dang
+[21:32:51] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> guessed it
+[21:33:24] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> i feel like people barley get jump clover
+[21:33:27] [Render thread/INFO]: [System] [CHAT] [❤LilBitof] Serephin> *eats clover*
+[21:33:27] [Render thread/INFO]: [System] [CHAT] Serephin is no longer AFK!
+[21:33:30] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> RIP
+[21:33:35] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> bai clover
+[21:33:36] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> 3 regen clovers. I don't even need armor
+[21:33:41] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> xD [x2]
+[21:33:47] [Render thread/INFO]: [System] [CHAT] [☠] Silent> You sure?
+[21:34:00] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> r/youmissedthejoke
+[21:34:03] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> fr
+[21:34:08] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> i was gonna say that
+[21:34:09] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> ^ [x3]
+[21:34:11] [Render thread/INFO]: [System] [CHAT] [Member] Underdog1980> Hi i'm new here.
+[21:34:15] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Hellos
+[21:34:16] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> hi new here
+[21:34:17] [Render thread/INFO]: [System] [CHAT] PlsListenToMe accomplished something: [Get yer hardware]
+[21:34:18] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> im toast
+[21:34:24] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> im not
+[21:34:28] [Render thread/INFO]: [System] [CHAT] [Member] Underdog1980> Lol.
+[21:34:29] [Render thread/INFO]: [System] [CHAT] [☠] Silent> Are you toast or a toaster?
+[21:34:32] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> any
+[21:34:33] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> both
+[21:34:39] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> they are all connected
+[21:34:40] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store! [x23]
+[21:34:45] [Render thread/INFO]: [System] [CHAT] [☠] Silent> How confusing.
+[21:34:51] [Render thread/INFO]: [System] [CHAT] [Member] Underdog1980> My name is underdog.
+[21:34:51] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> not really
+[21:34:52] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> its really quite simple
+[21:34:55] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> - mumbo
+[21:35:07] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> i only respond to 3 names. which isnt that complicate
+[21:35:08] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Not really. I am Inkybliss but go by Inky
+[21:35:08] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> d
+[21:35:25] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> My real name is Michael but get called Mike
+[21:35:33] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> bro im such a goat
+[21:35:36] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> never knew that
+[21:35:41] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> me neither
+[21:35:50] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> but i wrote a list of propable names for him
+[21:35:54] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> and mike was one of them
+[21:35:55] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> W
+[21:35:55] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> was that on there
+[21:35:56] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> lol
+[21:35:58] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> It is the most popular male name ever use it as you wish
+[21:36:10] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> michael afton pov:
+[21:36:23] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> it says james is number 1
+[21:36:25] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> thats the first and last joke ill make
+[21:36:39] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> All time not current year
+[21:36:44] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> yes
+[21:36:47] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> this is last 100 years
+[21:36:52] [Render thread/INFO]: [System] [CHAT] [Member] PlsListenToMe> is there anywhere in the xp farm where i can get sponge
+[21:37:01] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> And every langauge has a variation of it
+[21:37:03] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> thats how we know
+[21:37:16] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> most common female name is mary
+[21:37:26] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> Cap.
+[21:37:31] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> it says it online
+[21:37:34] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> not cap
+[21:37:40] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store! [x24]
+[21:37:45] [Render thread/INFO]: [System] [CHAT] MagnetMalc13 accomplished something: [A Throwaway Joke]
+[21:37:53] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> bruh
+[21:37:56] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> you little turd
+[21:38:10] [pool-2-thread-2/INFO]: [STDOUT]: Saving region 14,17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:38:10] [ForkJoinPool.commonPool-worker-12/INFO]: [STDOUT]: Saving region 15,17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:38:10] [ForkJoinPool.commonPool-worker-12/INFO]: [STDOUT]: Saved region successfully
+[21:38:10] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[21:38:10] [pool-2-thread-2/INFO]: [STDOUT]: World save took 74ms
+[21:38:23] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> You littleturd.
+[21:38:34] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> you disabled my flight
+[21:38:39] [Render thread/INFO]: [System] [CHAT] [☠] Silent> Deserved.
+[21:38:45] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> silent
+[21:38:49] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> your siding with him?
+[21:38:53] [Render thread/INFO]: [System] [CHAT] [Member] PlsListenToMe> i wish i had a sponge
+[21:38:55] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> you killed him like 3 times
+[21:39:05] [Render thread/INFO]: [System] [CHAT] [☠] Silent> Who's saying i'm siding with him.
+[21:39:12] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> you said i deserved it
+[21:39:16] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> justifying his actions
+[21:39:18] [Render thread/INFO]: [System] [CHAT] [☠] Silent> It's just a mere coincidence that our points of view are similar.
+[21:39:22] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> (siding with him)
+[21:39:26] [Render thread/INFO]: [System] [CHAT] You can now fly by double-jumping!
+[21:39:34] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> oh pvp is on
+[21:39:38] [Render thread/INFO]: [System] [CHAT] §9§4§o§lSilent§e would like to teleport to you: §aAccept §c Deny
+[21:39:41] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> hit me again and i kill u
+[21:39:46] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> or rather
+[21:39:49] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> silent will
+[21:39:50] [Render thread/INFO]: [System] [CHAT] §9§4§o§lSilent§e would like to teleport to you: §aAccept §c Deny [x2]
+[21:39:52] [Render thread/INFO]: [System] [CHAT] §9§4§o§lSilent§e would like to teleport to you: §aAccept §c Deny [x3]
+[21:39:59] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> No plerase.
+[21:40:07] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> Please.
+[21:40:08] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> better run while you can
+[21:40:21] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> yall still fighitng?
+[21:40:25] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> just started
+[21:40:30] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> where
+[21:40:31] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> silent is hunting magnet
+[21:40:34] [Render thread/INFO]: [System] [CHAT] You have asked Toaster if they can teleport to you.
+[21:40:37] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> that way
+[21:40:40] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store! [x25]
+[21:40:49] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> this saddens me deeply
+[21:40:57] [Render thread/INFO]: [System] [CHAT] [☠] Silent> Noooo.
+[21:41:03] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> lol [x2]
+[21:41:23] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> wait my build or them fighting
+[21:41:43] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> dont you say both
+[21:41:55] [Render thread/INFO]: [System] [CHAT] [+] Jennitzab
+[21:41:57] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> all of the above
+[21:42:02] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> :I
+[21:42:02] [Render thread/INFO]: [System] [CHAT] [☠] Silent> Yes.
+[21:42:19] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> Silent.
+[21:42:28] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> im a great builder
+[21:42:40] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> 4th time u caped
+[21:42:53] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> You pease of sh*t.
+[21:42:57] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> pease
+[21:42:58] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> piece*
+[21:42:59] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> lol [x3]
+[21:43:08] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> peace woulda made more sense
+[21:43:13] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -3,14 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:43:13] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 306ms
+[21:43:14] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -4,14 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:43:14] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 112ms
+[21:43:16] [pool-2-thread-1/INFO]: [STDOUT]: Loading region 0,16 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:43:16] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 257ms
+[21:43:21] [pool-2-thread-1/INFO]: [STDOUT]: Loading region 1,16 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:43:21] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 68ms
+[21:43:24] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> silent kinda cute ngl
+[21:43:32] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> Sus.
+[21:43:34] [Render thread/INFO]: [System] [CHAT] [☠] Silent> Stay away from me.
+[21:43:35] [Render thread/INFO]: [System] [CHAT] [+] [☀] Sunny
+[21:43:36] [Render thread/INFO]: [System] [CHAT] [☠] Silent> WB.
+[21:43:37] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> LOL
+[21:43:39] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> wb sunny
+[21:43:40] [Render thread/INFO]: [System] [CHAT] [☀] Sunny> ty
+[21:43:40] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store! [x26]
+[21:43:46] [Render thread/INFO]: [System] [CHAT] [☠] Silent> 6 foot distance minimum.
+[21:43:47] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> Wb.
+[21:43:55] [Render thread/INFO]: [System] [CHAT] [-] [☀] Sunny
+[21:43:55] [Render thread/INFO]: [System] [CHAT] You have asked Silent if you can teleport to them.
+[21:43:56] [Render thread/INFO]: [System] [CHAT] [+] [☀] Sunny [x2]
+[21:43:57] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> bruh
+[21:44:02] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> wb
+[21:44:02] [Render thread/INFO]: [System] [CHAT] [☠] Silent> wb.
+[21:44:05] [Render thread/INFO]: [System] [CHAT] [☀] Sunny> pressed the wrong button
+[21:44:05] [Render thread/INFO]: [System] [CHAT] [☀] Sunny> ty [x2]
+[21:44:09] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> lol [x4]
+[21:44:51] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> remember guys
+[21:45:00] [Render thread/INFO]: [System] [CHAT] PlsListenToMe accomplished something: [Bundle up]
+[21:45:01] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> if you wanna get rid of crates
+[21:45:06] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> just use my crate machine
+[21:45:53] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> just like that
+[21:45:59] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> his item sorter is done
+[21:46:08] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> so beautiful
+[21:46:11] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> yung gravy pog
+[21:46:25] [Render thread/INFO]: [System] [CHAT] §9MagnetMalc13§e would like to teleport to you: §aAccept §c Deny
+[21:46:40] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store! [x27]
+[21:46:59] [Render thread/INFO]: [System] [CHAT] [-] [☠] Silent
+[21:48:10] [pool-2-thread-2/INFO]: [STDOUT]: Saving region 1,16 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:48:10] [ForkJoinPool.commonPool-worker-7/INFO]: [STDOUT]: Saving region 15,17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:48:10] [ForkJoinPool.commonPool-worker-13/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:48:10] [ForkJoinPool.commonPool-worker-6/INFO]: [STDOUT]: Saving region 14,17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:48:10] [ForkJoinPool.commonPool-worker-5/INFO]: [STDOUT]: Saving region 15,18 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:48:10] [ForkJoinPool.commonPool-worker-8/INFO]: [STDOUT]: Saving region 0,16 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:48:10] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saving region -4,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:48:10] [ForkJoinPool.commonPool-worker-15/INFO]: [STDOUT]: Saving region 14,18 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:48:10] [ForkJoinPool.commonPool-worker-5/INFO]: [STDOUT]: Saved region successfully
+[21:48:10] [ForkJoinPool.commonPool-worker-15/INFO]: [STDOUT]: Saved region successfully
+[21:48:10] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[21:48:10] [ForkJoinPool.commonPool-worker-7/INFO]: [STDOUT]: Saved region successfully
+[21:48:10] [ForkJoinPool.commonPool-worker-6/INFO]: [STDOUT]: Saved region successfully
+[21:48:10] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saved region successfully
+[21:48:10] [ForkJoinPool.commonPool-worker-8/INFO]: [STDOUT]: Saved region successfully
+[21:48:10] [ForkJoinPool.commonPool-worker-13/INFO]: [STDOUT]: Saved region successfully
+[21:48:10] [pool-2-thread-2/INFO]: [STDOUT]: World save took 346ms
+[21:48:15] [Render thread/INFO]: [System] [CHAT] PlsListenToMe accomplished something: [Shiny diamonds!]
+[21:48:15] [Render thread/INFO]: [System] [CHAT] [+] EdwardWhiteINTJ2
+[21:48:17] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> WB
+[21:48:20] [Render thread/INFO]: [System] [CHAT] [☀] Sunny> wb
+[21:48:28] [Render thread/INFO]: [System] [CHAT] [-] EdwardWhiteINTJ2
+[21:48:34] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> Code can I come in?
+[21:48:40] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> um
+[21:48:47] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i dont have permission to let you in
+[21:48:58] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> Please. [x2]
+[21:49:00] [Render thread/INFO]: [System] [CHAT] Serephin has gone AFK!
+[21:49:02] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> im sorry
+[21:49:02] [Render thread/INFO]: [System] [CHAT] [-] Jennitzab
+[21:49:02] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> aw
+[21:49:05] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> not my choice
+[21:49:40] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store! [x28]
+[21:49:43] [Render thread/INFO]: [System] [CHAT] [Member] Underdog1980> Where can I build.
+[21:49:43] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> If it was it would be?
+[21:49:45] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> toasty
+[21:49:52] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> he has an iron golem spawner
+[21:49:55] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> who
+[21:50:00] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> emd
+[21:50:05] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> is it a copy/
+[21:50:08] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> of ours
+[21:50:13] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> no like the block
+[21:50:15] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> oh
+[21:50:19] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> placed?
+[21:50:21] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> an unplaced
+[21:50:22] [Render thread/INFO]: [System] [CHAT] [Member] Underdog1980> Hello.
+[21:50:30] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> ill ask him if hes selling it
+[21:50:32] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i am not gonna take anything
+[21:50:36] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> but yeah
+[21:50:43] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> do that since ur on more than i am
+[21:50:46] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> (nlk)
+[21:50:52] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> hm
+[21:50:55] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> k
+[21:51:05] [Render thread/INFO]: [System] [CHAT] [Member] Underdog1980> Where van I build.
+[21:51:10] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> in /rtp
+[21:51:14] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> o
+[21:51:16] [Render thread/INFO]: [System] [CHAT] [☀] Sunny> ty [x3]
+[21:51:17] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> or next to my house
+[21:51:28] [Render thread/INFO]: [System] [CHAT] Serephin is no longer AFK!
+[21:51:30] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> wb
+[21:51:31] [Render thread/INFO]: [System] [CHAT] [☀] Sunny> wb [x2]
+[21:51:38] [Render thread/INFO]: [System] [CHAT] [❤LilBitof] Serephin> ty
+[21:52:05] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> wb queen
+[21:52:30] [Render thread/INFO]: [System] [CHAT] You can't do that here!
+[21:52:41] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store! [x29]
+[21:52:46] [Render thread/INFO]: [System] [CHAT] You can't do that here! [x2]
+[21:53:19] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> good lord
+[21:53:21] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> emd did a lot
+[21:53:36] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> lots of redstoney stuff
+[21:53:44] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -17,-17 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:53:44] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 192ms
+[21:53:44] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -18,-17 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:53:45] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 303ms
+[21:53:57] [Render thread/INFO]: [System] [CHAT] §9MagnetMalc13§e would like to teleport to you: §aAccept §c Deny [x2]
+[21:54:11] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> this hurts my brain
+[21:54:21] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> aw ezkis statue looks cute
+[21:54:22] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> and i cant fix it
+[21:54:46] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> toasty does iron farm redstone hurt ur head?
+[21:54:46] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> ty sunny
+[21:54:49] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> no
+[21:54:50] [Render thread/INFO]: [System] [CHAT] [☀] Sunny> np
+[21:54:55] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> it broke when u were gone
+[21:54:59] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> and i re placed it
+[21:55:06] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> the pusher?
+[21:55:10] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> yep
+[21:55:11] [Render thread/INFO]: [System] [CHAT] [☀] Sunny> zamn the warp end donor war going crazy
+[21:55:36] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i dont understand it though
+[21:55:41] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store! [x30]
+[21:55:41] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> everything is the same
+[21:55:42] [Render thread/INFO]: [System] [CHAT] [☀] Sunny> should totally use the money and buy a clover for decoration
+[21:55:46] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> xD
+[21:55:47] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> so why is it timed differently
+[21:55:59] [Render thread/INFO]: [System] [CHAT] Underdog1980 accomplished something: [We need to sink our ship]
+[21:56:15] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> found it
+[21:56:17] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> york coming in with the 10 donation fr
+[21:56:18] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i think
+[21:56:21] [Render thread/INFO]: [System] [CHAT] Available Commands: 1/17
+[21:56:21] [Render thread/INFO]: [System] [CHAT] Afk: Let other players know you've gone afk.
+[21:56:21] [Render thread/INFO]: [System] [CHAT] Back: Teleport to where you previously were.
+[21:56:21] [Render thread/INFO]: [System] [CHAT] Backpack: Opens your backpack.
+[21:56:21] [Render thread/INFO]: [System] [CHAT] Balance: Find out how much money you have.
+[21:56:21] [Render thread/INFO]: [System] [CHAT] Blacklist: Blacklist a player from doing things in your claim.
+[21:56:26] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> purple casanova
+[21:57:24] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> you should fr make me warp staff
+[21:57:29] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> fr
+[21:57:29] [Render thread/INFO]: [System] [CHAT] HADES is no longer AFK!
+[21:57:34] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> nwb
+[21:57:36] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> hades agrees
+[21:57:38] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> ty
+[21:57:39] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> you cant challange that
+[21:57:43] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i can
+[21:57:47] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> he is an ex-owner
+[21:57:53] [Render thread/INFO]: [System] [CHAT] [Member] PlsListenToMe> im looking for a ocean monument its been forever
+[21:57:53] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> ?
+[21:58:02] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> an ex warp owner
+[21:58:07] [Render thread/INFO]: [System] [CHAT] [Member] PlsListenToMe> i just ned one spung
+[21:58:10] [pool-2-thread-2/INFO]: [STDOUT]: Saving region 14,17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:58:10] [ForkJoinPool.commonPool-worker-8/INFO]: [STDOUT]: Saving region -17,-17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:58:10] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saving region 15,18 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:58:10] [ForkJoinPool.commonPool-worker-13/INFO]: [STDOUT]: Saving region -18,-17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:58:10] [ForkJoinPool.commonPool-worker-7/INFO]: [STDOUT]: Saving region 14,18 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:58:10] [ForkJoinPool.commonPool-worker-6/INFO]: [STDOUT]: Saving region 15,17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:58:10] [ForkJoinPool.commonPool-worker-7/INFO]: [STDOUT]: Saved region successfully
+[21:58:10] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saved region successfully
+[21:58:10] [ForkJoinPool.commonPool-worker-6/INFO]: [STDOUT]: Saved region successfully
+[21:58:10] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[21:58:10] [ForkJoinPool.commonPool-worker-8/INFO]: [STDOUT]: Saved region successfully
+[21:58:10] [ForkJoinPool.commonPool-worker-13/INFO]: [STDOUT]: Saved region successfully
+[21:58:10] [pool-2-thread-2/INFO]: [STDOUT]: World save took 282ms
+[21:58:17] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> who
+[21:58:17] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -3,14 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:58:17] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 322ms
+[21:58:18] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -4,14 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[21:58:18] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 120ms
+[21:58:20] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> fr tho if u need warp staff just ask me lmfao
+[21:58:21] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> you
+[21:58:30] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> which one?
+[21:58:41] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store! [x31]
+[21:58:48] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> nah I'm more active then toaster choose me instead
+[21:58:55] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> ur afk all day :skull:
+[21:58:57] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> toasty i fixed it
+[21:59:00] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> and I don't quit playing
+[21:59:08] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> continues to be afk all day
+[21:59:10] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> you have
+[21:59:20] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> for like a month
+[21:59:25] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> and that's it
+[21:59:40] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> i only stopped playing once and it was because of complications
+[21:59:43] [Render thread/INFO]: [System] [CHAT] UsadaPekora has voted for the server on all 7 sites and has unlocked their BONUS in /vote, you can too by /vote'ing!
+[22:01:19] [Render thread/INFO]: [System] [CHAT] The Witch has invaded! Type /boss to travel to her base and fight her off!
+[22:01:20] [Render thread/INFO]: [System] [CHAT] Want to support the server, get /crate keys and your next /rank? Don't forget to /vote!
+[22:01:23] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> ew witch
+[22:01:40] [Render thread/INFO]: [System] [CHAT] [-] PlsListenToMe
+[22:01:41] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store! [x32]
+[22:03:24] [Render thread/INFO]: [System] [CHAT] [☀] Sunny> anyone have a netherite hoe I could borrow
+[22:03:47] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> I do
+[22:03:55] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> one sec thought pc is loading
+[22:04:00] [Render thread/INFO]: [System] [CHAT] [☀] Sunny> k
+[22:04:06] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> Code you ok.
+[22:04:41] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store! [x33]
+[22:07:17] [Render thread/INFO]: [System] [CHAT] Serephin has gone AFK!
+[22:07:41] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store! [x34]
+[22:07:47] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> my PC's so slow :(
+[22:07:56] [Render thread/INFO]: [System] [CHAT] [☀] Sunny> rip
+[22:08:10] [pool-2-thread-2/INFO]: [STDOUT]: Saving region -4,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[22:08:10] [ForkJoinPool.commonPool-worker-6/INFO]: [STDOUT]: Saving region -17,-17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[22:08:10] [ForkJoinPool.commonPool-worker-13/INFO]: [STDOUT]: Saving region -18,-17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[22:08:10] [ForkJoinPool.commonPool-worker-8/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[22:08:10] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[22:08:10] [ForkJoinPool.commonPool-worker-6/INFO]: [STDOUT]: Saved region successfully
+[22:08:11] [ForkJoinPool.commonPool-worker-13/INFO]: [STDOUT]: Saved region successfully
+[22:08:11] [ForkJoinPool.commonPool-worker-8/INFO]: [STDOUT]: Saved region successfully
+[22:08:11] [pool-2-thread-2/INFO]: [STDOUT]: World save took 337ms
+[22:08:12] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> I mean I have 3 games running at the same time but still
+[22:09:16] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> i bet its minecraft, fortnite, and LoL
+[22:09:26] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> nah
+[22:09:34] [Render thread/INFO]: [System] [CHAT] [☀] Sunny> hades secretly has 3000 hours on LoL o.o
+[22:09:35] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> I can't run Fortnite on my pc lol
+[22:10:41] [Render thread/INFO]: [System] [CHAT] Legacy Keys are back in stock, and the store is 25% OFF, this weekend only! Type /donate to view the store! [x35]
+[22:10:42] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> Codes afk should I kill him.
+[22:10:49] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> let me se
+[22:11:11] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> i have a question for you
+[22:11:19] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> why are you at this base
+[22:11:28] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> finally it loaded
+[22:11:44] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> I tpaed to code.
+[22:12:00] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> you cant place blocks
+[22:12:00] [Render thread/INFO]: [System] [CHAT] Serephin is no longer AFK!
+[22:12:02] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> WB :D
+[22:12:06] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> WB
+[22:12:13] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> O.o
+[22:12:18] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> brb
+[22:12:20] [Render thread/INFO]: [System] [CHAT] [-] [Rich] HADES
+[22:12:25] [Render thread/INFO]: [System] [CHAT] [☀] Sunny> bruh
+[22:12:31] [Render thread/INFO]: [System] [CHAT] [☀] Sunny> took 5 min to load and just left
+[22:12:36] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> xD [x2]
+[22:12:54] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> bye all
+[22:12:56] [Render thread/INFO]: [System] [CHAT] You can now fly by double-jumping!
+[22:12:56] [Render thread/INFO]: [System] [CHAT] [+] TKDninjaboy
+[22:12:57] [Render thread/INFO]: [System] [CHAT] [☀] Sunny> cya
+[22:12:58] [Render thread/INFO]: [System] [CHAT] [☀] Sunny> wb
+[22:12:59] [Render thread/INFO]: [System] [CHAT] Underdog1980 has gone AFK!
+[22:12:59] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Bye
+[22:13:01] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> i fixed
+[22:13:01] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> wb
+[22:13:04] [Render thread/INFO]: [System] [CHAT] [☀] Sunny> anyone have a netherite hoe
+[22:13:07] [Render thread/INFO]: [System] [CHAT] [Explorer] MagnetMalc13> Bnye.
+[22:13:11] [Render thread/INFO]: [System] [CHAT] [Forager] TKDninjaboy> thx
+[22:13:17] [Render thread/INFO]: [System] [CHAT] [+] [Rich] HADES
+[22:13:20] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> WB
+[22:13:21] [Render thread/INFO]: [System] [CHAT] [Forager] TKDninjaboy> WB
+[22:13:21] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> poof
+[22:13:22] [Render thread/INFO]: [System] [CHAT] Underdog1980 is no longer AFK!
+[22:13:23] [Render thread/INFO]: [System] [CHAT] [☀] Sunny> wb [x2]
+[22:13:30] [Render thread/INFO]: Minimap session finalized.
+[22:13:30] [Render thread/INFO]: Finalizing world map session...
+[22:13:30] [Thread-1/INFO]: World map force-cleaned!
+[22:13:30] [Render thread/INFO]: World map session finalized.
+[22:13:32] [Render thread/INFO]: Stopping!

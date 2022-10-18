@@ -1,0 +1,1857 @@
+[11:54:59] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.14.9
+[11:54:59] [ForkJoinPool-1-worker-2/WARN]: Mod wurst uses the version v7.27.3-MC1.19.2 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[11:54:59] [main/INFO]: Loading 55 mods:
+	- baritone 1.5.3-621-gaddd1fc7
+	- fabric-api 0.61.0+1.19.2
+	- fabric-api-base 0.4.11+e62f51a390 via fabric-api
+	- fabric-api-lookup-api-v1 1.6.9+9ff28f4090 via fabric-api
+	- fabric-biome-api-v1 9.0.17+aeb40ebe90 via fabric-api
+	- fabric-blockrenderlayer-v1 1.1.20+aeb40ebe90 via fabric-api
+	- fabric-client-tags-api-v1 1.0.1+b35fea8390 via fabric-api
+	- fabric-command-api-v1 1.2.11+f71b366f90 via fabric-api
+	- fabric-command-api-v2 2.1.7+0c17ea9690 via fabric-api
+	- fabric-commands-v0 0.2.28+df3654b390 via fabric-api
+	- fabric-containers-v0 0.1.34+df3654b390 via fabric-api
+	- fabric-content-registries-v0 3.3.0+624e468e90 via fabric-api
+	- fabric-convention-tags-v1 1.1.1+7cd20a1490 via fabric-api
+	- fabric-crash-report-info-v1 0.2.5+aeb40ebe90 via fabric-api
+	- fabric-data-generation-api-v1 5.1.9+a680b9b490 via fabric-api
+	- fabric-dimensions-v1 2.1.31+0dd10df690 via fabric-api
+	- fabric-entity-events-v1 1.4.18+9ff28f4090 via fabric-api
+	- fabric-events-interaction-v0 0.4.28+aeb40ebe90 via fabric-api
+	- fabric-events-lifecycle-v0 0.2.28+df3654b390 via fabric-api
+	- fabric-game-rule-api-v1 1.0.21+aeb40ebe90 via fabric-api
+	- fabric-item-api-v1 1.5.7+35a03c4390 via fabric-api
+	- fabric-item-groups-v0 0.3.29+4e8ca3fd90 via fabric-api
+	- fabric-key-binding-api-v1 1.0.20+aeb40ebe90 via fabric-api
+	- fabric-keybindings-v0 0.2.18+df3654b390 via fabric-api
+	- fabric-lifecycle-events-v1 2.1.2+aeb40ebe90 via fabric-api
+	- fabric-loot-api-v2 1.1.3+83a8659290 via fabric-api
+	- fabric-loot-tables-v1 1.1.6+9e7660c690 via fabric-api
+	- fabric-message-api-v1 5.0.3+176380a290 via fabric-api
+	- fabric-mining-level-api-v1 2.1.14+33fbc73890 via fabric-api
+	- fabric-models-v0 0.3.17+aeb40ebe90 via fabric-api
+	- fabric-networking-api-v1 1.2.4+5eb68ef290 via fabric-api
+	- fabric-networking-v0 0.3.21+df3654b390 via fabric-api
+	- fabric-object-builder-api-v1 4.0.11+aeb40ebe90 via fabric-api
+	- fabric-particles-v1 1.0.10+aeb40ebe90 via fabric-api
+	- fabric-registry-sync-v0 0.9.25+726b652090 via fabric-api
+	- fabric-renderer-api-v1 1.0.10+aeb40ebe90 via fabric-api
+	- fabric-renderer-indigo 0.6.12+aeb40ebe90 via fabric-api
+	- fabric-renderer-registries-v1 3.2.20+df3654b390 via fabric-api
+	- fabric-rendering-data-attachment-v1 0.3.14+aeb40ebe90 via fabric-api
+	- fabric-rendering-fluids-v1 3.0.7+aeb40ebe90 via fabric-api
+	- fabric-rendering-v0 1.1.22+df3654b390 via fabric-api
+	- fabric-rendering-v1 1.10.16+aeb40ebe90 via fabric-api
+	- fabric-resource-conditions-api-v1 2.0.11+e62f51a390 via fabric-api
+	- fabric-resource-loader-v0 0.6.1+aeb40ebe90 via fabric-api
+	- fabric-screen-api-v1 1.0.26+f05effaf90 via fabric-api
+	- fabric-screen-handler-api-v1 1.3.0+1cc24b1b90 via fabric-api
+	- fabric-textures-v0 1.0.20+aeb40ebe90 via fabric-api
+	- fabric-transfer-api-v1 2.1.0+8f88597390 via fabric-api
+	- fabric-transitive-access-wideners-v1 1.3.0+42d99c3290 via fabric-api
+	- fabricloader 0.14.9
+	- java 17
+	- minecraft 1.19.2
+	- wurst v7.27.3-MC1.19.2
+	- xaerominimap 22.15.1
+	- xaeroworldmap 1.28.0
+[11:54:59] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[11:54:59] [main/INFO]: Compatibility level set to JAVA_17
+[11:55:01] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/occlusion/BlockOcclusionCache (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/occlusion/BlockOcclusionCache)
+[11:55:03] [main/WARN]: Configuration conflict: there is more than one oshi.properties file on the classpath
+[11:55:04] [main/WARN]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath
+[11:55:10] [main/INFO]: Building optimized datafixer
+[11:55:17] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:55:19] [Render thread/INFO]: Setting user: CodeOverload
+[11:55:20] [Render thread/INFO]: [STDOUT]: Starting Wurst Client...
+[11:55:23] [Render thread/INFO]: [Indigo] Registering Indigo renderer!
+[11:55:23] [Render thread/INFO]: Loading Xaero's Minimap - Stage 1/2
+[11:55:25] [Render thread/INFO]: Loading Xaero's World Map - Stage 1/2
+[11:55:26] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[11:55:31] [Render thread/WARN]: ERROR : Couldn't load Narrator library
+java.lang.UnsatisfiedLinkError: Unable to load library 'fliteWrapper':
+libfliteWrapper.so: cannot open shared object file: No such file or directory
+libfliteWrapper.so: cannot open shared object file: No such file or directory
+Native library (linux-x86-64/libfliteWrapper.so) not found in resource path (/home/gavinboor/.local/share/multimc/bin/jars/NewLaunch.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/logging/1.0.0/logging-1.0.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar:/home/gavinboor/.local/share/multimc/libraries/com/github/oshi/oshi-core/5.8.5/oshi-core-5.8.5.jar:/home/gavinboor/.local/share/multimc/libraries/net/java/dev/jna/jna/5.10.0/jna-5.10.0.jar:/home/gavinboor/.local/share/multimc/libraries/net/java/dev/jna/jna-platform/5.10.0/jna-platform-5.10.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-slf4j18-impl/2.16.0/log4j-slf4j18-impl-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/ibm/icu/icu4j/70.1/icu4j-70.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/javabridge/1.2.24/javabridge-1.2.24.jar:/home/gavinboor/.local/share/multimc/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-common/4.1.77.Final/netty-common-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-buffer/4.1.77.Final/netty-buffer-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-codec/4.1.77.Final/netty-codec-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-handler/4.1.77.Final/netty-handler-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-resolver/4.1.77.Final/netty-resolver-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport/4.1.77.Final/netty-transport-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-native-unix-common/4.1.77.Final/netty-transport-native-unix-common-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-classes-epoll/4.1.77.Final/netty-transport-classes-epoll-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-native-epoll/4.1.77.Final/netty-transport-native-epoll-4.1.77.Final-linux-x86_64.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/gavinboor/.local/share/multimc/libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/gavinboor/.local/share/multimc/libraries/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/datafixerupper/5.0.28/datafixerupper-5.0.28.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/authlib/3.11.49/authlib-3.11.49.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/gavinboor/.local/share/multimc/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar:/home/gavinboor/.local/share/multimc/libraries/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-api/2.16.0/log4j-api-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-core/2.16.0/log4j-core-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/text2speech/1.13.9/text2speech-1.13.9.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/intermediary/1.19.2/intermediary-1.19.2.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/tiny-mappings-parser/0.3.0+build.17/tiny-mappings-parser-0.3.0+build.17.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/tiny-remapper/0.8.2/tiny-remapper-0.8.2.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm/9.3/asm-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-util/9.3/asm-util-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/fabric-loader/0.14.9/fabric-loader-0.14.9.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/minecraft/1.19.2/minecraft-1.19.2-client.jar)
+	at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:301) ~[jna-5.10.0.jar:?]
+	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:?]
+	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:?]
+	at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.13.9.jar:?]
+	at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.13.9.jar:?]
+	at net.minecraft.class_333.<init>(class_333.java:19) [client-intermediary.jar:?]
+	at net.minecraft.class_310.<init>(class_310.java:637) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.method_44604(Main.java:205) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.9.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+	Suppressed: java.lang.UnsatisfiedLinkError: libfliteWrapper.so: cannot open shared object file: No such file or directory
+		at com.sun.jna.Native.open(Native Method) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:191) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:?]
+		at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.13.9.jar:?]
+		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.13.9.jar:?]
+		at net.minecraft.class_333.<init>(class_333.java:19) [client-intermediary.jar:?]
+		at net.minecraft.class_310.<init>(class_310.java:637) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.method_44604(Main.java:205) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+		at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.9.jar:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+		at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+		at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+		at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+	Suppressed: java.lang.UnsatisfiedLinkError: libfliteWrapper.so: cannot open shared object file: No such file or directory
+		at com.sun.jna.Native.open(Native Method) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:204) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:?]
+		at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.13.9.jar:?]
+		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.13.9.jar:?]
+		at net.minecraft.class_333.<init>(class_333.java:19) [client-intermediary.jar:?]
+		at net.minecraft.class_310.<init>(class_310.java:637) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.method_44604(Main.java:205) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+		at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.9.jar:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+		at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+		at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+		at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+	Suppressed: java.io.IOException: Native library (linux-x86-64/libfliteWrapper.so) not found in resource path (/home/gavinboor/.local/share/multimc/bin/jars/NewLaunch.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/logging/1.0.0/logging-1.0.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar:/home/gavinboor/.local/share/multimc/libraries/com/github/oshi/oshi-core/5.8.5/oshi-core-5.8.5.jar:/home/gavinboor/.local/share/multimc/libraries/net/java/dev/jna/jna/5.10.0/jna-5.10.0.jar:/home/gavinboor/.local/share/multimc/libraries/net/java/dev/jna/jna-platform/5.10.0/jna-platform-5.10.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-slf4j18-impl/2.16.0/log4j-slf4j18-impl-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/ibm/icu/icu4j/70.1/icu4j-70.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/javabridge/1.2.24/javabridge-1.2.24.jar:/home/gavinboor/.local/share/multimc/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-common/4.1.77.Final/netty-common-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-buffer/4.1.77.Final/netty-buffer-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-codec/4.1.77.Final/netty-codec-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-handler/4.1.77.Final/netty-handler-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-resolver/4.1.77.Final/netty-resolver-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport/4.1.77.Final/netty-transport-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-native-unix-common/4.1.77.Final/netty-transport-native-unix-common-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-classes-epoll/4.1.77.Final/netty-transport-classes-epoll-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-native-epoll/4.1.77.Final/netty-transport-native-epoll-4.1.77.Final-linux-x86_64.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/gavinboor/.local/share/multimc/libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/gavinboor/.local/share/multimc/libraries/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/datafixerupper/5.0.28/datafixerupper-5.0.28.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/authlib/3.11.49/authlib-3.11.49.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/gavinboor/.local/share/multimc/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar:/home/gavinboor/.local/share/multimc/libraries/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-api/2.16.0/log4j-api-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-core/2.16.0/log4j-core-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/text2speech/1.13.9/text2speech-1.13.9.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/intermediary/1.19.2/intermediary-1.19.2.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/tiny-mappings-parser/0.3.0+build.17/tiny-mappings-parser-0.3.0+build.17.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/tiny-remapper/0.8.2/tiny-remapper-0.8.2.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm/9.3/asm-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-util/9.3/asm-util-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/fabric-loader/0.14.9/fabric-loader-0.14.9.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/minecraft/1.19.2/minecraft-1.19.2-client.jar)
+		at com.sun.jna.Native.extractFromResourcePath(Native.java:1145) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:275) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:?]
+		at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.13.9.jar:?]
+		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.13.9.jar:?]
+		at net.minecraft.class_333.<init>(class_333.java:19) [client-intermediary.jar:?]
+		at net.minecraft.class_310.<init>(class_310.java:637) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.method_44604(Main.java:205) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+		at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.9.jar:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+		at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+		at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+		at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[11:55:31] [Render thread/INFO]: Reloading ResourceManager: Default, Fabric Mods (Fabric API, Fabric API Base, Fabric API Lookup API (v1), Fabric Biome API (v1), Fabric BlockRenderLayer Registration (v1), Fabric Client Tags, Fabric Command API (v1), Fabric Command API (v2), Fabric Commands (v0), Fabric Containers (v0), Fabric Content Registries (v0), Fabric Convention Tags, Fabric Crash Report Info (v1), Fabric Data Generation API (v1), Fabric Dimensions API (v1), Fabric Entity Events (v1), Fabric Events Interaction (v0), Fabric Events Lifecycle (v0), Fabric Game Rule API (v1), Fabric Item API (v1), Fabric Item Groups (v0), Fabric Key Binding API (v1), Fabric Key Bindings (v0), Fabric Lifecycle Events (v1), Fabric Loot API (v2), Fabric Loot Tables (v1), Fabric Message API (v1), Fabric Mining Level API (v1), Fabric Models (v0), Fabric Networking API (v1), Fabric Networking (v0), Fabric Object Builder API (v1), Fabric Particles (v1), Fabric Registry Sync (v0), Fabric Renderer API (v1), Fabric Renderer - Indigo, Fabric Renderer Registries (v1), Fabric Rendering Data Attachment (v1), Fabric Rendering Fluids (v1), Fabric Rendering (v0), Fabric Rendering (v1), Fabric Resource Conditions API (v1), Fabric Resource Loader (v0), Fabric Screen API (v1), Fabric Screen Handler API (v1), Fabric Textures (v0), Fabric Transfer API (v1), Fabric Transitive Access Wideners (v1), Fabric Loader, Wurst Client, Xaero's Minimap, Xaero's World Map)
+[11:55:33] [Render thread/INFO]: Loading Xaero's Minimap - Stage 2/2
+[11:55:33] [Render thread/INFO]: Xaero's Minimap: World Map found!
+[11:55:33] [Render thread/INFO]: No Optifine!
+[11:55:33] [Render thread/INFO]: Xaero's Minimap: No Vivecraft!
+[11:55:34] [Render thread/INFO]: Loading Xaero's World Map - Stage 2/2
+[11:55:34] [Render thread/INFO]: New world map region cache hash code: 687554333
+[11:55:34] [Render thread/INFO]: Xaero's WorldMap Mod: Xaero's minimap found!
+[11:55:34] [Render thread/INFO]: No Optifine!
+[11:55:34] [Render thread/INFO]: Xaero's World Map: No Vivecraft!
+[11:55:39] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[11:55:39] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[11:55:39] [Render thread/INFO]: OpenAL initialized on device VirtIO SoundCard
+[11:55:39] [Render thread/INFO]: Sound engine started
+[11:55:40] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/blocks.png-atlas
+[11:55:40] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/signs.png-atlas
+[11:55:40] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[11:55:40] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[11:55:40] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/chest.png-atlas
+[11:55:40] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
+[11:55:40] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[11:55:44] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[11:55:45] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[11:55:45] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[11:55:45] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[11:55:45] [Render thread/INFO]: Successfully reloaded the minimap shaders!
+[11:55:45] [Render thread/INFO]: Successfully reloaded the world map shaders!
+[11:56:13] [Worker-Bootstrap-2/INFO]: 4283 Datafixer optimizations took 63333 milliseconds
+[11:57:16] [Render thread/INFO]: Connecting to play.survivewith.us, 25565
+[11:57:18] [Render thread/INFO]: New minimap session initialized!
+[11:57:18] [Render thread/INFO]: New world map session initialized!
+[11:57:18] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384
+[11:57:18] [Render thread/INFO]: [STDOUT]: Cached world directory: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[11:57:18] [Render thread/INFO]: [STDOUT]: Would save waypoints to /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/waypoints
+[11:57:18] [Render thread/INFO]: [STDOUT]: Telemetry sending attempt blocked.
+[11:57:18] [Render thread/INFO]: [STDOUT]: Telemetry sending attempt blocked.
+[11:57:18] [Render thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: minecraft:ancient_city_replaceable, minecraft:mangrove_logs_can_grow_through, minecraft:mangrove_roots_can_grow_through, minecraft:nether_carver_replaceables, minecraft:overworld_carver_replaceables
+[11:57:19] [Render thread/INFO]: [System] [CHAT] 
+[11:57:19] [Render thread/INFO]: [System] [CHAT] 
+[11:57:19] [Render thread/INFO]: [System] [CHAT] Welcome back to SurviveWithUs YELLOW, HackAttack!
+[11:57:19] [Render thread/INFO]: [System] [CHAT] 
+[11:57:19] [Render thread/INFO]: [System] [CHAT] §bYou're currently receiving an §6§lXP§b or §6§lMoney Boost!§b Click §bhere §bto §bview §byour §6§l/boosts!
+[11:57:19] [Render thread/INFO]: [System] [CHAT] 
+[11:57:19] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -3,14 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[11:57:19] [Render thread/INFO]: Loaded 848 advancements
+[11:57:19] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> no.
+[11:57:19] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> wb
+[11:57:20] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 311ms
+[11:57:20] [Render thread/INFO]: Reloading entity icon resources...
+[11:57:20] [Render thread/INFO]: Done!
+[11:57:20] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> wb.
+[11:57:20] [Render thread/INFO]: [STDOUT]: Brightness started at 0.5
+[11:57:21] [Render thread/INFO]: [System] [CHAT] [MVP] MoonLight> wb
+[11:57:22] [WurstUpdater/INFO]: [STDOUT]: [Updater] Current version: 7.27.3
+[11:57:22] [WurstUpdater/INFO]: [STDOUT]: [Updater] Latest version: 7.27.3
+[11:57:22] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -4,14 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[11:57:22] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 108ms
+[11:57:44] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:57:46] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:57:46] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:57:46] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:57:46] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:57:46] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:57:46] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:57:46] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:57:46] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:57:46] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:57:46] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:57:46] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:57:46] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:57:46] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:57:46] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:57:46] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:57:46] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:57:47] [Render thread/INFO]: [System] [CHAT] Remember to /vote to get your next /rank and unlock epic rewards!
+[11:57:48] [ForkJoinPool.commonPool-worker-10/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[11:57:48] [pool-2-thread-2/INFO]: [STDOUT]: Saving region -4,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[11:57:48] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[11:57:48] [ForkJoinPool.commonPool-worker-10/INFO]: [STDOUT]: Saved region successfully
+[11:57:48] [pool-2-thread-2/INFO]: [STDOUT]: World save took 173ms
+[11:57:50] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:57:52] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:57:53] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:57:54] [Render thread/INFO]: [System] [CHAT] [Farmer] Nayan5> I forget my home name how can I found it.
+[11:57:54] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:57:55] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:57:58] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:57:58] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> omg just realized that the community is called team panda
+[11:57:59] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> xD
+[11:58:01] [Render thread/INFO]: [System] [CHAT] [MVP] MoonLight> gtg
+[11:58:07] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> Ok.
+[11:58:09] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> B.
+[11:58:13] [Render thread/INFO]: [System] [CHAT] [MVP] MoonLight> tYes ik bye
+[11:58:13] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> Bye.
+[11:58:16] [Render thread/INFO]: [System] [CHAT] [-] [MVP] MoonLight
+[11:58:22] [Render thread/INFO]: [System] [CHAT] [-] [Cat+++] Fiji
+[11:58:39] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> are anyone elses spawners not spawning mobs
+[11:58:51] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> water isnt flowing either
+[11:59:22] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[11:59:22] [Render thread/INFO]: [System] [CHAT] You have received: $90000.00
+[11:59:35] [Render thread/INFO]: [System] [CHAT] [+] [Legend] Crazy☠RabbiT
+[11:59:38] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> wb
+[11:59:39] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> W.
+[11:59:39] [Render thread/INFO]: [System] [CHAT] [Survivalist] its_EzKi> wb.
+[11:59:39] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> oh wait
+[11:59:42] [Render thread/INFO]: [System] [CHAT] [Legend] Crazy☠RabbiT> I joined using ChatCraft from my Android device! Download it for free!
+[11:59:42] [Render thread/INFO]: [System] [CHAT] [Farmer] Nayan5> How can I check my house name I forget it.
+[11:59:44] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> wb.
+[11:59:45] [Render thread/INFO]: [System] [CHAT] [Legend] Crazy☠RabbiT> ty
+[11:59:51] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> do /homes
+[12:00:00] [Render thread/INFO]: [System] [CHAT] You have received 2 FUNKey keys!
+[12:00:04] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> oh
+[12:00:06] [Render thread/INFO]: [System] [CHAT] [Survivalist] its_EzKi> ;o.
+[12:00:06] [Render thread/INFO]: [System] [CHAT] [-] [Legend] Crazy☠RabbiT
+[12:00:23] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[12:00:23] [Render thread/INFO]: [System] [CHAT] You have received 2 DailyKey keys!
+[12:00:29] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> duce why is mc so laggy
+[12:00:47] [Render thread/INFO]: [System] [CHAT] [-] [Rich] HADES
+[12:00:48] [Render thread/INFO]: [System] [CHAT] [+] [Custom+] HADES
+[12:00:48] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[12:00:48] [Render thread/INFO]: [System] [CHAT] You have received 2 DailyKey keys!
+[12:00:49] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> wb
+[12:00:50] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> WB.
+[12:00:53] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> ty
+[12:00:53] [Render thread/INFO]: [System] [CHAT] [Survivalist] its_EzKi> wb.
+[12:00:54] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> I joined using ChatCraft from my Android device! Download it for free!
+[12:00:56] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> ty
+[12:00:57] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> rip
+[12:01:10] [Render thread/INFO]: [System] [CHAT] [Farmer] Nayan5> It is only showoing the owned number.
+[12:01:11] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[12:01:11] [Render thread/INFO]: [System] [CHAT] You have received 2 DailyKey keys!
+[12:01:23] [Render thread/INFO]: [System] [CHAT] The Witch has invaded! Type /boss to travel to her base and fight her off!
+[12:01:24] [Render thread/INFO]: [System] [CHAT] Want to support the server, get /crate keys and your next /rank? Don't forget to /vote!
+[12:01:26] [pool-2-thread-3/INFO]: [STDOUT]: Started saving the world in a new thread
+[12:01:26] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/bossworld_384
+[12:01:26] [pool-2-thread-3/INFO]: [STDOUT]: World save took 0ms
+[12:01:26] [Render thread/INFO]: [STDOUT]: Cached world directory: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/bossworld_384/cache
+[12:01:26] [Render thread/INFO]: [STDOUT]: Would save waypoints to /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/bossworld_384/waypoints
+[12:01:34] [Render thread/INFO]: [System] [CHAT] You can now fly by double-jumping!
+[12:01:34] [Render thread/INFO]: [System] [CHAT] You can't fly during the Witch fight!
+[12:01:45] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:01:47] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:01:47] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:01:49] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:01:50] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:01:51] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:01:51] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:01:51] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:01:51] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:01:51] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:01:51] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:01:53] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:01:53] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:01:53] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:01:53] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:01:53] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:01:53] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:01:53] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:01:53] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:01:55] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:01:56] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:01:56] [pool-2-thread-3/INFO]: [STDOUT]: Saving region -1,0 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/bossworld_384/cache
+[12:01:56] [ForkJoinPool.commonPool-worker-1/INFO]: [STDOUT]: Saving region 0,0 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/bossworld_384/cache
+[12:01:56] [pool-2-thread-3/INFO]: [STDOUT]: Saved region successfully
+[12:01:57] [ForkJoinPool.commonPool-worker-1/INFO]: [STDOUT]: Saved region successfully
+[12:01:57] [pool-2-thread-3/INFO]: [STDOUT]: World save took 31ms
+[12:01:57] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:01:57] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:01:58] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:01:59] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:01:59] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:01:59] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:01] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:01] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:01] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:02] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:03] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:04] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:04] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:10] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:10] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:10] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:12] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:14] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:16] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:16] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:18] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:20] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:23] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:26] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:27] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:27] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:31] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:31] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:31] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:32] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:32] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:33] [Render thread/INFO]: [System] [CHAT] [-] Nayan5
+[12:02:33] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:33] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:35] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:36] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:38] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:39] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:39] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:39] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:40] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:40] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:41] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:41] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:43] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:44] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:45] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:47] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:47] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:47] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:48] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:48] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:50] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:51] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:52] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:52] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:52] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:52] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:52] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:52] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:54] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:55] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:57] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:57] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:57] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:57] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:57] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:57] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:58] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:59] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:59] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:59] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:02:59] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:01] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:01] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:01] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:02] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:02] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:03] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:03] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:04] [Render thread/INFO]: [System] [CHAT] [+] Nayan5
+[12:03:04] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> boop
+[12:03:05] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:05] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:05] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:06] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:06] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:06] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:06] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:07] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:07] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:07] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:07] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:08] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:08] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:09] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:10] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:10] [Render thread/INFO]: [System] [CHAT] [Survivalist] its_EzKi> Boop.
+[12:03:11] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:12] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:12] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:12] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:12] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:12] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:12] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:12] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:12] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:12] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:13] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:14] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:14] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:15] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:16] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:16] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:17] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:18] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:18] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:18] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:19] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:19] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:20] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:20] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:20] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:20] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:21] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:22] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:22] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:23] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:23] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:23] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:23] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:24] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:25] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:25] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:25] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:25] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:26] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:27] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:27] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:28] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:28] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:29] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:29] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:30] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:31] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:31] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:31] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:31] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:32] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:32] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:32] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:33] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:33] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:34] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:34] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:35] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:36] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:36] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:37] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:37] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:37] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:38] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:38] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:38] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:38] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:38] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:39] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:39] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:40] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:47] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:58] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:58] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:03:58] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:00] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:00] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:01] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:02] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:02] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:02] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:02] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:03] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:04] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:04] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:05] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:05] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:05] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:05] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:05] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:06] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:06] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:06] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:06] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:07] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:07] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:07] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:08] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:09] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:10] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:10] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:10] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:11] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:12] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:12] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:13] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:14] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:15] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:15] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:16] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:17] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:17] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:17] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:17] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:18] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:19] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:19] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:20] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:21] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:21] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:22] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:23] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:23] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:23] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:23] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:24] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:24] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:24] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:25] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:26] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:26] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:27] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:28] [Render thread/INFO]: [System] [CHAT] You've killed enough of the Witch's minions and she can now be damaged!
+[12:04:28] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:28] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:29] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:29] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:29] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:29] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:29] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:30] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:31] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:31] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:31] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:31] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:32] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:32] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:32] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:33] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:33] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:34] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:34] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:34] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:34] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:35] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:35] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:35] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:35] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:35] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:35] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:35] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:35] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:35] [Render thread/INFO]: [System] [CHAT] - Unscramble the word! lsmie-
+[12:04:35] [Render thread/INFO]: [System] [CHAT] The player to unscramble the word the fastest will receive a prize!
+[12:04:36] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:36] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:36] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:36] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:36] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:36] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:36] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:37] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:37] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:37] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:37] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:38] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:38] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:38] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:38] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:38] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:38] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> slime
+[12:04:38] [Render thread/INFO]: [System] [CHAT] Toaster wins! The word was slime!
+[12:04:39] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> slime
+[12:04:39] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:39] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:39] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:39] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:39] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:39] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:39] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> Slime.
+[12:04:40] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:40] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:40] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:40] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:40] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:41] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:41] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:41] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:41] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:41] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:41] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> ez
+[12:04:41] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> grr
+[12:04:41] [Render thread/INFO]: [System] [CHAT] [MVP] Axi> slime
+[12:04:42] [pool-2-thread-5/INFO]: [STDOUT]: Started saving the world in a new thread
+[12:04:42] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/spawn_384
+[12:04:42] [Render thread/INFO]: [STDOUT]: Cached world directory: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/spawn_384/cache
+[12:04:42] [pool-2-thread-5/INFO]: [STDOUT]: Saving region -1,0 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/bossworld_384/cache
+[12:04:42] [ForkJoinPool.commonPool-worker-9/INFO]: [STDOUT]: Saving region 0,0 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/bossworld_384/cache
+[12:04:42] [Render thread/INFO]: [STDOUT]: Would save waypoints to /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/spawn_384/waypoints
+[12:04:42] [pool-2-thread-5/INFO]: [STDOUT]: Saved region successfully
+[12:04:42] [ForkJoinPool.commonPool-worker-9/INFO]: [STDOUT]: Saved region successfully
+[12:04:42] [pool-2-thread-5/INFO]: [STDOUT]: World save took 33ms
+[12:04:42] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:04:42] [Render thread/INFO]: [System] [CHAT] You have received 2 BossKey keys!
+[12:04:42] [pool-2-thread-6/INFO]: [STDOUT]: Loading region 0,0 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/spawn_384/cache
+[12:04:42] [pool-2-thread-6/INFO]: [STDOUT]: Loaded region successfully in 138ms
+[12:04:42] [pool-2-thread-6/INFO]: [STDOUT]: Loading region 0,-1 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/spawn_384/cache
+[12:04:42] [pool-2-thread-6/INFO]: [STDOUT]: Loaded region successfully in 187ms
+[12:04:42] [pool-2-thread-6/INFO]: [STDOUT]: Loading region -1,0 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/spawn_384/cache
+[12:04:43] [pool-2-thread-6/INFO]: [STDOUT]: Loaded region successfully in 139ms
+[12:04:43] [pool-2-thread-6/INFO]: [STDOUT]: Loading region -1,-1 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/spawn_384/cache
+[12:04:43] [pool-2-thread-6/INFO]: [STDOUT]: Loaded region successfully in 88ms
+[12:04:57] [pool-2-thread-5/INFO]: [STDOUT]: Started saving the world in a new thread
+[12:04:57] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384
+[12:04:57] [pool-2-thread-5/INFO]: [STDOUT]: Saving region -1,0 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/spawn_384/cache
+[12:04:57] [ForkJoinPool.commonPool-worker-12/INFO]: [STDOUT]: Saving region 0,-1 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/spawn_384/cache
+[12:04:57] [ForkJoinPool.commonPool-worker-9/INFO]: [STDOUT]: Saving region -1,-1 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/spawn_384/cache
+[12:04:57] [ForkJoinPool.commonPool-worker-7/INFO]: [STDOUT]: Saving region 0,0 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/spawn_384/cache
+[12:04:57] [ForkJoinPool.commonPool-worker-9/INFO]: [STDOUT]: Saved region successfully
+[12:04:57] [pool-2-thread-5/INFO]: [STDOUT]: Saved region successfully
+[12:04:57] [ForkJoinPool.commonPool-worker-12/INFO]: [STDOUT]: Saved region successfully
+[12:04:57] [ForkJoinPool.commonPool-worker-7/INFO]: [STDOUT]: Saved region successfully
+[12:04:57] [pool-2-thread-5/INFO]: [STDOUT]: World save took 104ms
+[12:05:12] [pool-2-thread-7/INFO]: [STDOUT]: World save took 1ms
+[12:05:21] [Render thread/INFO]: Minimap session finalized.
+[12:05:21] [Render thread/INFO]: Finalizing world map session...
+[12:05:21] [Thread-1/INFO]: World map force-cleaned!
+[12:05:21] [Render thread/INFO]: World map session finalized.
+[12:05:21] [Render thread/INFO]: [STDOUT]: Telemetry sending attempt blocked.
+[12:05:21] [Render thread/INFO]: [STDOUT]: Disconnected: literal{You are sending too many packets, :(}[style={}]
+[12:05:22] [Render thread/INFO]: Connecting to play.survivewith.us, 25565
+[12:05:23] [Render thread/INFO]: New minimap session initialized!
+[12:05:23] [Render thread/INFO]: New world map session initialized!
+[12:05:23] [pool-2-thread-5/INFO]: [STDOUT]: Started saving the world in a new thread
+[12:05:23] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384
+[12:05:23] [pool-2-thread-5/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:05:23] [Render thread/INFO]: [STDOUT]: Telemetry sending attempt blocked.
+[12:05:23] [Render thread/INFO]: [STDOUT]: Telemetry sending attempt blocked.
+[12:05:23] [Render thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: minecraft:ancient_city_replaceable, minecraft:mangrove_logs_can_grow_through, minecraft:mangrove_roots_can_grow_through, minecraft:nether_carver_replaceables, minecraft:overworld_carver_replaceables
+[12:05:23] [pool-2-thread-5/INFO]: [STDOUT]: Saved region successfully
+[12:05:23] [pool-2-thread-5/INFO]: [STDOUT]: World save took 167ms
+[12:05:23] [Render thread/INFO]: [System] [CHAT] 
+[12:05:23] [Render thread/INFO]: [System] [CHAT] 
+[12:05:23] [Render thread/INFO]: [System] [CHAT] Welcome back to SurviveWithUs YELLOW, HackAttack!
+[12:05:23] [Render thread/INFO]: [System] [CHAT] 
+[12:05:23] [Render thread/INFO]: [System] [CHAT] §bYou're currently receiving an §6§lXP§b or §6§lMoney Boost!§b Click §bhere §bto §bview §byour §6§l/boosts!
+[12:05:23] [Render thread/INFO]: [System] [CHAT] 
+[12:05:23] [Render thread/INFO]: Loaded 848 advancements
+[12:05:23] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -3,14 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:05:24] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 161ms
+[12:05:27] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> WB.
+[12:05:33] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> wb
+[12:05:38] [Render thread/INFO]: [System] [CHAT] [+] [Custom] Fiji
+[12:05:40] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> wb
+[12:05:41] [Render thread/INFO]: [System] [CHAT] [Survivalist] its_EzKi> wb.
+[12:05:43] [Render thread/INFO]: [System] [CHAT] [Cat+++] Fiji> ty
+[12:05:53] [Render thread/INFO]: [System] [CHAT] Remember to /vote to get your next /rank and unlock epic rewards!
+[12:07:48] [pool-2-thread-2/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:07:48] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[12:07:48] [pool-2-thread-2/INFO]: [STDOUT]: World save took 136ms
+[12:07:50] [Render thread/INFO]: [System] [CHAT] [-] [Cat+++] Fiji
+[12:08:32] [Render thread/INFO]: [System] [CHAT] [MVP] Axi> slime
+[12:08:33] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[12:08:33] [Render thread/INFO]: [System] [CHAT] You have received: $180000.00
+[12:08:35] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> what
+[12:08:41] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> xD
+[12:08:55] [Render thread/INFO]: [System] [CHAT] You can now fly by double-jumping!
+[12:11:09] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -17,-17 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:11:09] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 42ms
+[12:11:14] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
+[12:11:29] [Render thread/INFO]: [System] [CHAT] That is not a warp!
+[12:11:31] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_nether_128
+[12:11:31] [pool-2-thread-8/INFO]: [STDOUT]: Started saving the world in a new thread
+[12:11:31] [Render thread/INFO]: [STDOUT]: Cached world directory: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_nether_128/cache
+[12:11:31] [pool-2-thread-8/INFO]: [STDOUT]: Saving region -19,-16 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:11:31] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saving region -20,-16 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:11:31] [ForkJoinPool.commonPool-worker-15/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:11:31] [Render thread/INFO]: [STDOUT]: Would save waypoints to /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_nether_128/waypoints
+[12:11:31] [ForkJoinPool.commonPool-worker-16/INFO]: [STDOUT]: Saving region -17,-17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:11:31] [pool-2-thread-8/INFO]: [STDOUT]: Saved region successfully
+[12:11:31] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saved region successfully
+[12:11:31] [ForkJoinPool.commonPool-worker-16/INFO]: [STDOUT]: Saved region successfully
+[12:11:31] [ForkJoinPool.commonPool-worker-15/INFO]: [STDOUT]: Saved region successfully
+[12:11:31] [pool-2-thread-8/INFO]: [STDOUT]: World save took 189ms
+[12:11:37] [Render thread/INFO]: [System] [CHAT] You can now fly by double-jumping!
+[12:11:57] [pool-2-thread-3/INFO]: [STDOUT]: World save took 1ms
+[12:12:01] [pool-2-thread-10/INFO]: [STDOUT]: Saving region -3,-3 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_nether_128/cache
+[12:12:01] [ForkJoinPool.commonPool-worker-15/INFO]: [STDOUT]: Saving region -3,-2 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_nether_128/cache
+[12:12:01] [ForkJoinPool.commonPool-worker-15/INFO]: [STDOUT]: Saved region successfully
+[12:12:01] [pool-2-thread-10/INFO]: [STDOUT]: Saved region successfully
+[12:12:01] [pool-2-thread-10/INFO]: [STDOUT]: World save took 32ms
+[12:12:32] [Render thread/INFO]: [System] [CHAT] You can't do that here!
+[12:13:41] [Render thread/INFO]: [System] [CHAT] You can't do that here!
+[12:13:42] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> i just made both ppl buying golden carrots poor..
+[12:13:53] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> f
+[12:13:56] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> fr
+[12:13:56] [Render thread/INFO]: [System] [CHAT] Welcome to SurviveWithUs YELLOW, Luke9180!
+[12:13:56] [Render thread/INFO]: [System] [CHAT] Luke9180 has made the advancement [Isn't It Iron Pick]
+[12:13:56] [Render thread/INFO]: [System] [CHAT] [+] Luke9180
+[12:13:58] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> fr
+[12:13:59] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> Welcome
+[12:14:01] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> oops
+[12:14:48] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[12:14:48] [Render thread/INFO]: [System] [CHAT] You have received 2 DailyKey keys!
+[12:14:51] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384
+[12:14:51] [pool-2-thread-11/INFO]: [STDOUT]: Started saving the world in a new thread
+[12:14:51] [pool-2-thread-11/INFO]: [STDOUT]: Saving region -3,-3 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_nether_128/cache
+[12:14:51] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saving region -3,-2 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_nether_128/cache
+[12:14:51] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saved region successfully
+[12:14:51] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -3,14 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:14:51] [pool-2-thread-11/INFO]: [STDOUT]: Saved region successfully
+[12:14:51] [pool-2-thread-11/INFO]: [STDOUT]: World save took 58ms
+[12:14:52] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 114ms
+[12:14:55] [Render thread/INFO]: [System] [CHAT] [-] [❤LessOf] Toaster
+[12:14:57] [Render thread/INFO]: [System] [CHAT] [+] [❤LessOf] Toaster
+[12:14:59] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> wb.
+[12:15:00] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> wb
+[12:15:03] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> ty :3
+[12:15:04] [Render thread/INFO]: [System] [CHAT] [Survivalist] its_EzKi> WB :D.
+[12:15:08] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> ty :D
+[12:15:09] [Render thread/INFO]: [System] [CHAT] [-] Luke9180
+[12:15:12] [pool-2-thread-7/INFO]: [STDOUT]: World save took 1ms
+[12:15:24] [Render thread/INFO]: [System] [CHAT] [-] its_EzKi
+[12:15:26] [Render thread/INFO]: [System] [CHAT] [+] its_EzKi
+[12:15:29] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> wb.
+[12:15:33] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> wb
+[12:15:35] [Render thread/INFO]: [System] [CHAT] [Survivalist] its_EzKi> Thx.
+[12:16:09] [pool-2-thread-12/INFO]: [STDOUT]: Started saving the world in a new thread
+[12:16:09] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/spawn_384
+[12:16:09] [pool-2-thread-12/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:16:09] [pool-2-thread-12/INFO]: [STDOUT]: Saved region successfully
+[12:16:09] [pool-2-thread-12/INFO]: [STDOUT]: World save took 192ms
+[12:16:19] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[12:16:19] [Render thread/INFO]: [System] [CHAT] You have received: $360000.00
+[12:16:21] [pool-2-thread-12/INFO]: [STDOUT]: Started saving the world in a new thread
+[12:16:21] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384
+[12:16:21] [pool-2-thread-12/INFO]: [STDOUT]: Saving region -1,0 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/spawn_384/cache
+[12:16:21] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saving region 0,-1 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/spawn_384/cache
+[12:16:21] [ForkJoinPool.commonPool-worker-13/INFO]: [STDOUT]: Saving region -1,-1 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/spawn_384/cache
+[12:16:21] [ForkJoinPool.commonPool-worker-3/INFO]: [STDOUT]: Saving region 0,0 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/spawn_384/cache
+[12:16:21] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saved region successfully
+[12:16:21] [ForkJoinPool.commonPool-worker-13/INFO]: [STDOUT]: Saved region successfully
+[12:16:21] [ForkJoinPool.commonPool-worker-3/INFO]: [STDOUT]: Saved region successfully
+[12:16:21] [pool-2-thread-12/INFO]: [STDOUT]: Saved region successfully
+[12:16:21] [pool-2-thread-12/INFO]: [STDOUT]: World save took 93ms
+[12:16:27] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> the fox has a knife
+[12:16:34] [Render thread/INFO]: [System] [CHAT] [Survivalist] its_EzKi> :o.
+[12:16:34] [Render thread/INFO]: [System] [CHAT] HADES has gone AFK!
+[12:16:45] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> I had 169 lvls but just got 170 lvl. no i'm sad.
+[12:16:53] [Render thread/INFO]: [System] [CHAT] [-] its_EzKi
+[12:16:54] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> u gotta get to 6969 now
+[12:16:59] [Render thread/INFO]: [System] [CHAT] [+] its_EzKi
+[12:17:02] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> wb.
+[12:17:07] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> You right!!!
+[12:17:09] [Render thread/INFO]: [System] [CHAT] [Survivalist] its_EzKi> Thx :D.
+[12:17:13] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> I will.
+[12:17:17] [Render thread/INFO]: [System] [CHAT] [-] its_EzKi
+[12:17:26] [Render thread/INFO]: [System] [CHAT] [+] its_EzKi
+[12:17:31] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> WB.
+[12:17:36] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> wbbwbbwbwbwb
+[12:17:43] [Render thread/INFO]: [System] [CHAT] [Survivalist] its_EzKi> Thx :3.
+[12:17:48] [pool-2-thread-2/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:17:48] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[12:17:48] [pool-2-thread-2/INFO]: [STDOUT]: World save took 141ms
+[12:17:50] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> No spam.
+[12:17:50] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[12:17:50] [Render thread/INFO]: [System] [CHAT] You have received: $180000.00
+[12:17:54] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> wasnt spam
+[12:18:01] [pool-2-thread-1/INFO]: [STDOUT]: Loading region 21,5 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:18:01] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 9ms
+[12:18:01] [pool-2-thread-1/INFO]: [STDOUT]: Loading region 21,4 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:18:01] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 4ms
+[12:18:01] [pool-2-thread-1/INFO]: [STDOUT]: Loading region 22,5 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:18:01] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 8ms
+[12:18:01] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.tropical_fish.ambient
+[12:18:01] [pool-2-thread-1/INFO]: [STDOUT]: Loading region 22,4 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:18:01] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 3ms
+[12:18:01] [Render thread/INFO]: [System] [CHAT] [-] [Rich] HADES
+[12:18:01] [Render thread/INFO]: [System] [CHAT] [+] [Rich] HADES
+[12:18:03] [Render thread/INFO]: [System] [CHAT] [Survivalist] its_EzKi> ^wb.
+[12:18:04] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256
+[12:18:04] [pool-2-thread-13/INFO]: [STDOUT]: Started saving the world in a new thread
+[12:18:04] [Render thread/INFO]: [STDOUT]: Cached world directory: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[12:18:04] [pool-2-thread-13/INFO]: [STDOUT]: Saving region 22,5 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:18:04] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:18:04] [Render thread/INFO]: [STDOUT]: Would save waypoints to /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/waypoints
+[12:18:04] [ForkJoinPool.commonPool-worker-13/INFO]: [STDOUT]: Saving region 21,4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:18:04] [ForkJoinPool.commonPool-worker-17/INFO]: [STDOUT]: Saving region 22,4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:18:04] [ForkJoinPool.commonPool-worker-18/INFO]: [STDOUT]: Saving region 21,5 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:18:04] [ForkJoinPool.commonPool-worker-17/INFO]: [STDOUT]: Saved region successfully
+[12:18:04] [ForkJoinPool.commonPool-worker-13/INFO]: [STDOUT]: Saved region successfully
+[12:18:04] [pool-2-thread-13/INFO]: [STDOUT]: Saved region successfully
+[12:18:04] [ForkJoinPool.commonPool-worker-18/INFO]: [STDOUT]: Saved region successfully
+[12:18:04] [pool-2-thread-14/INFO]: [STDOUT]: Loading region 0,0 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[12:18:04] [pool-2-thread-14/INFO]: [STDOUT]: Loaded region successfully in 13ms
+[12:18:04] [pool-2-thread-14/INFO]: [STDOUT]: Loading region 0,-1 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[12:18:04] [pool-2-thread-14/INFO]: [STDOUT]: Loaded region successfully in 14ms
+[12:18:04] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> wb :D
+[12:18:04] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saved region successfully
+[12:18:04] [pool-2-thread-13/INFO]: [STDOUT]: World save took 183ms
+[12:18:04] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> WB.
+[12:18:05] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> WB
+[12:18:11] [pool-2-thread-13/INFO]: [STDOUT]: Started saving the world in a new thread
+[12:18:11] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384
+[12:18:11] [pool-2-thread-13/INFO]: [STDOUT]: Saving region 0,-1 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[12:18:11] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saving region 0,0 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[12:18:11] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saved region successfully
+[12:18:11] [pool-2-thread-13/INFO]: [STDOUT]: Saved region successfully
+[12:18:11] [pool-2-thread-13/INFO]: [STDOUT]: World save took 14ms
+[12:18:11] [Render thread/INFO]: [System] [CHAT] Welcome to Warp End! Be Sure to Read the Rules & DM Warp Staff (Not SWU Staff) if Theres Any Problems, Fun Bow-ing etc
+[12:18:11] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> ty
+[12:18:12] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.cod.ambient
+[12:18:15] [pool-2-thread-13/INFO]: [STDOUT]: Started saving the world in a new thread
+[12:18:15] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256
+[12:18:15] [pool-2-thread-13/INFO]: [STDOUT]: Saving region 21,5 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:18:15] [ForkJoinPool.commonPool-worker-18/INFO]: [STDOUT]: Saving region 22,4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:18:15] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saving region 22,5 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:18:15] [ForkJoinPool.commonPool-worker-13/INFO]: [STDOUT]: Saving region 21,4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:18:15] [ForkJoinPool.commonPool-worker-18/INFO]: [STDOUT]: Saved region successfully
+[12:18:15] [ForkJoinPool.commonPool-worker-13/INFO]: [STDOUT]: Saved region successfully
+[12:18:15] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saved region successfully
+[12:18:15] [pool-2-thread-13/INFO]: [STDOUT]: Saved region successfully
+[12:18:15] [pool-2-thread-13/INFO]: [STDOUT]: World save took 10ms
+[12:18:19] [Render thread/INFO]: [System] [CHAT] You have just gained 4 Survival Tokens! You can use them by talking to the trader /spawn!
+[12:18:22] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> im back on pc now
+[12:18:24] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> YAY
+[12:18:25] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> yaya
+[12:18:29] [pool-2-thread-14/INFO]: [STDOUT]: Loading region -1,-1 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[12:18:29] [pool-2-thread-14/INFO]: [STDOUT]: Loaded region successfully in 2ms
+[12:18:29] [pool-2-thread-14/INFO]: [STDOUT]: Loading region -1,0 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[12:18:29] [pool-2-thread-14/INFO]: [STDOUT]: Loaded region successfully in 3ms
+[12:18:34] [pool-2-thread-15/INFO]: [STDOUT]: Saving region -1,0 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[12:18:34] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saving region 0,0 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[12:18:34] [ForkJoinPool.commonPool-worker-25/INFO]: [STDOUT]: Saving region 0,-1 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[12:18:34] [ForkJoinPool.commonPool-worker-23/INFO]: [STDOUT]: Saving region -1,-1 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[12:18:34] [pool-2-thread-15/INFO]: [STDOUT]: Saved region successfully
+[12:18:34] [ForkJoinPool.commonPool-worker-23/INFO]: [STDOUT]: Saved region successfully
+[12:18:34] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saved region successfully
+[12:18:34] [ForkJoinPool.commonPool-worker-25/INFO]: [STDOUT]: Saved region successfully
+[12:18:34] [pool-2-thread-15/INFO]: [STDOUT]: World save took 15ms
+[12:18:34] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[12:18:34] [Render thread/INFO]: [System] [CHAT] You have received 8 DailyKey keys!
+[12:18:42] [pool-2-thread-13/INFO]: [STDOUT]: Started saving the world in a new thread
+[12:18:42] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384
+[12:18:42] [pool-2-thread-13/INFO]: [STDOUT]: World save took 0ms
+[12:18:42] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -3,14 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:18:42] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 107ms
+[12:18:49] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> hades did u lie to me abt ur roblox username :(
+[12:18:54] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> 100%
+[12:18:58] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> no
+[12:19:04] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> no nrg509
+[12:19:09] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> only nrg509000
+[12:19:09] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> 508*
+[12:19:11] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> i said nrg508
+[12:19:13] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> lmfao
+[12:19:14] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> oh
+[12:19:24] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> im nicked as liam
+[12:19:40] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> nice avatar
+[12:19:46] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> thanks
+[12:20:00] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> hes awesome at mad city tho
+[12:20:01] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> Gtg.
+[12:20:03] [Render thread/INFO]: [System] [CHAT] You can now fly by double-jumping!
+[12:20:03] [Render thread/INFO]: [System] [CHAT] [MVP] Unbent> Bye.
+[12:20:06] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> bye
+[12:20:08] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> fr
+[12:20:13] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[12:20:13] [Render thread/INFO]: [System] [CHAT] You have received: $180000.00
+[12:20:15] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> i agree
+[12:20:24] [Render thread/INFO]: [System] [CHAT] Unbent has gone AFK!
+[12:20:29] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[12:20:29] [Render thread/INFO]: [System] [CHAT] You have received 2 DailyKey keys!
+[12:20:51] [Render thread/INFO]: [System] [CHAT] Your homes: U, b, blocks, cp, endis, g, geo, gs, hf, i, inky, iron, kin, l, lake, m, map, ms, n, q, r, s, s1, s2, shop, t, task, temp, v, w, ws, wsk, wss
+[12:20:51] [Render thread/INFO]: [System] [CHAT] You've used 33 out of 57 homes.
+[12:20:54] [Render thread/INFO]: [System] [CHAT] Grimm06 has just opened a Boss Crate and won Marauder's Chestplate!
+[12:20:56] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -17,-17 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:20:56] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 28ms
+[12:21:21] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[12:21:21] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:21:21] [Render thread/INFO]: [System] [CHAT] You have received: $360000.00
+[12:21:31] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256
+[12:21:31] [pool-2-thread-16/INFO]: [STDOUT]: Started saving the world in a new thread
+[12:21:31] [pool-2-thread-16/INFO]: [STDOUT]: Saving region 21,5 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:21:31] [ForkJoinPool.commonPool-worker-25/INFO]: [STDOUT]: Saving region 21,4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:21:31] [ForkJoinPool.commonPool-worker-21/INFO]: [STDOUT]: Saving region -17,-17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:21:31] [ForkJoinPool.commonPool-worker-23/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:21:31] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saving region 22,5 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:21:31] [ForkJoinPool.commonPool-worker-18/INFO]: [STDOUT]: Saving region 22,4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:21:31] [ForkJoinPool.commonPool-worker-18/INFO]: [STDOUT]: Saved region successfully
+[12:21:31] [ForkJoinPool.commonPool-worker-25/INFO]: [STDOUT]: Saved region successfully
+[12:21:31] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saved region successfully
+[12:21:31] [pool-2-thread-16/INFO]: [STDOUT]: Saved region successfully
+[12:21:31] [ForkJoinPool.commonPool-worker-21/INFO]: [STDOUT]: Saved region successfully
+[12:21:32] [ForkJoinPool.commonPool-worker-23/INFO]: [STDOUT]: Saved region successfully
+[12:21:32] [pool-2-thread-16/INFO]: [STDOUT]: World save took 153ms
+[12:21:57] [pool-2-thread-3/INFO]: [STDOUT]: World save took 0ms
+[12:22:01] [pool-2-thread-10/INFO]: [STDOUT]: World save took 0ms
+[12:22:39] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[12:22:39] [Render thread/INFO]: [System] [CHAT] You have received 8 DailyKey keys!
+[12:22:49] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384
+[12:22:49] [pool-2-thread-17/INFO]: [STDOUT]: Started saving the world in a new thread
+[12:22:49] [pool-2-thread-17/INFO]: [STDOUT]: Saving region -1,0 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[12:22:49] [ForkJoinPool.commonPool-worker-23/INFO]: [STDOUT]: Saving region 0,-1 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[12:22:49] [ForkJoinPool.commonPool-worker-21/INFO]: [STDOUT]: Saving region -1,-1 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[12:22:49] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saving region 0,0 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[12:22:49] [pool-2-thread-17/INFO]: [STDOUT]: Saved region successfully
+[12:22:49] [ForkJoinPool.commonPool-worker-21/INFO]: [STDOUT]: Saved region successfully
+[12:22:49] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -3,14 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:22:49] [ForkJoinPool.commonPool-worker-14/INFO]: [STDOUT]: Saved region successfully
+[12:22:49] [ForkJoinPool.commonPool-worker-23/INFO]: [STDOUT]: Saved region successfully
+[12:22:49] [pool-2-thread-17/INFO]: [STDOUT]: World save took 18ms
+[12:22:49] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 122ms
+[12:23:00] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[12:23:00] [Render thread/INFO]: [System] [CHAT] You have received: $360000.00
+[12:23:33] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[12:23:33] [Render thread/INFO]: [System] [CHAT] You have received 2 DailyKey keys!
+[12:23:44] [pool-2-thread-1/INFO]: [STDOUT]: Loading region 0,16 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:23:44] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 188ms
+[12:24:12] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:24:13] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:24:15] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:24:16] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:24:16] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:24:16] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:24:17] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:24:18] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:24:18] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:24:19] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:24:20] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:24:20] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:24:21] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:24:22] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:24:22] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:24:23] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:24:24] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:24:24] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:24:25] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:24:26] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:24:26] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:24:27] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:24:28] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:24:28] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:24:29] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[12:24:29] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:24:29] [Render thread/INFO]: [System] [CHAT] You have received 2 DailyKey keys!
+[12:24:29] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:24:30] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:24:31] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:24:32] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:24:32] [Render thread/INFO]: [System] [CHAT] Axi has gone AFK!
+[12:24:32] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:24:33] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:24:33] [Render thread/INFO]: [System] [CHAT] You have received: $180.00
+[12:24:34] [Render thread/INFO]: [System] [CHAT] You've killed 500 mobs today and can no longer gain money from killing them!
+[12:25:12] [pool-2-thread-7/INFO]: [STDOUT]: World save took 0ms
+[12:25:14] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[12:25:14] [Render thread/INFO]: [System] [CHAT] You have received 3 DailyKey keys!
+[12:25:58] [Render thread/INFO]: [System] [CHAT] [Survivalist] its_EzKi> :o.
+[12:26:00] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> xD
+[12:26:21] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[12:26:21] [Render thread/INFO]: [System] [CHAT] You have received: $270000.00
+[12:26:30] [Render thread/INFO]: [System] [CHAT] [+] [❤LOTSOF] INKY
+[12:26:32] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> WB :D
+[12:26:33] [Render thread/INFO]: [System] [CHAT] [Survivalist] its_EzKi> WB.
+[12:26:34] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> WB
+[12:26:43] [Render thread/INFO]: [System] [CHAT] You can now fly by double-jumping!
+[12:26:55] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> *Comes in like a wrecking ball off the chain*
+[12:26:59] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> oh
+[12:26:59] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> :O
+[12:27:07] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> It's how I roll
+[12:27:16] [Render thread/INFO]: [System] [CHAT] You can't do that here!
+[12:27:38] [Render thread/INFO]: [System] [CHAT] You can't attack other players here!
+[12:27:39] [Render thread/INFO]: [System] [CHAT] You can't attack other players here!
+[12:27:40] [Render thread/INFO]: [System] [CHAT] You can't attack other players here!
+[12:27:48] [pool-2-thread-2/INFO]: [STDOUT]: Saving region 0,16 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:27:48] [ForkJoinPool.commonPool-worker-18/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:27:49] [ForkJoinPool.commonPool-worker-18/INFO]: [STDOUT]: Saved region successfully
+[12:27:49] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[12:27:49] [pool-2-thread-2/INFO]: [STDOUT]: World save took 190ms
+[12:27:53] [Render thread/INFO]: [System] [CHAT] You can't do that here!
+[12:28:03] [Render thread/INFO]: [System] [CHAT] [+] [MVP] Foxyfinds
+[12:28:07] [Render thread/INFO]: [System] [CHAT] [Survivalist] its_EzKi> wb.
+[12:28:08] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Hi.
+[12:28:11] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Thx.
+[12:28:22] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[12:28:23] [Render thread/INFO]: [System] [CHAT] You have received 3 DailyKey keys!
+[12:28:25] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -3,14 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:28:25] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 115ms
+[12:28:26] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -17,-17 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:28:26] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 30ms
+[12:28:34] [pool-2-thread-15/INFO]: [STDOUT]: World save took 0ms
+[12:28:43] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Is unbent afk?
+[12:28:47] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[12:28:47] [Render thread/INFO]: [System] [CHAT] You have received: $540000.00
+[12:28:47] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> probs
+[12:28:54] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Yeah.
+[12:28:57] [Render thread/INFO]: [System] [CHAT] You will now shoot cows!
+[12:29:03] [Render thread/INFO]: [System] [CHAT] [+] [MVP] Tragidal
+[12:29:04] [Render thread/INFO]: [System] [CHAT] [+] [❤LilBitof] Serephin
+[12:29:06] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> WB!
+[12:29:11] [Render thread/INFO]: [System] [CHAT] [Survivalist] its_EzKi> WB :D.
+[12:29:16] [Render thread/INFO]: [System] [CHAT] [MVP] Tragidal> Hi'.
+[12:29:18] [Render thread/INFO]: [System] [CHAT] [MVP] Tragidal> Thx.
+[12:29:19] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> sere :O
+[12:29:21] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Yw\.
+[12:29:52] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Anyone have the location of Naylors exp farm?
+[12:30:00] [Render thread/INFO]: [System] [CHAT] You have received 5 DailyKey keys!
+[12:30:41] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> not me :/
+[12:30:53] [Render thread/INFO]: [System] [CHAT] You've just activated 3 hours of Double XP!
+[12:30:53] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[12:31:23] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> i do
+[12:31:24] [Render thread/INFO]: [System] [CHAT] Want to support the server, get /crate keys and your next /rank? Don't forget to /vote!
+[12:31:26] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> u do
+[12:31:33] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> he does
+[12:31:36] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[12:31:36] [Render thread/INFO]: [System] [CHAT] You have received 3 DailyKey keys!
+[12:31:36] [Render thread/INFO]: [System] [CHAT] - Unscramble the word! pyppo-
+[12:31:36] [Render thread/INFO]: [System] [CHAT] The player to unscramble the word the fastest will receive a prize!
+[12:31:38] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> poppy
+[12:31:38] [Render thread/INFO]: [System] [CHAT] sstrok15 wins! The word was poppy!
+[12:31:38] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> yes
+[12:31:38] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> poppy
+[12:31:40] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> F
+[12:31:41] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> cringe
+[12:31:47] [Render thread/INFO]: [System] [CHAT] [MVP] Tragidal> Lol.
+[12:31:57] [pool-2-thread-3/INFO]: [STDOUT]: World save took 1ms
+[12:31:59] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[12:31:59] [Render thread/INFO]: [System] [CHAT] You have received 3 DailyKey keys!
+[12:32:01] [pool-2-thread-10/INFO]: [STDOUT]: World save took 0ms
+[12:32:07] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> anyone got masters armor for sale
+[12:32:18] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -17,-18 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:32:18] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 28ms
+[12:32:19] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -18,-18 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:32:19] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 10ms
+[12:32:24] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> this one?
+[12:32:24] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Thank you
+[12:32:27] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Yes
+[12:32:27] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> np
+[12:32:27] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[12:32:27] [Render thread/INFO]: [System] [CHAT] You have received: $270000.00
+[12:32:33] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> wowow
+[12:32:40] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> is fix?
+[12:32:47] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> no
+[12:32:50] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> oh
+[12:33:13] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> u trusted?
+[12:33:21] [Render thread/INFO]: [System] [CHAT] [+] [VIP] Ideltic
+[12:33:22] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> no
+[12:33:24] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> oh
+[12:33:24] [Render thread/INFO]: [System] [CHAT] [Survivalist] its_EzKi> WB.
+[12:33:25] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> wb
+[12:33:37] [Render thread/INFO]: [System] [CHAT] You've just activated 3 hours of Double XP!
+[12:33:37] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[12:34:20] [Render thread/INFO]: [System] [CHAT] You've just activated 3 hours of Double XP!
+[12:34:20] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[12:34:23] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/spawn_384
+[12:34:23] [pool-2-thread-18/INFO]: [STDOUT]: Started saving the world in a new thread
+[12:34:23] [pool-2-thread-18/INFO]: [STDOUT]: Saving region -18,-18 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:34:23] [ForkJoinPool.commonPool-worker-18/INFO]: [STDOUT]: Saving region 0,16 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:34:23] [ForkJoinPool.commonPool-worker-31/INFO]: [STDOUT]: Saving region -17,-17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:34:23] [ForkJoinPool.commonPool-worker-32/INFO]: [STDOUT]: Saving region -17,-18 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:34:23] [ForkJoinPool.commonPool-worker-24/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:34:23] [pool-2-thread-18/INFO]: [STDOUT]: Saved region successfully
+[12:34:23] [ForkJoinPool.commonPool-worker-32/INFO]: [STDOUT]: Saved region successfully
+[12:34:23] [ForkJoinPool.commonPool-worker-31/INFO]: [STDOUT]: Saved region successfully
+[12:34:23] [ForkJoinPool.commonPool-worker-24/INFO]: [STDOUT]: Saved region successfully
+[12:34:23] [ForkJoinPool.commonPool-worker-18/INFO]: [STDOUT]: Saved region successfully
+[12:34:23] [pool-2-thread-18/INFO]: [STDOUT]: World save took 227ms
+[12:34:26] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> wb
+[12:34:33] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[12:34:33] [Render thread/INFO]: [System] [CHAT] You have received: $540000.00
+[12:34:35] [pool-2-thread-18/INFO]: [STDOUT]: Started saving the world in a new thread
+[12:34:35] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384
+[12:34:35] [pool-2-thread-18/INFO]: [STDOUT]: Saving region -1,0 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/spawn_384/cache
+[12:34:35] [ForkJoinPool.commonPool-worker-24/INFO]: [STDOUT]: Saving region -1,-1 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/spawn_384/cache
+[12:34:35] [ForkJoinPool.commonPool-worker-18/INFO]: [STDOUT]: Saving region 0,-1 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/spawn_384/cache
+[12:34:35] [ForkJoinPool.commonPool-worker-31/INFO]: [STDOUT]: Saving region 0,0 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/spawn_384/cache
+[12:34:36] [ForkJoinPool.commonPool-worker-24/INFO]: [STDOUT]: Saved region successfully
+[12:34:36] [pool-2-thread-18/INFO]: [STDOUT]: Saved region successfully
+[12:34:36] [ForkJoinPool.commonPool-worker-18/INFO]: [STDOUT]: Saved region successfully
+[12:34:36] [ForkJoinPool.commonPool-worker-31/INFO]: [STDOUT]: Saved region successfully
+[12:34:36] [pool-2-thread-18/INFO]: [STDOUT]: World save took 70ms
+[12:34:36] [Render thread/INFO]: [System] [CHAT] [VIP] Ideltic> who wants a free hallowed helmet
+[12:34:36] [Render thread/INFO]: [System] [CHAT] You are entering dangerous territory
+[12:34:40] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> me
+[12:34:48] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> ty
+[12:35:07] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[12:35:07] [Render thread/INFO]: [System] [CHAT] You have received: $540000.00
+[12:35:08] [Render thread/INFO]: [System] [CHAT] [-] [MVP] Tragidal
+[12:35:12] [pool-2-thread-7/INFO]: [STDOUT]: World save took 0ms
+[12:35:39] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -4,10 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:35:39] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 55ms
+[12:35:39] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -3,10 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:35:39] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 37ms
+[12:35:39] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -4,11 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:35:40] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 57ms
+[12:35:40] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -3,11 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:35:40] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 36ms
+[12:35:46] [Render thread/INFO]: [System] [CHAT] You can't do that here!
+[12:36:35] [Render thread/INFO]: [System] [CHAT] You've just activated 6 hours of Double XP!
+[12:36:35] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[12:36:48] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -3,14 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:36:48] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 115ms
+[12:36:59] [Render thread/INFO]: [System] [CHAT] You've all voted for the server a total of 100 times today, here's some bonus keys!
+[12:36:59] [Render thread/INFO]: [System] [CHAT] You have received 1 SurvivorKey keys!
+[12:36:59] [Render thread/INFO]: [System] [CHAT] You have received 1 MobSpawnerPack keys!
+[12:36:59] [Render thread/INFO]: [System] [CHAT] You have received 2 DailyKey keys!
+[12:37:03] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[12:37:03] [Render thread/INFO]: [System] [CHAT] You have received 3 DailyKey keys!
+[12:37:11] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> What even happened here?
+[12:37:20] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> game glitched it burned down
+[12:37:22] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> something like that
+[12:37:32] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> plugins stopped working
+[12:37:35] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> when the server closed down all the plugins went down, including the one to turn off fire spread
+[12:37:36] [Render thread/INFO]: [System] [CHAT] - Unscramble the word! aidenets-
+[12:37:36] [Render thread/INFO]: [System] [CHAT] The player to unscramble the word the fastest will receive a prize!
+[12:37:40] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> tridents
+[12:37:42] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> what
+[12:37:43] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> magnets
+[12:37:43] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> tridents
+[12:37:46] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Damn
+[12:37:48] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> trident
+[12:37:49] [pool-2-thread-2/INFO]: [STDOUT]: Saving region -4,10 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:37:49] [ForkJoinPool.commonPool-worker-32/INFO]: [STDOUT]: Saving region -4,11 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:37:49] [ForkJoinPool.commonPool-worker-28/INFO]: [STDOUT]: Saving region -17,-17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:37:49] [ForkJoinPool.commonPool-worker-18/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:37:49] [ForkJoinPool.commonPool-worker-24/INFO]: [STDOUT]: Saving region -3,11 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:37:49] [ForkJoinPool.commonPool-worker-22/INFO]: [STDOUT]: Saving region -3,10 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:37:49] [ForkJoinPool.commonPool-worker-24/INFO]: [STDOUT]: Saved region successfully
+[12:37:49] [ForkJoinPool.commonPool-worker-22/INFO]: [STDOUT]: Saved region successfully
+[12:37:49] [ForkJoinPool.commonPool-worker-28/INFO]: [STDOUT]: Saved region successfully
+[12:37:49] [ForkJoinPool.commonPool-worker-32/INFO]: [STDOUT]: Saved region successfully
+[12:37:49] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[12:37:49] [ForkJoinPool.commonPool-worker-18/INFO]: [STDOUT]: Saved region successfully
+[12:37:49] [pool-2-thread-2/INFO]: [STDOUT]: World save took 162ms
+[12:37:52] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> strider
+[12:37:55] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> theres an a
+[12:38:07] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> dent
+[12:38:34] [pool-2-thread-15/INFO]: [STDOUT]: World save took 0ms
+[12:38:54] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> andesite
+[12:38:54] [Render thread/INFO]: [System] [CHAT] HackAttack wins! The word was andesite!
+[12:38:54] [Render thread/INFO]: [System] [CHAT] You have received: $100000.00
+[12:38:54] [Render thread/INFO]: [System] [CHAT] You have received 2 MasterKey keys!
+[12:39:00] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> smh
+[12:39:03] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Well the shulker farm works
+[12:39:07] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> i had the block in my inventory lol
+[12:39:10] [Render thread/INFO]: [System] [CHAT] You've just activated 6 hours of Double XP!
+[12:39:10] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[12:39:15] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> oh
+[12:39:17] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -3,14 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:39:17] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 105ms
+[12:39:22] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> crap
+[12:39:26] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> the vex are leaving the farms
+[12:39:32] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> i lost my diamond ore aswell xd
+[12:39:43] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> goodw
+[12:39:59] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> and its not in shop great
+[12:40:01] [Render thread/INFO]: [System] [CHAT] §cThis is a potentially §4dangerous§c command. Click here to §aconfirm.
+[12:40:02] [Render thread/INFO]: [System] [CHAT] You will be teleported to a random location momentarily....
+[12:40:04] [Render thread/INFO]: [System] [CHAT] [-] [VIP] Ideltic
+[12:40:08] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> use /tokenshop
+[12:40:08] [Render thread/INFO]: [System] [CHAT] You can't do that here!
+[12:40:11] [Render thread/INFO]: [System] [CHAT] [❤LilBitof] Serephin> leave render distance and theyll despawn
+[12:40:13] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> what u need diamond ore
+[12:40:23] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> I have a vex farm so...
+[12:40:31] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> same
+[12:40:34] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> oh
+[12:40:37] [Render thread/INFO]: [System] [CHAT] You have 15 Survival Tokens! You can use them at /spawn!
+[12:40:42] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> I just have not made shulker farm
+[12:40:44] [Render thread/INFO]: [System] [CHAT] You have just gained 4 Survival Tokens! You can use them by talking to the trader /spawn!
+[12:40:47] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[12:40:47] [Render thread/INFO]: [System] [CHAT] You have received: $540000.00
+[12:40:50] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> i have one you can use
+[12:40:58] [Render thread/INFO]: [System] [CHAT] Welcome to SurviveWithUs YELLOW, TauhTheChef!
+[12:40:58] [Render thread/INFO]: [System] [CHAT] TauhTheChef has made the advancement [Isn't It Iron Pick]
+[12:40:59] [Render thread/INFO]: [System] [CHAT] [+] TauhTheChef
+[12:41:00] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> welcmoe
+[12:41:01] [Render thread/INFO]: [System] [CHAT] [Owner] [☣] Spiro> Welcome, TauhTheChef!
+[12:41:03] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> Welcome
+[12:41:03] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> lmfao
+[12:41:08] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[12:41:08] [Render thread/INFO]: [System] [CHAT] You have received 3 DailyKey keys!
+[12:41:41] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> This one works here and it is for Sere.
+[12:41:56] [Render thread/INFO]: [System] [CHAT] [-] TauhTheChef
+[12:41:57] [pool-2-thread-3/INFO]: [STDOUT]: World save took 0ms
+[12:42:01] [pool-2-thread-10/INFO]: [STDOUT]: World save took 0ms
+[12:42:14] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> She just said she wants to make hers as a project
+[12:43:05] [Render thread/INFO]: [System] [CHAT] [❤LilBitof] Serephin> :3
+[12:43:11] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Toast you need me to take off torches
+[12:43:18] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> if ur ready yea
+[12:43:19] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> :P
+[12:43:49] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> I can do one side. I triggered the water lag so I can't fix the other yet
+[12:43:59] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> alrighty
+[12:44:02] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> cant wait till this serv updates gto 1.19
+[12:44:12] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Yeah!
+[12:44:26] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> I will add A few more withers first
+[12:45:10] [Render thread/INFO]: [System] [CHAT] [❤LilBitof] Serephin> come here
+[12:45:11] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> jeez
+[12:45:12] [pool-2-thread-7/INFO]: [STDOUT]: World save took 0ms
+[12:45:23] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> HADES
+[12:46:23] [Render thread/INFO]: [System] [CHAT] [❤LilBitof] Serephin> leave
+[12:46:41] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> oh my god
+[12:46:49] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> wht
+[12:46:52] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> hades tp
+[12:47:01] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> ok
+[12:47:13] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> where is this
+[12:47:21] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> here
+[12:47:24] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> what happened
+[12:47:26] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> what was it
+[12:47:30] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> no idea
+[12:47:34] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> u were hare
+[12:47:41] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> i know
+[12:47:46] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> ima go back to doing tasks now
+[12:47:49] [pool-2-thread-2/INFO]: [STDOUT]: Saving region 7,16 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:47:49] [ForkJoinPool.commonPool-worker-34/INFO]: [STDOUT]: Saving region -3,10 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:47:49] [ForkJoinPool.commonPool-worker-19/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:47:49] [ForkJoinPool.commonPool-worker-37/INFO]: [STDOUT]: Saving region -4,11 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:47:49] [ForkJoinPool.commonPool-worker-33/INFO]: [STDOUT]: Saving region -4,10 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:47:49] [ForkJoinPool.commonPool-worker-38/INFO]: [STDOUT]: Saving region 7,17 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[12:47:49] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[12:47:49] [ForkJoinPool.commonPool-worker-38/INFO]: [STDOUT]: Saved region successfully
+[12:47:49] [ForkJoinPool.commonPool-worker-34/INFO]: [STDOUT]: Saved region successfully
+[12:47:49] [ForkJoinPool.commonPool-worker-37/INFO]: [STDOUT]: Saved region successfully
+[12:47:49] [ForkJoinPool.commonPool-worker-33/INFO]: [STDOUT]: Saved region successfully
+[12:47:49] [ForkJoinPool.commonPool-worker-19/INFO]: [STDOUT]: Saved region successfully
+[12:47:49] [pool-2-thread-2/INFO]: [STDOUT]: World save took 152ms
+[12:48:12] [Render thread/INFO]: [System] [CHAT] [MVP] sstrok15> what is this
+[12:48:34] [pool-2-thread-15/INFO]: [STDOUT]: World save took 0ms
+[12:50:05] [Render thread/INFO]: [System] [CHAT] [-] [MVP] sstrok15
+[12:50:42] [Render thread/INFO]: [System] [CHAT] [-] Nayan5
+[12:51:57] [pool-2-thread-3/INFO]: [STDOUT]: World save took 0ms
+[12:52:01] [pool-2-thread-10/INFO]: [STDOUT]: World save took 0ms
+[12:55:12] [pool-2-thread-7/INFO]: [STDOUT]: World save took 1ms
+[12:55:35] [Render thread/INFO]: [System] [CHAT] [+] [MVP] Panda
+[12:55:37] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> wb
+[12:55:42] [Render thread/INFO]: [System] [CHAT] [Survivalist] its_EzKi> wb.
+[12:55:50] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> wb
+[12:56:53] [Render thread/INFO]: [System] [CHAT] HackAttack has gone AFK!
+[12:57:05] [Render thread/INFO]: [System] [CHAT] [-] [MVP] Unbent
+[12:57:45] [Render thread/INFO]: [System] [CHAT] Welcome to SurviveWithUs YELLOW, Naduny2001!
+[12:57:45] [Render thread/INFO]: [System] [CHAT] Naduny2001 has made the advancement [Isn't It Iron Pick]
+[12:57:45] [Render thread/INFO]: [System] [CHAT] [+] Naduny2001
+[12:57:48] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> Welcome
+[12:57:48] [Render thread/INFO]: [System] [CHAT] [Owner] [☣] Spiro> Welcome! :D
+[12:57:49] [pool-2-thread-2/INFO]: [STDOUT]: World save took 0ms
+[12:57:58] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Welcome.
+[12:58:04] [Render thread/INFO]: [System] [CHAT] [-] Naduny2001
+[12:58:34] [pool-2-thread-15/INFO]: [STDOUT]: World save took 1ms
+[12:58:36] [Render thread/INFO]: [System] [CHAT] [-] [❤LessOf] Toaster
+[12:58:36] [Render thread/INFO]: [System] [CHAT] - Unscramble the word! htralee-
+[12:58:36] [Render thread/INFO]: [System] [CHAT] The player to unscramble the word the fastest will receive a prize!
+[12:58:40] [Render thread/INFO]: [System] [CHAT] [+] [❤LessOf] Toaster
+[12:58:44] [Render thread/INFO]: [System] [CHAT] [Survivalist] its_EzKi> WB :3.
+[12:58:48] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> was breaking blocks too fast
+[12:58:52] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> i got kicked
+[12:58:53] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> im too good
+[12:58:54] [Render thread/INFO]: [System] [CHAT] [Survivalist] its_EzKi> Damn.
+[12:59:16] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> leather
+[12:59:16] [Render thread/INFO]: [System] [CHAT] INKY wins! The word was leather!
+[12:59:28] [Render thread/INFO]: [System] [CHAT] Axi is no longer AFK!
+[12:59:35] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> wb.
+[12:59:39] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> did they announce the word when i got kicked
+[12:59:48] [Render thread/INFO]: [System] [CHAT] [Survivalist] its_EzKi> Yep.
+[12:59:51] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Yeah
+[12:59:53] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> i call bullshit
+[13:00:01] [Render thread/INFO]: [System] [CHAT] Axi has voted for the server on all 7 sites and has unlocked their BONUS in /vote, you can too by /vote'ing!
+[13:00:19] [Render thread/INFO]: [System] [CHAT] [❤LilBitof] Serephin> x
+[13:00:21] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> xD
+[13:00:33] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> ezki
+[13:00:34] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> xD
+[13:00:39] [Render thread/INFO]: [System] [CHAT] [Survivalist] its_EzKi> ;3.
+[13:00:40] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> thanks
+[13:00:41] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> :3
+[13:00:43] [Render thread/INFO]: [System] [CHAT] [Survivalist] its_EzKi> Np.
+[13:00:46] [Render thread/INFO]: [System] [CHAT] [+] UnicornMagic101
+[13:00:52] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> wb.
+[13:01:23] [Render thread/INFO]: [System] [CHAT] The Queen Bee has spawned! Type /boss to battle her!
+[13:01:24] [Render thread/INFO]: [System] [CHAT] Want to support the server, get /crate keys and your next /rank? Don't forget to /vote!
+[13:01:26] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> pog
+[13:01:57] [pool-2-thread-3/INFO]: [STDOUT]: World save took 0ms
+[13:02:01] [pool-2-thread-10/INFO]: [STDOUT]: World save took 0ms
+[13:02:34] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Yay.
+[13:02:34] [Render thread/INFO]: [System] [CHAT] [-] UnicornMagic101
+[13:02:34] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> anyone get it?
+[13:02:37] [Render thread/INFO]: [System] [CHAT] [Survivalist] its_EzKi> Gg.
+[13:02:46] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> nope
+[13:02:53] [Render thread/INFO]: [System] [CHAT] [❤LilBitof] Serephin> mwuahahaaha
+[13:02:55] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Gg.
+[13:02:56] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> u got it?
+[13:03:05] [Render thread/INFO]: [System] [CHAT] [+] [Tatoe] Melon
+[13:03:09] [Render thread/INFO]: [System] [CHAT] [Survivalist] its_EzKi> wb.
+[13:03:09] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> or are u just evil laughing to asert ur dominance
+[13:03:17] [Render thread/INFO]: [System] [CHAT] [Tatoe] Melon> thanks
+[13:03:21] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> She did get it
+[13:03:27] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> bruh
+[13:03:29] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> gg XD
+[13:03:57] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> looks edible
+[13:04:09] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Sere is licking it
+[13:04:11] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> xD
+[13:04:16] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> You hear?
+[13:04:36] [Render thread/INFO]: [System] [CHAT] - Unscramble the word! aeonpw-
+[13:04:36] [Render thread/INFO]: [System] [CHAT] The player to unscramble the word the fastest will receive a prize!
+[13:04:39] [Render thread/INFO]: [System] [CHAT] [Tatoe] Melon> weapon
+[13:04:39] [Render thread/INFO]: [System] [CHAT] Melon wins! The word was weapon!
+[13:05:12] [pool-2-thread-7/INFO]: [STDOUT]: World save took 1ms
+[13:05:51] [Render thread/INFO]: [System] [CHAT] [MVP] Axi> Im only 15 days away from getting 50 dollers in in store credit
+[13:05:54] [Render thread/INFO]: [System] [CHAT] [+] [Custom+] CAP'NPOTATO
+[13:05:54] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> gg
+[13:05:56] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> wb
+[13:05:58] [Render thread/INFO]: [System] [CHAT] [Tatoe] Melon> wb cap'n
+[13:06:00] [Render thread/INFO]: [System] [CHAT] [Tatoe+] CAP'NPOTATO> ty
+[13:06:03] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> ;-;
+[13:06:14] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> i lost xd
+[13:06:19] [Render thread/INFO]: [System] [CHAT] [Tatoe+] CAP'NPOTATO> :OO
+[13:06:36] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> gimme dat
+[13:06:55] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> I can do that with the res flowers I have on me
+[13:06:59] [Render thread/INFO]: [System] [CHAT] HackAttack is no longer AFK!
+[13:07:06] [Render thread/INFO]: [System] [CHAT] [❤LilBitof] Serephin> wither soull
+[13:07:08] [Render thread/INFO]: [System] [CHAT] [MVP] Axi> anyone selling masters gear
+[13:07:14] [Render thread/INFO]: [System] [CHAT] [❤LilBitof] Serephin> sure
+[13:07:15] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> flex
+[13:07:17] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> xD
+[13:07:22] [Render thread/INFO]: [System] [CHAT] [-] [Tatoe] Melon
+[13:07:24] [pool-2-thread-1/INFO]: [STDOUT]: Loading region 21,5 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:07:24] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 9ms
+[13:07:24] [pool-2-thread-1/INFO]: [STDOUT]: Loading region 21,4 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:07:24] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 2ms
+[13:07:24] [pool-2-thread-1/INFO]: [STDOUT]: Loading region 22,5 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:07:24] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 6ms
+[13:07:25] [pool-2-thread-1/INFO]: [STDOUT]: Loading region 22,4 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:07:25] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 2ms
+[13:07:31] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256
+[13:07:31] [pool-2-thread-19/INFO]: [STDOUT]: Started saving the world in a new thread
+[13:07:31] [pool-2-thread-19/INFO]: [STDOUT]: Saving region 22,5 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:07:31] [ForkJoinPool.commonPool-worker-47/INFO]: [STDOUT]: Saving region 21,4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:07:31] [ForkJoinPool.commonPool-worker-49/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:07:31] [ForkJoinPool.commonPool-worker-50/INFO]: [STDOUT]: Saving region 21,5 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:07:31] [ForkJoinPool.commonPool-worker-48/INFO]: [STDOUT]: Saving region 22,4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:07:31] [ForkJoinPool.commonPool-worker-48/INFO]: [STDOUT]: Saved region successfully
+[13:07:31] [ForkJoinPool.commonPool-worker-47/INFO]: [STDOUT]: Saved region successfully
+[13:07:31] [pool-2-thread-19/INFO]: [STDOUT]: Saved region successfully
+[13:07:31] [ForkJoinPool.commonPool-worker-50/INFO]: [STDOUT]: Saved region successfully
+[13:07:31] [ForkJoinPool.commonPool-worker-49/INFO]: [STDOUT]: Saved region successfully
+[13:07:31] [pool-2-thread-19/INFO]: [STDOUT]: World save took 145ms
+[13:07:34] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> I have a 1bil dollar egg at my base
+[13:07:36] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Soo
+[13:07:47] [Render thread/INFO]: [System] [CHAT] [+] Vroumie
+[13:07:49] [pool-2-thread-2/INFO]: [STDOUT]: World save took 0ms
+[13:07:49] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> wb.
+[13:07:53] [Render thread/INFO]: [System] [CHAT] [MVP] Axi> anyone wanna 1v1
+[13:07:56] [Render thread/INFO]: [System] [CHAT] [Tatoe+] CAP'NPOTATO> sure
+[13:08:03] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[13:08:03] [Render thread/INFO]: [System] [CHAT] You have received 12 DailyKey keys!
+[13:08:06] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Ill watch.
+[13:08:17] [Render thread/INFO]: [System] [CHAT] [Tatoe+] CAP'NPOTATO> warp pvp
+[13:08:17] [pool-2-thread-19/INFO]: [STDOUT]: Started saving the world in a new thread
+[13:08:17] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384
+[13:08:17] [pool-2-thread-19/INFO]: [STDOUT]: Saving region 0,-1 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[13:08:17] [ForkJoinPool.commonPool-worker-57/INFO]: [STDOUT]: Saving region 0,0 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[13:08:17] [ForkJoinPool.commonPool-worker-57/INFO]: [STDOUT]: Saved region successfully
+[13:08:17] [pool-2-thread-19/INFO]: [STDOUT]: Saved region successfully
+[13:08:17] [pool-2-thread-19/INFO]: [STDOUT]: World save took 13ms
+[13:08:17] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -17,-18 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:08:17] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 23ms
+[13:08:17] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -18,-18 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:08:17] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 9ms
+[13:08:19] [Render thread/INFO]: [System] [CHAT] You are entering dangerous territory
+[13:08:21] [Render thread/WARN]: Received passengers for unknown entity
+[13:08:28] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> gg
+[13:08:28] [Render thread/INFO]: [System] [CHAT] You've just activated 3 hours of Double XP!
+[13:08:28] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[13:08:34] [pool-2-thread-15/INFO]: [STDOUT]: World save took 0ms
+[13:08:43] [pool-2-thread-1/INFO]: [STDOUT]: Loading region 0,16 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:08:44] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 158ms
+[13:09:53] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> ezki
+[13:09:58] [Render thread/INFO]: [System] [CHAT] You've just activated 3 hours of Double XP!
+[13:09:58] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[13:10:06] [Render thread/INFO]: [System] [CHAT] [❤LilBitof] Serephin> tatoe
+[13:10:07] [Render thread/INFO]: [System] [CHAT] [Tatoe+] CAP'NPOTATO> gg
+[13:10:07] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256
+[13:10:07] [pool-2-thread-20/INFO]: [STDOUT]: Started saving the world in a new thread
+[13:10:07] [pool-2-thread-20/INFO]: [STDOUT]: Saving region 21,5 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:10:07] [ForkJoinPool.commonPool-worker-52/INFO]: [STDOUT]: Saving region -17,-18 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:10:07] [ForkJoinPool.commonPool-worker-53/INFO]: [STDOUT]: Saving region 0,16 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:10:07] [ForkJoinPool.commonPool-worker-47/INFO]: [STDOUT]: Saving region 21,4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:10:07] [ForkJoinPool.commonPool-worker-50/INFO]: [STDOUT]: Saving region 22,4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:10:07] [ForkJoinPool.commonPool-worker-57/INFO]: [STDOUT]: Saving region 22,5 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:10:07] [ForkJoinPool.commonPool-worker-54/INFO]: [STDOUT]: Saving region -18,-18 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:10:07] [pool-2-thread-20/INFO]: [STDOUT]: Saved region successfully
+[13:10:07] [ForkJoinPool.commonPool-worker-50/INFO]: [STDOUT]: Saved region successfully
+[13:10:07] [ForkJoinPool.commonPool-worker-47/INFO]: [STDOUT]: Saved region successfully
+[13:10:07] [ForkJoinPool.commonPool-worker-57/INFO]: [STDOUT]: Saved region successfully
+[13:10:07] [ForkJoinPool.commonPool-worker-54/INFO]: [STDOUT]: Saved region successfully
+[13:10:07] [ForkJoinPool.commonPool-worker-52/INFO]: [STDOUT]: Saved region successfully
+[13:10:08] [ForkJoinPool.commonPool-worker-53/INFO]: [STDOUT]: Saved region successfully
+[13:10:08] [pool-2-thread-20/INFO]: [STDOUT]: World save took 204ms
+[13:10:08] [Render thread/INFO]: [System] [CHAT] [Tatoe+] CAP'NPOTATO> hi
+[13:10:16] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Hello.
+[13:10:16] [Render thread/INFO]: [System] [CHAT] [MVP] Axi> wtf am i supposed to do lmao
+[13:10:20] [Render thread/INFO]: [System] [CHAT] [❤LilBitof] Serephin> that was so cheap lol
+[13:10:28] [Render thread/INFO]: [System] [CHAT] [Tatoe+] CAP'NPOTATO> he asked :Shrugs:
+[13:10:31] [Render thread/INFO]: [System] [CHAT] [❤LilBitof] Serephin> lmao
+[13:10:39] [Render thread/INFO]: [System] [CHAT] [Tatoe+] CAP'NPOTATO> back to my music
+[13:10:41] [Render thread/INFO]: [System] [CHAT] [MVP] Axi> Bro get surviors gear
+[13:10:42] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[13:10:42] [Render thread/INFO]: [System] [CHAT] You have received 12 DailyKey keys!
+[13:10:43] [Render thread/INFO]: [System] [CHAT] [Tatoe+] CAP'NPOTATO> frick
+[13:10:54] [Render thread/INFO]: [System] [CHAT] [MVP] Axi> nah
+[13:10:54] [Render thread/INFO]: [System] [CHAT] [Tatoe+] CAP'NPOTATO> why do i need to get survivors gear
+[13:10:58] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> I will fight you
+[13:10:59] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Whos next.
+[13:11:05] [Render thread/INFO]: [System] [CHAT] [❤LilBitof] Serephin> axi
+[13:11:06] [Render thread/INFO]: [System] [CHAT] [+] [Tatoe] Melon
+[13:11:07] [Render thread/INFO]: [System] [CHAT] [MVP] Axi> vannila diamond armor no buffs
+[13:11:08] [Render thread/INFO]: [System] [CHAT] [Tatoe+] CAP'NPOTATO> wb
+[13:11:08] [Render thread/INFO]: [System] [CHAT] [+] [Custom+] Neon
+[13:11:08] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> wb
+[13:11:09] [Render thread/INFO]: [System] [CHAT] [Survivalist] its_EzKi> wb.
+[13:11:16] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[13:11:16] [Render thread/INFO]: [System] [CHAT] You have received 16 DailyKey keys!
+[13:11:16] [Render thread/INFO]: [System] [CHAT] [⚒Builder⚒] Neon> real
+[13:11:16] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> wb.
+[13:11:16] [Render thread/INFO]: [System] [CHAT] [Tatoe] Melon> thanks
+[13:11:17] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Boots only for me
+[13:11:20] [Render thread/INFO]: [System] [CHAT] [Tatoe+] CAP'NPOTATO> im not doing all that lmao
+[13:11:20] [Render thread/INFO]: [System] [CHAT] [MVP] Axi> just a diamond sword and food
+[13:11:23] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> You use whatever you want
+[13:11:24] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384
+[13:11:24] [pool-2-thread-21/INFO]: [STDOUT]: Started saving the world in a new thread
+[13:11:24] [pool-2-thread-21/INFO]: [STDOUT]: Saving region -1,0 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[13:11:24] [ForkJoinPool.commonPool-worker-52/INFO]: [STDOUT]: Saving region 0,-1 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[13:11:24] [ForkJoinPool.commonPool-worker-57/INFO]: [STDOUT]: Saving region 0,0 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[13:11:24] [ForkJoinPool.commonPool-worker-54/INFO]: [STDOUT]: Saving region -1,-1 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[13:11:24] [pool-2-thread-21/INFO]: [STDOUT]: Saved region successfully
+[13:11:24] [ForkJoinPool.commonPool-worker-54/INFO]: [STDOUT]: Saved region successfully
+[13:11:24] [ForkJoinPool.commonPool-worker-57/INFO]: [STDOUT]: Saved region successfully
+[13:11:24] [ForkJoinPool.commonPool-worker-52/INFO]: [STDOUT]: Saved region successfully
+[13:11:24] [pool-2-thread-21/INFO]: [STDOUT]: World save took 19ms
+[13:11:24] [pool-2-thread-1/INFO]: [STDOUT]: Loading region 0,16 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:11:24] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 140ms
+[13:11:34] [Render thread/INFO]: [System] [CHAT] [Tatoe+] CAP'NPOTATO> uh okay
+[13:11:34] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> free stone
+[13:11:35] [Render thread/INFO]: [System] [CHAT] [-] Vroumie
+[13:11:43] [Render thread/INFO]: [System] [CHAT] [⚒Builder⚒] Neon> melon gimme angry blade now
+[13:11:50] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -3,14 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:11:50] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 110ms
+[13:11:52] [Render thread/INFO]: [System] [CHAT] [MVP] Axi> OMG
+[13:11:57] [pool-2-thread-3/INFO]: [STDOUT]: World save took 0ms
+[13:12:00] [Render thread/INFO]: [System] [CHAT] You will now shoot cows!
+[13:12:01] [pool-2-thread-10/INFO]: [STDOUT]: World save took 0ms
+[13:12:03] [Render thread/INFO]: [System] [CHAT] [MVP] Axi> THANK YOU SO MUCH
+[13:12:05] [Render thread/INFO]: [System] [CHAT] [COMMUNITY] Neon> melon lying ong
+[13:12:05] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> selling angry blades for 200mil
+[13:12:08] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> ?
+[13:12:09] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> valid price
+[13:12:11] [Render thread/INFO]: [System] [CHAT] [❤LilBitof] Serephin> welcome
+[13:12:14] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> it is
+[13:12:15] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> xD
+[13:12:17] [Render thread/INFO]: [System] [CHAT] [❤LilBitof] Serephin> dont let it break
+[13:12:22] [Render thread/INFO]: [System] [CHAT] [Survivalist] its_EzKi> ;o.
+[13:12:27] [Render thread/INFO]: [System] [CHAT] [Tatoe+] CAP'NPOTATO> turn your volume up
+[13:12:36] [Render thread/INFO]: [System] [CHAT] [❤LilBitof] Serephin> slash fix
+[13:12:37] [Render thread/INFO]: [System] [CHAT] [⚒Builder⚒] Neon> its mine potato!
+[13:12:51] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> lol
+[13:13:07] [Render thread/INFO]: [System] [CHAT] [Tatoe+] CAP'NPOTATO> drop me sword :)
+[13:13:16] [Render thread/INFO]: [System] [CHAT] [Tatoe+] CAP'NPOTATO> :O
+[13:13:19] [Render thread/INFO]: [System] [CHAT] [Tatoe+] CAP'NPOTATO> ty :DD
+[13:13:31] [Render thread/INFO]: [System] [CHAT] [Tatoe+] CAP'NPOTATO> lmfao
+[13:13:36] [Render thread/INFO]: [System] [CHAT] [Tatoe+] CAP'NPOTATO> ill drop it
+[13:13:48] [Render thread/INFO]: [System] [CHAT] [⚒Builder⚒] Neon> got it!
+[13:13:55] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> gg!
+[13:13:59] [Render thread/INFO]: [System] [CHAT] [⚒Builder⚒] Neon> ty :D
+[13:14:06] [Render thread/INFO]: [System] [CHAT] [Tatoe+] CAP'NPOTATO> strange since i have it with me
+[13:14:20] [Render thread/INFO]: [System] [CHAT] [Tatoe] Melon> violation :skull:
+[13:14:28] [Render thread/INFO]: [System] [CHAT] [⚒Builder⚒] Neon> how bout i give u a free mil to just say i got it :3
+[13:14:36] [Render thread/INFO]: [System] [CHAT] [Tatoe+] CAP'NPOTATO> dea
+[13:14:37] [Render thread/INFO]: [System] [CHAT] [Tatoe+] CAP'NPOTATO> deal
+[13:14:44] [Render thread/INFO]: [System] [CHAT] [Tatoe+] CAP'NPOTATO> Congrats!!
+[13:14:47] [Render thread/INFO]: [System] [CHAT] [⚒Builder⚒] Neon> ty :D
+[13:14:58] [Render thread/INFO]: [System] [CHAT] [⚒Builder⚒] Neon> and there is the rest of the mony
+[13:15:08] [Render thread/INFO]: [System] [CHAT] [Tatoe+] CAP'NPOTATO> ty
+[13:15:12] [pool-2-thread-7/INFO]: [STDOUT]: World save took 0ms
+[13:15:14] [Render thread/INFO]: [System] [CHAT] [⚒Builder⚒] Neon> im no 0$ on yellow
+[13:15:19] [Render thread/INFO]: [System] [CHAT] [-] [⚒Builder⚒] Neon
+[13:15:23] [Render thread/INFO]: [System] [CHAT] [+] [⚒Builder⚒] Neon
+[13:15:26] [Render thread/INFO]: [System] [CHAT] [Tatoe+] CAP'NPOTATO> B)
+[13:15:27] [Render thread/INFO]: [System] [CHAT] [Tatoe+] CAP'NPOTATO> wb
+[13:15:29] [Render thread/INFO]: [System] [CHAT] [⚒Builder⚒] Neon> :o
+[13:15:45] [Render thread/INFO]: [System] [CHAT] [⚒Builder⚒] Neon> trading 10m for red 10m!
+[13:15:56] [Render thread/INFO]: [System] [CHAT] [MVP] Axi> who wanna 1v1 vannilla diamond gear no buffs and just a diamond sword and food
+[13:16:21] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> woah
+[13:16:21] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> How do you make a warp?
+[13:16:24] [Render thread/INFO]: [System] [CHAT] You've just activated 4 hours of Double XP!
+[13:16:24] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[13:16:24] [Render thread/INFO]: [System] [CHAT] [⚒Builder⚒] Neon> ./blacklist cap'npotato at spawn pls
+[13:16:26] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> tysm ezki
+[13:16:32] [Render thread/INFO]: [System] [CHAT] [Survivalist] its_EzKi> Np :3.
+[13:16:34] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> <3
+[13:16:35] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/spawn_384
+[13:16:35] [pool-2-thread-22/INFO]: [STDOUT]: Started saving the world in a new thread
+[13:16:35] [pool-2-thread-22/INFO]: [STDOUT]: Saving region 0,16 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:16:35] [ForkJoinPool.commonPool-worker-60/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:16:36] [ForkJoinPool.commonPool-worker-60/INFO]: [STDOUT]: Saved region successfully
+[13:16:36] [pool-2-thread-22/INFO]: [STDOUT]: Saved region successfully
+[13:16:36] [pool-2-thread-22/INFO]: [STDOUT]: World save took 215ms
+[13:16:38] [Render thread/INFO]: [System] [CHAT] [Survivalist] its_EzKi> ,3.
+[13:16:43] [Render thread/INFO]: [System] [CHAT] [Tatoe+] CAP'NPOTATO> YOS
+[13:16:44] [Render thread/INFO]: [System] [CHAT] [Survivalist] its_EzKi> <3.
+[13:16:51] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[13:16:51] [Render thread/INFO]: [System] [CHAT] You have received: $720000.00
+[13:16:55] [Render thread/INFO]: [System] [CHAT] [⚒Builder⚒] Neon> capn hacking :skull:
+[13:17:16] [pool-2-thread-22/INFO]: [STDOUT]: Started saving the world in a new thread
+[13:17:16] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384
+[13:17:16] [pool-2-thread-22/INFO]: [STDOUT]: Saving region -1,0 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/spawn_384/cache
+[13:17:16] [ForkJoinPool.commonPool-worker-50/INFO]: [STDOUT]: Saving region 0,-1 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/spawn_384/cache
+[13:17:16] [ForkJoinPool.commonPool-worker-51/INFO]: [STDOUT]: Saving region 0,0 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/spawn_384/cache
+[13:17:16] [ForkJoinPool.commonPool-worker-48/INFO]: [STDOUT]: Saving region -1,-1 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/spawn_384/cache
+[13:17:16] [ForkJoinPool.commonPool-worker-48/INFO]: [STDOUT]: Saved region successfully
+[13:17:16] [pool-2-thread-22/INFO]: [STDOUT]: Saved region successfully
+[13:17:16] [ForkJoinPool.commonPool-worker-50/INFO]: [STDOUT]: Saved region successfully
+[13:17:16] [ForkJoinPool.commonPool-worker-51/INFO]: [STDOUT]: Saved region successfully
+[13:17:16] [pool-2-thread-22/INFO]: [STDOUT]: World save took 73ms
+[13:17:18] [Render thread/INFO]: [System] [CHAT] [-] [⚒Builder⚒] Neon
+[13:17:33] [Render thread/INFO]: [System] [CHAT] [Tatoe+] CAP'NPOTATO> welp gn yall
+[13:17:37] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> gn cap
+[13:17:49] [pool-2-thread-2/INFO]: [STDOUT]: Saving region 0,16 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:17:49] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[13:17:49] [pool-2-thread-2/INFO]: [STDOUT]: World save took 174ms
+[13:17:51] [Render thread/INFO]: [System] [CHAT] [-] [Tatoe+] CAP'NPOTATO
+[13:17:53] [Render thread/INFO]: [System] [CHAT] [-] [Tatoe] Melon
+[13:18:30] [Render thread/INFO]: [System] [CHAT] [+] BagaBoom
+[13:18:34] [pool-2-thread-15/INFO]: [STDOUT]: World save took 0ms
+[13:18:40] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> wb\\.
+[13:18:42] [Render thread/INFO]: [System] [CHAT] [❤LilBitof] Serephin> COLLATERAL DAMAGE
+[13:18:58] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[13:18:58] [Render thread/INFO]: [System] [CHAT] You have received 8 DailyKey keys!
+[13:19:01] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> xD
+[13:19:13] [Render thread/INFO]: [System] [CHAT] [❤LilBitof] Serephin> air target
+[13:19:44] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Bats?
+[13:19:48] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[13:19:48] [Render thread/INFO]: [System] [CHAT] You have received 8 DailyKey keys!
+[13:19:52] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Yeah
+[13:20:06] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> I am switching betweens different bows
+[13:20:15] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Lol.
+[13:20:19] [Render thread/INFO]: [System] [CHAT] You can't do that here!
+[13:20:44] [Render thread/INFO]: [System] [CHAT] You can't do that here!
+[13:20:48] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> I throw bats up as defence lol
+[13:20:58] [Render thread/INFO]: [System] [CHAT] You can't do that here!
+[13:21:12] [Render thread/INFO]: [System] [CHAT] [❤LilBitof] Serephin> oh
+[13:21:14] [Render thread/INFO]: [System] [CHAT] You can't do that here!
+[13:21:16] [Render thread/INFO]: [System] [CHAT] [❤LilBitof] Serephin> toast?
+[13:21:16] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> What.
+[13:21:23] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> wat
+[13:21:28] [Render thread/INFO]: [System] [CHAT] You can't do that here!
+[13:21:29] [Render thread/INFO]: [System] [CHAT] [❤LilBitof] Serephin> did u find cupid?
+[13:21:30] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> oh
+[13:21:30] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Her arrows were hitting bats
+[13:21:31] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> no
+[13:21:37] [Render thread/INFO]: [System] [CHAT] You've just activated 8 hours of Double Money!
+[13:21:37] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[13:21:44] [Render thread/INFO]: [System] [CHAT] You can now fly by double-jumping!
+[13:21:57] [pool-2-thread-3/INFO]: [STDOUT]: World save took 0ms
+[13:22:01] [pool-2-thread-10/INFO]: [STDOUT]: World save took 1ms
+[13:22:27] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[13:22:27] [Render thread/INFO]: [System] [CHAT] You have received 4 DailyKey keys!
+[13:22:33] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Very long battle lol.
+[13:22:41] [Render thread/INFO]: [System] [CHAT] [+] _ZF_Nova
+[13:22:44] [Render thread/INFO]: [System] [CHAT] [❤LilBitof] Serephin> long distance
+[13:22:45] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> wb.
+[13:22:48] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Neither of use can kill the other
+[13:22:52] [Render thread/INFO]: [System] [CHAT] [Farmer] _ZF_Nova> Ty.
+[13:22:54] [Render thread/INFO]: [System] [CHAT] [❤LilBitof] Serephin> thats how our relationship started
+[13:22:55] [Render thread/INFO]: [System] [CHAT] [-] [❤LessOf] Toaster
+[13:23:43] [Render thread/INFO]: [System] [CHAT] [+] [Custom+] Toaster
+[13:23:49] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> WB.
+[13:23:51] [Render thread/INFO]: [System] [CHAT] [Survivalist] its_EzKi> wb :3.
+[13:24:28] [Render thread/INFO]: [System] [CHAT] [-] _ZF_Nova
+[13:25:00] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Are you still doing your battle?
+[13:25:12] [pool-2-thread-7/INFO]: [STDOUT]: World save took 0ms
+[13:25:37] [Render thread/INFO]: [System] [CHAT] - Unscramble the word! kbjxuoe-
+[13:25:37] [Render thread/INFO]: [System] [CHAT] The player to unscramble the word the fastest will receive a prize!
+[13:25:49] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> hokebox
+[13:25:53] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> jukebox
+[13:25:53] [Render thread/INFO]: [System] [CHAT] INKY wins! The word was jukebox!
+[13:25:54] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> jukebox
+[13:25:54] [Render thread/INFO]: [System] [CHAT] [Survivalist] its_EzKi> Jubebox.
+[13:25:56] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> dangit
+[13:26:00] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Don't steal it
+[13:26:10] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> steal it?
+[13:26:14] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> It was mine
+[13:26:38] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> All Mine
+[13:26:38] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> its all fair game until someone guesses it inky
+[13:26:41] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> xd
+[13:26:58] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> I guessed it though O.o
+[13:27:09] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Then fixed my typo :p
+[13:27:09] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> i did too just a bit late
+[13:27:27] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> im slow -__
+[13:27:40] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> its too early for this
+[13:27:49] [pool-2-thread-2/INFO]: [STDOUT]: Saving region 0,16 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:27:49] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[13:27:49] [pool-2-thread-2/INFO]: [STDOUT]: World save took 184ms
+[13:28:34] [pool-2-thread-15/INFO]: [STDOUT]: World save took 0ms
+[13:28:37] [Render thread/INFO]: [System] [CHAT] - Unscramble the word! iernsdsep-
+[13:28:37] [Render thread/INFO]: [System] [CHAT] The player to unscramble the word the fastest will receive a prize!
+[13:28:42] [Render thread/INFO]: [System] [CHAT] You've just activated 4 hours of Double XP!
+[13:28:42] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[13:28:44] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> dispenser
+[13:28:44] [Render thread/INFO]: [System] [CHAT] Toaster wins! The word was dispenser!
+[13:28:46] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> :3
+[13:28:49] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> bruh what
+[13:28:56] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> i was gonna say deepslate
+[13:29:01] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Me too.
+[13:29:04] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Lol.
+[13:29:11] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> no i in deepstale
+[13:29:13] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> grammer
+[13:29:15] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Yep.
+[13:29:16] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> :skull:
+[13:29:28] [Render thread/INFO]: [System] [CHAT] HADES has gone AFK!
+[13:30:00] [Render thread/INFO]: [System] [CHAT] You have received 2 SurvivorKey keys!
+[13:31:15] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> brb
+[13:31:16] [Render thread/INFO]: [System] [CHAT] Toaster has gone AFK!
+[13:31:24] [Render thread/INFO]: [System] [CHAT] Want to support the server, get /crate keys and your next /rank? Don't forget to /vote!
+[13:31:57] [pool-2-thread-3/INFO]: [STDOUT]: World save took 0ms
+[13:32:01] [pool-2-thread-10/INFO]: [STDOUT]: World save took 0ms
+[13:32:06] [Render thread/INFO]: [System] [CHAT] [+] totally_not_mia
+[13:32:25] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Wb
+[13:32:31] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Wb.
+[13:32:35] [Render thread/INFO]: [System] [CHAT] [-] totally_not_mia
+[13:32:45] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Or not.
+[13:32:53] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Well I guess lets see how many withers I can get from 500 mob crates
+[13:33:07] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Wow!
+[13:33:18] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Any guesses my odds?
+[13:33:33] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> I think I will get 3
+[13:33:36] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Idk.
+[13:33:36] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> lol
+[13:33:40] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Lol.
+[13:34:38] [Render thread/INFO]: [System] [CHAT] [+] [Tatoe+] CAP'NPOTATO
+[13:34:41] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> wb.
+[13:34:44] [Render thread/INFO]: [System] [CHAT] [Tatoe+] CAP'NPOTATO> I joined using ChatCraft from my iOS device! Download it on the App Store!
+[13:34:58] [Render thread/INFO]: [System] [CHAT] CAP'NPOTATO has voted for the server and has received a /crate key, you can vote too with /vote!
+[13:35:12] [pool-2-thread-7/INFO]: [STDOUT]: World save took 1ms
+[13:35:44] [pool-2-thread-1/INFO]: [STDOUT]: Loading region 21,5 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:35:44] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 27ms
+[13:35:44] [pool-2-thread-1/INFO]: [STDOUT]: Loading region 21,4 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:35:44] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 3ms
+[13:35:44] [pool-2-thread-1/INFO]: [STDOUT]: Loading region 22,5 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:35:44] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 10ms
+[13:35:44] [pool-2-thread-1/INFO]: [STDOUT]: Loading region 22,4 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:35:44] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 2ms
+[13:35:47] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256
+[13:35:47] [pool-2-thread-23/INFO]: [STDOUT]: Started saving the world in a new thread
+[13:35:47] [pool-2-thread-23/INFO]: [STDOUT]: Saving region 22,5 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:35:47] [ForkJoinPool.commonPool-worker-49/INFO]: [STDOUT]: Saving region 21,4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:35:47] [ForkJoinPool.commonPool-worker-56/INFO]: [STDOUT]: Saving region 0,16 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:35:47] [ForkJoinPool.commonPool-worker-59/INFO]: [STDOUT]: Saving region 22,4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:35:47] [ForkJoinPool.commonPool-worker-65/INFO]: [STDOUT]: Saving region 21,5 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:35:47] [ForkJoinPool.commonPool-worker-59/INFO]: [STDOUT]: Saved region successfully
+[13:35:47] [ForkJoinPool.commonPool-worker-49/INFO]: [STDOUT]: Saved region successfully
+[13:35:47] [pool-2-thread-23/INFO]: [STDOUT]: Saved region successfully
+[13:35:47] [ForkJoinPool.commonPool-worker-65/INFO]: [STDOUT]: Saved region successfully
+[13:35:47] [ForkJoinPool.commonPool-worker-56/INFO]: [STDOUT]: Saved region successfully
+[13:35:47] [pool-2-thread-23/INFO]: [STDOUT]: World save took 186ms
+[13:35:48] [Render thread/INFO]: [System] [CHAT] [+] [MVP] DOOM
+[13:35:51] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> wb
+[13:35:52] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> wb.
+[13:36:09] [Render thread/INFO]: [System] [CHAT] [MVP] DOOM> thanks!
+[13:36:18] [Render thread/INFO]: [System] [CHAT] [+] [☠] Silent
+[13:36:21] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> WB.
+[13:36:23] [Render thread/INFO]: [System] [CHAT] [Survivalist] its_EzKi> wb.
+[13:36:31] [Render thread/INFO]: [System] [CHAT] [-] its_EzKi
+[13:36:32] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> bruh what
+[13:36:36] [Render thread/INFO]: [System] [CHAT] Axi has gone AFK!
+[13:36:45] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> i accientally pressed q and my cutlass dissappeared
+[13:36:52] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> OH NO
+[13:36:58] [Render thread/INFO]: [System] [CHAT] [-] [☠] Silent
+[13:37:04] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> (i just realized i don't have a cutlass)
+[13:37:08] [Render thread/INFO]: [System] [CHAT] §9§2§l§oDOOM§6§e wants to make it daytime, click here if you do too!
+[13:37:08] [Render thread/INFO]: [System] [CHAT] Voting ends in 60 seconds!
+[13:37:17] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> ;(
+[13:37:24] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> well
+[13:37:29] [Render thread/INFO]: [System] [CHAT] CAP'NPOTATO has voted for the server on all 7 sites and has unlocked their BONUS in /vote, you can too by /vote'ing!
+[13:37:29] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> u trashed ur angry blade?
+[13:37:29] [Render thread/INFO]: [System] [CHAT] Toaster is no longer AFK!
+[13:37:32] [Render thread/INFO]: [System] [CHAT] [-] [Tatoe+] CAP'NPOTATO
+[13:37:32] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> 200m down the drain xd
+[13:37:35] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> F
+[13:37:36] [Render thread/INFO]: [System] [CHAT] [+] [Tatoe+] CAP'NPOTATO
+[13:37:36] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> i dropped it at the end
+[13:37:37] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> What!
+[13:37:42] [Render thread/INFO]: [System] [CHAT] [Tatoe+] CAP'NPOTATO> I joined using ChatCraft from my iOS device! Download it on the App Store!
+[13:37:45] [Render thread/INFO]: [System] [CHAT] Toaster has gone AFK!
+[13:37:45] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Oh.
+[13:37:49] [Render thread/INFO]: [System] [CHAT] You can now fly by double-jumping!
+[13:37:49] [pool-2-thread-2/INFO]: [STDOUT]: World save took 0ms
+[13:37:54] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> oopsie daisy
+[13:37:56] [Render thread/INFO]: [System] [CHAT] [-] [Tatoe+] CAP'NPOTATO
+[13:37:58] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Yep.
+[13:38:03] [Render thread/INFO]: [System] [CHAT] You have $72,905,236 and $442,328 in your shop.
+[13:38:08] [Render thread/INFO]: [System] [CHAT] Daytime voting has ended! 3 players voted. Not enough! You can try to /voteday again in 10 minutes.
+[13:38:10] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> i only have 72m
+[13:38:15] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> time to grind
+[13:38:25] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384
+[13:38:25] [pool-2-thread-24/INFO]: [STDOUT]: Started saving the world in a new thread
+[13:38:25] [pool-2-thread-24/INFO]: [STDOUT]: Saving region -1,0 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[13:38:25] [ForkJoinPool.commonPool-worker-49/INFO]: [STDOUT]: Saving region -1,-1 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[13:38:25] [ForkJoinPool.commonPool-worker-59/INFO]: [STDOUT]: Saving region 0,-1 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[13:38:25] [ForkJoinPool.commonPool-worker-50/INFO]: [STDOUT]: Saving region 0,0 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[13:38:25] [ForkJoinPool.commonPool-worker-49/INFO]: [STDOUT]: Saved region successfully
+[13:38:25] [pool-2-thread-24/INFO]: [STDOUT]: Saved region successfully
+[13:38:25] [ForkJoinPool.commonPool-worker-50/INFO]: [STDOUT]: Saved region successfully
+[13:38:25] [ForkJoinPool.commonPool-worker-59/INFO]: [STDOUT]: Saved region successfully
+[13:38:25] [pool-2-thread-24/INFO]: [STDOUT]: World save took 14ms
+[13:38:26] [Render thread/INFO]: [System] [CHAT] Welcome to Warp End! Be Sure to Read the Rules & DM Warp Staff (Not SWU Staff) if Theres Any Problems, Fun Bow-ing etc
+[13:38:29] [pool-2-thread-24/INFO]: [STDOUT]: Started saving the world in a new thread
+[13:38:29] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256
+[13:38:29] [pool-2-thread-24/INFO]: [STDOUT]: Saving region 21,5 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:38:29] [ForkJoinPool.commonPool-worker-59/INFO]: [STDOUT]: Saving region 22,5 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:38:29] [ForkJoinPool.commonPool-worker-49/INFO]: [STDOUT]: Saving region 22,4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:38:29] [ForkJoinPool.commonPool-worker-50/INFO]: [STDOUT]: Saving region 21,4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:38:29] [ForkJoinPool.commonPool-worker-49/INFO]: [STDOUT]: Saved region successfully
+[13:38:29] [ForkJoinPool.commonPool-worker-50/INFO]: [STDOUT]: Saved region successfully
+[13:38:29] [ForkJoinPool.commonPool-worker-59/INFO]: [STDOUT]: Saved region successfully
+[13:38:29] [pool-2-thread-24/INFO]: [STDOUT]: Saved region successfully
+[13:38:29] [pool-2-thread-24/INFO]: [STDOUT]: World save took 10ms
+[13:38:30] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> selling angry blades for 200 mil
+[13:38:30] [Render thread/INFO]: [System] [CHAT] HADES is no longer AFK!
+[13:38:34] [pool-2-thread-15/INFO]: [STDOUT]: Saving region -1,0 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[13:38:34] [ForkJoinPool.commonPool-worker-59/INFO]: [STDOUT]: Saving region 0,-1 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[13:38:34] [ForkJoinPool.commonPool-worker-50/INFO]: [STDOUT]: Saving region -1,-1 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[13:38:34] [ForkJoinPool.commonPool-worker-49/INFO]: [STDOUT]: Saving region 0,0 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[13:38:34] [ForkJoinPool.commonPool-worker-50/INFO]: [STDOUT]: Saved region successfully
+[13:38:34] [pool-2-thread-15/INFO]: [STDOUT]: Saved region successfully
+[13:38:34] [ForkJoinPool.commonPool-worker-49/INFO]: [STDOUT]: Saved region successfully
+[13:38:34] [ForkJoinPool.commonPool-worker-59/INFO]: [STDOUT]: Saved region successfully
+[13:38:34] [pool-2-thread-15/INFO]: [STDOUT]: World save took 17ms
+[13:38:40] [Render thread/INFO]: [System] [CHAT] Toaster is no longer AFK!
+[13:38:43] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> wb
+[13:38:46] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Wb.
+[13:38:49] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> :skull:
+[13:38:54] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[13:38:54] [Render thread/INFO]: [System] [CHAT] You have received 16 DailyKey keys!
+[13:38:54] [Render thread/INFO]: [System] [CHAT] Toaster has gone AFK!
+[13:38:59] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> fr
+[13:39:21] [pool-2-thread-24/INFO]: [STDOUT]: Started saving the world in a new thread
+[13:39:21] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384
+[13:39:21] [pool-2-thread-24/INFO]: [STDOUT]: Saving region -1,0 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[13:39:21] [ForkJoinPool.commonPool-worker-64/INFO]: [STDOUT]: Saving region -1,-1 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[13:39:21] [ForkJoinPool.commonPool-worker-62/INFO]: [STDOUT]: Saving region 0,0 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[13:39:21] [ForkJoinPool.commonPool-worker-48/INFO]: [STDOUT]: Saving region 0,-1 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[13:39:21] [ForkJoinPool.commonPool-worker-64/INFO]: [STDOUT]: Saved region successfully
+[13:39:21] [pool-2-thread-24/INFO]: [STDOUT]: Saved region successfully
+[13:39:21] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -3,14 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:39:21] [ForkJoinPool.commonPool-worker-62/INFO]: [STDOUT]: Saved region successfully
+[13:39:21] [ForkJoinPool.commonPool-worker-48/INFO]: [STDOUT]: Saved region successfully
+[13:39:21] [pool-2-thread-24/INFO]: [STDOUT]: World save took 14ms
+[13:39:21] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 106ms
+[13:39:43] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[13:39:43] [Render thread/INFO]: [System] [CHAT] You have received 4 DailyKey keys!
+[13:39:53] [pool-2-thread-24/INFO]: [STDOUT]: Started saving the world in a new thread
+[13:39:53] [pool-2-thread-24/INFO]: [STDOUT]: Saving region 22,5 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:39:53] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256
+[13:39:53] [ForkJoinPool.commonPool-worker-48/INFO]: [STDOUT]: Saving region 21,4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:39:53] [ForkJoinPool.commonPool-worker-64/INFO]: [STDOUT]: Saving region 22,4 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:39:53] [ForkJoinPool.commonPool-worker-62/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:39:53] [ForkJoinPool.commonPool-worker-50/INFO]: [STDOUT]: Saving region 21,5 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:39:53] [ForkJoinPool.commonPool-worker-64/INFO]: [STDOUT]: Saved region successfully
+[13:39:53] [ForkJoinPool.commonPool-worker-48/INFO]: [STDOUT]: Saved region successfully
+[13:39:53] [pool-2-thread-24/INFO]: [STDOUT]: Saved region successfully
+[13:39:53] [ForkJoinPool.commonPool-worker-50/INFO]: [STDOUT]: Saved region successfully
+[13:39:53] [ForkJoinPool.commonPool-worker-62/INFO]: [STDOUT]: Saved region successfully
+[13:39:53] [pool-2-thread-24/INFO]: [STDOUT]: World save took 139ms
+[13:40:16] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> I only got 8 withers from 500 crates. I did better than I thought
+[13:40:21] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> nice
+[13:40:27] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[13:40:27] [Render thread/INFO]: [System] [CHAT] You have received 12 DailyKey keys!
+[13:40:27] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Wow!
+[13:40:32] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> odds are what?
+[13:40:37] [Render thread/INFO]: [System] [CHAT] - Unscramble the word! jokubex-
+[13:40:37] [Render thread/INFO]: [System] [CHAT] The player to unscramble the word the fastest will receive a prize!
+[13:40:37] [pool-2-thread-24/INFO]: [STDOUT]: Started saving the world in a new thread
+[13:40:37] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384
+[13:40:37] [pool-2-thread-24/INFO]: [STDOUT]: Saving region -1,0 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[13:40:37] [ForkJoinPool.commonPool-worker-48/INFO]: [STDOUT]: Saving region -1,-1 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[13:40:37] [ForkJoinPool.commonPool-worker-50/INFO]: [STDOUT]: Saving region 0,0 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[13:40:37] [ForkJoinPool.commonPool-worker-62/INFO]: [STDOUT]: Saving region 0,-1 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/the_end_256/cache
+[13:40:37] [ForkJoinPool.commonPool-worker-48/INFO]: [STDOUT]: Saved region successfully
+[13:40:37] [pool-2-thread-24/INFO]: [STDOUT]: Saved region successfully
+[13:40:37] [ForkJoinPool.commonPool-worker-62/INFO]: [STDOUT]: Saved region successfully
+[13:40:37] [ForkJoinPool.commonPool-worker-50/INFO]: [STDOUT]: Saved region successfully
+[13:40:37] [pool-2-thread-24/INFO]: [STDOUT]: World save took 11ms
+[13:40:37] [pool-2-thread-1/INFO]: [STDOUT]: Loading region 0,16 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[13:40:37] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 126ms
+[13:40:42] [Render thread/INFO]: [System] [CHAT] [❤LilBitof] Serephin> jukebox
+[13:40:42] [Render thread/INFO]: [System] [CHAT] Serephin wins! The word was jukebox!
+[13:40:42] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> jukebox
+[13:40:43] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Jukebox.
+[13:40:44] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> dangit
+[13:40:46] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> Lol
+[13:40:51] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> lol
+[13:40:54] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> that time i wasn't stealing inky
+[13:40:58] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> i knew the word
+[13:40:58] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Lol.
+[13:41:04] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> I hope not
+[13:41:16] [Render thread/INFO]: [System] [CHAT] [Binary] HackAttack> im not THAT slow
+[13:41:53] [Render thread/INFO]: [System] [CHAT] You've just activated 4 hours of Double XP!
+[13:41:53] [Render thread/INFO]: [System] [CHAT] §aYou've completed a task!
+[13:41:57] [pool-2-thread-3/INFO]: [STDOUT]: World save took 0ms
+[13:42:01] [pool-2-thread-10/INFO]: [STDOUT]: World save took 0ms
+[13:43:12] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> But I got 3 in the first 50 crates and went 200 crates with none
+[13:43:18] [Render thread/INFO]: [System] [CHAT] [+] [Mod] Nenjee
+[13:43:20] [Render thread/INFO]: [System] [CHAT] [Rich] HADES> WB
+[13:43:21] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> WB.
+[13:43:24] [Render thread/INFO]: [System] [CHAT] [❤LOTSOF] INKY> wb
+[13:43:33] [Render thread/INFO]: [System] [CHAT] [Mod] [REDSTONER] Nenjee> tty
+[13:44:07] [Render thread/INFO]: [System] [CHAT] You've all voted for the server a total of 100 times today, here's some bonus keys!
+[13:44:07] [Render thread/INFO]: [System] [CHAT] You have received 1 SurvivorKey keys!
+[13:44:07] [Render thread/INFO]: [System] [CHAT] You have received 1 MobSpawnerPack keys!
+[13:44:07] [Render thread/INFO]: [System] [CHAT] You have received 2 DailyKey keys!
+[13:44:46] [Render thread/INFO]: [System] [CHAT] [Mod] [REDSTONER] Nenjee> CodeOverload turn off your hacks and relog!
+[13:44:51] [Render thread/INFO]: Minimap session finalized.
+[13:44:51] [Render thread/INFO]: Finalizing world map session...
+[13:44:51] [Thread-1/INFO]: World map force-cleaned!
+[13:44:51] [Render thread/INFO]: World map session finalized.
+[13:44:56] [Render thread/INFO]: Stopping!

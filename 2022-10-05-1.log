@@ -1,0 +1,477 @@
+[11:12:20] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.14.9
+[11:12:20] [ForkJoinPool-1-worker-2/WARN]: Mod wurst uses the version v7.27.3-MC1.19.2 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[11:12:20] [ForkJoinPool-1-worker-7/WARN]: Mod wurst uses the version v7.28-MC1.19.2 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[11:12:20] [main/INFO]: Loading 55 mods:
+	- baritone 1.5.3-621-gaddd1fc7
+	- fabric-api 0.61.0+1.19.2
+	- fabric-api-base 0.4.11+e62f51a390 via fabric-api
+	- fabric-api-lookup-api-v1 1.6.9+9ff28f4090 via fabric-api
+	- fabric-biome-api-v1 9.0.17+aeb40ebe90 via fabric-api
+	- fabric-blockrenderlayer-v1 1.1.20+aeb40ebe90 via fabric-api
+	- fabric-client-tags-api-v1 1.0.1+b35fea8390 via fabric-api
+	- fabric-command-api-v1 1.2.11+f71b366f90 via fabric-api
+	- fabric-command-api-v2 2.1.7+0c17ea9690 via fabric-api
+	- fabric-commands-v0 0.2.28+df3654b390 via fabric-api
+	- fabric-containers-v0 0.1.34+df3654b390 via fabric-api
+	- fabric-content-registries-v0 3.3.0+624e468e90 via fabric-api
+	- fabric-convention-tags-v1 1.1.1+7cd20a1490 via fabric-api
+	- fabric-crash-report-info-v1 0.2.5+aeb40ebe90 via fabric-api
+	- fabric-data-generation-api-v1 5.1.9+a680b9b490 via fabric-api
+	- fabric-dimensions-v1 2.1.31+0dd10df690 via fabric-api
+	- fabric-entity-events-v1 1.4.18+9ff28f4090 via fabric-api
+	- fabric-events-interaction-v0 0.4.28+aeb40ebe90 via fabric-api
+	- fabric-events-lifecycle-v0 0.2.28+df3654b390 via fabric-api
+	- fabric-game-rule-api-v1 1.0.21+aeb40ebe90 via fabric-api
+	- fabric-item-api-v1 1.5.7+35a03c4390 via fabric-api
+	- fabric-item-groups-v0 0.3.29+4e8ca3fd90 via fabric-api
+	- fabric-key-binding-api-v1 1.0.20+aeb40ebe90 via fabric-api
+	- fabric-keybindings-v0 0.2.18+df3654b390 via fabric-api
+	- fabric-lifecycle-events-v1 2.1.2+aeb40ebe90 via fabric-api
+	- fabric-loot-api-v2 1.1.3+83a8659290 via fabric-api
+	- fabric-loot-tables-v1 1.1.6+9e7660c690 via fabric-api
+	- fabric-message-api-v1 5.0.3+176380a290 via fabric-api
+	- fabric-mining-level-api-v1 2.1.14+33fbc73890 via fabric-api
+	- fabric-models-v0 0.3.17+aeb40ebe90 via fabric-api
+	- fabric-networking-api-v1 1.2.4+5eb68ef290 via fabric-api
+	- fabric-networking-v0 0.3.21+df3654b390 via fabric-api
+	- fabric-object-builder-api-v1 4.0.11+aeb40ebe90 via fabric-api
+	- fabric-particles-v1 1.0.10+aeb40ebe90 via fabric-api
+	- fabric-registry-sync-v0 0.9.25+726b652090 via fabric-api
+	- fabric-renderer-api-v1 1.0.10+aeb40ebe90 via fabric-api
+	- fabric-renderer-indigo 0.6.12+aeb40ebe90 via fabric-api
+	- fabric-renderer-registries-v1 3.2.20+df3654b390 via fabric-api
+	- fabric-rendering-data-attachment-v1 0.3.14+aeb40ebe90 via fabric-api
+	- fabric-rendering-fluids-v1 3.0.7+aeb40ebe90 via fabric-api
+	- fabric-rendering-v0 1.1.22+df3654b390 via fabric-api
+	- fabric-rendering-v1 1.10.16+aeb40ebe90 via fabric-api
+	- fabric-resource-conditions-api-v1 2.0.11+e62f51a390 via fabric-api
+	- fabric-resource-loader-v0 0.6.1+aeb40ebe90 via fabric-api
+	- fabric-screen-api-v1 1.0.26+f05effaf90 via fabric-api
+	- fabric-screen-handler-api-v1 1.3.0+1cc24b1b90 via fabric-api
+	- fabric-textures-v0 1.0.20+aeb40ebe90 via fabric-api
+	- fabric-transfer-api-v1 2.1.0+8f88597390 via fabric-api
+	- fabric-transitive-access-wideners-v1 1.3.0+42d99c3290 via fabric-api
+	- fabricloader 0.14.9
+	- java 17
+	- minecraft 1.19.2
+	- wurst v7.28-MC1.19.2
+	- xaerominimap 22.15.1
+	- xaeroworldmap 1.28.0
+[11:12:20] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[11:12:20] [main/INFO]: Compatibility level set to JAVA_17
+[11:12:21] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/occlusion/BlockOcclusionCache (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/occlusion/BlockOcclusionCache)
+[11:12:22] [main/WARN]: Configuration conflict: there is more than one oshi.properties file on the classpath
+[11:12:22] [main/WARN]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath
+[11:12:24] [main/INFO]: Building optimized datafixer
+[11:12:28] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:12:29] [Render thread/INFO]: Setting user: CodeOverload
+[11:12:29] [Render thread/INFO]: [STDOUT]: Starting Wurst Client...
+[11:12:31] [Render thread/INFO]: [Indigo] Registering Indigo renderer!
+[11:12:31] [Render thread/INFO]: Loading Xaero's Minimap - Stage 1/2
+[11:12:32] [Render thread/INFO]: Loading Xaero's World Map - Stage 1/2
+[11:12:34] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[11:12:37] [Render thread/WARN]: ERROR : Couldn't load Narrator library
+java.lang.UnsatisfiedLinkError: Unable to load library 'fliteWrapper':
+libfliteWrapper.so: cannot open shared object file: No such file or directory
+libfliteWrapper.so: cannot open shared object file: No such file or directory
+Native library (linux-x86-64/libfliteWrapper.so) not found in resource path (/home/gavinboor/.local/share/multimc/bin/jars/NewLaunch.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/logging/1.0.0/logging-1.0.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar:/home/gavinboor/.local/share/multimc/libraries/com/github/oshi/oshi-core/5.8.5/oshi-core-5.8.5.jar:/home/gavinboor/.local/share/multimc/libraries/net/java/dev/jna/jna/5.10.0/jna-5.10.0.jar:/home/gavinboor/.local/share/multimc/libraries/net/java/dev/jna/jna-platform/5.10.0/jna-platform-5.10.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-slf4j18-impl/2.16.0/log4j-slf4j18-impl-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/ibm/icu/icu4j/70.1/icu4j-70.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/javabridge/1.2.24/javabridge-1.2.24.jar:/home/gavinboor/.local/share/multimc/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-common/4.1.77.Final/netty-common-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-buffer/4.1.77.Final/netty-buffer-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-codec/4.1.77.Final/netty-codec-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-handler/4.1.77.Final/netty-handler-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-resolver/4.1.77.Final/netty-resolver-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport/4.1.77.Final/netty-transport-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-native-unix-common/4.1.77.Final/netty-transport-native-unix-common-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-classes-epoll/4.1.77.Final/netty-transport-classes-epoll-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-native-epoll/4.1.77.Final/netty-transport-native-epoll-4.1.77.Final-linux-x86_64.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/gavinboor/.local/share/multimc/libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/gavinboor/.local/share/multimc/libraries/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/datafixerupper/5.0.28/datafixerupper-5.0.28.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/authlib/3.11.49/authlib-3.11.49.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/gavinboor/.local/share/multimc/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar:/home/gavinboor/.local/share/multimc/libraries/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-api/2.16.0/log4j-api-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-core/2.16.0/log4j-core-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/text2speech/1.13.9/text2speech-1.13.9.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/intermediary/1.19.2/intermediary-1.19.2.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/tiny-mappings-parser/0.3.0+build.17/tiny-mappings-parser-0.3.0+build.17.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/tiny-remapper/0.8.2/tiny-remapper-0.8.2.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm/9.3/asm-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-util/9.3/asm-util-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/fabric-loader/0.14.9/fabric-loader-0.14.9.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/minecraft/1.19.2/minecraft-1.19.2-client.jar)
+	at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:301) ~[jna-5.10.0.jar:?]
+	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:?]
+	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:?]
+	at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.13.9.jar:?]
+	at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.13.9.jar:?]
+	at net.minecraft.class_333.<init>(class_333.java:19) [client-intermediary.jar:?]
+	at net.minecraft.class_310.<init>(class_310.java:637) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.method_44604(Main.java:205) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.9.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+	Suppressed: java.lang.UnsatisfiedLinkError: libfliteWrapper.so: cannot open shared object file: No such file or directory
+		at com.sun.jna.Native.open(Native Method) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:191) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:?]
+		at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.13.9.jar:?]
+		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.13.9.jar:?]
+		at net.minecraft.class_333.<init>(class_333.java:19) [client-intermediary.jar:?]
+		at net.minecraft.class_310.<init>(class_310.java:637) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.method_44604(Main.java:205) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+		at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.9.jar:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+		at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+		at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+		at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+	Suppressed: java.lang.UnsatisfiedLinkError: libfliteWrapper.so: cannot open shared object file: No such file or directory
+		at com.sun.jna.Native.open(Native Method) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:204) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:?]
+		at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.13.9.jar:?]
+		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.13.9.jar:?]
+		at net.minecraft.class_333.<init>(class_333.java:19) [client-intermediary.jar:?]
+		at net.minecraft.class_310.<init>(class_310.java:637) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.method_44604(Main.java:205) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+		at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.9.jar:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+		at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+		at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+		at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+	Suppressed: java.io.IOException: Native library (linux-x86-64/libfliteWrapper.so) not found in resource path (/home/gavinboor/.local/share/multimc/bin/jars/NewLaunch.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/logging/1.0.0/logging-1.0.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar:/home/gavinboor/.local/share/multimc/libraries/com/github/oshi/oshi-core/5.8.5/oshi-core-5.8.5.jar:/home/gavinboor/.local/share/multimc/libraries/net/java/dev/jna/jna/5.10.0/jna-5.10.0.jar:/home/gavinboor/.local/share/multimc/libraries/net/java/dev/jna/jna-platform/5.10.0/jna-platform-5.10.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-slf4j18-impl/2.16.0/log4j-slf4j18-impl-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/ibm/icu/icu4j/70.1/icu4j-70.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/javabridge/1.2.24/javabridge-1.2.24.jar:/home/gavinboor/.local/share/multimc/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-common/4.1.77.Final/netty-common-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-buffer/4.1.77.Final/netty-buffer-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-codec/4.1.77.Final/netty-codec-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-handler/4.1.77.Final/netty-handler-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-resolver/4.1.77.Final/netty-resolver-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport/4.1.77.Final/netty-transport-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-native-unix-common/4.1.77.Final/netty-transport-native-unix-common-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-classes-epoll/4.1.77.Final/netty-transport-classes-epoll-4.1.77.Final.jar:/home/gavinboor/.local/share/multimc/libraries/io/netty/netty-transport-native-epoll/4.1.77.Final/netty-transport-native-epoll-4.1.77.Final-linux-x86_64.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/gavinboor/.local/share/multimc/libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/gavinboor/.local/share/multimc/libraries/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/datafixerupper/5.0.28/datafixerupper-5.0.28.jar:/home/gavinboor/.local/share/multimc/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/authlib/3.11.49/authlib-3.11.49.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/gavinboor/.local/share/multimc/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar:/home/gavinboor/.local/share/multimc/libraries/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-api/2.16.0/log4j-api-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-core/2.16.0/log4j-core-2.16.0.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/text2speech/1.13.9/text2speech-1.13.9.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/intermediary/1.19.2/intermediary-1.19.2.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/tiny-mappings-parser/0.3.0+build.17/tiny-mappings-parser-0.3.0+build.17.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/tiny-remapper/0.8.2/tiny-remapper-0.8.2.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm/9.3/asm-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/org/ow2/asm/asm-util/9.3/asm-util-9.3.jar:/home/gavinboor/.local/share/multimc/libraries/net/fabricmc/fabric-loader/0.14.9/fabric-loader-0.14.9.jar:/home/gavinboor/.local/share/multimc/libraries/com/mojang/minecraft/1.19.2/minecraft-1.19.2-client.jar)
+		at com.sun.jna.Native.extractFromResourcePath(Native.java:1145) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:275) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:?]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:?]
+		at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.13.9.jar:?]
+		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.13.9.jar:?]
+		at net.minecraft.class_333.<init>(class_333.java:19) [client-intermediary.jar:?]
+		at net.minecraft.class_310.<init>(class_310.java:637) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.method_44604(Main.java:205) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.main(Main.java:51) [client-intermediary.jar:?]
+		at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.9.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.9.jar:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+		at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+		at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+		at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+		at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[11:12:37] [Render thread/INFO]: Reloading ResourceManager: Default, Fabric Mods (Fabric API, Fabric API Base, Fabric API Lookup API (v1), Fabric Biome API (v1), Fabric BlockRenderLayer Registration (v1), Fabric Client Tags, Fabric Command API (v1), Fabric Command API (v2), Fabric Commands (v0), Fabric Containers (v0), Fabric Content Registries (v0), Fabric Convention Tags, Fabric Crash Report Info (v1), Fabric Data Generation API (v1), Fabric Dimensions API (v1), Fabric Entity Events (v1), Fabric Events Interaction (v0), Fabric Events Lifecycle (v0), Fabric Game Rule API (v1), Fabric Item API (v1), Fabric Item Groups (v0), Fabric Key Binding API (v1), Fabric Key Bindings (v0), Fabric Lifecycle Events (v1), Fabric Loot API (v2), Fabric Loot Tables (v1), Fabric Message API (v1), Fabric Mining Level API (v1), Fabric Models (v0), Fabric Networking API (v1), Fabric Networking (v0), Fabric Object Builder API (v1), Fabric Particles (v1), Fabric Registry Sync (v0), Fabric Renderer API (v1), Fabric Renderer - Indigo, Fabric Renderer Registries (v1), Fabric Rendering Data Attachment (v1), Fabric Rendering Fluids (v1), Fabric Rendering (v0), Fabric Rendering (v1), Fabric Resource Conditions API (v1), Fabric Resource Loader (v0), Fabric Screen API (v1), Fabric Screen Handler API (v1), Fabric Textures (v0), Fabric Transfer API (v1), Fabric Transitive Access Wideners (v1), Fabric Loader, Wurst Client, Xaero's Minimap, Xaero's World Map)
+[11:12:38] [Render thread/INFO]: Loading Xaero's Minimap - Stage 2/2
+[11:12:40] [Render thread/INFO]: Xaero's Minimap: World Map found!
+[11:12:40] [Render thread/INFO]: No Optifine!
+[11:12:40] [Render thread/INFO]: Xaero's Minimap: No Vivecraft!
+[11:12:40] [Render thread/INFO]: Loading Xaero's World Map - Stage 2/2
+[11:12:40] [Render thread/INFO]: New world map region cache hash code: 687554333
+[11:12:40] [Render thread/INFO]: Xaero's WorldMap Mod: Xaero's minimap found!
+[11:12:40] [Render thread/INFO]: No Optifine!
+[11:12:40] [Render thread/INFO]: Xaero's World Map: No Vivecraft!
+[11:12:43] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[11:12:43] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[11:12:43] [Render thread/INFO]: OpenAL initialized on device VirtIO SoundCard
+[11:12:43] [Render thread/INFO]: Sound engine started
+[11:12:44] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/blocks.png-atlas
+[11:12:44] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/signs.png-atlas
+[11:12:44] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[11:12:44] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[11:12:44] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/chest.png-atlas
+[11:12:44] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
+[11:12:44] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[11:12:46] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[11:12:47] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[11:12:47] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[11:12:47] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[11:12:47] [Render thread/INFO]: Successfully reloaded the minimap shaders!
+[11:12:47] [Render thread/INFO]: Successfully reloaded the world map shaders!
+[11:13:00] [Worker-Bootstrap-2/INFO]: 4283 Datafixer optimizations took 35150 milliseconds
+[11:13:12] [Render thread/INFO]: Connecting to play.survivewith.us, 25565
+[11:13:13] [Render thread/INFO]: New minimap session initialized!
+[11:13:14] [Render thread/INFO]: New world map session initialized!
+[11:13:14] [Render thread/INFO]: [STDOUT]: Baritone world data dir: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384
+[11:13:14] [Render thread/INFO]: [STDOUT]: Cached world directory: /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[11:13:14] [Render thread/INFO]: [STDOUT]: Would save waypoints to /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/waypoints
+[11:13:14] [Render thread/INFO]: [STDOUT]: Telemetry sending attempt blocked.
+[11:13:14] [Render thread/INFO]: [STDOUT]: Telemetry sending attempt blocked.
+[11:13:14] [Render thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: minecraft:ancient_city_replaceable, minecraft:mangrove_logs_can_grow_through, minecraft:mangrove_roots_can_grow_through, minecraft:nether_carver_replaceables, minecraft:overworld_carver_replaceables
+[11:13:14] [Render thread/INFO]: [System] [CHAT] 
+[11:13:14] [Render thread/INFO]: [System] [CHAT] 
+[11:13:14] [Render thread/INFO]: [System] [CHAT] Welcome back to SurviveWithUs YELLOW, CodeOverload!
+[11:13:14] [Render thread/INFO]: [System] [CHAT] 
+[11:13:14] [Render thread/INFO]: [System] [CHAT] §bYou're currently receiving an §6§lXP§b or §6§lMoney Boost!§b Click §bhere §bto §bview §byour §6§l/boosts!
+[11:13:14] [Render thread/INFO]: [System] [CHAT] 
+[11:13:14] [Render thread/INFO]: Loaded 848 advancements
+[11:13:15] [pool-2-thread-1/INFO]: [STDOUT]: Loading region -3,14 from disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[11:13:15] [Render thread/INFO]: [STDOUT]: Brightness started at 0.5
+[11:13:15] [Render thread/INFO]: Reloading entity icon resources...
+[11:13:15] [Render thread/INFO]: Done!
+[11:13:15] [pool-2-thread-1/INFO]: [STDOUT]: Loaded region successfully in 347ms
+[11:13:15] [Render thread/INFO]: [System] [CHAT] [MVP] forgingboar> wb
+[11:13:15] [Render thread/INFO]: [System] [CHAT] CrazyRabbiT UsadaPekora> WB
+[11:13:16] [WurstUpdater/INFO]: [STDOUT]: [Updater] Current version: 7.28
+[11:13:16] [WurstUpdater/INFO]: [STDOUT]: [Updater] Latest version: 7.28
+[11:13:18] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> ty
+[11:13:20] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> wb!
+[11:13:26] [Render thread/INFO]: [System] [CHAT] [Binary] CodeOverload> ty
+[11:13:29] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Yw.
+[11:13:43] [Render thread/INFO]: [System] [CHAT] Remember to /vote to get your next /rank and unlock epic rewards!
+[11:13:44] [pool-2-thread-2/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[11:13:44] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[11:13:44] [pool-2-thread-2/INFO]: [STDOUT]: World save took 239ms
+[11:14:10] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Ok I need someones opinion on something I'm building.
+[11:14:26] [Render thread/INFO]: [System] [CHAT] [MVP] forgingboar> mushrooms?
+[11:14:46] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Ok so I'm building unbent a base and he wanted a stone castle type base.
+[11:14:57] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> It dosent give of home vibes.
+[11:15:08] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> What should I add?
+[11:15:13] [Render thread/INFO]: [System] [CHAT] [MVP] forgingboar> problem
+[11:15:18] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> What?
+[11:15:22] [Render thread/INFO]: [System] [CHAT] [MVP] forgingboar> i dont have a base like
+[11:15:24] [Render thread/INFO]: [System] [CHAT] [MVP] forgingboar> a good base
+[11:15:28] [Render thread/INFO]: [System] [CHAT] [MVP] forgingboar> i live in a lab
+[11:15:31] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Col!
+[11:15:35] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> *cool!
+[11:15:39] [Render thread/INFO]: [System] [CHAT] [MVP] forgingboar> i gtg
+[11:15:40] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Im not done.
+[11:15:41] [Render thread/INFO]: [System] [CHAT] [MVP] forgingboar> but
+[11:15:42] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Bye.
+[11:15:52] [Render thread/INFO]: [System] [CHAT] [MVP] forgingboar> i dont know how to make it look like home
+[11:15:56] [Render thread/INFO]: [System] [CHAT] [-] [❤LilBitof] Serephin
+[11:15:57] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Ok.
+[11:15:59] [Render thread/INFO]: [System] [CHAT] [-] [MVP] forgingboar
+[11:16:04] [Render thread/INFO]: [System] [CHAT] hiroHB has made the advancement [Suit Up]
+[11:16:27] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Ok I need someones opinion on something I'm building. anyone?
+[11:16:44] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> One sec.
+[11:17:21] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> So I'm builing unbent a base and he wanted a castle like base with alot of stone.
+[11:17:31] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> alright
+[11:17:34] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> It dosent give of home vibes.
+[11:17:40] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> What should I add?
+[11:17:42] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> wdym?
+[11:17:54] [Render thread/INFO]: [System] [CHAT] [-] [MVP] Axi
+[11:17:56] [Render thread/INFO]: [System] [CHAT] [+] [MVP] Axi
+[11:17:58] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Its very empty.
+[11:18:03] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> wb.
+[11:18:05] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> well
+[11:18:15] [Render thread/INFO]: [System] [CHAT] [Explorer] Grimm06> Add carpet.
+[11:18:19] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> are you planning on adding like a cover over it or no
+[11:18:28] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Idk should i?
+[11:18:36] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Im not done yet.
+[11:18:39] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> depends on what youre envisioning
+[11:18:45] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> you have the builder vision
+[11:18:49] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Have any ideas?
+[11:19:10] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> leave it open and add a couple mini cottages or houses maybe
+[11:19:17] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Ok thx.
+[11:19:33] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> might want to add some more space tho
+[11:19:40] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Well see what I can do I guess.
+[11:19:41] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Ok.
+[11:19:56] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> and it all looks a little flat, dont be afraid to take risks
+[11:20:02] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Ok.
+[11:20:15] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> if you need any help lmk
+[11:20:23] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Sounds good.
+[11:20:27] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Ok thx.
+[11:20:32] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> np
+[11:21:17] [Render thread/INFO]: [System] [CHAT] carume22 has voted for the server and made progress towards the [Explorer] rank and has received a /crate key, you can vote too with /vote!
+[11:22:03] [Render thread/INFO]: [System] [CHAT] [-] CrazyRabbiT UsadaPekora
+[11:22:06] [Render thread/INFO]: [System] [CHAT] [+] CrazyRabbiT UsadaPekora
+[11:22:09] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> WB!
+[11:22:12] [Render thread/INFO]: [System] [CHAT] CrazyRabbiT UsadaPekora> ty
+[11:22:47] [Render thread/INFO]: [System] [CHAT] [-] CrazyRabbiT ☠RabbiT☠
+[11:22:55] [Render thread/INFO]: [System] [CHAT] [+] [❤LessOf] Toaster
+[11:22:58] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> WB.
+[11:22:59] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> :3
+[11:23:05] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> wb L
+[11:23:10] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> ;-;
+[11:23:13] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> aw
+[11:23:17] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> ezki is afk
+[11:23:19] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> :<
+[11:23:44] [pool-2-thread-2/INFO]: [STDOUT]: Saving region -3,14 to disk /home/gavinboor/.local/share/multimc/instances/Baritone - Wurst/.minecraft/baritone/play.survivewith.us/minecraft/overworld_384/cache
+[11:23:44] [pool-2-thread-2/INFO]: [STDOUT]: Saved region successfully
+[11:23:44] [pool-2-thread-2/INFO]: [STDOUT]: World save took 244ms
+[11:24:49] [Render thread/INFO]: [System] [CHAT] [Explorer] Grimm06> Hey I have to much space in me base if some one wants an apartment?
+[11:25:58] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> if ur nickname has a "m" in it then ur a L
+[11:26:37] [Render thread/INFO]: [System] [CHAT] [+] [Custom] Caelan
+[11:26:40] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> wb
+[11:26:42] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> wb.
+[11:26:43] [Render thread/INFO]: [System] [CHAT] [Sakura] Caelan> ty
+[11:26:44] [Render thread/INFO]: [System] [CHAT] [+] [MVP] Laphable
+[11:26:46] [Render thread/INFO]: [System] [CHAT] [-] [Sakura] Caelan
+[11:26:46] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> wb
+[11:26:55] [Render thread/INFO]: [System] [CHAT] [-] [MVP] Laphable
+[11:27:32] [Render thread/INFO]: [System] [CHAT] [Member] carume22> How many votes til I'm explorer?
+[11:27:36] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> use /rank
+[11:27:41] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> look at the voting ranks
+[11:28:04] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> aww look at toast actually being helpful for once
+[11:28:09] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> I-
+[11:28:18] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> How mayy times have you voted carume?
+[11:28:24] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> *many.
+[11:28:59] [Render thread/INFO]: [System] [CHAT] Axi has just opened a Boss Crate and won Marauder's Blade!
+[11:29:02] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> gg
+[11:29:04] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Gg.
+[11:29:30] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> toast
+[11:29:33] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> what
+[11:29:35] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> tp
+[11:29:38] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> why
+[11:29:45] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> i need a second opinion
+[11:29:49] [Render thread/INFO]: [System] [CHAT] carume22 has just achieved the [Explorer] /rank! You can rankup too by  /vote'ing!
+[11:29:54] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> W GG
+[11:30:01] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> does it look ok so far or should i scrap it
+[11:30:10] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> well
+[11:30:31] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> its good
+[11:30:55] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> okay...
+[11:31:15] [Render thread/INFO]: [System] [CHAT] Want to support the server, get /crate keys and your next /rank? Don't forget to /vote!
+[11:31:16] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> boomer
+[11:31:23] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> what
+[11:31:26] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> exactly
+[11:31:37] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> ?
+[11:31:57] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> how old do you think i am? xD
+[11:32:04] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> 67 :skull:
+[11:32:11] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> LMFAO not even close
+[11:32:13] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> ik
+[11:32:20] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> its called an hyperbole
+[11:32:33] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> no shit sherlock
+[11:32:41] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> ur the one that belived it
+[11:32:52] [Render thread/INFO]: [System] [CHAT] [-] [Rich] HADES
+[11:32:54] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> no i didnt, no 67 yr old should be playing mc
+[11:32:56] [Render thread/INFO]: [System] [CHAT] [-] hiroHB
+[11:33:00] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> but you are
+[11:33:03] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> B)
+[11:33:08] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> .
+[11:33:22] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> nice job on defying expectations em
+[11:33:27] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> we knew you could do it
+[11:33:44] [pool-2-thread-2/INFO]: [STDOUT]: World save took 0ms
+[11:34:03] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> wait
+[11:34:11] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> swu's anniversary is on august 9th?
+[11:34:21] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Really?
+[11:34:26] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> i think so
+[11:34:29] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> if thats the case
+[11:34:30] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> then W
+[11:35:12] [Render thread/INFO]: [System] [CHAT] carume22 has made the advancement [Suit Up]
+[11:37:47] [Render thread/INFO]: [System] [CHAT] ITS_EZKI is no longer AFK!
+[11:37:50] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> wb!
+[11:38:00] [Render thread/INFO]: [System] [CHAT] [MVP] ITS_EZKI> thx
+[11:38:05] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Yw.
+[11:38:07] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> wb :D
+[11:38:17] [Render thread/INFO]: [System] [CHAT] [MVP] ITS_EZKI> thx :3
+[11:38:26] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> nice color choice
+[11:38:26] [Render thread/INFO]: [System] [CHAT] [-] Grimm06
+[11:38:29] [Render thread/INFO]: [System] [CHAT] [MVP] ITS_EZKI> thx
+[11:38:33] [Render thread/INFO]: [System] [CHAT] [+] [Custom] ☠RabbiT☠
+[11:38:34] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> did serephin see it
+[11:38:35] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> xD
+[11:38:37] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> rabbit
+[11:38:40] [Render thread/INFO]: [System] [CHAT] [MVP] ITS_EZKI> idk
+[11:38:42] [Render thread/INFO]: [System] [CHAT] [MVP] ITS_EZKI> wb
+[11:38:43] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> wb.
+[11:38:46] [Render thread/INFO]: [System] [CHAT] [☠Crazy❦rabbiT☠] UsadaPekora> ty
+[11:38:46] [Render thread/INFO]: [System] [CHAT] [-] [MVP] Axi
+[11:38:46] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> no special characters infront of your nickname
+[11:38:49] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> ah
+[11:38:51] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> im mistaken
+[11:38:53] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> sorry
+[11:39:05] [Render thread/INFO]: [System] [CHAT] [MVP] ITS_EZKI> what?
+[11:40:14] [Render thread/INFO]: [System] [CHAT] [☠Crazy❦rabbiT☠] UsadaPekora> nice place
+[11:40:20] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> not ours
+[11:40:24] [Render thread/INFO]: [System] [CHAT] [☠Crazy❦rabbiT☠] UsadaPekora> ooh
+[11:40:24] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> its DarthPanda's
+[11:40:28] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> this house is mine tho
+[11:40:29] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> its his community
+[11:40:32] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> Panda Garden
+[11:40:38] [Render thread/INFO]: [System] [CHAT] [☠Crazy❦rabbiT☠] UsadaPekora> awesome place
+[11:41:59] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> ugly
+[11:42:06] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> What it.
+[11:42:09] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> em
+[11:42:09] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> *is.
+[11:42:15] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> are you talking abt yourself
+[11:42:20] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> im clearly talking about you
+[11:42:22] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> :skull:
+[11:42:30] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> no ugly here except for u
+[11:42:36] [Render thread/INFO]: [System] [CHAT] [MVP] ITS_EZKI> why so mean?
+[11:42:37] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> ezki doesnt think im ugly
+[11:42:42] [Render thread/INFO]: [System] [CHAT] [MVP] ITS_EZKI> true
+[11:43:10] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> xd
+[11:43:19] [Render thread/INFO]: [System] [CHAT] [+] Grimm06
+[11:43:21] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> WB
+[11:43:22] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> wb.
+[11:43:25] [Render thread/INFO]: [System] [CHAT] [MVP] ITS_EZKI> wb
+[11:43:34] [Render thread/INFO]: [System] [CHAT] [+] TKDninjaboy
+[11:43:35] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> oh god
+[11:43:36] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> that bothers me
+[11:43:41] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> im experimenting stfu
+[11:43:41] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> wb.
+[11:43:44] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> em
+[11:43:44] [pool-2-thread-2/INFO]: [STDOUT]: World save took 0ms
+[11:43:45] [Render thread/INFO]: [System] [CHAT] [Explorer] TKDninjaboy> thx
+[11:43:48] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> you messed it up
+[11:43:56] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> it all has to go in one direction
+[11:44:02] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> see?
+[11:44:05] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> what if i dont
+[11:44:09] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> then it looks ugly
+[11:44:10] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> just to annoy you
+[11:44:12] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> ;-;
+[11:44:15] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> that would be effective
+[11:44:59] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> ezcuse you why you destroyin my house
+[11:45:05] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> im improving it
+[11:45:09] [Render thread/INFO]: [System] [CHAT] [MVP] ITS_EZKI> XD
+[11:45:20] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> anything youve touched automatically is 10x worse
+[11:45:32] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> boom
+[11:45:35] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> its better
+[11:45:37] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> you happy now
+[11:45:38] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> right ezki?
+[11:45:57] [Render thread/INFO]: [System] [CHAT] [MVP] ITS_EZKI> its just to much log to look good ,-,
+[11:46:00] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> ^
+[11:46:06] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> but did i make it look a bit better
+[11:46:20] [Render thread/INFO]: [System] [CHAT] [MVP] ITS_EZKI> kinda ye
+[11:46:22] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> W
+[11:46:43] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> most of the wall will be covered anyways so
+[11:46:47] [Render thread/INFO]: [System] [CHAT] [-] [☠Crazy❦rabbiT☠] UsadaPekora
+[11:47:01] [Render thread/INFO]: [System] [CHAT] [MVP] ITS_EZKI> aahhh okay than it could work
+[11:47:01] [Render thread/INFO]: [System] [CHAT] [MVP] Foxyfinds> Gtg bye.
+[11:47:04] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> who placed this firework spawner here
+[11:47:05] [Render thread/INFO]: [System] [CHAT] [MVP] ITS_EZKI> bye
+[11:47:06] [Render thread/INFO]: [System] [CHAT] [-] [MVP] Foxyfinds
+[11:47:15] [Render thread/INFO]: [System] [CHAT] [MVP] ITS_EZKI> pandaa
+[11:47:20] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> really?
+[11:47:23] [Render thread/INFO]: [System] [CHAT] [MVP] ITS_EZKI> yes
+[11:47:28] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> then ill leave it
+[11:47:35] [Render thread/INFO]: [System] [CHAT] [+] hiroHB
+[11:47:42] [Render thread/INFO]: [System] [CHAT] [MVP] ITS_EZKI> ye we need more of those for every side
+[11:47:49] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> hm
+[11:47:52] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> i had alot
+[11:48:59] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> who tf is vroumie
+[11:49:12] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> my friend so shut up
+[11:49:17] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> :clown:
+[11:49:21] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> tell him he has a nice base
+[11:49:23] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> or her
+[11:49:25] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> she*
+[11:49:30] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> and i will
+[11:50:00] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> tell them Ores isnt spelled "Oreis"
+[11:50:20] [Render thread/INFO]: [System] [CHAT] [⚒BUILDER⚒] Em> her first language is swedish so she's trying her best
+[11:50:21] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:50:26] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> im just giving advice
+[11:50:31] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> and W
+[11:50:34] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:50:34] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:50:34] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:50:34] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:50:34] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:50:34] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:50:34] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:50:36] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:50:37] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:50:37] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:50:37] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:50:37] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:50:38] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:50:40] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:50:40] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:50:41] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:50:41] [Render thread/ERROR]: Error saving option Brightness: DynamicException[Value 16.0 outside of range [0.0:1.0] Optional[16.0]]
+[11:50:45] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> sweden is like denmark
+[11:50:54] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> so w on her behalf
+[11:51:13] [Render thread/INFO]: [System] [CHAT] [Explorer] hiroHB> Huh?
+[11:51:28] [Render thread/INFO]: [System] [CHAT] [Explorer] hiroHB> I'm swedish, is it??
+[11:51:32] [Render thread/INFO]: [System] [CHAT] [Explorer] hiroHB> Damn.
+[11:51:38] [Render thread/INFO]: [System] [CHAT] [❤LessOf] Toaster> the languages are similar
